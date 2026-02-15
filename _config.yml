@@ -1,0 +1,8 @@
+title: WCCA Robotics
+theme: minima
+plugins: []
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
