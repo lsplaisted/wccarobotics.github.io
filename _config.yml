@@ -1,8 +1,21 @@
 title: WCCA Robotics
-theme: minima
+description: "Robotics teams of West Coast Christian Academy — competing in FIRST Tech Challenge and FIRST LEGO League"
+url: "https://wccarobotics.github.io"
+baseurl: ""
+
+markdown: kramdown
 plugins: []
+
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - LICENSE
+
+collections_dir: .
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"

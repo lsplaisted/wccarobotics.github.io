@@ -1,0 +1,13 @@
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="{{ '/' | relative_url }}" class="site-title">🤖 WCCA Robotics</a>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ '/ftc' | relative_url }}" {% if page.url == '/ftc' or page.url == '/ftc/' %}class="active"{% endif %}>FTC Team</a></li>
+      <li><a href="{{ '/fll' | relative_url }}" {% if page.url == '/fll' or page.url == '/fll/' %}class="active"{% endif %}>FLL Teams</a></li>
+      <li><a href="{{ '/support' | relative_url }}" {% if page.url == '/support' or page.url == '/support/' %}class="active"{% endif %}>Support Us</a></li>
+      <li><a href="{{ '/about' | relative_url }}" {% if page.url == '/about' or page.url == '/about/' %}class="active"{% endif %}>About</a></li>
+    </ul>
+  </nav>
+</header>
