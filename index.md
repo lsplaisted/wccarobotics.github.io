@@ -30,7 +30,7 @@ title: Home
     <div class="team-cards">
 
       <div class="team-card">
-        <img src="/assets/images/ftc-senior-logo.png" alt="Marcus Bartholomew the Third Senior logo">
+        <img src="/assets/images/ftc-marcus-bartholomew-the-third-senior.png" alt="Marcus Bartholomew the Third Senior logo">
         <div class="team-card-body">
           <span class="badge">FTC — FIRST Tech Challenge</span>
           <h3>Marcus Bartholomew the Third Senior</h3>
@@ -40,7 +40,7 @@ title: Home
       </div>
 
       <div class="team-card">
-        <img src="/assets/images/fll-junior-logo.png" alt="Marcus Bartholomew the Third Junior logo">
+        <img src="/assets/images/fll-marcus-bartholomew-the-third-junior.png" alt="Marcus Bartholomew the Third Junior logo">
         <div class="team-card-body">
           <span class="badge">FLL — FIRST LEGO League</span>
           <h3>Marcus Bartholomew the Third Junior</h3>
@@ -50,7 +50,7 @@ title: Home
       </div>
 
       <div class="team-card">
-        <img src="/assets/images/fll-junior-logo.png" alt="Marcus Bartholomew the Fourth logo placeholder">
+        <img src="/assets/images/fll-marcus-bartholomew-the-third-junior.png" alt="Marcus Bartholomew the Fourth logo placeholder">
         <div class="team-card-body">
           <span class="badge">FLL — FIRST LEGO League</span>
           <h3>Marcus Bartholomew the Fourth</h3>

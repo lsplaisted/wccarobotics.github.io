@@ -11,7 +11,7 @@ WCCA Robotics has two FLL teams competing in the 2025–26 **Unearthed** season 
 
 ## Marcus Bartholomew the Third Junior
 
-<img src="/assets/images/fll-junior-logo.png" alt="Marcus Bartholomew the Third Junior logo" class="team-logo">
+<img src="/assets/images/fll-marcus-bartholomew-the-third-junior.png" alt="Marcus Bartholomew the Third Junior logo" class="team-logo">
 
 **Team #61349** · 3rd Year · National Champions 🏆
 

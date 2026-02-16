@@ -3,7 +3,7 @@ layout: page
 title: "FTC Team — Marcus Bartholomew the Third Senior"
 ---
 
-<img src="/assets/images/ftc-senior-logo.png" alt="Marcus Bartholomew the Third Senior logo" class="team-logo">
+<img src="/assets/images/ftc-marcus-bartholomew-the-third-senior.png" alt="Marcus Bartholomew the Third Senior logo" class="team-logo">
 
 # Marcus Bartholomew the Third Senior
 
