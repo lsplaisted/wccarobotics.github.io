@@ -49,8 +49,7 @@ Marcus has become more than just a mascot — he represents our teams' creativit
 
 ## Our History
 
-- **2022–23** — WCCA's FLL team begins competing in the **Superpowered** season
-- **2023–24** — Second year of FLL competition in the **Masterpiece** season
+- **2023–24** — WCCA's FLL team begins competing in the **Masterpiece** season
 - **2024–25** — The team earns its name "Marcus Bartholomew the Third Junior" during the **Submerged** season and goes on to win the **Adventist Robotics National Championship** 🏆
 - **2025–26** — WCCA Robotics expands! We add our first **FTC team** (Marcus Bartholomew the Third Senior) and a second **FLL team** for homeschool students (Marcus Bartholomew the Fourth), all competing in the current season
 
