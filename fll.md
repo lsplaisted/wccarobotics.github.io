@@ -39,7 +39,7 @@ Our flagship FLL team is in its third year and has a track record of excellence.
 ### Watch Our Robot in Action
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/VYHs2L9nEM0" title="FLL Competition Robot Run" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/VYHs2L9nEM0" title="FLL Masterpiece Season Competition Robot Run" allowfullscreen></iframe>
 </div>
 
 You can also watch the [full qualifying tournament livestream](https://www.youtube.com/watch?v=vgn5MA-CmPQ) to see all our matches!

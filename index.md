@@ -66,7 +66,7 @@ title: Home
 <div class="section section-alt">
   <div class="container section-center">
     <h2>Watch Us in Action</h2>
-    <p style="margin-bottom: 1.5rem;">Our FLL team's competition robot run from the 2024–25 Submerged season:</p>
+    <p style="margin-bottom: 1.5rem;">Our FLL team's competition robot run from the 2023–24 Masterpiece season:</p>
     <div class="video-container">
       <iframe src="https://www.youtube.com/embed/VYHs2L9nEM0" title="WCCA Robotics Competition Robot Run" allowfullscreen></iframe>
     </div>
