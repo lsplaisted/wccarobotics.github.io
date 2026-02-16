@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
   <div class="container">
     <h1>WCCA Robotics</h1>
-    <p>The robotics program of West Coast Christian Academy — competing in FIRST Tech Challenge and FIRST LEGO League.</p>
+    <p>The robotics program of <a href="https://westcoastchristian.org/" target="_blank">West Coast Christian Academy</a> — competing in FIRST Tech Challenge and FIRST LEGO League.</p>
     <div class="hero-buttons">
       <a href="/support" class="btn btn-primary">Support Our Teams</a>
       <a href="https://www.youtube.com/@wccarobotics" class="btn btn-secondary" target="_blank">Follow Us on YouTube</a>

@@ -5,7 +5,7 @@ title: "About"
 
 # About WCCA Robotics
 
-**WCCA Robotics** is the robotics program of **West Coast Christian Academy**, located in Florida. We currently have three teams competing in FIRST robotics programs — one FIRST Tech Challenge (FTC) team and two FIRST LEGO League (FLL) teams.
+**WCCA Robotics** is the robotics program of **[West Coast Christian Academy](https://westcoastchristian.org/)**, located in Florida. We currently have three teams competing in FIRST robotics programs — one FIRST Tech Challenge (FTC) team and two FIRST LEGO League (FLL) teams.
 
 Our program teaches students real-world skills in engineering, programming, teamwork, and problem-solving through the excitement of robotics competition.
 
