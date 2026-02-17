@@ -35,12 +35,18 @@ There are lots of ways you can help support WCCA Robotics — and you don't need
     <div class="icon">🤝</div>
     <h3>Volunteer</h3>
     <p>We need volunteers! There are roles for everyone, whether or not you have a technical background.</p>
+    <p>
+      <a href="/contact" class="btn btn-blue">Contact Us</a>
+    </p>
   </div>
 
   <div class="support-card">
     <div class="icon">🧑‍🤝‍🧑</div>
     <h3>Join a Team</h3>
     <p>Know a student who'd love robotics? We'd love to have them!</p>
+    <p>
+      <a href="/contact" class="btn btn-blue">Contact Us</a>
+    </p>
   </div>
 </div>
 
@@ -67,7 +73,7 @@ But there are also many non-technical areas where mentors could help:
 - **Marketing & social media**
 - **Brainstorming & creative problem solving**
 
-If you're interested in volunteering, reach out to us through our [Facebook page](https://www.facebook.com/profile.php?id=61583999841656)!
+If you're interested in volunteering, [contact us](/contact)!
 
 ---
 
@@ -81,7 +87,7 @@ If you're interested in volunteering, reach out to us through our [Facebook page
 - **Grades:** 7th–12th
 - **What you do:** Design, build, and program robots using real engineering tools and materials to compete in head-to-head matches.
 
-Interested in joining? Contact us through our [Facebook page](https://www.facebook.com/profile.php?id=61583999841656) to learn more!
+Interested in joining? [Contact us](/contact) to learn more!
 
 ---
 
