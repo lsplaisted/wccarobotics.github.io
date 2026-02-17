@@ -1,6 +1,6 @@
 <header class="site-header">
   <nav class="nav-container">
-    <a href="{{ '/' | relative_url }}" class="site-title">🤖 WCCA Robotics</a>
+    <a href="{{ '/' | relative_url }}" class="site-title"><img src="{{ '/assets/images/marcus.png' | relative_url }}" alt="Marcus" class="nav-logo"> WCCA Robotics</a>
     <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
     <ul class="nav-links">
       <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>

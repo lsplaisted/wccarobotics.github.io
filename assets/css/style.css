@@ -60,6 +60,13 @@ img { max-width: 100%; height: auto; }
   font-weight: 700;
   padding: 1rem 0;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.nav-logo {
+  height: 36px;
+  width: auto;
 }
 .site-title:hover { text-decoration: none; color: var(--light-blue); }
 
