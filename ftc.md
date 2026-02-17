@@ -21,6 +21,10 @@ This year's game is called **Decode**. The main way to score points is by gettin
 
 Each match starts with **30 seconds of autonomous period** where the robot runs using pre-programmed logic. Then there are **2 minutes of teleop period** where the robot can be remote controlled by drivers.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/WxE8lCb5wHE" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Our Robots
 
 ### Robot 1: The Starter Bot
@@ -42,6 +46,15 @@ The starter bot used a **tank drive** — it had a different motor powering each
 A human player could load 3 artifacts into the robot when it was in the loading zone. When the robot was ready to launch an artifact, the **flywheel** spun up to speed, and then **two servos** spun wheels to feed an artifact into the launcher — and the artifact shot up and into the goal. We added a **servo for adjustable launch angle** and **variable launch speed** to improve accuracy.
 
 The starter bot taught us a lot, but we wanted to take things to the next level — so we moved on to building a much more capable robot.
+
+<div class="video-grid">
+  <div class="video-container-vertical">
+    <iframe src="https://www.youtube.com/embed/5nb-P7_4004" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="video-container-vertical">
+    <iframe src="https://www.youtube.com/embed/NtcPTxrmNUY" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
 
 ### Robot 2: The RI3D Bot
 
