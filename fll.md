@@ -70,7 +70,7 @@ Our flagship FLL team is in its third year and has a track record of excellence.
   <a href="/assets/images/championship-team.jpeg" target="_blank"><img src="/assets/images/championship-team.jpeg" alt="Team at Adventist Robotics National Championship"></a>
 </div>
 
-### Watch Our Robot in Action
+### Watch Our Team in Action
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/VYHs2L9nEM0" title="FLL Masterpiece Season Competition Robot Run" allowfullscreen></iframe>
