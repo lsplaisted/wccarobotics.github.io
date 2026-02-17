@@ -71,6 +71,10 @@ This robot is a big upgrade from the starter bot:
 
 We're continuing to refine the robot — improving launcher consistency, fine-tuning autonomous routines, and working on auto-aim to hit the goal more reliably.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/PtHFdw_hqi0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## Follow Our Progress
 
 - 💻 [Our code and engineering docs on GitHub](https://github.com/wccarobotics/ftc-decode)
