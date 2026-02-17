@@ -43,7 +43,7 @@ The starter bot used a **tank drive** — it had a different motor powering each
   <a href="/assets/images/ftc-wiring-starter-bot-2.jpg" target="_blank"><img src="/assets/images/ftc-wiring-starter-bot-2.jpg" alt="Wiring the starter bot electronics"></a>
 </div>
 
-A human player could load 3 artifacts into the robot when it was in the loading zone. When the robot was ready to launch an artifact, the **flywheel** spun up to speed, and then **two servos** spun wheels to feed an artifact into the launcher — and the artifact shot up and into the goal. We added a **servo for adjustable launch angle** and **variable launch speed** to improve accuracy.
+A human player could load 3 artifacts into the robot when it was in the loading zone. When the robot was ready to launch an artifact, the **flywheel** spun up to speed, and then **two servos** spun wheels to feed an artifact into the launcher — and the artifact shot up and into the goal. We added a **servo for adjustable launch angle** and **variable launch speed** so that we could shoot from farther away from the goal.
 
 The starter bot taught us a lot, but we wanted to take things to the next level — so we moved on to building a much more capable robot.
 
@@ -64,10 +64,10 @@ This robot is a big upgrade from the starter bot:
 
 - **Mecanum drive** — Unlike the tank drive, mecanum wheels let the robot drive in any direction, including sideways. This makes it much more maneuverable on the field.
 - **Intake** — Instead of relying on a human player to load artifacts, this robot can pick up artifacts off the field on its own.
-- **Ball splitter** — A splitter in the middle routes artifacts to the left or right launcher.
-- **Dual launchers with diverters** — The robot has launchers on both sides, with diverters to direct artifacts to whichever launcher is ready.
-- **Limelight camera** — We added a Limelight vision system for detecting targets on the field.
-- **Pedro Pathing autonomous** — We're using Pedro Pathing with pinpoint odometry for smooth, accurate autonomous movement.
+- **Dual launchers with diverters** — The robot has launchers on both sides, with a diverter to direct artifacts to the left or right launcher.  This can let us (or the robot) choose which color artifact to launch.
+- **Odometry system** - We added odometry wheels and the [GoBilda Pinpoint computer](https://www.gobilda.com/4-bar-odometry-pack-2-pods-1-pinpoint-computer/) to help the robot track where it is on the field.  This was an upgrade that we originally made to the starter bot and moved to the new bot.
+- **Limelight camera** — We added a [Limelight 3A camera](https://limelightvision.io/products/limelight-3a).  This will also help us better detect the robot's position on the field.
+- **Pedro Pathing** — We're working on using [Pedro Pathing](https://pedropathing.com/) for smooth, accurate autonomous movement.
 
 We're continuing to refine the robot — improving launcher consistency, fine-tuning autonomous routines, and working on auto-aim to hit the goal more reliably.
 
