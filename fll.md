@@ -76,8 +76,6 @@ Our flagship FLL team is in its third year and has a track record of excellence.
   <iframe src="https://www.youtube.com/embed/VYHs2L9nEM0" title="FLL Masterpiece Season Competition Robot Run" allowfullscreen></iframe>
 </div>
 
-You can also watch the [full qualifying tournament livestream](https://www.youtube.com/watch?v=vgn5MA-CmPQ) to see all our matches!
-
 ### Current Season: Unearthed (2025–26)
 
 This year's FLL season has an archaeology theme. Our team is diving into research about archaeological methods and challenges as they prepare for competition. Follow along on our [GitHub wiki](https://github.com/wccarobotics/fll-unearthed/wiki).
