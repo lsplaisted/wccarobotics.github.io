@@ -88,8 +88,6 @@ This year's FLL season has an archaeology theme. Our team is diving into researc
 
 Our newest FLL team is made up primarily of homeschool students competing for the first time in the 2025–26 Unearthed season. They're carrying on the Marcus Bartholomew tradition and we're excited to see what they accomplish!
 
-*More information coming soon as the team gets rolling!*
-
 ---
 
 *Want to join an FLL team or support our students? [Learn how you can help!](/support)*

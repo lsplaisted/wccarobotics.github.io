@@ -21,26 +21,42 @@ This year's game is called **Decode**. The main way to score points is by gettin
 
 Each match starts with **30 seconds of autonomous period** where the robot runs using pre-programmed logic. Then there are **2 minutes of teleop period** where the robot can be remote controlled by drivers.
 
-## How Our Robot Works
+## Our Robots
 
-Our robot is based on a starter bot from a company called GoBilda. A starter bot is a robot you can build from a kit using instructions that can do the basic things necessary to play the game.
+### Robot 1: The Starter Bot
 
-The most important thing for a robot to do is to drive around! Our robot uses what's called a **tank drive** — it has a different motor powering each side's wheels. If both sides turn the same direction, the robot drives straight. If they turn in opposite directions, the robot spins around. The robot can be pretty fast!
+Our first robot was based on a starter bot from a company called GoBilda. A starter bot is a robot you can build from a kit using instructions that can do the basic things necessary to play the game — and it's a great way for a new team to get up and running quickly.
 
-A human player can load 3 artifacts into the robot when it's in the loading zone. When the robot is ready to launch an artifact, the **flywheel** spins up to speed, and then **two servos** spin wheels to feed an artifact into the launcher — and the artifact shoots up and into the goal.
+<div class="photo-grid">
+  <a href="/assets/images/ftc-starter-bot-under-construction-1.jpg" target="_blank"><img src="/assets/images/ftc-starter-bot-under-construction-1.jpg" alt="Starter bot frame under construction"></a>
+  <a href="/assets/images/ftc-starter-bot-under-construction-2.jpg" target="_blank"><img src="/assets/images/ftc-starter-bot-under-construction-2.jpg" alt="Starter bot with flywheel and artifacts loaded"></a>
+</div>
 
-The starter bot is meant to be a base that helps teams get up and running quickly — and that teams can adapt and improve upon. We've already made a few changes and have plenty of other ideas. Stay tuned for future updates!
+The starter bot used a **tank drive** — it had a different motor powering each side's wheels. If both sides turned the same direction, the robot drove straight. If they turned in opposite directions, the robot spun around.
 
-## Our Team
+<div class="photo-grid">
+  <a href="/assets/images/ftc-wiring-starter-bot-1.jpg" target="_blank"><img src="/assets/images/ftc-wiring-starter-bot-1.jpg" alt="Team members wiring the starter bot"></a>
+  <a href="/assets/images/ftc-wiring-starter-bot-2.jpg" target="_blank"><img src="/assets/images/ftc-wiring-starter-bot-2.jpg" alt="Wiring the starter bot electronics"></a>
+</div>
 
-Our team has six members, each with different roles:
+A human player could load 3 artifacts into the robot when it was in the loading zone. When the robot was ready to launch an artifact, the **flywheel** spun up to speed, and then **two servos** spun wheels to feed an artifact into the launcher — and the artifact shot up and into the goal. We added a **servo for adjustable launch angle** and **variable launch speed** to improve accuracy.
 
-- **Daniel** — Wiring, Programming
-- **Lucas** — Programming, Design & Build, Drive Team
-- **William** — CAD, Design & Build
-- **Nathaneal** — Project Management, Programming
-- **Caleb** — CAD, Programming
-- **Matthew** — Outreach, Build, Drive Team
+The starter bot taught us a lot, but we wanted to take things to the next level — so we moved on to building a much more capable robot.
+
+### Robot 2: The RI3D Bot
+
+Our current robot is based on [GoBilda's **Robot in 3 Days (RI3D)** design](https://www.gobilda.com/robot-in-3-days-resource-guide-decode/).
+
+This robot is a big upgrade from the starter bot:
+
+- **Mecanum drive** — Unlike the tank drive, mecanum wheels let the robot drive in any direction, including sideways. This makes it much more maneuverable on the field.
+- **Intake** — Instead of relying on a human player to load artifacts, this robot can pick up artifacts off the field on its own.
+- **Ball splitter** — A splitter in the middle routes artifacts to the left or right launcher.
+- **Dual launchers with diverters** — The robot has launchers on both sides, with diverters to direct artifacts to whichever launcher is ready.
+- **Limelight camera** — We added a Limelight vision system for detecting targets on the field.
+- **Pedro Pathing autonomous** — We're using Pedro Pathing with pinpoint odometry for smooth, accurate autonomous movement.
+
+We're continuing to refine the robot — improving launcher consistency, fine-tuning autonomous routines, and working on auto-aim to hit the goal more reliably.
 
 ## Follow Our Progress
 
