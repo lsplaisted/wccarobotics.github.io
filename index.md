@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Home
 ---
 
 <div class="hero">
