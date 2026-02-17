@@ -293,13 +293,8 @@ img { max-width: 100%; height: auto; }
 }
 
 /* === Logo display === */
-.team-logo {
-  max-width: 300px;
-  margin: 1rem 0;
-}
-
-.team-logo-small {
-  max-width: 200px;
+.team-logo, .team-logo-small {
+  max-width: 400px;
   margin: 1rem 0;
 }
 
