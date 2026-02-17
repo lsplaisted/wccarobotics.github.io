@@ -104,6 +104,12 @@ img { max-width: 100%; height: auto; }
   }
   .nav-links.open { display: flex; }
   .nav-links a { padding: 0.75rem 1rem; border-radius: 4px; }
+
+  .page-content img[style*="float"] {
+    float: none !important;
+    max-width: 100% !important;
+    margin: 1rem 0 !important;
+  }
 }
 
 /* === Hero === */

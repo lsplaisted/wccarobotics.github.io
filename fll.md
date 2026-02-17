@@ -17,16 +17,50 @@ WCCA Robotics has two FLL teams competing in the 2025–26 **Unearthed** season 
 
 Our flagship FLL team is in its third year and has a track record of excellence. Named after a LEGO shark from the FLL Submerged mission, Marcus Bartholomew the Third Junior has become the heart and soul of WCCA Robotics.
 
-### 2024–25 Submerged Season Accomplishments
+### Awards & Accomplishments
+
+<h4>2024–25 Submerged Season</h4>
+
+<div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap;">
+<div style="flex: 1; min-width: 280px;">
 
 <div class="highlight-box">
-  <h3>🏆 Awards & Achievements</h3>
+  <h3>🌟 Florida Sunshine Invitational</h3>
   <ul>
-    <li><strong>1st Place</strong> — Adventist Robotics National Championship</li>
-    <li><strong>Champions Award</strong> — Florida Qualifying Tournament</li>
-    <li><strong>Robot Game Award</strong> — Florida Qualifying Tournament (250 points, highest score!)</li>
-    <li><strong>Coach/Mentor Award</strong> — Daniel Plaisted & Ronald Puentes</li>
+    <li><strong>Rising All-Star Award</strong></li>
   </ul>
+</div>
+
+<div class="highlight-box">
+  <h3>🏆 Adventist Robotics National Championship</h3>
+  <ul>
+    <li><strong>Champion's Award</strong> — 1st place overall</li>
+  </ul>
+</div>
+
+<div class="highlight-box">
+  <h3>🏆 Adventist Robotics Florida Qualifier</h3>
+  <ul>
+    <li><strong>Champion's Award</strong> — 1st place overall</li>
+    <li><strong>Robot Game Award</strong> — 1st place (250 points, highest score!)</li>
+    <li><strong>Coach/Mentor Award</strong> — Daniel Plaisted</li>
+  </ul>
+</div>
+
+<h4>2023–24 Masterpiece Season</h4>
+
+<div class="highlight-box">
+  <h3>🏆 Adventist Robotics Florida Qualifier</h3>
+  <ul>
+    <li><strong>Robot Game</strong> — 2nd place</li>
+    <li><strong>Innovation Project</strong> — 3rd place</li>
+  </ul>
+</div>
+
+</div>
+<div style="flex: 0 0 320px;">
+  <img src="/assets/images/trophies.jpg" alt="WCCA Robotics trophy case with LEGO trophies, plaques, and medals" style="width: 100%; border-radius: 8px;">
+</div>
 </div>
 
 ### Photos
