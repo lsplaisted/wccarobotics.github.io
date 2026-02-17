@@ -35,11 +35,11 @@ You might be wondering — who is Marcus Bartholomew, and why are all our teams 
 
 It all started during the 2024–25 FLL **Submerged** season. One of the missions on the game field involved a LEGO shark figure. Our FLL team adopted him as their mascot and named him **Marcus Bartholomew the Third Junior** — and eventually decided to name the entire team after him.
 
-<img src="/assets/images/fll-marcus-bartholomew-the-third-junior.png" alt="Marcus Bartholomew the Third Junior — the original LEGO shark" class="team-logo-small">
+<img src="/assets/images/fll-marcus-bartholomew-the-third-junior.png" alt="Marcus Bartholomew the Third Junior — the original LEGO shark" class="team-logo">
 
 When WCCA started its first FTC team, the students continued the tradition. The FTC team became **Marcus Bartholomew the Third Senior** — and Marcus got an upgrade with a cowboy hat, mustache, and cane.
 
-<img src="/assets/images/ftc-marcus-bartholomew-the-third-senior.png" alt="Marcus Bartholomew the Third Senior — shark with cowboy hat" class="team-logo-small">
+<img src="/assets/images/ftc-marcus-bartholomew-the-third-senior.png" alt="Marcus Bartholomew the Third Senior — shark with cowboy hat" class="team-logo">
 
 And when a new homeschool FLL team was formed, they became **Marcus Bartholomew the Fourth** — the next generation of the Marcus Bartholomew dynasty.
 
