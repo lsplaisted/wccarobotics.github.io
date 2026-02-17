@@ -74,7 +74,7 @@ If you're interested in volunteering, reach out to us through our [Facebook page
 ## Join a Team
 
 ### FIRST LEGO League (FLL)
-- **Ages:** 9–14
+- **Grades:** 4th–8th
 - **What you do:** Build and program autonomous LEGO robots, develop an innovation project, and learn core values like teamwork and discovery.
 
 ### FIRST Tech Challenge (FTC)
