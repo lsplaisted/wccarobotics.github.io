@@ -5,7 +5,7 @@ title: "FLL Teams"
 
 # FLL Teams — FIRST LEGO League
 
-WCCA Robotics has two FLL teams competing in the 2025–26 **Unearthed** season (archaeology theme). FIRST LEGO League is a robotics competition for students in 4th through 8th grade where teams build autonomous robots using LEGO SPIKE Prime, develop an innovation project, and demonstrate core values like teamwork and discovery.
+WCCA Robotics has two FLL teams competing in the 2025–26 **Unearthed** season (archaeology theme). FIRST LEGO League is a robotics competition for students in 4th through 8th grade where teams build autonomous LEGO robots, develop an innovation project, and demonstrate core values like teamwork and discovery.
 
 ---
 
