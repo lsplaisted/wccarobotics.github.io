@@ -33,6 +33,7 @@ layout: home
         <div class="team-card-body">
           <span class="badge">FTC — FIRST Tech Challenge</span>
           <h3>Marcus Bartholomew the Third Senior</h3>
+          <p><small class="team-number">FTC Team #32314</small></p>
           <p>Our newest team! Competing in FIRST Tech Challenge for the first time in the 2025–26 Decode season. Building, programming, and driving robots in head-to-head competition.</p>
           <a href="/ftc" class="btn btn-blue" style="margin-top: 0.5rem;">Meet the Team →</a>
         </div>
@@ -43,6 +44,7 @@ layout: home
         <div class="team-card-body">
           <span class="badge">FLL — FIRST LEGO League</span>
           <h3>Marcus Bartholomew the Third Junior</h3>
+          <p><small class="team-number">FLL Team #61349</small></p>
           <p>In our third year and coming off a national championship! Competing in the 2025–26 Unearthed season with LEGO SPIKE Prime robots.</p>
           <a href="/fll" class="btn btn-blue" style="margin-top: 0.5rem;">See Our Story →</a>
         </div>
@@ -53,6 +55,7 @@ layout: home
         <div class="team-card-body">
           <span class="badge">FLL — FIRST LEGO League</span>
           <h3>Marcus Bartholomew the Fourth</h3>
+          <p><small class="team-number">FLL Team #64434</small></p>
           <p>Our new homeschool FLL team, competing for the first time in the 2025–26 Unearthed season. Welcome to the Marcus Bartholomew family!</p>
           <a href="/fll#the-fourth" class="btn btn-blue" style="margin-top: 0.5rem;">Learn More →</a>
         </div>

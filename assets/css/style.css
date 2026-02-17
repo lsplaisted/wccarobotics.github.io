@@ -206,7 +206,12 @@ img { max-width: 100%; height: auto; }
 
 .team-card h3 {
   color: var(--navy);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.team-number {
+  color: #888;
+  font-size: 0.85rem;
 }
 
 .team-card .badge {
