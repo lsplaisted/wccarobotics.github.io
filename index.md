@@ -51,12 +51,12 @@ layout: home
       </div>
 
       <div class="team-card">
-        <img src="/assets/images/fll-marcus-bartholomew-the-third-junior.png" alt="Marcus Bartholomew the Fourth logo placeholder">
+        <img src="/assets/images/fll-robo-gators-of-the-lost-park.jpeg" alt="Robo Gators of the Lost Park logo">
         <div class="team-card-body">
           <span class="badge">FLL — FIRST LEGO League</span>
-          <h3>Marcus Bartholomew the Fourth</h3>
+          <h3>Robo Gators of the Lost Park</h3>
           <p><small class="team-number">FLL Team #64434</small></p>
-          <p>Our new homeschool FLL team, competing for the first time in the 2025–26 Unearthed season. Welcome to the Marcus Bartholomew family!</p>
+          <p>Our homeschool FLL team, competing for the first time in the 2025–26 Unearthed season.</p>
           <a href="/fll#the-fourth" class="btn btn-blue" style="margin-top: 0.5rem;">Learn More →</a>
         </div>
       </div>

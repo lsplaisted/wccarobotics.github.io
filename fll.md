@@ -82,12 +82,15 @@ This year's FLL season has an archaeology theme. Our team is diving into researc
 
 ---
 
-## Marcus Bartholomew the Fourth {#the-fourth}
+## Robo Gators of the Lost Park {#the-fourth}
+
+<img src="/assets/images/fll-robo-gators-of-the-lost-park.jpeg" alt="Robo Gators of the Lost Park logo" class="team-logo">
+
 **FLL Team #64434**
 
 **1st Year** · Homeschool Team
 
-Our newest FLL team is made up primarily of homeschool students competing for the first time in the 2025–26 Unearthed season. They're carrying on the Marcus Bartholomew tradition and we're excited to see what they accomplish!
+Our newest FLL team is made up primarily of homeschool students competing for the first time in the 2025–26 Unearthed season. We're excited to see what they accomplish!
 
 ---
 

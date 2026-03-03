@@ -41,7 +41,7 @@ When WCCA started its first FTC team, the students continued the tradition. The 
 
 <img src="/assets/images/ftc-marcus-bartholomew-the-third-senior.png" alt="Marcus Bartholomew the Third Senior — shark with cowboy hat" class="team-logo">
 
-And when a new homeschool FLL team was formed, they became **Marcus Bartholomew the Fourth** — the next generation of the Marcus Bartholomew dynasty.
+And when a new homeschool FLL team was formed, they chose their own identity — **Robo Gators of the Lost Park**!
 
 Marcus has become more than just a mascot — he represents our teams' creativity, humor, and spirit. The students even have a pledge to Marcus and have written poems in his honor! 🦈
 
@@ -51,7 +51,7 @@ Marcus has become more than just a mascot — he represents our teams' creativit
 
 - **2023–24** — WCCA's FLL team begins competing in the **Masterpiece** season, earning **2nd place in Robot Game** and **3rd place in Innovation Project** at their first Florida qualifier
 - **2024–25** — The team earns its name "Marcus Bartholomew the Third Junior" during the **Submerged** season. They win the **Champion's Award** at the Florida qualifier and go on to win **1st place at the Adventist Robotics National Championship** 🏆, plus the **Rising All-Star Award** at the Florida Sunshine Invitational
-- **2025–26** — WCCA Robotics expands! We add our first **FTC team** (Marcus Bartholomew the Third Senior) and a second **FLL team** for homeschool students (Marcus Bartholomew the Fourth), all competing in the current season
+- **2025–26** — WCCA Robotics expands! We add our first **FTC team** (Marcus Bartholomew the Third Senior) and a second **FLL team** for homeschool students (Robo Gators of the Lost Park), all competing in the current season
 
 ---
 
