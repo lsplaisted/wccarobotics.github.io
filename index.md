@@ -20,6 +20,11 @@ layout: home
       <p>Our FLL team <strong>Marcus Bartholomew the Third Junior</strong> won <strong>1st place</strong> at the Adventist Robotics National Championship in the 2024–25 Submerged season!</p>
       <a href="/fll" class="btn btn-blue" style="margin-top: 0.75rem;">Learn More →</a>
     </div>
+    <div class="highlight-box" style="margin-top: 1.5rem;">
+      <h3>🏆 Scrimmage Champions!</h3>
+      <p>Our FTC team <strong>Marcus Bartholomew the Third Senior</strong> won the <strong>Adventist Robotics FTC Carolina Scrimmage</strong> finals 2–1 on March 1, 2026!</p>
+      <a href="/ftc#competitions" class="btn btn-blue" style="margin-top: 0.75rem;">Watch the Matches →</a>
+    </div>
   </div>
 </div>
 
@@ -68,9 +73,9 @@ layout: home
 <div class="section section-alt">
   <div class="container section-center">
     <h2>Watch Us in Action</h2>
-    <p style="margin-bottom: 1.5rem;">Our FLL team's competition robot run from the 2023–24 Masterpiece season:</p>
+    <p style="margin-bottom: 1.5rem;">Our FTC team's playoff matches from the Adventist Robotics Carolina Scrimmage:</p>
     <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/VYHs2L9nEM0" title="WCCA Robotics Competition Robot Run" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Oi7FmYCPAqE" title="FTC Carolina Scrimmage Playoff Matches" allowfullscreen></iframe>
     </div>
   </div>
 </div>

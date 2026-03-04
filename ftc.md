@@ -76,6 +76,21 @@ We're continuing to refine the robot — improving launcher consistency, fine-tu
   <iframe src="https://www.youtube.com/embed/PtHFdw_hqi0" frameborder="0" allowfullscreen></iframe>
 </div>
 
+## Competitions {#competitions}
+
+### Adventist Robotics FTC Carolina Scrimmage
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/Oi7FmYCPAqE" title="FTC Carolina Scrimmage Playoff Matches" frameborder="0" allowfullscreen></iframe>
+</div>
+
+**March 1, 2026** · Our first-ever competition!
+
+We competed in 5 qualification matches and finished **2nd in rankings** out of 8 teams. In the playoffs, our alliance (teams 26520 and 32314) won the **finals 2–1** to take home the championship! 🏆
+
+- 📺 [Qualification Matches](https://youtu.be/lL-e5rfkOyU)
+- 📺 [Playoff Matches](https://youtu.be/Oi7FmYCPAqE)
+
 ## Follow Our Progress
 
 - 💻 [Our code and engineering docs on GitHub](https://github.com/wccarobotics/ftc-decode)
