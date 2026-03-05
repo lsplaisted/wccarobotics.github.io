@@ -86,7 +86,9 @@ We're continuing to refine the robot — improving launcher consistency, fine-tu
 
 **March 1, 2026** · Our first-ever competition!
 
-We competed in 5 qualification matches and finished **2nd in rankings** out of 8 teams. In the playoffs, our alliance (teams 26520 and 32314) won the **finals 2–1** to take home the championship! 🏆
+We competed in 5 qualification matches and finished **2nd in rankings** out of 8 teams. Our focus on ranking points helped us pull ahead of the 3 other teams with a win/loss record of 3-2.
+
+For alliance selection for the playoffs, the [NC Avengers](https://www.ncavengers.net/) (team 26520) selected us as their alliance partner, and we graciously accepted!  The first match did not go so well.  Our auto-aim was off and we lost 60-76.  The NC Avengers suggested that if our shots weren't working so well we should focus on defense and preventing the other alliance from scoring.  Using that strategy, we were able to come back from behind and win the next two matches convincingly to **win the finals 2–1** and take home the championship together with the NC Avengers! 🏆
 
 - 📺 [Qualification Matches](https://youtu.be/lL-e5rfkOyU)
 - 📺 [Playoff Matches](https://youtu.be/Oi7FmYCPAqE)
