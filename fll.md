@@ -94,4 +94,12 @@ Our newest FLL team is made up primarily of homeschool students competing for th
 
 ---
 
+## Tournament Results
+
+Our FLL teams compete in Adventist Robotics tournaments. See detailed match results, video timestamps, and awards from recent tournaments:
+
+<a href="/tournaments/" class="btn btn-blue">View Tournament Results →</a>
+
+---
+
 *Want to join an FLL team or support our students? [Learn how you can help!](/support)*
