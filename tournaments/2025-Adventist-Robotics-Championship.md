@@ -55,6 +55,7 @@ title: "Adventist Robotics Championship Tournament"
 | Team A | Points Scored | Team B | Points Scored | Video Link |
 | ------ | ------------- | -------| ------------- | ---------- |
 | 58108 Iron Eagles | 215 | 67182 MJA Dolphins | 125 | [3:13:01](https://www.youtube.com/live/WEc9SfUYKko?t=11581) |
+| 41044 TJA Sparks | 250 | — | — | [3:18:09](https://www.youtube.com/live/WEc9SfUYKko?t=11889) |
 | 55784 Octo Eagles | 215 | 52342 Antelope Valley Atoms | 315 | [3:21:14](https://www.youtube.com/live/WEc9SfUYKko?t=12074) |
 | 59469 Lego Surfers | 235 | 69342 Robotic Aquatics | 145 | [3:28:20](https://www.youtube.com/live/WEc9SfUYKko?t=12500) |
 | 59539 SuperChips | 145 | 70021 Aquanauts | 240 | [3:31:38](https://www.youtube.com/live/WEc9SfUYKko?t=12698) |
@@ -67,9 +68,8 @@ title: "Adventist Robotics Championship Tournament"
 | 28238 T-WaveTronics | 325 | 61349 Marcus Bartholomew the Third Junior | 245 | [3:59:36](https://www.youtube.com/live/WEc9SfUYKko?t=14376) |
 | 4254 The Forces | 205 | 64729 Omaha Angels | 100 | [4:03:14](https://www.youtube.com/live/WEc9SfUYKko?t=14594) |
 | 39472 Point Nemo | 205 | 54580 Gear Girls | 305 | [4:07:29](https://www.youtube.com/live/WEc9SfUYKko?t=14849) |
-| 41044 TJA Sparks | 250 | — | — | [4:10:51](https://www.youtube.com/live/WEc9SfUYKko?t=15051) |
 
-*41044 TJA Sparks ran solo in the last match — no surrogate was used for this tournament.*
+*41044 TJA Sparks ran solo — no surrogate was used for this tournament. 69964 Sharknovus ran an additional exhibition match at [4:10:51](https://www.youtube.com/live/WEc9SfUYKko?t=15051).*
 
 ## Robot Game Rankings
 
