@@ -169,7 +169,7 @@ The auto-generated captions are imperfect. After the script runs, **manually rev
 2. **Check for special events** — Look for match redos (clock malfunctions), false starts ("reset", "stop" after countdown), solo matches (odd team count), and exhibition runs after official matches.
 3. **Verify round boundaries** — There's typically a 5-10 minute gap between rounds, but some tournaments have very short gaps. Use "end of round X" announcements and team pairings to determine boundaries, not just timing gaps. The announcer may start a new round before announcing the previous round's scores.
 4. **Verify countdown count** — Count the total detected start countdowns and compare to expected matches. Extra countdowns may be false starts, exhibition runs, or misclassified end countdowns.
-5. **Awards ceremony** — Search the last ~30-60 minutes of captions for award announcements. Most awards have two finalists and one winner. Look for keywords: "award", "finalist", "winner", "champion", "core values", "innovation", "robot design", "robot performance", "advancing".
+5. **Awards ceremony** — Search the last ~30-60 minutes of captions for award announcements. The number of finalists varies by tournament size: small tournaments may only name a winner, larger ones may have one or two finalists per award. Look for keywords: "award", "finalist", "winner", "champion", "core values", "innovation", "robot design", "robot performance", "advancing".
 
 ### Step 5: Generate the markdown page
 
@@ -216,8 +216,8 @@ For odd-team tournaments with solo runs (no partner):
   - [TEAM_NUM TEAM_NAME](VIDEO_LINK?t=SECONDS)
 - Awards
   - [Award Name](VIDEO_LINK?t=SECONDS)
-    - Finalist: TEAM_NUM TEAM_NAME
-    - Finalist: TEAM_NUM TEAM_NAME
+    - Finalist: TEAM_NUM TEAM_NAME *(if applicable)*
+    - Finalist: TEAM_NUM TEAM_NAME *(if applicable)*
     - Winner: TEAM_NUM TEAM_NAME
 ```
 
@@ -249,7 +249,7 @@ Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `
 - Each FLL tournament has **3 qualifying rounds** (plus an optional practice round)
 - Each round has every team playing exactly once
 - Two teams run on the same table simultaneously (they get independent scores, not versus each other)
-- Tournaments may have 2 or 3 tables running **sequentially** per time slot (not simultaneously). Each table gets its own countdown. Don't assume all tables start at the same time — the announcer moves from one table to the next.
+- **Table configurations vary widely**: Tournaments may have 1, 2, 3, or more tables. Tables may run **sequentially** (one after another per time slot) or **simultaneously** (multiple tables starting at the same time). Each table gets its own countdown. Don't assume a specific number of tables or that they run in any particular order — listen for table names/colors (e.g., "red table", "blue table") in the announcer's commentary.
 - Each match is **2.5 minutes** (~150 seconds) long
 - **Odd number of teams**: When there's an odd number of teams, each round has one team without a partner. This is handled in one of two ways:
   - **Surrogate match**: A volunteer team fills the empty table slot. The surrogate's score does NOT count in rankings. Mark with *(surrogate)* and use `—` for the score. Three surrogate teams are selected at the coaches meeting (one per round).
@@ -267,7 +267,7 @@ Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `
 - **Team identification**: Search for team numbers (e.g., "36689") and team names (e.g., "mission possible", "gear girls") within 2 minutes before a countdown. Team numbers spoken digit-by-digit (e.g., "five, nine, six, zero, two") are common in auto-generated captions and Whisper output. **Always fetch the scoreboard API first** to get accurate team names, then search captions for those exact names.
 - **Round gaps**: Typically 5-15 minutes between the last match of one round and the first of the next. Gaps often include interviews, emoji games, or break announcements. However, some tournaments have very short gaps (~60 seconds) between rounds if teams are already queued.
 - **VTT deduplication**: YouTube VTT captions have heavy duplication — the same text appears at multiple timestamps as the caption updates. Deduplicate entries by `(int(start_seconds), text)` key before analysis.
-- **Awards section**: Usually in the last 20-60 minutes of the video. Search for: "award", "champion", "core values", "innovation", "robot design", "robot performance", "advancing". Most awards have **two finalists and one winner** announced separately — search for "finalist" mentions before "winner."
+- **Awards section**: Usually in the last 20-60 minutes of the video. Search for: "award", "champion", "core values", "innovation", "robot design", "robot performance", "advancing". The number of finalists depends on tournament size — **smaller tournaments may only announce a winner** with no finalists, while **larger tournaments may have one or two finalists** before the winner. Search for "finalist" mentions before "winner" but don't assume they exist.
 - **Whisper VAD gaps**: When using Whisper with VAD filtering, segments of music or ambient noise will be skipped entirely. The awards ceremony often has long music gaps where award names may be lost — flag these for the user to fill in manually.
 
 ### Common issues
