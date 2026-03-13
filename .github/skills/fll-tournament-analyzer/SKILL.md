@@ -166,9 +166,10 @@ The script / manual analysis should:
 The auto-generated captions are imperfect. After the script runs, **manually review** the output:
 
 1. **Verify team pairings** — Check that each team appears exactly once per round. If a pairing seems wrong, search the captions near that timestamp for clues.
-2. **Check for special events** — Look for match redos (clock malfunctions), practice rounds before Round 1, or other anomalies.
-3. **Verify round boundaries** — There's typically a 5-10 minute gap between rounds. The script groups by timing, but verify the grouping is correct.
-4. **Awards ceremony** — Search the last ~30 minutes of captions for award announcements. Look for keywords: "award", "champion", "core values", "innovation", "robot design", "robot performance", "advancing".
+2. **Check for special events** — Look for match redos (clock malfunctions), false starts ("reset", "stop" after countdown), solo matches (odd team count), and exhibition runs after official matches.
+3. **Verify round boundaries** — There's typically a 5-10 minute gap between rounds, but some tournaments have very short gaps. Use "end of round X" announcements and team pairings to determine boundaries, not just timing gaps. The announcer may start a new round before announcing the previous round's scores.
+4. **Verify countdown count** — Count the total detected start countdowns and compare to expected matches. Extra countdowns may be false starts, exhibition runs, or misclassified end countdowns.
+5. **Awards ceremony** — Search the last ~30-60 minutes of captions for award announcements. Most awards have two finalists and one winner. Look for keywords: "award", "finalist", "winner", "champion", "core values", "innovation", "robot design", "robot performance", "advancing".
 
 ### Step 5: Generate the markdown page
 
@@ -190,6 +191,12 @@ Use the analysis JSON to create the markdown file following this format:
 For odd-team tournaments with surrogates:
 | TEAM_NUM TEAM_NAME | SCORE | TEAM_NUM TEAM_NAME *(surrogate)* | — | [TIMESTAMP](VIDEO_LINK?t=SECONDS) |
 
+For odd-team tournaments with solo runs (no partner):
+| TEAM_NUM TEAM_NAME | SCORE | — | — | [TIMESTAMP](VIDEO_LINK?t=SECONDS) |
+
+*Note: Exhibition/bonus runs after all official matches should NOT be in the match table. Add a footnote:*
+> *TEAM_NUM TEAM_NAME had an [exhibition run](VIDEO_LINK?t=SECONDS) after all official matches.*
+
 ## Round 2
 ...
 
@@ -209,12 +216,30 @@ For odd-team tournaments with surrogates:
   - [TEAM_NUM TEAM_NAME](VIDEO_LINK?t=SECONDS)
 - Awards
   - [Award Name](VIDEO_LINK?t=SECONDS)
+    - Finalist: TEAM_NUM TEAM_NAME
+    - Finalist: TEAM_NUM TEAM_NAME
     - Winner: TEAM_NUM TEAM_NAME
 ```
 
 Video links use the format: `https://www.youtube.com/live/VIDEO_ID?t=SECONDS`
 
-### Step 6: Clean up
+### Step 6: Add to tournaments index
+
+After creating the tournament page, add an entry to `tournaments/index.md`. Follow the existing card format, grouping by season (e.g., "2024–25 SUBMERGED Season"). Example:
+
+```markdown
+### 2024–25 SUBMERGED Season
+
+<div class="tournament-list" markdown="1">
+
+[![Tournament Name](assets/images/tournament-thumbnail.jpg)](tournaments/FILENAME)
+[**Tournament Name**](tournaments/FILENAME)
+City, State — Month Day, Year
+
+</div>
+```
+
+### Step 7: Clean up
 
 Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `tournament_audio.mp4`, `scoreboard_video.png`, and any Python scripts created during the process.
 
@@ -224,32 +249,51 @@ Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `
 - Each FLL tournament has **3 qualifying rounds** (plus an optional practice round)
 - Each round has every team playing exactly once
 - Two teams run on the same table simultaneously (they get independent scores, not versus each other)
-- Tournaments typically have 2 tables (Table A and Table B) running in parallel
-- Each match is **2.5 minutes** long
-- With 2 tables, matches are staggered — the camera covers one table, then moves to the other
-- **Odd number of teams**: When there's an odd number of teams, each round includes one **surrogate match** where a volunteer team fills the empty table slot. The surrogate's score does NOT count in rankings. Mark these in the markdown with *(surrogate)* and use `—` for the score. Three surrogate teams are selected at the coaches meeting (one per round).
+- Tournaments may have 2 or 3 tables running **sequentially** per time slot (not simultaneously). Each table gets its own countdown. Don't assume all tables start at the same time — the announcer moves from one table to the next.
+- Each match is **2.5 minutes** (~150 seconds) long
+- **Odd number of teams**: When there's an odd number of teams, each round has one team without a partner. This is handled in one of two ways:
+  - **Surrogate match**: A volunteer team fills the empty table slot. The surrogate's score does NOT count in rankings. Mark with *(surrogate)* and use `—` for the score. Three surrogate teams are selected at the coaches meeting (one per round).
+  - **Solo match**: The odd team runs alone with no partner. Their score still counts. Mark the missing partner with `— | —` in the table. The solo match may be at its scheduled position or moved to the end of the round.
 - **Even number of teams**: No surrogates needed; all matches are scored
+- **Cross-round matches**: Some schedules have a match where one physical run counts as Round 1 for one team and Round 2 for the other. This means one round has one fewer physical match (that team already got their score from the cross-round). Note these with a footnote explaining which team gets which round's score.
+- **Exhibition/bonus matches**: After all official rounds complete, a team may get an extra unofficial run (e.g., the announcer says "finish one more match"). These don't count for scoring — the team already has all 3 round scores. Note these separately from official matches.
 
 ### Caption/transcript analysis heuristics
-- **Match start markers**: "three, two, one" or "3, 2, 1" followed by "lego", "let's go", "go", or "start"
-- **Match end markers**: "hands up", "time's up", "stop", or "five, four, three, two, one" followed by "stop"
-- **Team identification**: Search for team numbers (e.g., "36689") and team names (e.g., "mission possible", "gear girls") within 2 minutes before a countdown. Team numbers spoken digit-by-digit (e.g., "five, nine, six, zero, two") are common in auto-generated captions and Whisper output.
-- **Round gaps**: Typically 5-15 minutes between the last match of one round and the first of the next. Gaps often include interviews, emoji games, or break announcements.
-- **Awards section**: Usually in the last 20-30 minutes of the video. Search for: "award", "champion", "core values", "innovation", "robot design", "robot performance", "advancing"
+- **Match start markers**: "three, two, one" or "3, 2, 1" followed by "lego", "let's go", "let go", "go", or "start". Auto-captions often mishear "lego" as "let go."
+- **Match end markers**: "five, four, three, two, one" (or "10, 9, 8...") followed by "stop", "time's up". The key distinction: END countdowns count DOWN TO STOP from 5 or 10, while START countdowns count "three, two, one" then say "lego"/"let go."
+- **Distinguishing START from END countdowns**: Both contain "three, two, one." To tell them apart: (1) if "five, four" or "10, 9, 8" appears BEFORE the "three, two, one," it's an END countdown; (2) if "lego" or "let go" appears AFTER, it's a START; (3) verify by checking that START-END pairs are ~140-160 seconds apart.
+- **False starts / restarts**: Sometimes a match is started but immediately stopped ("reset that", "stop guys", "sorry", "restart"). A new countdown follows. Exclude the false start timestamp — use the restart. Look for "reset", "stop", "sorry", "restart", "again" within 30 seconds after a countdown.
+- **Announcer announces NEXT match while CURRENT match runs**: Team names mentioned near a countdown may be for the upcoming match being called to the table, not the match currently starting. The announcer often calls "Team X and Team Y, come to the red table" while the blue table match is still running. Use the schedule pairings as the primary source of truth for which teams play when.
+- **Team identification**: Search for team numbers (e.g., "36689") and team names (e.g., "mission possible", "gear girls") within 2 minutes before a countdown. Team numbers spoken digit-by-digit (e.g., "five, nine, six, zero, two") are common in auto-generated captions and Whisper output. **Always fetch the scoreboard API first** to get accurate team names, then search captions for those exact names.
+- **Round gaps**: Typically 5-15 minutes between the last match of one round and the first of the next. Gaps often include interviews, emoji games, or break announcements. However, some tournaments have very short gaps (~60 seconds) between rounds if teams are already queued.
+- **VTT deduplication**: YouTube VTT captions have heavy duplication — the same text appears at multiple timestamps as the caption updates. Deduplicate entries by `(int(start_seconds), text)` key before analysis.
+- **Awards section**: Usually in the last 20-60 minutes of the video. Search for: "award", "champion", "core values", "innovation", "robot design", "robot performance", "advancing". Most awards have **two finalists and one winner** announced separately — search for "finalist" mentions before "winner."
 - **Whisper VAD gaps**: When using Whisper with VAD filtering, segments of music or ambient noise will be skipped entirely. The awards ceremony often has long music gaps where award names may be lost — flag these for the user to fill in manually.
 
 ### Common issues
-- Auto-generated captions and Whisper both often mishear team names (e.g., "Mission Impossible" instead of "Mission Possible", "Cicero Circus" instead of "Cicero Circuit", "table bots" or "tail bots" instead of "TerraBots", "harbots" instead of "Hobbots")
+- Auto-generated captions and Whisper both often mishear team names (e.g., "Mission Impossible" instead of "Mission Possible", "Cicero Circus" instead of "Cicero Circuit", "table bots" or "tail bots" instead of "TerraBots", "harbots" instead of "Hobbots", "Shark Novas" instead of "Sharknovus", "Aquinauts" instead of "Aquanauts")
 - Team numbers are more reliable than names — search for both digit sequences ("69648") and spoken digits ("six, nine, six, four, eight")
 - Some matches may have no team names in nearby captions — use process of elimination
 - Not all match starts have a clear countdown — the announcer may just say "let's start" or "lego" without a formal 3-2-1. Search for "start this match" and "lego" as additional markers.
-- Clock malfunctions can cause match redos, creating extra countdowns
+- Clock malfunctions can cause match redos, creating extra countdowns. Also look for false starts where the announcer says "reset" or "stop" immediately after a countdown.
 - Practice rounds may or may not be in the video depending on when the livestream started
-- The schedule image (if provided) may not be accurate if teams were added or dropped
-- Surrogate teams sometimes decline to play (as seen in Mid-Atlantic tournament), requiring another team to volunteer. Listen for "surrogate" mentions.
+- The schedule image/PDF (if provided) may not be accurate if teams were added or dropped, or if the organizer rearranged matches on the day
+- Surrogate teams sometimes decline to play (as seen in Mid-Atlantic tournament), requiring another team to volunteer. Listen for "surrogate" mentions. Some tournaments skip surrogates entirely and let the odd team run solo instead.
 - The announcer may be confused about round numbering (e.g., calling the "second competition round" the "third set of rounds"). Use match timestamps and team pairings to determine the actual round structure, not the announcer's numbering.
+- **"Unknown creature", "shark", "coral"** — these are game element names from the SUBMERGED season, NOT team names. Don't confuse in-game commentary ("we got the shark released") with team identification ("Sharknovus is at the blue table").
 - **Awards ceremony gaps**: When using Whisper, the awards ceremony often has long music/silence gaps where award announcements may be lost. Common FLL awards are: Core Values, Innovation Project, Robot Design, Robot Performance, and Champions Award. Flag any missing awards for the user to fill in from watching the video.
+- **Coach Mentor Award**: This is given to a coach/mentor, not a team. Note the coach's name and their team.
+- **Rising All-Star Award**: This award may have multiple winners (not just one).
 - **yt-dlp download-sections**: The `--download-sections` flag for extracting video clips often fails with YouTube HLS streams (HTTP 403 errors on segments). Use Playwright screenshots instead for extracting frames.
+
+### Verification checklist
+After generating the page, verify:
+1. Each team appears exactly once per round (except: the team missing from the cross-round's other round)
+2. All scores match the FLL Gameday API data (match1/match2/match3 for each team)
+3. START-END countdown pairs are ~140-160 seconds apart
+4. The total number of detected start countdowns matches: R1 matches + R2 matches + R3 matches (plus any false starts or exhibition runs)
+5. No countdown was misclassified as START when it's actually END (check for "five, four" before "three, two, one")
+6. Add the tournament to `tournaments/index.md` after creating the page
 
 ### Standard FLL awards
 The typical awards given at FLL tournaments (in order of announcement):

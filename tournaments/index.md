@@ -31,4 +31,19 @@ Match results, video timestamps, and awards from Adventist Robotics FLL tourname
 
 ---
 
+## 2024–25 SUBMERGED Season
+
+<div class="tournament-list">
+
+<div class="tournament-card">
+  <h3><a href="/tournaments/2025-Adventist-Robotics-Championship">Adventist Robotics Championship Tournament</a></h3>
+  <p><strong>2025</strong> · 27 teams · Adventist Robotics</p>
+  <p>🏆 Champions Award: Marcus Bartholomew the Third Junior · Robot Performance: Mission Possible (360 pts)</p>
+  <a href="/tournaments/2025-Adventist-Robotics-Championship" class="btn btn-blue" style="margin-top: 0.5rem;">View Results →</a>
+</div>
+
+</div>
+
+---
+
 <small>These tournament pages were generated with the help of the [FLL Tournament Analyzer](https://github.com/wccarobotics/wccarobotics.github.io/blob/main/.github/skills/fll-tournament-analyzer/SKILL.md) AI skill — analyzing livestream video, speech recognition, and scoreboard data to produce timestamped match documentation.</small>
