@@ -56,7 +56,7 @@ layout: home
       </div>
 
       <div class="team-card">
-        <img src="/assets/images/fll-robo-gators-of-the-lost-park.jpeg" alt="Robo Gators of the Lost Park logo">
+        <img src="/assets/images/fll-robo-gators-of-the-lost-park.png" alt="Robo Gators of the Lost Park logo">
         <div class="team-card-body">
           <span class="badge">FLL — FIRST LEGO League</span>
           <h3>Robo Gators of the Lost Park</h3>

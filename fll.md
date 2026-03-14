@@ -84,7 +84,7 @@ This year's FLL season has an archaeology theme. Our team is diving into researc
 
 ## Robo Gators of the Lost Park {#the-fourth}
 
-<img src="/assets/images/fll-robo-gators-of-the-lost-park.jpeg" alt="Robo Gators of the Lost Park logo" class="team-logo">
+<img src="/assets/images/fll-robo-gators-of-the-lost-park.png" alt="Robo Gators of the Lost Park logo" class="team-logo">
 
 **FLL Team #64434**
 
