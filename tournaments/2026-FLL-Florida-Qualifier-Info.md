@@ -5,9 +5,32 @@ title: "FLL Florida Qualifier — Parent Info"
 
 # FLL Florida Qualifying Tournament — Parent Info
 
-**Date:** Sunday, March 29, 2026
+**Date:** Sunday, March 29, 2026 (Saturday evening check-in)
 **Location:** Forest Lake Academy Gymnasium, Apopka, FL
-**Tournament Contact:** Mel Wade · [mel@adventistrobotics.net](mailto:mel@adventistrobotics.net) · 321-435-4035
+
+---
+
+## ⚠️ Action Required: Registration & Waivers
+
+Every team member **must** be registered with FIRST and have a parent-signed Consent and Release form **before the tournament**. Your child **will not be able to participate** if this is not completed.
+
+Click the link for your child's team to register:
+
+- **Marcus Bartholomew the Third Junior** — [Register here](https://my.firstinspires.org/JoinTeam/Welcome/9c22b31a-06bd-11f1-89ff-00505699b848)
+- **Robo Gators of the Lost Park** — [Register here](https://my.firstinspires.org/JoinTeam/Welcome/390d1558-06c0-11f1-89ff-00505699b848)
+
+## 🍽️ Meals
+
+Catered meals are available (Sabbath Breakfast, Lunch, Supper, and Sunday Lunch) at **$15.25 per person**. Meals for team members will be ordered by the coaches. If you would like meals ordered for **parents or other family members**, please contact **Daniel Plaisted by March 22nd**.
+
+> 🚫 **No food or drink is allowed in the gymnasium.** Plan accordingly.
+
+## 🏨 Lodging
+
+Please let us know whether your child will be **staying with family** or will **need lodging with the team**:
+
+- **Forest Lake Academy dorms** — $20/person/night, double occupancy (bedding not included). Contact [renoly.gonzalez@forestlake.org](mailto:renoly.gonzalez@forestlake.org) to reserve.
+- **Hotels / AirBnB** — Many teams book nearby hotel rooms or rentals.
 
 ---
 
@@ -98,21 +121,6 @@ The team's **Robot Performance score** is their **highest score** from any of th
 
 ## Logistics
 
-### Meals
-
-Catered meals are available for purchase at **$15.25 per person**. Meals must be ordered in advance:
-
-🍽️ [**Order meals here**](https://www.adventistrobotics.net/mealorder-fllqt/)
-
-Available meals: Sabbath Breakfast, Sabbath Lunch, Sabbath Supper, Sunday Lunch.
-
-> 🚫 **No food or drink is allowed in the gymnasium.** Plan accordingly.
-
-### Lodging
-
-- **Forest Lake Academy dorms** — $20/person/night, double occupancy (bedding not included). Contact [renoly.gonzalez@forestlake.org](mailto:renoly.gonzalez@forestlake.org) to reserve.
-- **Hotels / AirBnB** — Many teams book nearby hotel rooms or rentals.
-
 ### Church (Sabbath)
 
 **WholeLife Seventh-day Adventist Church**
@@ -130,17 +138,6 @@ Park only in the **designated team parking area**. Do NOT park on the grass — 
 
 ## What to Bring
 
-**For the team (coaches will handle):**
-- Robot, attachments, and extra parts
-- Fresh batteries / spare batteries / charger
-- Laptop computer with power cord
-- USB download cable
-- Extension cord and power strip
-- Box to carry robot to competition field
-- Innovation Project judging materials, props, and displays
-- Team roster (printed from FIRST Dashboard)
-
-**Good to have:**
 - Games or activities for downtime (there will be long waits between matches!)
 - Provisions for lunch if not ordering catered meals
 - A bin or bag for personal items to store under the pit table
