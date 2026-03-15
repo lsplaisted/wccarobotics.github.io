@@ -15,8 +15,8 @@ title: "FLL Florida Qualifier — Parent Info"
 
 Both WCCA FLL teams are competing in this tournament:
 
-- **61349 — Marcus Bartholomew the Third Junior** (3rd year)
-- **64434 — Robo Gators of the Lost Park** (1st year)
+- **61349 — Marcus Bartholomew the Third Junior** (WCCA School Team)
+- **64434 — Robo Gators of the Lost Park** ("Home School" Team)
 
 There are **20 teams** competing. **Five teams** will advance to the Adventist Robotics FLL Championship on **May 3, 2026** at Forest Lake Academy.
 
@@ -40,6 +40,17 @@ Lunch on Sunday is available at **$15.25 per person**. Meals for team members wi
 ## 🏨 Lodging
 
 Please let us know whether your child will be **staying with family** or will **need lodging with the team**
+
+---
+
+## 🅿️ Parking
+
+Park only in the **designated team parking area**. Do NOT park on the grass — vehicles may be towed.
+
+## 📺 Livestream
+
+The tournament will be livestreamed on YouTube:
+[**Watch the livestream**](https://www.youtube.com/live/9R1q378CFRo)
 
 ---
 
@@ -102,11 +113,6 @@ These times are from the draft schedule. Final times will be confirmed at the to
 - **Robot game matches (1:00 PM onward) are FREE and open to the public.** Come watch the teams run their LEGO robots on the competition field!
 - **Opening and Closing/Awards ceremonies** are also open to the public.
 
-### Livestream
-
-The tournament will be livestreamed on YouTube:
-📺 [**Watch the livestream**](https://www.youtube.com/live/9R1q378CFRo)
-
 ---
 
 ## How the Robot Game Works
@@ -114,23 +120,6 @@ The tournament will be livestreamed on YouTube:
 Each team competes in **3 official rounds** (plus a practice round that doesn't count). In each round, two teams are at the table at the same time — each team runs their own robot independently (they're not competing against each other). Each match is **2.5 minutes** long.
 
 The team's **Robot Performance score** is their **highest score** from any of the three official rounds.
-
----
-
-## Logistics
-
-### Church (Sabbath)
-
-**WholeLife Seventh-day Adventist Church**
-2800 N. Orange Ave, Orlando, FL 32804
-[wholelife.church](https://wholelife.church)
-
-- Contemporary worship: 9:30 AM and 12:00 PM
-- Sabbath School: 10:45 AM
-
-### Parking
-
-Park only in the **designated team parking area**. Do NOT park on the grass — vehicles may be towed. Please share this with anyone driving to the event.
 
 ---
 
