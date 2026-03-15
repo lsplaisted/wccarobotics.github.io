@@ -5,9 +5,9 @@ title: "FTC Championship — Parent Info"
 
 # FTC Championship Tournament — Parent Info
 
-**Date:** Sunday, April 12, 2026
-**Location:** Forest Lake Academy Gymnasium, Apopka, FL
-**Tournament Contact:** Mel Wade · [mel@adventistrobotics.net](mailto:mel@adventistrobotics.net) · 321-435-4035
+**Date:** Sunday, April 12, 2026 (Saturday evening check-in)
+
+**Location:** Forest Lake Academy Gymnasium, 500 Education Loop, Apopka, FL 32703
 
 ---
 
@@ -16,6 +16,42 @@ title: "FTC Championship — Parent Info"
 **32314 — Marcus Bartholomew the Third Senior** (Rookie year!)
 
 This is the Adventist Robotics FTC Championship — the biggest FTC event of the season. Our team qualified by finishing **2nd in rankings** and **winning the playoff finals** at the Carolina Scrimmage.
+
+---
+
+## ⚠️ Action Required: Registration & Waivers
+
+Every team member **must** be registered with FIRST and have a parent-signed Consent and Release form **before the tournament**. Your child **will not be able to participate** if this is not completed.
+
+## 🚗 Travel
+
+Team members who want to travel with the team will **depart Saturday afternoon from West Coast Christian Academy** and **return Monday morning**. Please let us know if your child will be traveling with the team or making their own travel arrangements.
+
+## 🍽️ Meals
+
+Catered meals are available at **~$15.25 per person**. Meals for team members will be ordered by the coaches. If you would like meals ordered for **parents or other family members**, please contact **Daniel Plaisted**.
+
+> 🚫 **No food or drink is allowed in the gymnasium.** Plan accordingly.
+
+## 🏨 Lodging
+
+Please let us know whether your child will be **staying with family** or will **need lodging with the team**.
+
+## 🅿️ Parking
+
+Park only in the **designated team parking area**. Do NOT park on the grass — vehicles may be towed.
+
+![Parking map for Forest Lake Academy](/assets/images/fll-florida-qualifier-parking-map.png)
+
+## 📺 Livestream
+
+The tournament will be livestreamed on YouTube:
+[**Watch the livestream**](https://www.youtube.com/live/ggJtTakQWaU)
+
+## 📊 Live Scoring
+
+Follow match scores and rankings in real time:
+[**Live scoring on FTC Events**](https://ftc-events.firstinspires.org/2025/USARLCMP)
 
 ---
 
@@ -49,18 +85,6 @@ This is the Adventist Robotics FTC Championship — the biggest FTC event of the
 - **All matches (qualification and playoffs)** are open to the public — come watch the robots compete head-to-head!
 - **Opening Ceremony and Awards Ceremony** are open to the public.
 
-### Livestream
-
-The tournament will be livestreamed on YouTube:
-📺 [**Watch the livestream**](https://www.youtube.com/live/ggJtTakQWaU)
-
-### Live Scoring
-
-Follow match scores and rankings in real time:
-📊 [**Live scoring on FTC Events**](https://ftc-events.firstinspires.org/2025/USARLCMP)
-
-> Note: If our team name shows incorrectly on the scoring page, it needs to be fixed in the FIRST Dashboard.
-
 ---
 
 ## How FTC Matches Work
@@ -74,38 +98,11 @@ After qualification matches, the top-ranked teams pick alliance partners for **p
 
 ---
 
-## Logistics
-
-### Meals
-
-Catered meals will be available for purchase (~$15.25/person). Order in advance:
-
-🍽️ [**Order meals here**](https://www.adventistrobotics.net/ftc-2026-meal-order/)
-
-Meals available: Sabbath Breakfast, Sabbath Lunch, Sabbath Supper, Sunday Lunch.
-
-### Lodging
-
-- **Area hotels** — Most teams book nearby hotels.
-- **Forest Lake Academy dorms** — Limited rooms available (FLA is a day school, no deans — you are responsible for student supervision). Contact [renoly.gonzalez@forestlake.org](mailto:renoly.gonzalez@forestlake.org) for cost and availability.
-
-### Church (Sabbath)
-
-**WholeLife Seventh-day Adventist Church**
-2800 N. Orange Ave, Orlando, FL 32804
-[wholelife.church](https://wholelife.church)
-
-- Contemporary worship: 9:30 AM and 12:00 PM
-- Sabbath School: 10:45 AM
-
----
-
 ## Good to Know
 
 - The tournament is a **full-day event** — plan to be there from early morning through ~5:30 PM or later.
 - **Robot inspection** happens Saturday night (8–10 PM). Robots must pass inspection before they can compete.
 - Match schedules and judging times will be shared before the tournament.
-- The event will be streamed live on the [Adventist Robotics YouTube channel](https://www.youtube.com/@adventistrobotics).
 
 ---
 
