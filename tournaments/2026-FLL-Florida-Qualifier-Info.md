@@ -47,6 +47,8 @@ Please let us know whether your child will be **staying with family** or will **
 
 Park only in the **designated team parking area**. Do NOT park on the grass — vehicles may be towed.
 
+![Parking map for Forest Lake Academy](/assets/images/fll-florida-qualifier-parking-map.png)
+
 ## 📺 Livestream
 
 The tournament will be livestreamed on YouTube:
