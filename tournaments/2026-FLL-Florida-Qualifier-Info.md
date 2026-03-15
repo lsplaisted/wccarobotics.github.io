@@ -6,7 +6,19 @@ title: "FLL Florida Qualifier — Parent Info"
 # FLL Florida Qualifying Tournament — Parent Info
 
 **Date:** Sunday, March 29, 2026 (Saturday evening check-in)
-**Location:** Forest Lake Academy Gymnasium, Apopka, FL
+
+**Location:** Forest Lake Academy Gymnasium, 500 Education Loop, Apopka, FL 32703
+
+---
+
+## Our Teams
+
+Both WCCA FLL teams are competing in this tournament:
+
+- **61349 — Marcus Bartholomew the Third Junior** (3rd year)
+- **64434 — Robo Gators of the Lost Park** (1st year)
+
+There are **20 teams** competing. **Five teams** will advance to the Adventist Robotics FLL Championship on **May 3, 2026** at Forest Lake Academy.
 
 ---
 
@@ -21,27 +33,13 @@ Click the link for your child's team to register:
 
 ## 🍽️ Meals
 
-Catered meals are available (Sabbath Breakfast, Lunch, Supper, and Sunday Lunch) at **$15.25 per person**. Meals for team members will be ordered by the coaches. If you would like meals ordered for **parents or other family members**, please contact **Daniel Plaisted by March 22nd**.
+Lunch on Sunday is available at **$15.25 per person**. Meals for team members will be ordered by the coaches. If you would like meals ordered for **parents or other family members**, please contact **Daniel Plaisted by March 22nd**.
 
 > 🚫 **No food or drink is allowed in the gymnasium.** Plan accordingly.
 
 ## 🏨 Lodging
 
-Please let us know whether your child will be **staying with family** or will **need lodging with the team**:
-
-- **Forest Lake Academy dorms** — $20/person/night, double occupancy (bedding not included). Contact [renoly.gonzalez@forestlake.org](mailto:renoly.gonzalez@forestlake.org) to reserve.
-- **Hotels / AirBnB** — Many teams book nearby hotel rooms or rentals.
-
----
-
-## Our Teams
-
-Both WCCA FLL teams are competing in this tournament:
-
-- **61349 — Marcus Bartholomew the Third Junior** (3rd year)
-- **64434 — Robo Gators of the Lost Park** (1st year)
-
-There are **20 teams** competing. **Five teams** will advance to the Adventist Robotics FLL Championship on **May 3, 2026** at Forest Lake Academy.
+Please let us know whether your child will be **staying with family** or will **need lodging with the team**
 
 ---
 
