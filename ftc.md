@@ -17,7 +17,7 @@ title: "FTC Team — Marcus Bartholomew the Third Senior"
   <a href="/tournaments/2026-FTC-Championship-Info" class="btn btn-blue">Parent Info & Schedule →</a>
 </div>
 
-We're WCCA's first-ever FTC team!FIRST Tech Challenge is a robotics competition for 7th through 12th graders where teams design, build, and program robots to compete in head-to-head matches.
+We're WCCA's first-ever FTC team! FIRST Tech Challenge is a robotics competition for 7th through 12th graders where teams design, build, and program robots to compete in head-to-head matches.
 
 ---
 

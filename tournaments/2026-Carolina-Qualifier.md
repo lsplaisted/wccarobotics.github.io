@@ -39,7 +39,7 @@ title: "Carolina Qualifying Tournament"
 | 65058 The Cicero Circuit | 315 | 64525 Silver Botz | 110 | [1:38:26](https://www.youtube.com/live/AEgDWHxlGmQ?t=5906) |
 | 36689 Mission Possible | 235 | 70267 Circuit Breakers | 190 | [1:42:02](https://www.youtube.com/live/AEgDWHxlGmQ?t=6122) |
 
-*Clock malfunction during this match. Match was redone at [1:28:58](https://www.youtube.com/live/AEgDWHxlGmQ?t=5338).
+*Clock malfunction during this match. Match was redone at [1:28:58](https://www.youtube.com/live/AEgDWHxlGmQ?t=5338).*
 
 ## Robot Game Rankings
 
