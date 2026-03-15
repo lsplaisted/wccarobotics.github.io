@@ -156,7 +156,6 @@ img { max-width: 100%; height: auto; }
   .hero h1 { font-size: 1.8rem; }
   .hero p { font-size: 1rem; }
   .hero { padding: 3rem 1.5rem; }
-  .support-grid { grid-template-columns: 1fr; }
 }
 
 /* === Buttons === */
@@ -385,6 +384,12 @@ img { max-width: 100%; height: auto; }
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .support-card {
