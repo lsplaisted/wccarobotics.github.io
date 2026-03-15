@@ -15,7 +15,7 @@ title: "FTC Championship — Parent Info"
 
 **32314 — Marcus Bartholomew the Third Senior** (Rookie year!)
 
-This is the Adventist Robotics FTC Championship — the biggest FTC event of the season. Our team qualified by finishing **2nd in rankings** and **winning the playoff finals** at the Carolina Scrimmage.
+This is the Adventist Robotics FTC Championship — the main FTC tournament of the season.
 
 ---
 
