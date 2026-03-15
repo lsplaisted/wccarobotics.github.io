@@ -23,6 +23,8 @@ This is the Adventist Robotics FTC Championship — the main Adventist Robotics 
 
 Every team member **must** be registered with FIRST and have a parent-signed Consent and Release form **before the tournament**. Your child **will not be able to participate** if this is not completed.
 
+- **Marcus Bartholomew the Third Senior** — [Register here](https://my.firstinspires.org/JoinTeam/Welcome/b451db33-e9b5-11f0-b247-00505699b848)
+
 ## 🚗 Travel & Lodging
 
 We're expecting all team members to **travel and stay with their families** for this tournament. Please make your own travel and lodging arrangements.
