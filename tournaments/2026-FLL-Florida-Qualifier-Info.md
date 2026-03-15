@@ -41,8 +41,6 @@ Lunch on Sunday is available at **$15.25 per person**. Meals for team members wi
 
 Please let us know whether your child will be **staying with family** or will **need lodging with the team**
 
----
-
 ## 🅿️ Parking
 
 Park only in the **designated team parking area**. Do NOT park on the grass — vehicles may be towed.
@@ -130,15 +128,6 @@ The team's **Robot Performance score** is their **highest score** from any of th
 - Games or activities for downtime (there will be long waits between matches!)
 - Provisions for lunch if not ordering catered meals
 - A bin or bag for personal items to store under the pit table
-
----
-
-## Good to Know
-
-- The **pit area** is where teams spend most of their time — working on robots, hanging out, and meeting other teams. Each team gets a table, chairs, and one electrical outlet (bring a power strip!).
-- Parents and spectators should **respect team-only areas** — the competition floor and judging area are restricted.
-- **Remote controls and Bluetooth are not allowed** in the competition area.
-- Be at the competition area **at least 10 minutes** before your team's scheduled round.
 
 ---
 
