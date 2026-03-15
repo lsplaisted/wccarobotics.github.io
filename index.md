@@ -17,7 +17,7 @@ layout: home
   <div class="container">
     <div class="highlight-box">
       <h3>🏆 National Champions!</h3>
-      <p>Our FLL team <strong>Marcus Bartholomew the Third Junior</strong> won <strong>1st place</strong> at the Adventist Robotics National Championship in the 2024–25 Submerged season!</p>
+      <p>Our FLL team <strong>Marcus Bartholomew the Third Junior</strong> won <strong>1st place</strong> at the Adventist Robotics Championship Tournament in the 2024–25 Submerged season!</p>
       <a href="/fll" class="btn btn-blue" style="margin-top: 0.75rem;">Learn More →</a>
     </div>
     <div class="highlight-box" style="margin-top: 1.5rem;">

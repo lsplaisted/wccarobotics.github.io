@@ -39,7 +39,7 @@ Our flagship FLL team is in its third year and has a track record of excellence.
 </div>
 
 <div class="highlight-box">
-  <h3>🏆 Adventist Robotics National Championship</h3>
+  <h3>🏆 Adventist Robotics Championship Tournament</h3>
   <ul>
     <li><strong>Champion's Award</strong> — 1st place overall</li>
   </ul>
@@ -74,7 +74,7 @@ Our flagship FLL team is in its third year and has a track record of excellence.
 
 <div class="photo-grid">
   <a href="/assets/images/qualifying-trophy.jpg" target="_blank"><img src="/assets/images/qualifying-trophy.jpg" alt="Team with trophy at Florida Qualifying Tournament"></a>
-  <a href="/assets/images/championship-team.jpeg" target="_blank"><img src="/assets/images/championship-team.jpeg" alt="Team at Adventist Robotics National Championship"></a>
+  <a href="/assets/images/championship-team.jpeg" target="_blank"><img src="/assets/images/championship-team.jpeg" alt="Team at Adventist Robotics Championship Tournament"></a>
 </div>
 
 ### Watch Our Team in Action
