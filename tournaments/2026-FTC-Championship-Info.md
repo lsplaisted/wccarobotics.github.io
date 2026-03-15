@@ -15,7 +15,7 @@ title: "FTC Championship — Parent Info"
 
 **32314 — Marcus Bartholomew the Third Senior** (Rookie year!)
 
-This is the Adventist Robotics FTC Championship — the main FTC tournament of the season.
+This is the Adventist Robotics FTC Championship — the main Adventist Robotics FTC tournament of the season.
 
 ---
 
@@ -23,19 +23,15 @@ This is the Adventist Robotics FTC Championship — the main FTC tournament of t
 
 Every team member **must** be registered with FIRST and have a parent-signed Consent and Release form **before the tournament**. Your child **will not be able to participate** if this is not completed.
 
-## 🚗 Travel
+## 🚗 Travel & Lodging
 
-Team members who want to travel with the team will **depart Saturday afternoon from West Coast Christian Academy** and **return Monday morning**. Please let us know if your child will be traveling with the team or making their own travel arrangements.
+We're expecting all team members to **travel and stay with their families** for this tournament. Please make your own travel and lodging arrangements.
 
 ## 🍽️ Meals
 
-Catered meals are available at **~$15.25 per person**. Meals for team members will be ordered by the coaches. If you would like meals ordered for **parents or other family members**, please contact **Daniel Plaisted**.
+Catered meals are available at **~$15.25 per person**. Meals for team members will be ordered by the coach. If you would like meals ordered for **parents or other family members**, please contact **Daniel Plaisted**.
 
 > 🚫 **No food or drink is allowed in the gymnasium.** Plan accordingly.
-
-## 🏨 Lodging
-
-Please let us know whether your child will be **staying with family** or will **need lodging with the team**.
 
 ## 🅿️ Parking
 
