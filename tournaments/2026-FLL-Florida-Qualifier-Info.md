@@ -31,6 +31,10 @@ Click the link for your child's team to register:
 - **Marcus Bartholomew the Third Junior** — [Register here](https://my.firstinspires.org/JoinTeam/Welcome/9c22b31a-06bd-11f1-89ff-00505699b848)
 - **Robo Gators of the Lost Park** — [Register here](https://my.firstinspires.org/JoinTeam/Welcome/390d1558-06c0-11f1-89ff-00505699b848)
 
+## 🚗 Travel
+
+Team members who want to travel with the team will **depart Saturday afternoon from West Coast Christian Academy** and **return Monday morning**. Please let us know if your child will be traveling with the team or making their own travel arrangements.
+
 ## 🍽️ Meals
 
 Lunch on Sunday is available at **$15.25 per person**. Meals for team members will be ordered by the coaches. If you would like meals ordered for **parents or other family members**, please contact **Daniel Plaisted by March 22nd**.
@@ -39,7 +43,7 @@ Lunch on Sunday is available at **$15.25 per person**. Meals for team members wi
 
 ## 🏨 Lodging
 
-Please let us know whether your child will be **staying with family** or will **need lodging with the team**
+Please let us know whether your child will be **staying with family** or will **need lodging with the team**.
 
 ## 🅿️ Parking
 
