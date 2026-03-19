@@ -104,4 +104,28 @@ After qualification matches, the top-ranked teams pick alliance partners for **p
 
 ---
 
+## Volunteer at the Tournament {#volunteer}
+
+Our tournament can't happen without parent and community volunteers! No robotics experience is needed — just a willingness to help out and be part of the excitement. Here are some of the roles where we need the most help:
+
+### 🎯 Queuer
+
+Queuers are the people who keep the match schedule running on time. Before each match, queuers head to the pit area to find the teams that are up next, let them know their match is coming up, and guide them to the competition field. It's a great role if you like staying on the move and interacting with teams — and it's one of the best ways to see all the action up close.
+
+### 🔧 Field Resetter
+
+After every match, the competition field needs to be reset — game elements returned to their starting positions, scoring objects cleared, and everything set up for the next match. Field resetters work quickly between matches to get the field ready. It's a hands-on, active role and a fun way to be right in the middle of the competition.
+
+### 🏟️ Practice Field & Pit Manager
+
+Between matches, teams need a place to test and fine-tune their robots. Practice field attendants manage the practice area, making sure teams get fair access to practice time and that the area stays safe and organized. Pit managers oversee the team pit area where robots are worked on between matches, helping with logistics and making sure things run smoothly.
+
+### 📹 AV Support
+
+Our tournament is livestreamed so that families and fans can follow along remotely. AV volunteers help run cameras, manage the audio system for the emcee, operate scoreboards and displays, and ensure the livestream stays up and running. If you're comfortable with technology — or want to learn — this is a great way to contribute behind the scenes.
+
+**Interested in volunteering?** Reach out to us through our [contact page](/contact) — we'd love to have you!
+
+---
+
 *See more about our FTC team on the [FTC team page](/ftc). Follow our progress on [GitHub](https://github.com/wccarobotics/ftc-decode) and [YouTube](https://www.youtube.com/@wccarobotics).*

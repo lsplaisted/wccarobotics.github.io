@@ -149,4 +149,20 @@ The following awards will be presented:
 
 ---
 
+## Volunteer at the Tournament {#volunteer}
+
+Our FLL tournament is made possible by parent and community volunteers! No robotics experience is needed — just enthusiasm and a willingness to help. Here are some of the roles where we need the most help:
+
+### 🎯 Queuer
+
+Queuers keep the robot game rounds running on schedule. Before each round, queuers visit the team pit areas to let teams know their turn is coming up and walk them to the competition tables at the right time. It's an active, people-oriented role — you'll get to meet all the teams and see every match up close.
+
+### 🤖 Practice Table Attendant
+
+Between their official robot game rounds, teams need time to test and adjust their robots. Practice table attendants manage the practice tables, making sure each team gets fair access to practice time, keeping the area safe and organized, and helping maintain the table setup. It's a great way to see the kids problem-solve and improve their runs in real time.
+
+**Interested in volunteering?** Reach out to us through our [contact page](/contact) — we'd love to have you!
+
+---
+
 *See more about our FLL teams on the [FLL Teams page](/fll).*
