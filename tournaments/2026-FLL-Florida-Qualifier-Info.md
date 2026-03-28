@@ -79,15 +79,13 @@ The tournament will be livestreamed on YouTube:
 | 1:00 PM | **Opening Ceremony** | ✅ Open to public |
 | 1:20 PM | **Official Robot Rounds Begin** | ✅ Open to public |
 | ~3:30 PM | Robot Game Ends | |
-| ~4:15 PM | **Closing/Awards Ceremony** | ✅ Open to public |
+| 4:00 PM | **Closing/Awards Ceremony** | ✅ Open to public |
 
 > ⏰ **Times are approximate** — the final schedule will be provided at the event.
 
 ---
 
-## Our Teams' Draft Match Times
-
-These times are from the draft schedule. Final times will be confirmed at the tournament.
+## Our Teams' Match Times
 
 ### Team 61349 — Marcus Bartholomew the Third Junior
 
@@ -97,9 +95,9 @@ These times are from the draft schedule. Final times will be confirmed at the to
 | Practice Round | 11:00 AM |
 | Round 1 | 1:20 PM |
 | Round 2 | 2:07 PM |
-| Round 3 | 2:54 PM |
+| Round 3 | 3:26 PM |
 
-### Team 64434 — Robo Gators of the Lost Park
+### Team 64434— Robo Gators of the Lost Park
 
 | Activity | Approximate Time |
 | -------- | ---------------- |
