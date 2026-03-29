@@ -89,23 +89,23 @@ The tournament will be livestreamed on YouTube:
 
 ### Team 61349 — Marcus Bartholomew the Third Junior
 
-| Activity | Approximate Time |
-| -------- | ---------------- |
-| Judging | 9:25 AM |
-| Practice Round | 11:00 AM |
-| Round 1 | 1:20 PM |
-| Round 2 | 2:07 PM |
-| Round 3 | 3:26 PM |
+| Activity | Approximate Time | Location |
+| -------- | ---------------- | -- |
+| Judging | 9:25 AM | Pod 2 |
+| Practice Round | 11:00 AM | Red B |
+| Round 1 | 1:20 PM | Reb B |
+| Round 2 | 2:07 PM | Blue A |
+| Round 3 | 3:26 PM | Red A |
 
-### Team 64434— Robo Gators of the Lost Park
+### Team 64434 — Robo Gators of the Lost Park
 
-| Activity | Approximate Time |
-| -------- | ---------------- |
-| Judging | 9:00 AM |
-| Practice Round | 10:10 AM |
-| Round 1 | 1:52 PM |
-| Round 2 | 2:39 PM |
-| Round 3 | 3:18 PM |
+| Activity | Approximate Time | Location |
+| -------- | ---------------- | -- |
+| Practice Round | 9:00 AM | Red B|
+| Judging | 10:10 AM | Pod 2 |
+| Round 1 | 1:52 PM | Red B |
+| Round 2 | 2:39 PM | Blue A |
+| Round 3 | 3:18 PM | Red A |
 
 ---
 
