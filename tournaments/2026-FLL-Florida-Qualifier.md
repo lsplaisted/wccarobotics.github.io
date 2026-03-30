@@ -95,6 +95,7 @@ title: "Florida Qualifying Tournament"
     - Runner-up: [56464 Indigo Bots](https://www.youtube.com/watch?v=JkPZ0cSZIhs&t=1858)
     - Winner: [70021 Supernovus](https://www.youtube.com/watch?v=JkPZ0cSZIhs&t=1881)
   - [Robot Performance Award](https://www.youtube.com/watch?v=JkPZ0cSZIhs&t=1911)
+    - Runner-up: [70021 Supernovus](https://www.youtube.com/watch?v=JkPZ0cSZIhs&t=1987) (310 points)
     - Winner: [64434 Robo Gators of the Lost Park](https://www.youtube.com/watch?v=JkPZ0cSZIhs&t=2024) (360 points)
   - [Champions Award](https://www.youtube.com/watch?v=JkPZ0cSZIhs&t=2203)
     - Runner-up: [61349 Marcus Bartholomew the Third Junior](https://www.youtube.com/watch?v=JkPZ0cSZIhs&t=2248)
