@@ -188,11 +188,15 @@ Map countdowns to scheduled matches in order:
 2. Take the next countdown → assign to Time Slot 1, Pod 2
 3. Continue in schedule order through all time slots and rounds
 
-#### Step 3d: Verify with API scores
+#### Step 3d: Verify structural consistency
 
-After mapping, verify that the assigned scores match the API:
-- For each match pairing, check that Team A's API score for that round matches the score shown
-- This catches mapping errors — if scores don't match, the pairing or round assignment is wrong
+Scores come entirely from the API — they are NOT visible in the video (and aren't available until well after each match). Verification is about confirming the **countdown-to-match mapping** is correct:
+
+- Each team appears exactly once per round
+- The total countdown count matches the expected number of matches (accounting for sequential pods)
+- START-END countdown pairs are ~140-160 seconds apart (confirms real matches vs. false detections)
+- Round boundaries make sense (gaps between rounds are longer than gaps between pods within a round)
+- **Spot-check team names in captions** — search for team names/numbers within ~2 minutes before each countdown. The announcer typically calls teams to the table before a match starts. If the team names near a countdown don't match the assigned schedule pairing, the mapping may be off. Note: captions often mishear names, so a mismatch isn't definitive — but a correct match is strong confirmation.
 
 If you have Whisper JSON output instead of VTT, analyze it directly. Search the transcript for:
 
@@ -206,7 +210,7 @@ The script / manual analysis should:
 3. Pair starts with ends (~140-160s apart) to confirm valid matches
 4. **Use the schedule** to determine match pairings and order (don't rely on caption-based team identification)
 5. Map confirmed countdowns to scheduled matches in sequential order (accounting for sequential pod/table execution)
-6. Verify all pairings by checking API scores match
+6. Verify structural consistency (each team once per round, countdown counts match, START-END pairs valid)
 7. Output structured match data
 
 ### Step 4: Review and refine
@@ -341,7 +345,7 @@ Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `
 ### Verification checklist
 After generating the page, verify:
 1. Each team appears exactly once per round (except: the team missing from the cross-round's other round)
-2. All scores match the FLL Gameday API data (match1/match2/match3 for each team)
+2. Scores on the page are copied correctly from the FLL Gameday API (match1/match2/match3 for each team). Note: scores come entirely from the API, not from the video.
 3. START-END countdown pairs are ~140-160 seconds apart
 4. The total number of detected start countdowns matches: (matches per round × number of rounds) accounting for sequential pods (e.g., 2 pods × 5 time slots = 10 countdowns per round). Plus any false starts, exhibition runs, or the opening ceremony kickoff. Some countdowns (~15-20%) may be missed by auto-captions — estimate those timestamps.
 5. No countdown was misclassified as START when it's actually END (check for "five, four" before "three, two, one")
