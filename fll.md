@@ -5,13 +5,6 @@ title: "FLL Teams"
 
 # FLL Teams — FIRST LEGO League
 
-<div class="highlight-box" style="border-left: 4px solid #0366d6; padding: 1rem; margin-bottom: 1.5rem;">
-  <h3 style="margin-top: 0;">📅 Upcoming: Florida Qualifying Tournament</h3>
-  <p><strong>March 29, 2026</strong> · Forest Lake Academy, Apopka, FL<br>
-  Both teams are competing! 5 teams advance to the Championship.</p>
-  <a href="/tournaments/2026-FLL-Florida-Qualifier-Info" class="btn btn-blue">Parent Info & Schedule →</a>
-</div>
-
 WCCA Robotics has two FLL teams competing in the 2025–26 **Unearthed** season (archaeology theme). FIRST LEGO League is a robotics competition for students in 4th through 8th grade where teams build autonomous LEGO robots, develop an innovation project, and demonstrate core values like teamwork and discovery.
 
 ---
