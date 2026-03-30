@@ -231,9 +231,11 @@ Use the analysis JSON to create the markdown file following this format:
 ```markdown
 # Tournament Name
 
+On this page you can see the results of the TOURNAMENT_NAME. There are links to the start of each match in the livestream video. This is great for sharing with friends and family who weren't able to attend the tournament, so they can see the excitement and hard work on display. You can also use it to review your matches and look for ways to improve, or scout strategies that other teams are using!
+
 [Full tournament livestream](VIDEO_URL)
 
-[Tournament results](SCOREBOARD_URL)
+[Robot game scoreboard](SCOREBOARD_URL)
 
 ## Round 1
 

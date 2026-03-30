@@ -5,9 +5,11 @@ title: "Florida Qualifying Tournament"
 
 # Florida Qualifying Tournament
 
+On this page you can see the results of the Florida Qualifying Tournament. There are links to the start of each match in the livestream video. This is great for sharing with friends and family who weren't able to attend the tournament, so they can see the excitement and hard work on display. You can also use it to review your matches and look for ways to improve, or scout strategies that other teams are using!
+
 [Full tournament livestream](https://www.youtube.com/live/9R1q378CFRo)
 
-[Tournament results](https://fllgameday.com/scoreboard/dc56b48e-0a19-429a-94ed-45cb5d97144c)
+[Robot game scoreboard](https://fllgameday.com/scoreboard/dc56b48e-0a19-429a-94ed-45cb5d97144c)
 
 *56092 UnionJags and 67182 Robotic Moles did not compete. Their scheduled partners ran solo — the solo team's score counts normally.*
 

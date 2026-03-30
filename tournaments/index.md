@@ -5,7 +5,7 @@ title: "FLL Tournaments"
 
 # FLL Tournaments
 
-Match results, video timestamps, and awards from Adventist Robotics FLL tournaments.
+Our FLL teams compete in Adventist Robotics tournaments. Each tournament page below has the results of every match, with links to the start of each match in the livestream video. This is great for sharing with friends and family who weren't able to attend, so they can see the excitement and hard work on display. You can also use it to review matches and look for ways to improve, or scout strategies that other teams are using!
 
 ---
 

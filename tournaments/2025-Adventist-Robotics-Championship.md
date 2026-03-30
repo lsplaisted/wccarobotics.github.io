@@ -5,9 +5,11 @@ title: "Adventist Robotics Championship Tournament"
 
 # Adventist Robotics Championship Tournament
 
+On this page you can see the results of the Adventist Robotics Championship Tournament. There are links to the start of each match in the livestream video. This is great for sharing with friends and family who weren't able to attend the tournament, so they can see the excitement and hard work on display. You can also use it to review your matches and look for ways to improve, or scout strategies that other teams are using!
+
 [Full tournament livestream](https://www.youtube.com/watch?v=WEc9SfUYKko)
 
-[Tournament results](https://fllgameday.com/scoreboard/e337841f-19bd-4ba2-9141-168e29326e97)
+[Robot game scoreboard](https://fllgameday.com/scoreboard/e337841f-19bd-4ba2-9141-168e29326e97)
 
 ## Round 1
 
