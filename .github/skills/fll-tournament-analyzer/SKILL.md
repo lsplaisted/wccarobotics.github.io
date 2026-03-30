@@ -15,15 +15,17 @@ This skill analyzes an FLL (FIRST LEGO League) tournament livestream video to pr
 
 ## Required inputs
 
-1. **YouTube video URL** — the full tournament livestream
+1. **YouTube video URL** — the full tournament livestream (there may also be a separate awards ceremony video)
 2. **Output filename** — the markdown file to create (e.g., `Carolina-Qualifier.md`)
 
 One of the following for scores (in order of preference):
 3. **FLL Gameday scoreboard URL** — e.g., `https://fllgameday.com/scoreboard/{event-id}` (best: structured data via API)
 4. **Scoreboard visible in video** — if no API link, use Playwright to screenshot the YouTube player at the timestamp where the scoreboard is shown, then read scores from the image
 
+Highly recommended:
+- **Schedule PDF/image** — provides the correct **match pairings and match order**. This is the most reliable source for knowing which teams play together and in what sequence. Schedule *times* are NOT useful — tournaments rarely run on schedule.
+
 Optional:
-- **Schedule image** — helps verify team pairings but may not be accurate
 - **Example format** — defaults to the Carolina-Qualifier.md / Mid-Atlantic-Qualifier.md format
 
 ## Step-by-step process
@@ -138,14 +140,59 @@ pip install --upgrade yt-dlp
 
 ### Step 3: Parse transcript and find match timestamps
 
-If you have VTT captions, run the analysis script:
+The most reliable workflow for finding match timestamps uses the **schedule for pairings/order** and **captions for timestamps**:
+
+#### Step 3a: Parse the schedule for pairings and match order
+
+If a schedule PDF/image is provided, extract the match pairings for each round. The schedule tells you:
+- **Which teams play together** (pairings) — this is the primary source of truth
+- **Match order** — which pair runs first, second, etc.
+- **Table/pod structure** — how many tables run per time slot
+
+**Important:** Schedule *times* (e.g., "1:20 PM", "1:28 PM") are NOT useful for finding matches in the video. Tournaments rarely run on schedule. Use the times only to understand the intended ORDER of matches.
+
+Cross-reference the schedule with the API data:
+- **Teams on the schedule but missing from the API** = dropped before registration (removed from event entirely)
+- **Teams in the API with null scores** = registered but didn't attend
+- Both create solo matches — the absent team's partner runs alone
+
+#### Step 3b: Find match start countdowns in captions
+
+Run the analysis script to find countdown markers:
 
 ```bash
 python .github/skills/fll-tournament-analyzer/analyze_tournament.py \
   --captions captions.en.vtt \
-  --scoreboard-url https://fllgameday.com/scoreboard/{event-id} \
+  --scoreboard-id {event-id} \
   --output analysis.json
 ```
+
+The script finds start countdowns ("3-2-1 LEGO") and end countdowns ("10-9-8...1 stop"). **Use the script primarily for countdown detection** — its round grouping and team pairing from captions are unreliable when a schedule is available.
+
+Also verify countdowns manually by pairing starts with ends:
+- A valid match has a START → END pair ~140-160 seconds apart
+- Unpaired starts (no end within range) may be false detections or the opening ceremony kickoff
+- Unpaired ends may indicate a missed start countdown
+
+**Beware the ceremonial "321 LEGO"**: The opening ceremony often ends with a crowd countdown ("321 LEGO!") to kick off the competition. This is NOT a match start — it has no corresponding end countdown ~150s later. Exclude it.
+
+#### Step 3c: Map countdowns to schedule matches
+
+**Key insight: Tables/pods typically run sequentially, not simultaneously.** Even when the schedule lists multiple pods at the same "time" (e.g., "1:20 PM — Pod 1 and Pod 2"), each pod gets its own separate countdown 3-5 minutes apart. So:
+
+- A tournament with 2 pods and 5 time slots per round has **10 countdowns per round** (not 5)
+- Countdowns naturally pair up: Pod 1 start, Pod 2 start (3-5 min later), then gap to next time slot
+
+Map countdowns to scheduled matches in order:
+1. Take the first countdown → assign to the first scheduled match (Time Slot 1, Pod 1)
+2. Take the next countdown → assign to Time Slot 1, Pod 2
+3. Continue in schedule order through all time slots and rounds
+
+#### Step 3d: Verify with API scores
+
+After mapping, verify that the assigned scores match the API:
+- For each match pairing, check that Team A's API score for that round matches the score shown
+- This catches mapping errors — if scores don't match, the pairing or round assignment is wrong
 
 If you have Whisper JSON output instead of VTT, analyze it directly. Search the transcript for:
 
@@ -155,21 +202,23 @@ If you have Whisper JSON output instead of VTT, analyze it directly. Search the 
 
 The script / manual analysis should:
 1. Parse captions/transcript into timestamped text entries
-2. Search for match start markers (countdown patterns)
-3. Search for team names/numbers near each match start
-4. Group matches into rounds based on timing gaps
-5. Use process of elimination to fill in missing team pairings (each team plays exactly once per round)
-6. Output structured match data
+2. Search for match start markers (countdown patterns) and match end markers
+3. Pair starts with ends (~140-160s apart) to confirm valid matches
+4. **Use the schedule** to determine match pairings and order (don't rely on caption-based team identification)
+5. Map confirmed countdowns to scheduled matches in sequential order (accounting for sequential pod/table execution)
+6. Verify all pairings by checking API scores match
+7. Output structured match data
 
 ### Step 4: Review and refine
 
 The auto-generated captions are imperfect. After the script runs, **manually review** the output:
 
-1. **Verify team pairings** — Check that each team appears exactly once per round. If a pairing seems wrong, search the captions near that timestamp for clues.
-2. **Check for special events** — Look for match redos (clock malfunctions), false starts ("reset", "stop" after countdown), solo matches (odd team count), and exhibition runs after official matches.
-3. **Verify round boundaries** — There's typically a 5-10 minute gap between rounds, but some tournaments have very short gaps. Use "end of round X" announcements and team pairings to determine boundaries, not just timing gaps. The announcer may start a new round before announcing the previous round's scores.
-4. **Verify countdown count** — Count the total detected start countdowns and compare to expected matches. Extra countdowns may be false starts, exhibition runs, or misclassified end countdowns.
-5. **Awards ceremony** — Search the last ~30-60 minutes of captions for award announcements. The number of finalists varies by tournament size: small tournaments may only name a winner, larger ones may have one or two finalists per award. Look for keywords: "award", "finalist", "winner", "champion", "core values", "innovation", "robot design", "robot performance", "advancing".
+1. **Verify team pairings** — Check that each team appears exactly once per round. If a pairing seems wrong, search the captions near that timestamp for clues. **When a schedule is available, trust it over caption-based team identification.**
+2. **Pair START with END countdowns** — Each valid match should have a START countdown ("3-2-1 LEGO") followed by an END countdown ("10-9-8...1 stop") ~140-160 seconds later. Unpaired starts may be the opening ceremony kickoff, false starts, or exhibition runs.
+3. **Check for special events** — Look for match redos (clock malfunctions), false starts ("reset", "stop" after countdown), solo matches (odd team count or absent teams), and exhibition runs after official matches.
+4. **Verify round boundaries** — There's typically a 5-10 minute gap between rounds, but some tournaments have very short gaps. Use "end of round X" announcements and team pairings to determine boundaries, not just timing gaps. The announcer may start a new round before announcing the previous round's scores.
+5. **Verify countdown count** — Count the total detected start countdowns and compare to expected matches. With N pods running sequentially per time slot, each round has N × time_slots countdowns. Extra countdowns may be false starts, exhibition runs, or the opening ceremony. Missing countdowns (~5 of 30 may be missed by auto-captions) need estimated timestamps.
+6. **Awards ceremony** — Search the last ~30-60 minutes of captions for award announcements. **If the video ends without any awards content**, the awards are likely in a separate video — ask the user. Look for keywords: "award", "finalist", "winner", "champion", "core values", "innovation", "robot design", "robot performance", "advancing".
 
 ### Step 5: Generate the markdown page
 
@@ -249,7 +298,7 @@ Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `
 - Each FLL tournament has **3 qualifying rounds** (plus an optional practice round)
 - Each round has every team playing exactly once
 - Two teams run on the same table simultaneously (they get independent scores, not versus each other)
-- **Table configurations vary widely**: Tournaments may have 1, 2, 3, or more tables. Tables may run **sequentially** (one after another per time slot) or **simultaneously** (multiple tables starting at the same time). Each table gets its own countdown. Don't assume a specific number of tables or that they run in any particular order — listen for table names/colors (e.g., "red table", "blue table") in the announcer's commentary.
+- **Table configurations vary widely**: Tournaments may have 1, 2, 3, or more tables. **Tables almost always run sequentially** — even when the schedule lists multiple tables at the same time slot, each table gets its own countdown 3-5 minutes apart. Each time slot therefore produces N countdowns (one per table). Don't assume tables start simultaneously. Listen for table names/colors (e.g., "red table", "blue table", "pod 1", "pod 2") in the announcer's commentary.
 - Each match is **2.5 minutes** (~150 seconds) long
 - **Odd number of teams**: When there's an odd number of teams, each round has one team without a partner. This is handled in one of two ways:
   - **Surrogate match**: A volunteer team fills the empty table slot. The surrogate's score does NOT count in rankings. Mark with *(surrogate)* and use `—` for the score. Three surrogate teams are selected at the coaches meeting (one per round).
@@ -267,7 +316,7 @@ Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `
 - **Team identification**: Search for team numbers (e.g., "36689") and team names (e.g., "mission possible", "gear girls") within 2 minutes before a countdown. Team numbers spoken digit-by-digit (e.g., "five, nine, six, zero, two") are common in auto-generated captions and Whisper output. **Always fetch the scoreboard API first** to get accurate team names, then search captions for those exact names.
 - **Round gaps**: Typically 5-15 minutes between the last match of one round and the first of the next. Gaps often include interviews, emoji games, or break announcements. However, some tournaments have very short gaps (~60 seconds) between rounds if teams are already queued.
 - **VTT deduplication**: YouTube VTT captions have heavy duplication — the same text appears at multiple timestamps as the caption updates. Deduplicate entries by `(int(start_seconds), text)` key before analysis.
-- **Awards section**: Usually in the last 20-60 minutes of the video. Search for: "award", "champion", "core values", "innovation", "robot design", "robot performance", "advancing". The number of finalists depends on tournament size — **smaller tournaments may only announce a winner** with no finalists, while **larger tournaments may have one or two finalists** before the winner. Search for "finalist" mentions before "winner" but don't assume they exist.
+- **Awards section**: Usually in the last 20-60 minutes of the video, **but may be in a completely separate video/livestream**. The main livestream sometimes ends before the awards ceremony (e.g., during judges' deliberation). Ask the user if there's a separate awards video. Search for: "award", "champion", "core values", "innovation", "robot design", "robot performance", "advancing". The number of finalists depends on tournament size — **smaller tournaments may only announce a winner** with no finalists, while **larger tournaments may have one or two finalists** before the winner. Search for "finalist" mentions before "winner" but don't assume they exist.
 - **Whisper VAD gaps**: When using Whisper with VAD filtering, segments of music or ambient noise will be skipped entirely. The awards ceremony often has long music gaps where award names may be lost — flag these for the user to fill in manually.
 
 ### Common issues
@@ -276,12 +325,15 @@ Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `
 - Some matches may have no team names in nearby captions — use process of elimination
 - Not all match starts have a clear countdown — the announcer may just say "let's start" or "lego" without a formal 3-2-1. Search for "start this match" and "lego" as additional markers.
 - Clock malfunctions can cause match redos, creating extra countdowns. Also look for false starts where the announcer says "reset" or "stop" immediately after a countdown.
+- **Opening ceremony "321 LEGO" is NOT a match**: The opening ceremony often ends with a crowd countdown ("Everyone, let's do a 321 LEGO!") to kick off the competition. This will be detected as a match start but has no corresponding end countdown ~150s later. Verify all detected starts have matching ends before counting them as matches.
 - Practice rounds may or may not be in the video depending on when the livestream started
-- The schedule image/PDF (if provided) may not be accurate if teams were added or dropped, or if the organizer rearranged matches on the day
+- The schedule image/PDF (if provided) may list teams that were later removed. **Always cross-reference the schedule with the API team list.** Teams on the schedule but absent from the API dropped before the event. Teams in the API with null scores registered but didn't attend. Both create solo matches for their scheduled partners.
+- **Schedule times are unreliable** — tournaments rarely start on time and often fall behind schedule. A match scheduled for "1:44 PM" might actually happen 10+ minutes late. Use the schedule only for pairings and order, never for video timestamp estimation.
 - Surrogate teams sometimes decline to play (as seen in Mid-Atlantic tournament), requiring another team to volunteer. Listen for "surrogate" mentions. Some tournaments skip surrogates entirely and let the odd team run solo instead.
 - The announcer may be confused about round numbering (e.g., calling the "second competition round" the "third set of rounds"). Use match timestamps and team pairings to determine the actual round structure, not the announcer's numbering.
 - **"Unknown creature", "shark", "coral"** — these are game element names from the SUBMERGED season, NOT team names. Don't confuse in-game commentary ("we got the shark released") with team identification ("Sharknovus is at the blue table").
 - **Awards ceremony gaps**: When using Whisper, the awards ceremony often has long music/silence gaps where award announcements may be lost. Common FLL awards are: Core Values, Innovation Project, Robot Design, Robot Performance, and Champions Award. Flag any missing awards for the user to fill in from watching the video.
+- **Awards in a separate video**: The main livestream may end before the awards ceremony (e.g., during a break for judges' deliberation). If the captions end without any awards content, ask the user if there's a separate awards video. Download and analyze that video's captions the same way.
 - **Coach Mentor Award**: This is given to a coach/mentor, not a team. Note the coach's name and their team.
 - **Rising All-Star Award**: This award may have multiple winners (not just one).
 - **yt-dlp download-sections**: The `--download-sections` flag for extracting video clips often fails with YouTube HLS streams (HTTP 403 errors on segments). Use Playwright screenshots instead for extracting frames.
@@ -291,7 +343,7 @@ After generating the page, verify:
 1. Each team appears exactly once per round (except: the team missing from the cross-round's other round)
 2. All scores match the FLL Gameday API data (match1/match2/match3 for each team)
 3. START-END countdown pairs are ~140-160 seconds apart
-4. The total number of detected start countdowns matches: R1 matches + R2 matches + R3 matches (plus any false starts or exhibition runs)
+4. The total number of detected start countdowns matches: (matches per round × number of rounds) accounting for sequential pods (e.g., 2 pods × 5 time slots = 10 countdowns per round). Plus any false starts, exhibition runs, or the opening ceremony kickoff. Some countdowns (~15-20%) may be missed by auto-captions — estimate those timestamps.
 5. No countdown was misclassified as START when it's actually END (check for "five, four" before "three, two, one")
 6. Add the tournament to `tournaments/index.md` after creating the page
 

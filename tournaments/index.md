@@ -27,6 +27,13 @@ Match results, video timestamps, and awards from Adventist Robotics FLL tourname
   <a href="/tournaments/2026-Carolina-Qualifier" class="btn btn-blue" style="margin-top: 0.5rem;">View Results →</a>
 </div>
 
+<div class="tournament-card">
+  <h3><a href="/tournaments/2026-FLL-Florida-Qualifier">Florida Qualifying Tournament</a></h3>
+  <p><strong>March 29, 2026</strong> · 18 teams · Adventist Robotics</p>
+  <p>🏆 Champions Award: Robo Gators of the Lost Park · Robot Performance: Robo Gators of the Lost Park (360 pts)</p>
+  <a href="/tournaments/2026-FLL-Florida-Qualifier" class="btn btn-blue" style="margin-top: 0.5rem;">View Results →</a>
+</div>
+
 </div>
 
 ---
