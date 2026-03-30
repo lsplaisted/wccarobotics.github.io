@@ -45,14 +45,14 @@ title: "Florida Qualifying Tournament"
 
 | Team A | Points Scored | Team B | Points Scored | Video Link |
 | ------ | ------------- | ------ | ------------- | ---------- |
-| 74527 Master Builders | 290 | 74750 PAA Warriors | 155 | [2:10:37](https://www.youtube.com/live/9R1q378CFRo?t=7837) |
-| 74853 The Elite Lego Makers | 155 | 69964 Redstone Crafters | 195 | [2:13:37](https://www.youtube.com/live/9R1q378CFRo?t=8017) |
-| 64761 WAKJA RoboRavens | 160 | 70021 Supernovus | 245 | [2:18:09](https://www.youtube.com/live/9R1q378CFRo?t=8289) |
-| 43548 Rad Robotics | 115 | 64718 History Hunters | 105 | [2:22:00](https://www.youtube.com/live/9R1q378CFRo?t=8520) |
-| 56464 Indigo Bots | 75 | 74238 Vanguards | 200 | [2:26:07](https://www.youtube.com/live/9R1q378CFRo?t=8767) |
-| 1773 Limitless | 130 | — | — | [2:29:32](https://www.youtube.com/live/9R1q378CFRo?t=8972) |
-| 64434 Robo Gators of the Lost Park | 310 | 67444 Eagle Warriors | 210 | [2:33:18](https://www.youtube.com/live/9R1q378CFRo?t=9198) |
-| 64716 Relic Seekers | 130 | 71248 Robotic Eagles | 145 | [2:37:45](https://www.youtube.com/live/9R1q378CFRo?t=9465) |
+| 74527 Master Builders | 290 | 74750 PAA Warriors | 155 | [2:03:30](https://www.youtube.com/live/9R1q378CFRo?t=7410) |
+| 74853 The Elite Lego Makers | 155 | 69964 Redstone Crafters | 195 | [2:10:37](https://www.youtube.com/live/9R1q378CFRo?t=7837) |
+| 64761 WAKJA RoboRavens | 160 | 70021 Supernovus | 245 | [2:13:37](https://www.youtube.com/live/9R1q378CFRo?t=8017) |
+| 43548 Rad Robotics | 115 | 64718 History Hunters | 105 | [2:18:09](https://www.youtube.com/live/9R1q378CFRo?t=8289) |
+| 56464 Indigo Bots | 75 | 74238 Vanguards | 200 | [2:22:00](https://www.youtube.com/live/9R1q378CFRo?t=8520) |
+| 1773 Limitless | 130 | — | — | [2:26:07](https://www.youtube.com/live/9R1q378CFRo?t=8767) |
+| 64434 Robo Gators of the Lost Park | 310 | 67444 Eagle Warriors | 210 | [2:29:32](https://www.youtube.com/live/9R1q378CFRo?t=8972) |
+| 64716 Relic Seekers | 130 | 71248 Robotic Eagles | 145 | [2:33:18](https://www.youtube.com/live/9R1q378CFRo?t=9198) |
 | 61349 Marcus Bartholomew the Third Junior | 210 | — | — | [2:39:05](https://www.youtube.com/live/9R1q378CFRo?t=9545) |
 | 72628 DAS Robotics | 170 | 69408 Okeechobee Microbots | 75 | [2:42:14](https://www.youtube.com/live/9R1q378CFRo?t=9734) |
 
