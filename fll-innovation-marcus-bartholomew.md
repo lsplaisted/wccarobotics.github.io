@@ -8,9 +8,19 @@ title: "Innovation Project — Marcus Bartholomew the Third Junior"
 **Innovation Project by Marcus Bartholomew the Third Junior (FLL Team #61349)**
 **2025–26 Unearthed Season**
 
+![COCOPlus Hydration Packets — Strawberry, Watermelon, and Coconut flavors](/assets/images/innovation/mb3-final-result.jpg)
+
 ## The Problem
 
-Through research and interviews — including a presentation from Pastor Andrew Raduly, who has experience in Egyptian archaeology — our team learned about the many challenges archaeologists face in the field. We chose to tackle **dehydration**, a serious issue for archaeologists who spend long hours in harsh conditions. Whether in scorching heat or freezing temperatures, it's easy to forget about hydration, and the body loses fluids and essential nutrients quickly.
+Through research and interviews — including a presentation from Pastor Andrew Raduly, who has experience in Egyptian archaeology — our team learned about the many challenges archaeologists face in the field.
+
+![Pastor Andrew Raduly presenting about Egyptian archaeology to the team](/assets/images/innovation/mb3-research-presentation1.jpg)
+
+We brainstormed the problems archaeologists face and possible solutions, filling up the whiteboard with ideas ranging from funding challenges to dangerous animals to slow excavation.
+
+![Team brainstorming problems and solutions on the whiteboard](/assets/images/innovation/mb3-brainstorming.jpg)
+
+We chose to tackle **dehydration**, a serious issue for archaeologists who spend long hours in harsh conditions. Whether in scorching heat or freezing temperatures, it's easy to forget about hydration, and the body loses fluids and essential nutrients quickly.
 
 An effective hydration solution could allow archaeologists to spend more time on digs and stay healthy in the field.
 
@@ -22,9 +32,13 @@ Our first idea was hydration stickers applied directly to the skin using transde
 
 We then looked at homemade hydration recipes (salt in lemon water, coconut water) and existing commercial products like **Gatorade**, **Gatorlyte Rapid Hydration**, and **PerformX Hydration**. We noticed that while these products contain helpful nutrients, they also contain lots of preservatives, dyes, and artificial sweeteners. We wanted to create something better.
 
+![Studying existing hydration products like PerformX](/assets/images/innovation/mb3-research-electrolytes.jpg){: .portrait-sm}
+
 ## Our Solution: COCOPlus
 
 Since coconut water naturally contains the key nutrients needed for hydration, we focused on turning it into a convenient powder form. We discovered that **freeze-drying** coconut water can preserve up to 95% of the original nutrients — much better than the coconut concentrate used in products like PerformX.
+
+![Early design sketches for COCOPlus branding, flavors, and packaging](/assets/images/innovation/mb3-creation.jpg)
 
 We also experimented with freeze-dried fruit juices (watermelon, lime, and strawberry) for natural color and flavor, being careful with natural sugars.
 
@@ -42,9 +56,27 @@ We created three flavors designed to be mixed into water on the go:
 
 We sourced freeze-dried powder forms of all our ingredients: coconut water for hydration, seaweed for calcium, and fruit powders for color and flavor. Our first formula used 1 tablespoon each of cane sugar, coconut water powder, and fruit powder. **Result:** too salty!
 
+<div class="photo-grid" markdown="1">
+
+![Freeze-dried ingredients: lime powder, coconut water, strawberry, and watermelon powder](/assets/images/innovation/mb3-attempt1-mixing.jpg)
+
+![First attempt results — three flavors mixed and ready to taste](/assets/images/innovation/mb3-attempt1-result.jpg)
+
+</div>
+
 ### Second Attempt
 
 After collecting feedback from classmates and staff, we added more lime powder to improve the flavor and adjusted the sugar — being careful not to surpass our commercial competitors. The results were much better, and we found it tasted best served cold.
+
+<div class="photo-grid" markdown="1">
+
+![Measuring and mixing the second formula](/assets/images/innovation/mb3-attempt2-mixing.jpg)
+
+![Team members taste-testing the improved formula](/assets/images/innovation/mb3-attempt2-tasting1.jpg)
+
+</div>
+
+![Classmates and staff providing feedback on the second attempt](/assets/images/innovation/mb3-attempt2-tasting2.jpg)
 
 ### Expert Consultation
 

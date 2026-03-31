@@ -3,6 +3,8 @@ layout: page
 title: "Innovation Project — Robo Gators of the Lost Park"
 ---
 
+<img src="/assets/images/fll-robo-gators-of-the-lost-park.png" alt="Robo Gators of the Lost Park team logo" style="max-width: 300px; display: block; margin: 0 auto 1.5rem;">
+
 # The Protection Backpack
 
 **Innovation Project by Robo Gators of the Lost Park (FLL Team #64434)**
@@ -11,6 +13,8 @@ title: "Innovation Project — Robo Gators of the Lost Park"
 ## Research
 
 Our team started by learning about archaeology from multiple sources. Pastor Andrew Raduly shared his experience in Egyptian archaeology, teaching us how archaeologists use details and clues, take careful notes, create grid systems at dig sites, and plan ahead. We also studied resources from the [Archaeological Institute of America](https://www.archaeological.org/) and the [Florida Division of Historical Resources](https://dos.fl.gov/historical/archaeology/).
+
+![Pastor Andrew Raduly at the Great Pyramid in Egypt](/assets/images/innovation/rg-research-pyramid.jpg)
 
 We learned that archaeology involves many steps: researching, planning, prepping a site, digging, uncovering and preserving artifacts, and sharing findings. Each step comes with its own challenges.
 
@@ -33,6 +37,10 @@ After further research, we eliminated options that already existed or weren't pr
 - We will not have kids for a long time 😄
 
 **Final decision: The Protection Backpack** — a portable weather shield that doesn't currently exist in this field.
+
+Here is an AI-generated concept of our idea:
+
+![Concept: Backpack-Deployable Personal Weather Shield for archaeologists](/assets/images/innovation/rg-concept2.jpg)
 
 ## Expert Feedback
 
@@ -79,6 +87,8 @@ A simple model made from an umbrella and a small lightweight backpack.
 ### Prototype 2
 A more robust model made from **PVC pipe and a shower curtain** with a bigger backpack for tool storage.
 
+![Prototype 2 in action at the dig site — PVC frame with shower curtain covering the digger](/assets/images/innovation/rg-prototype2-0.jpg)
+
 **Pros:**
 - Works well in both rain and sun
 - See-through on the sides
@@ -91,6 +101,8 @@ A more robust model made from **PVC pipe and a shower curtain** with a bigger ba
 ### Prototype 2 (Updated)
 We reinforced the sides by adding two more pieces of PVC pipe to hold the fabric in place, preventing it from flapping in the wind.
 
+![Updated Prototype 2 — reinforced with additional PVC pipe for stability](/assets/images/innovation/rg-prototype-comparison.jpg){: .portrait}
+
 ## Testing at a Mock Dig
 
 To test our prototypes in real conditions, we organized a **mock archaeological dig**:
@@ -101,6 +113,18 @@ To test our prototypes in real conditions, we organized a **mock archaeological 
 4. **Dug carefully** — scraped small layers of soil, used trowels, brushes, and shovels
 5. **Uncovered artifacts** — categorized findings into three groups (A: Trash, B: Rocks, C: Other)
 6. **Tested prototypes** in both rain and sun conditions
+
+<div class="photo-grid" markdown="1">
+
+![Prepping the site with a skid steer](/assets/images/innovation/rg-dig2.jpg)
+
+![Comparing Prototype 1 (umbrella) and Prototype 2 (PVC) side by side in the rain](/assets/images/innovation/rg-prototype2-2.jpg)
+
+![Excavating with Prototype 2 providing cover](/assets/images/innovation/rg-prototype2-1.jpg)
+
+![Cataloging artifacts found at the dig](/assets/images/innovation/rg-dig-artifact.jpg)
+
+</div>
 
 We got to experience firsthand what archaeologists go through and test our protection backpack in real field conditions!
 
