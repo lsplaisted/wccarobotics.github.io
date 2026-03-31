@@ -6,10 +6,12 @@
       <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
       <li><a href="{{ '/ftc' | relative_url }}" {% if page.url == '/ftc' or page.url == '/ftc/' %}class="active"{% endif %}>FTC</a></li>
       <li class="nav-dropdown">
-        <a href="{{ '/fll' | relative_url }}" {% if page.url == '/fll' or page.url == '/fll/' or page.url contains '/tournaments' %}class="active"{% endif %}>FLL ▾</a>
+        <a href="{{ '/fll' | relative_url }}" {% if page.url == '/fll' or page.url == '/fll/' or page.url contains '/tournaments' or page.url contains '/fll-innovation' %}class="active"{% endif %}>FLL ▾</a>
         <ul class="nav-dropdown-menu">
           <li><a href="{{ '/fll' | relative_url }}">FLL Teams</a></li>
           <li><a href="{{ '/tournaments/' | relative_url }}">Tournaments</a></li>
+          <li><a href="{{ '/fll-innovation-marcus-bartholomew' | relative_url }}">Innovation: MB3 Jr</a></li>
+          <li><a href="{{ '/fll-innovation-robo-gators' | relative_url }}">Innovation: Robo Gators</a></li>
         </ul>
       </li>
       <li><a href="{{ '/support' | relative_url }}" {% if page.url == '/support' or page.url == '/support/' %}class="active"{% endif %}>Support Us</a></li>

@@ -80,6 +80,8 @@ Our flagship FLL team is in its third year and has a track record of excellence.
 
 This year's FLL season has an archaeology theme. Our team is diving into research about archaeological methods and challenges as they prepare for competition. Follow along on our [GitHub wiki](https://github.com/wccarobotics/fll-unearthed/wiki).
 
+**Innovation Project:** [COCOPlus Hydration Packets](/fll-innovation-marcus-bartholomew) — a natural, freeze-dried coconut water hydration solution designed to keep archaeologists hydrated in extreme conditions.
+
 ---
 
 ## Robo Gators of the Lost Park {#the-fourth}
@@ -91,6 +93,8 @@ This year's FLL season has an archaeology theme. Our team is diving into researc
 **1st Year** · Homeschool Team
 
 Our newest FLL team is made up primarily of homeschool students competing for the first time in the 2025–26 Unearthed season. We're excited to see what they accomplish!
+
+**Innovation Project:** [The Protection Backpack](/fll-innovation-robo-gators) — a portable weather shield to help archaeologists work comfortably in extreme conditions.
 
 ---
 
