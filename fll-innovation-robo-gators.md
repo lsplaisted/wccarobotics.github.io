@@ -20,7 +20,11 @@ We learned that archaeology involves many steps: researching, planning, prepping
 
 ## Identifying a Problem
 
-As a team, we brainstormed the problems archaeologists face at each stage of their work — from funding challenges to physically demanding digs to artifact preservation. We narrowed our ideas down to six possible solutions:
+As a team, we brainstormed on a whiteboard using color coding — **purple** for what archaeologists do, **red** for problems they face, and **blue** for possible solutions. We wanted to come up with at least one solution for every problem.
+
+![Team brainstorming problems and solutions on the whiteboard](/assets/images/innovation/rg-whiteboard.jpg)
+
+We narrowed our ideas down to six possible solutions:
 
 1. Preservative paint (for protecting artifacts)
 2. Spray foam (for packing artifacts)
@@ -85,7 +89,7 @@ A simple model made from an umbrella and a small lightweight backpack.
 - Hard to keep stabilized — wobbly in the wind
 
 ### Prototype 2
-A more robust model made from **PVC pipe and a shower curtain** with a bigger backpack for tool storage.
+A more robust model made from **PVC pipe and a shower curtain** with a bigger backpack for tool storage. The PVC frame is adjustable — it can extend out for full coverage or collapse down to fit in smaller spaces. Before the mock dig, we extended the frame higher so it wouldn't hit the back of the wearer's head.
 
 ![Prototype 2 in action at the dig site — PVC frame with shower curtain covering the digger](/assets/images/innovation/rg-prototype2-0.jpg)
 
@@ -93,15 +97,11 @@ A more robust model made from **PVC pipe and a shower curtain** with a bigger ba
 - Works well in both rain and sun
 - See-through on the sides
 - Sturdy materials
+- Adjustable height and width
 
 **Cons:**
 - A little heavy
 - Side fabric flaps in the wind
-
-### Prototype 2 (Updated)
-We reinforced the sides by adding two more pieces of PVC pipe to hold the fabric in place, preventing it from flapping in the wind.
-
-![Updated Prototype 2 — reinforced with additional PVC pipe for stability](/assets/images/innovation/rg-prototype-comparison.jpg){: .portrait}
 
 ## Testing at a Mock Dig
 
@@ -111,7 +111,7 @@ To test our prototypes in real conditions, we organized a **mock archaeological 
 2. **Planned ahead** — gathered tools, made prototypes, checked weather
 3. **Prepped the site** — used a skid steer to scrape the top layer, measured out a 12'×12' grid
 4. **Dug carefully** — scraped small layers of soil, used trowels, brushes, and shovels
-5. **Uncovered artifacts** — categorized findings into three groups (A: Trash, B: Rocks, C: Other)
+5. **Uncovered artifacts** — categorized findings into three groups (A: Trash, B: Rocks, C: Other), and used grid coordinates and depth measurements to record exactly where each item was found
 6. **Tested prototypes** in both rain and sun conditions
 
 <div class="photo-grid" markdown="1">
@@ -127,6 +127,14 @@ To test our prototypes in real conditions, we organized a **mock archaeological 
 </div>
 
 We got to experience firsthand what archaeologists go through and test our protection backpack in real field conditions!
+
+### Improvements After the Mock Dig
+
+Based on what we learned at the dig, we made further improvements to Prototype 2:
+- **Added two more pieces of PVC pipe** on the sides to hold the fabric in place, preventing it from flapping in the wind
+- **Added clamps** so the frame stays attached to the backpack more tightly
+
+![Final version of the Protection Backpack with clamps and reinforced sides](/assets/images/innovation/rg-prototype-final.jpg){: .portrait}
 
 ## Conclusion
 
