@@ -116,4 +116,10 @@ Make sure the robot configuration in your block programs matches what's in `robo
 
 ---
 
+## Using M.A.R.C.U.S.? We'd Love to Hear from You!
+
+If your team is using M.A.R.C.U.S., we'd love to hear about it! Let us know how it's working for you, ask questions, or share your experience — open a [discussion on GitHub](https://github.com/lsplaisted/marcus/discussions). Hearing from teams that use M.A.R.C.U.S. also helps support our FTC team's Reach award portfolio, so your feedback really makes a difference!
+
+---
+
 *M.A.R.C.U.S. is open source and available for any FLL team to use. Check out the [GitHub repository](https://github.com/lsplaisted/marcus) to get started!*
