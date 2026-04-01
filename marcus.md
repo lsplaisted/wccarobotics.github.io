@@ -7,7 +7,7 @@ title: "M.A.R.C.U.S."
 
 **Multiple Amazing Robot Code Usage Selector**
 
-M.A.R.C.U.S. is a reusable robot programming framework for [FIRST LEGO League](https://www.firstlegoleague.org/) competitions, written in Python using the [Pybricks](https://pybricks.com/) library. It runs directly on the LEGO SPIKE Prime hub and provides a menu-driven system for selecting and running mission programs during competition.
+M.A.R.C.U.S. is a reusable robot programming framework for [FIRST LEGO League](https://www.firstlegoleague.org/) competitions. It runs directly on the LEGO SPIKE Prime hub and provides a menu-driven system for selecting and running multiple [Pybricks](https://pybricks.com/) programs during competition.
 
 M.A.R.C.U.S. was created by Lucas Plaisted, a WCCA Robotics member who built an early version of the menu system during the 2024–25 Submerged season while competing on our FLL team, Marcus Bartholomew the Third Junior. Now on our FTC team, Lucas developed M.A.R.C.U.S. as a polished, reusable framework that any FLL team can use. Both of our FLL teams use it this season.
 
@@ -18,7 +18,7 @@ M.A.R.C.U.S. was created by Lucas Plaisted, a WCCA Robotics member who built an 
 ## Features
 
 ### Menu System
-A hub-button-driven program selector. Left and right to browse, center to run, and the hub's display shows the current program number so you always know what's selected.  If you've previously used the Spike Prime software for programming, this will feel very familiar (though you'll need to get used to the way PyBricks displays numbers in order to support two digits on the 5x5 display).
+M.A.R.C.U.S. turns the hub buttons into a program selector — press left and right to browse, center to run. The hub's display shows the current program number so you always know what's selected. If you've previously used the SPIKE Prime software for programming, this will feel very familiar (though you'll need to get used to the way Pybricks displays numbers in order to support two digits on the 5×5 display).
 
 ### Works with Pybricks Block Programming
 M.A.R.C.U.S. bridges the gap between block programming and multi-program management — something that's been a challenge for FLL teams using Pybricks. You can create and test your mission programs using Pybricks block programming, then convert them to Python and run them with M.A.R.C.U.S. This gives teams the accessibility of block programming with the power of a full menu system for competition.  You can also program directly in Python if you prefer.
