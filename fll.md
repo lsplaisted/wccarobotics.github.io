@@ -106,4 +106,12 @@ Our FLL teams compete in Adventist Robotics tournaments. See detailed match resu
 
 ---
 
+## M.A.R.C.U.S.
+
+Our FLL teams use **M.A.R.C.U.S.** (Multiple Amazing Robot Code Usage Selector) — an open-source robot programming framework for SPIKE Prime that provides a menu-driven system for selecting and running mission programs during competition.
+
+<a href="/marcus" class="btn btn-blue">Learn About M.A.R.C.U.S. →</a>
+
+---
+
 *Want to join an FLL team or support our students? [Learn how you can help!](/support)*
