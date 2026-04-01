@@ -18,13 +18,16 @@ M.A.R.C.U.S. was created by Lucas Plaisted, a WCCA Robotics member who built an 
 ## Features
 
 ### Menu System
-A hub-button-driven program selector — no screen or app required. Left/right to browse, center to run. The hub's 5×5 LED matrix shows the current program number so you always know what's selected.
+A hub-button-driven program selector. Left/right to browse, center to run. The hub's 5×5 LED matrix shows the current program number so you always know what's selected.
+
+### Works with Pybricks Blocks and Python
+M.A.R.C.U.S. programs are written in Pybricks Python — you can write them directly in Python, or use Pybricks block programming and convert to Python. For teams using blocks, M.A.R.C.U.S. bridges the gap between block programming and multi-program management — something that's been a challenge for FLL teams using Pybricks. You can create and test your mission programs using blocks, then view the Python equivalent in Pybricks, copy the body of the code into a Python file in VS Code, and run it with M.A.R.C.U.S. See [Using Block Programming with M.A.R.C.U.S.](#using-block-programming-with-marcus) for details.
 
 ### One Button Launch
 After a program finishes, M.A.R.C.U.S. automatically advances the selection to the next program. A single button press is all you need to launch it — helping your technicians get the robot running more quickly during competitions.
 
 ### Celebration
-When the last mission finishes, M.A.R.C.U.S. plays a celebration! It shows a blinking star on the display and plays the Mario level completed tune.
+When the last mission finishes, M.A.R.C.U.S. plays a celebration! It shows a blinking star on the display and plays the Super Mario Bros level completed tune.
 
 ### Utilities
 Press the Bluetooth button to enter or exit a utility menu with handy tools:
@@ -36,12 +39,6 @@ Press the Bluetooth button to enter or exit a utility menu with handy tools:
 ### Force Sensor Launch
 If your hub is oriented such that the center button is difficult to reach, you can use a SPIKE Prime force sensor to launch the current program instead.
 
-### Easy Program Setup
-Each mission program is a simple Python file with a `Run` function. To add a new mission, create a `programN.py` file and add it to the programs list in `main_program.py` — that's it.
-
-### Works with Pybricks Block Programming
-M.A.R.C.U.S. bridges the gap between block programming and multi-program management — something that's been a challenge for FLL teams using Pybricks. You can create and test your mission programs using Pybricks block programming, then view the Python equivalent in Pybricks, copy the body of the code into a Python file in VS Code, and run it with M.A.R.C.U.S. This gives teams the accessibility of block programming with the power of a full menu system for competition.
-
 ### Robot Configuration
 All hardware setup lives in one `robot.py` file — tire diameter, axle track, motor ports, directions, and optional sensors. When the physical robot changes, you only need to update one place.
 
@@ -49,7 +46,7 @@ All hardware setup lives in one `robot.py` file — tire diameter, axle track, m
 
 ## How It Works
 
-When you turn on the robot, M.A.R.C.U.S. displays a menu on the SPIKE Prime hub's LED matrix. Use the **left** and **right** buttons to scroll through numbered mission programs, then press the **center** button (or the force sensor) to run the selected program.
+When you turn on the robot, M.A.R.C.U.S. displays a menu on the SPIKE Prime hub's LED matrix. Use the **left** and **right** buttons to scroll through numbered mission programs, then press the **center** button to run the selected program.
 
 Press **center** while a program is running to stop it safely. Press **center + Bluetooth** together to shut down the whole system.
 
@@ -60,8 +57,8 @@ Press **center** while a program is running to stop it safely. Press **center + 
 ```
 main_program.py      ← Entry point: registers programs and launches the menu
 robot.py             ← Robot hardware config (motors, sensors, dimensions)
-program1.py          ← Mission program 1
-program2.py          ← Mission program 2
+program1.py          ← Sample mission program (use as a template)
+program2.py          ← Sample mission program (use as a template)
 ...
 marcus/
   menu.py            ← Menu system and program runner
@@ -85,9 +82,28 @@ The **root folder** contains team-specific files that change each season — you
 4. Update `robot.py` for your robot's hardware:
    - Set `TIRE_DIAMETER` and `AXLE_TRACK`
    - Configure motor ports and directions
-5. Write your mission programs as `programN.py` files with a `Run` function
-6. Import them in `main_program.py` and add to the `programs` list
-7. Deploy to the hub using [Pybricks firmware](https://pybricks.com/) and the BlocklyPy extension
+5. Create your mission programs — copy `program1.py` or `program2.py` as a template, name the file whatever you want (e.g., the name of the mission it solves), and edit the body of the `Run` function
+6. Import your programs in `main_program.py` and add them to the `programs` list
+7. Deploy to the hub using [Pybricks firmware](https://pybricks.com/) and the BlocklyPy extension — make sure `main_program.py` is the active document when you run (or open an individual program file to run it standalone without the menu)
+
+---
+
+## Using Block Programming with M.A.R.C.U.S.
+
+Pybricks doesn't support sharing setup code between multiple block programs. But for a menu-based system like M.A.R.C.U.S., the robot is configured once at startup and that configuration is passed to each program. To make this work, your block programs need to use variable names that match the parameters of the `Run` method that M.A.R.C.U.S. uses.
+
+### Converting a Block Program to M.A.R.C.U.S.
+
+1. In Pybricks, click the **`</>`** icon to view the Python equivalent of your block program
+2. Copy the body of the code starting with (or just after) the line that says `# The main program starts here.`
+3. Paste it into the body of the `Run` method in the corresponding `.py` file
+4. Fix the indentation — select what you pasted and press **Tab** to indent it to the correct level
+
+### Keeping Consistent Setup Code
+
+To avoid recreating the same setup in every block program, create a **setup block program** with your robot configuration (and probably enable gyro as the first and only line of its main program). Whenever you want to create a new block program, duplicate the setup program — hover over its name in the file list and click the second icon — then rename the copy for your new mission.
+
+Make sure the robot configuration in your block programs matches what's in `robot.py` — motor ports, directions, tire diameter, and axle track should be the same in both places.
 
 ---
 
