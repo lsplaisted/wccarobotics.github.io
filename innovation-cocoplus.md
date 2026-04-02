@@ -8,6 +8,10 @@ title: "Innovation Project — Marcus Bartholomew the Third Junior"
 **Innovation Project by Marcus Bartholomew the Third Junior (FLL Team #61349)**
 **2025–26 Unearthed Season**
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/QXnj6k5pPPo" title="COCOPlus Innovation Project" allowfullscreen></iframe>
+</div>
+
 ![COCOPlus Hydration Packets — Strawberry, Watermelon, and Coconut flavors](/assets/images/innovation/mb3-final-result.jpg)
 
 ## The Problem
