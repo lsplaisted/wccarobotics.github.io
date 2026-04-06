@@ -14,7 +14,7 @@ title: "FTC Team — Marcus Bartholomew the Third Senior"
   <h3 style="margin-top: 0;">📅 Upcoming: FTC Championship Tournament</h3>
   <p><strong>April 12, 2026</strong> · Forest Lake Academy, Apopka, FL<br>
   Livestream and live scoring available!</p>
-  <a href="/tournaments/2026-FTC-Championship-Info" class="btn btn-blue">Parent Info & Schedule →</a>
+  <a href="/tournaments/ftc/2026-FTC-Championship-Info" class="btn btn-blue">Parent Info & Schedule →</a>
 </div>
 
 We're WCCA's first-ever FTC team! FIRST Tech Challenge is a robotics competition for 7th through 12th graders where teams design, build, and program robots to compete in head-to-head matches.

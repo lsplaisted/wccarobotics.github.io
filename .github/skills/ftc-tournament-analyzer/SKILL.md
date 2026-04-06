@@ -5,7 +5,7 @@ description: Analyze an FTC tournament livestream video to find match timestamps
 
 # FTC Tournament Analyzer
 
-This skill analyzes an FTC (FIRST Tech Challenge) tournament livestream video to produce a markdown page documenting every match with timestamped video links, scores, rankings, alliances, playoff bracket, and awards — following the format used in [2025-Adventist-Robotics-League-Championship-FTC.md](https://github.com/wccarobotics/wccarobotics.github.io/blob/main/tournaments/2025-Adventist-Robotics-League-Championship-FTC.md).
+This skill analyzes an FTC (FIRST Tech Challenge) tournament livestream video to produce a markdown page documenting every match with timestamped video links, scores, rankings, alliances, playoff bracket, and awards — following the format used in [2025-Adventist-Robotics-League-Championship-FTC.md](https://github.com/wccarobotics/wccarobotics.github.io/blob/main/tournaments/ftc/2025-Adventist-Robotics-League-Championship-FTC.md).
 
 ## When to use this skill
 
@@ -17,7 +17,7 @@ This skill analyzes an FTC (FIRST Tech Challenge) tournament livestream video to
 
 1. **YouTube video URL** — the full tournament livestream
 2. **FTC Events URL** — e.g., `https://ftc-events.firstinspires.org/2024/USARLCMP` — for scores, rankings, alliances, and awards
-3. **Output filename** — the markdown file to create (e.g., `tournaments/2025-Adventist-Robotics-League-Championship-FTC.md`)
+3. **Output filename** — the markdown file to create (e.g., `tournaments/ftc/2025-Adventist-Robotics-League-Championship-FTC.md`)
 
 ## Step-by-step process
 
@@ -213,6 +213,12 @@ On this page you can see the results of the TOURNAMENT_NAME FTC tournament. Ther
 
 Bold the winning score.
 
+## Qualification Rankings
+
+| Rank | Team | Ranking Score | W-L-T | High Score |
+| ---- | ---- | ------------- | ----- | ---------- |
+| 1 | TEAM_NUM TEAM_NAME | RS | W-L-T | HIGH |
+
 ## Playoff Matches
 
 Alliances were formed through alliance selection after qualification matches. The top-ranked teams selected their alliance partners for a double-elimination playoff bracket.
@@ -229,12 +235,6 @@ Alliances were formed through alliance selection after qualification matches. Th
 | ----- | ------------ | ------------- | --------- | ---------- | ---------- |
 | BRACKET_POSITION — Match N | TEAM / TEAM | TEAM / TEAM | **SCORE** | SCORE | [TIMESTAMP](VIDEO_URL&t=SECONDS) |
 
-## Qualification Rankings
-
-| Rank | Team | Ranking Score | W-L-T | High Score |
-| ---- | ---- | ------------- | ----- | ---------- |
-| 1 | TEAM_NUM TEAM_NAME | RS | W-L-T | HIGH |
-
 ## Awards Ceremony
 
 [Start of awards ceremony](VIDEO_URL&t=SECONDS)
@@ -247,16 +247,18 @@ Alliances were formed through alliance selection after qualification matches. Th
 
 Video links use the format: `https://www.youtube.com/watch?v=VIDEO_ID&t=SECONDS`
 
+**Team highlighting**: The site includes `assets/js/team-highlight.js` which automatically makes team numbers clickable on tournament pages. When a user clicks a team number, all occurrences of that team are highlighted in orange across the entire page (with table cells getting a background wash). No special markup is needed — the script detects team numbers (4-5 digit numbers followed by a name) in table cells and list items, including inside links.
+
 ### Step 7: Add to FTC tournaments index
 
-After creating the tournament page, add an entry to `tournaments/ftc-index.md`. Follow the existing card format:
+After creating the tournament page, add an entry to `tournaments/ftc/index.md`. Follow the existing card format:
 
 ```html
 <div class="tournament-card">
-  <h3><a href="/tournaments/FILENAME">TOURNAMENT_NAME</a></h3>
+  <h3><a href="/tournaments/ftc/FILENAME">TOURNAMENT_NAME</a></h3>
   <p><strong>DATE</strong> · N teams · LOCATION</p>
   <p>🏆 Inspire Award: TEAM_NAME · Winning Alliance: TEAM_NAME / TEAM_NAME</p>
-  <a href="/tournaments/FILENAME" class="btn btn-blue" style="margin-top: 0.5rem;">View Results →</a>
+  <a href="/tournaments/ftc/FILENAME" class="btn btn-blue" style="margin-top: 0.5rem;">View Results →</a>
 </div>
 ```
 

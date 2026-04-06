@@ -18,7 +18,7 @@ layout: home
     <div class="highlight-box">
       <h3>🏆 1st and 2nd at Florida Qualifier!</h3>
       <p>Our FLL teams swept the top spots at the Adventist Robotics Florida Qualifying Tournament on March 29! <strong>Robo Gators of the Lost Park</strong> won the <strong>Champions Award</strong> and <strong>Marcus Bartholomew the Third Junior</strong> took 2nd place — both teams advance to the Championship!</p>
-      <a href="/tournaments/2026-FLL-Florida-Qualifier" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
+      <a href="/tournaments/fll/2026-FLL-Florida-Qualifier" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
     </div>
     <div class="highlight-box" style="margin-top: 1.5rem;">
       <h3>🏆 Scrimmage Champions!</h3>

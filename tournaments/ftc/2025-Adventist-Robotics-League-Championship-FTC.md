@@ -43,31 +43,6 @@ On this page you can see the results of the Adventist Robotics League Championsh
 | Q24 | 5198 Wingnuts | 26646 Deep Sea Stallions | 70 | 23958 Wait4iT | 27795 The Sentinels | **83** | [3:58:36](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=14316) |
 | Q25 | 21993 Tech Titans | 24813 SHCA Happy Hawks | **115** | 20840 The Senjus of Raleigh | 24043 USA Eagles | 62 | [4:08:32](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=14912) |
 
-## Playoff Matches
-
-Alliances were formed through alliance selection after qualification matches. The top-ranked teams selected their alliance partners for a double-elimination playoff bracket.
-
-### Alliances
-
-| Seed | Captain | Pick |
-| ---- | ------- | ---- |
-| 1 | 27795 The Sentinels | 19712 NDAASentinels |
-| 2 | 21993 Tech Titans | 24813 SHCA Happy Hawks |
-| 3 | 11020 Gearhead Gladiators | 18783 Eagle Tech |
-| 4 | 5198 Wingnuts | 13153 Marvin's Minions |
-
-### Bracket
-
-| Match | Red Alliance | Blue Alliance | Red Score | Blue Score | Video Link |
-| ----- | ------------ | ------------- | --------- | ---------- | ---------- |
-| Upper Bracket Round 1 — Match 1 | 27795 The Sentinels / 19712 NDAASentinels | 5198 Wingnuts / 13153 Marvin's Minions | **117** | 78 | [5:01:47](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=18107) |
-| Upper Bracket Round 1 — Match 2 | 21993 Tech Titans / 24813 SHCA Happy Hawks | 11020 Gearhead Gladiators / 18783 Eagle Tech | **104** | 90 | [5:07:10](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=18430) |
-| Lower Bracket Round 2 — Match 3 | 5198 Wingnuts / 13153 Marvin's Minions | 11020 Gearhead Gladiators / 18783 Eagle Tech | 57 | **78** | [5:19:57](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=19197) |
-| Upper Bracket Round 2 — Match 4 | 27795 The Sentinels / 19712 NDAASentinels | 21993 Tech Titans / 24813 SHCA Happy Hawks | **153** | 113 | [5:26:04](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=19564) |
-| Lower Bracket Round 3 — Match 5 | 21993 Tech Titans / 24813 SHCA Happy Hawks | 11020 Gearhead Gladiators / 18783 Eagle Tech | 52 | **78** | [5:42:42](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=20562) |
-| Finals Round 4 — Match 6 | 27795 The Sentinels / 19712 NDAASentinels | 11020 Gearhead Gladiators / 18783 Eagle Tech | 75 | **82** | [5:58:23](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=21503) |
-| Finals Round 5 — Match 7 | 27795 The Sentinels / 19712 NDAASentinels | 11020 Gearhead Gladiators / 18783 Eagle Tech | **120** | 59 | [6:17:24](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=22644) |
-
 ## Qualification Rankings
 
 | Rank | Team | Ranking Score | W-L-T | High Score |
@@ -92,6 +67,31 @@ Alliances were formed through alliance selection after qualification matches. Th
 | 18 | 27033 Tech Titans | 0.40 | 1-4-0 | 79 |
 | 19 | 26646 Deep Sea Stallions | 0.40 | 1-4-0 | 70 |
 | 20 | 15931 Tin Heads | 0.40 | 1-4-0 | 47 |
+
+## Playoff Matches
+
+Alliances were formed through alliance selection after qualification matches. The top-ranked teams selected their alliance partners for a double-elimination playoff bracket.
+
+### Alliances
+
+| Seed | Captain | Pick |
+| ---- | ------- | ---- |
+| 1 | 27795 The Sentinels | 19712 NDAASentinels |
+| 2 | 21993 Tech Titans | 24813 SHCA Happy Hawks |
+| 3 | 11020 Gearhead Gladiators | 18783 Eagle Tech |
+| 4 | 5198 Wingnuts | 13153 Marvin's Minions |
+
+### Bracket
+
+| Match | Red Alliance | Blue Alliance | Red Score | Blue Score | Video Link |
+| ----- | ------------ | ------------- | --------- | ---------- | ---------- |
+| Upper Bracket Round 1 — Match 1 | 27795 The Sentinels / 19712 NDAASentinels | 5198 Wingnuts / 13153 Marvin's Minions | **117** | 78 | [5:01:47](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=18107) |
+| Upper Bracket Round 1 — Match 2 | 21993 Tech Titans / 24813 SHCA Happy Hawks | 11020 Gearhead Gladiators / 18783 Eagle Tech | **104** | 90 | [5:07:10](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=18430) |
+| Lower Bracket Round 2 — Match 3 | 5198 Wingnuts / 13153 Marvin's Minions | 11020 Gearhead Gladiators / 18783 Eagle Tech | 57 | **78** | [5:19:57](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=19197) |
+| Upper Bracket Round 2 — Match 4 | 27795 The Sentinels / 19712 NDAASentinels | 21993 Tech Titans / 24813 SHCA Happy Hawks | **153** | 113 | [5:26:04](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=19564) |
+| Lower Bracket Round 3 — Match 5 | 21993 Tech Titans / 24813 SHCA Happy Hawks | 11020 Gearhead Gladiators / 18783 Eagle Tech | 52 | **78** | [5:42:42](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=20562) |
+| Finals Round 4 — Match 6 | 27795 The Sentinels / 19712 NDAASentinels | 11020 Gearhead Gladiators / 18783 Eagle Tech | 75 | **82** | [5:58:23](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=21503) |
+| Finals Round 5 — Match 7 | 27795 The Sentinels / 19712 NDAASentinels | 11020 Gearhead Gladiators / 18783 Eagle Tech | **120** | 59 | [6:17:24](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=22644) |
 
 ## Awards Ceremony
 

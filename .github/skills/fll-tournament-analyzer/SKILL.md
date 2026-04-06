@@ -278,9 +278,11 @@ For odd-team tournaments with solo runs (no partner):
 
 Video links use the format: `https://www.youtube.com/live/VIDEO_ID?t=SECONDS`
 
+**Team highlighting**: The site includes `assets/js/team-highlight.js` which automatically makes team numbers clickable on tournament pages. When a user clicks a team number, all occurrences of that team are highlighted in orange across the entire page (with table cells getting a background wash). No special markup is needed — the script detects team numbers (4-5 digit numbers followed by a name) in table cells and list items, including inside links.
+
 ### Step 6: Add to tournaments index
 
-After creating the tournament page, add an entry to `tournaments/index.md`. Follow the existing card format, grouping by season (e.g., "2024–25 SUBMERGED Season"). Example:
+After creating the tournament page, add an entry to `tournaments/fll/index.md`. Follow the existing card format, grouping by season (e.g., "2024–25 SUBMERGED Season"). Example:
 
 ```markdown
 ### 2024–25 SUBMERGED Season
@@ -351,7 +353,7 @@ After generating the page, verify:
 3. START-END countdown pairs are ~140-160 seconds apart
 4. The total number of detected start countdowns matches: (matches per round × number of rounds) accounting for sequential pods (e.g., 2 pods × 5 time slots = 10 countdowns per round). Plus any false starts, exhibition runs, or the opening ceremony kickoff. Some countdowns (~15-20%) may be missed by auto-captions — estimate those timestamps.
 5. No countdown was misclassified as START when it's actually END (check for "five, four" before "three, two, one")
-6. Add the tournament to `tournaments/index.md` after creating the page
+6. Add the tournament to `tournaments/fll/index.md` after creating the page
 
 ### Standard FLL awards
 The typical awards given at FLL tournaments (in order of announcement):

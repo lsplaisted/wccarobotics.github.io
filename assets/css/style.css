@@ -513,6 +513,28 @@ img { max-width: 100%; height: auto; }
   }
 }
 
+/* === Team highlight (tournament pages) === */
+.team-ref {
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 0 2px;
+  transition: background 0.15s;
+}
+
+.team-ref:hover {
+  background: rgba(232, 213, 160, 0.5);
+}
+
+.team-highlight {
+  background: #f0a030;
+  color: #1B2A4A;
+  border-radius: 3px;
+}
+
+td.team-cell-highlight {
+  background: rgba(240, 160, 48, 0.3) !important;
+}
+
 /* === Tournament listing cards === */
 .tournament-list {
   display: grid;
