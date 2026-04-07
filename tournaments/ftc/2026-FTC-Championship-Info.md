@@ -128,7 +128,7 @@ Between matches, teams need a place to test and fine-tune their robots. Practice
 
 Our tournament is livestreamed so that families and fans can follow along remotely. AV volunteers help run cameras, manage the audio system for the emcee, operate scoreboards and displays, and ensure the livestream stays up and running. If you're comfortable with technology — or want to learn — this is a great way to contribute behind the scenes.
 
-**Interested in volunteering?** Reach out to us through our [contact page](/contact) — we'd love to have you!
+**Interested in volunteering?** [**Sign up here →**](https://my.firstinspires.org/ExpressVolunteer/landing-page/ffa21d11-dbde-11f0-9eb7-00505699b848) or reach out to us through our [contact page](/contact) — we'd love to have you!
 
 ---
 
