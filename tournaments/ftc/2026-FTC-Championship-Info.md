@@ -37,9 +37,13 @@ Catered meals are available at **~$15.25 per person**. Meals for team members wi
 
 ## 🅿️ Parking
 
-Park only in the **designated team parking area**. Do NOT park on the grass — vehicles may be towed.
+Park only in the **designated team parking area**. Do NOT park on the grass — vehicles parked on the grass or in loading areas are subject to being towed. Only park in handicap areas if you have a handicap placard displayed on your vehicle.
 
-![Parking map for Forest Lake Academy](/assets/images/fll-florida-qualifier-parking-map.png)
+![Parking map for Forest Lake Academy](/assets/images/ftc-championship-parking-map.png)
+
+## ⚠️ Construction Safety
+
+There is a major construction project on campus for new classrooms and an administration building. This area is fenced off. Team members should always be supervised by an adult at all times. Please stay away from the areas near the construction fencing for additional safety.
 
 ## 📺 Livestream
 
