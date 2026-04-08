@@ -206,34 +206,37 @@ Use your collected scouting sheets to rank potential partners by:
 
 You don't need to know this to scout — but if you're curious about how points work, here's the breakdown.
 
-### Artifacts
+### Artifacts (3 pts or 1 pt each)
 
-Artifacts are the colored balls (purple and green) that robots collect and score. There are three places a robot can put them:
+Artifacts are the colored balls (purple and green) that robots collect and score. To score, a robot launches an artifact into the top of the **goal**. The artifact drops down through the goal, exits under an archway, and passes through the **square** (an opening in the gate). From there:
 
-| Where | What It Means | Points |
-| ----- | ------------- | ------ |
-| **Classified** (through the gate into the correct slot) | The artifact goes through the gate's square opening and matches the color pattern | 3 pts + 2 pts pattern bonus |
-| **Overflow** (through the gate but not classified) | The artifact goes through the gate but doesn't match the pattern | 1 pt |
-| **Depot** (placed in the depot area) | The artifact is placed in a storage area — scores in teleop only | 1 pt |
+- **Classified** (3 pts) — the artifact transitions directly onto the **ramp** without rolling over any other artifacts already there. This is the main way to score.
+- **Overflow** (1 pt) — the artifact passes through the square but rolls over one or more artifacts already on the ramp. This typically happens when the ramp is full. Teams can **open the gate** to release artifacts from the ramp, making room so that further artifacts score as classified instead of overflow.
 
-### The Gate and Pattern
+Artifacts that miss the goal entirely or don't pass through the square score nothing.
 
-The **gate** is a structure with a **square opening** and **9 slots** arranged in a pattern. Each slot is assigned a color: **green**, **purple**, or **none**. When a robot puts the right color artifact into the right slot, that's a **pattern match** — worth 2 extra points on top of the 3 points for classifying.
+Artifacts can also be placed in the **depot** (a small area at the base of the goal) for **1 pt** each, scored at the end of the match.
+
+### Pattern (2 pts per match)
+
+Before each match, the **obelisk** is randomized to show a **motif** — a 3-color sequence of purple and green (e.g., green-purple-purple). This motif repeats 3 times to define the target colors for the 9 positions on the ramp.
+
+At the end of auto and again at the end of teleop, each artifact on the ramp whose color matches the motif color for its position earns **2 bonus points**. This is scored in addition to the classified/overflow points.
+
+### Leave (3 pts per robot)
+
+Each robot that ends autonomous **not over any launch line** earns 3 points. A robot that moves but ends up back on a line doesn't get leave points.
 
 ### Base (End Game)
 
-At the end of the match, robots try to return to their **base zone**:
+At the end of the match, robots may return to their **base zone** for bonus points:
 
 | Status | Points |
 | ------ | ------ |
 | Not in base | 0 pts |
 | Partially in base | 5 pts |
 | Fully in base | 10 pts |
-| **Both** alliance robots fully in base | 10 pts bonus |
-
-### Leaving in Autonomous
-
-A robot earns **3 points** for leaving — but it must end autonomous **not over any launch line**. A robot that moves but ends up back on a line doesn't get leave points.
+| **Both** alliance robots fully in base | 10 pts additional bonus |
 
 ---
 
