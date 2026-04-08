@@ -76,10 +76,11 @@ These don't change between matches, so you only need to note them once per team:
 
 ### During Autonomous (first 30 seconds)
 
-1. **Did the robot move at all?** Some teams don't have an autonomous program — the robot just sits there.
-2. **Did it score leave points?** The robot must end auto **not over any launch line**. A robot that moves but ends up back on a line doesn't get leave points.
-3. **Track auto shots** (✓/✗) — robots can start with 3 preloaded artifacts, so expect 0 shots (no auto or leave-only auto), up to 3 shots (preloaded), or more if they pick up additional artifacts with an intake.
-4. **Did it move smoothly or have problems?** (Got stuck, went the wrong way, etc.)
+1. **Where did the robot start?** (Near or far side of the field)
+2. **Did the robot move at all?** Some teams don't have an autonomous program — the robot just sits there.
+3. **Did it score leave points?** The robot must end auto **not over any launch line**. A robot that moves but ends up back on a line doesn't get leave points.
+4. **Track auto shots** (✓/✗) — robots can start with 3 preloaded artifacts, so expect 0 shots (no auto or leave-only auto), up to 3 shots (preloaded), or more if they pick up additional artifacts with an intake.
+5. **Did it move smoothly or have problems?** (Got stuck, went the wrong way, etc.)
 
 ### During Teleop (2 minutes)
 
@@ -89,16 +90,14 @@ These don't change between matches, so you only need to note them once per team:
    - **Far zone too?** More versatile — harder to defend
    - **Both zones?** Most flexible
 3. **How fast is their cycle?** A "cycle" is: pick up artifacts → drive to launch zone → score → repeat. Fast cyclers are valuable partners.
-4. **How did they respond to defense?** If the other alliance played defense on them:
+4. **Did they play defense?** Some robots focus on blocking the other alliance instead of scoring. Were they effective at it?
+5. **Did the robot return to base?** (None / Partial / Full) — Robots may return to base for bonus points, but they can also keep scoring artifacts, so some teams skip parking.
+6. **How did they respond to defense?** If the other alliance played defense on them:
    - Did they get flustered and stop scoring?
    - Did they drive around the defender and keep scoring?
    - Did they switch to a different scoring position?
-5. **Did they play defense?** Some robots focus on blocking the other alliance instead of scoring. Were they effective at it?
-
-### During End Game (last 20 seconds)
-
-1. **Did the robot return to base?** (None / Partial / Full)
-2. Robots may return to base for bonus points, but they can also keep scoring artifacts — so some teams make a strategic choice to skip parking and keep shooting.
+7. **Human player activity** — For robots without an intake, the human player loads artifacts in the loading zone. Watch how quickly and effectively the human player loads — a fast human player can partially make up for not having an intake.
+8. **Intake effectiveness** — For robots with an intake, does it pick up artifacts reliably, or does it fumble and need multiple attempts? A fast, reliable intake makes a big difference in cycle speed.
 
 ### General Observations
 
@@ -170,8 +169,7 @@ Here's what should be on each form:
 | -------------- | --- |
 | Robot broke down? | ☐ Yes  ☐ No |
 | Driver skill | ☐ Excellent  ☐ Good  ☐ Needs work |
-| Susceptible to defense? | ☐ Yes (one spot)  ☐ Somewhat  ☐ No (hard to defend) |
-| Would you want them as a partner? | ☐ Definitely  ☐ Maybe  ☐ No |
+| Want as alliance partner? | ☐ Definitely  ☐ Maybe  ☐ No |
 | Notes | _____ |
 
 ---
