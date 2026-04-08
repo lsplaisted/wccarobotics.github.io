@@ -5,7 +5,7 @@ title: "FTC Scouting Guide — DECODE"
 
 # FTC Scouting Guide — DECODE
 
-Want to help our team at the tournament? Scouting is a fun way to get involved — you get to watch all the matches up close and your observations can give us a real edge! Scouting means watching matches and jotting down what each robot does on a simple paper form.
+Want to help our team at the tournament? Scouting is a fun way to get involved — you watch some matches and jot down what each robot does on a simple paper form. Even scouting a few matches can give us a real edge!
 
 **You don't need to know anything about robotics to scout.** You don't need to be perfectly accurate, either — just do your best! Even rough notes are useful. This guide will walk you through everything you need to know.
 

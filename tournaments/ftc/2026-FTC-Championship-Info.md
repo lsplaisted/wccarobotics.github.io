@@ -55,6 +55,11 @@ The tournament will be livestreamed on YouTube:
 Follow match scores and rankings in real time:
 [**Live scoring on FTC Events**](https://ftc-events.firstinspires.org/2025/USARLCMP)
 
+## 📋 Scouting
+
+Want to help the team by scouting matches? No robotics experience needed!
+[**Scouting guide**](/scouting/scouting-guide)
+
 ---
 
 ## Weekend Schedule
