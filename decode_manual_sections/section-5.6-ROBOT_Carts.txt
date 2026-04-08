@@ -1,0 +1,49 @@
+5.6
+           
+
+ROBOT Carts
+
+Most teams use carts to transport their ROBOT throughout an
+event. Carts are not required but are recommended (to minimize risk of muscle
+strains, dropped ROBOTS, and other hazards). In addition to the rules listed
+below, teams are encouraged to put the team�s number on the cart, refer to the 
+FIRST
+
+Safety Manual
+ for key safety guidelines and practices.
+
+E601
+       
+
+*Carts must be safe and easy to use.
+
+Carts must be easy to control, maneuver, and pose no risk to bystanders.
+
+E602
+       
+
+*Carts should not be too big.
+
+Carts must fit through a standard 30-inch door.
+
+E603
+       
+
+*Carts cannot park anywhere.
+
+Carts must remain in the team pit (or other venue designated cart staging areas)
+when not in use.
+
+E604
+       
+
+*No noisy carts.
+ Carts may not
+be equipped with music or other sound-generating devices. 
+
+E605
+       
+
+*No motor driven carts.
+ ROBOT carts
+may not use powered propulsion.

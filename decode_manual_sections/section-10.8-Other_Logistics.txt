@@ -1,0 +1,37 @@
+10.8
+      
+
+Other Logistics
+
+SCORING ELEMENTS that leave the FIELD will be returned to
+the closest ARTIFACT tray or available DRIVER or HUMAN PLAYER at the earliest
+safe opportunity by FIELD STAFF. Reintroduction of SCORING ELEMENTS must follow
+rule 
+G432
+.
+
+An ARENA FAULT (an error in ARENA operation described in section
+
+13.3
+ 
+MATCH Replays
+) is not called for MATCHES that
+accidentally begin with damaged SCORING ELEMENTS, the incorrect number of
+SCORING ELEMENTS, or incorrectly placed SCORING ELEMENTS. Damaged SCORING
+ELEMENTS are not replaced until the next MATCH reset. DRIVE TEAMS should alert
+the FIELD STAFF to any missing, incorrectly placed, or damaged SCORING ELEMENTS
+prior to the start of the MATCH. During a MATCH, FIELD STAFF may follow steps
+in the 
+Field
+Mitigation Guide
+ to mitigate some FIELD issues during a MATCH.
+
+Once the MATCH is over and the Head REFEREE or their
+designee determines that the FIELD and FIELD STAFF are ready, they will signal
+for DRIVE TEAMS to stop their ROBOTS, and to initiate FIELD reset and DRIVE
+TEAMS to retrieve their ROBOTS.
+
+During MATCH reset, the FIELD is cleared of ROBOTS and
+OPERATOR CONSOLES from the MATCH that just ended, ROBOTS and OPERATOR CONSOLES
+for the subsequent MATCH are loaded into the FIELD by DRIVE TEAMS, and FIELD
+STAFF reset ARENA elements.

@@ -1,0 +1,309 @@
+3.3
+           
+
+MATCH Eligibility Rules
+
+This section describes the rules governing MATCH
+participation. A team has participated in a MATCH if any member of their DRIVE
+TEAM is in the ALLIANCE AREA, with or without the ROBOT on the FIELD, at the
+start of the MATCH.
+
+This section describes the rules and requirements for team
+participation in MATCH play. ROBOTS are required to pass ROBOT inspections
+before being allowed to compete. These inspections are to help ensure that all section
+
+12
+ 
+ROBOT Construction Rules (R)
+ are satisfied.
+
+At each event, 
+the Lead ROBOT INSPECTOR 
+(LRI)
+has final authority on the legality of any COMPONENT, MECHANISM, or ROBOT.
+INSPECTORS may re-inspect ROBOTS at any time to ensure compliance with the
+rules. Teams are expected to consult with INSPECTORS or the LRI if they have
+any questions regarding the legality of a ROBOT or about how to make a ROBOT
+legal.
+
+The inspection process may progress in blocks, i.e., it may
+pause for a team to make a correction or participate in a scheduled Practice
+MATCH. The process may employ various INSPECTORS throughout the process based
+on availability. At the team�s discretion, they may request a different
+INSPECTOR or invite the LRI to participate in their ROBOT�S inspection.
+
+ROBOTS are permitted to participate in scheduled Practice
+MATCHES prior to passing inspection. However, the FTA, LRI, or Head REFEREE may
+determine at any time that the ROBOT is unsafe and may prohibit further
+participation in Practice MATCHES until the condition is corrected and/or the
+ROBOT passes inspection.
+
+Events may assign specific inspection time slots for teams to
+better facilitate a quick and orderly inspection process. Teams should plan to
+report to their assigned inspection times fully ready to complete inspection. 
+
+Prior to the start of a MATCH, any ROBOT which is unable or
+ineligible to participate in that MATCH, as determined by the team, 
+FIRST
+
+Technical Advisor (FTA), LRI, or Head REFEREE, is DISABLED and can be removed
+from the FIELD with permission of the Head REFEREE or FTA. A team whose ROBOT
+is DISABLED or not present is eligible to receive Qualification MATCH Points or
+Playoff MATCH points provided that its ROBOT has passed inspection, per 
+I302
+, and as long as at least one STUDENT DRIVE TEAM
+member is present in the ALLIANCE AREA. 
+
+An 
+Inspection
+Checklist
+ is available to help teams self-inspect their ROBOT before their
+event. Teams are strongly encouraged to self-inspect prior to their event.
+
+I301
+         
+
+*It is your team�s ROBOT. 
+The
+ROBOT and its MAJOR MECHANISMS must be built by the 
+FIRST
+ Tech Challenge
+team that has registered for the event and intends to use the ROBOT to
+participate in MATCHES or as part of judged awards. 
+
+A MAJOR MECHANISM is 
+a
+group of COMPONENTS and/or MECHANISMS assembled together to address at least 1
+game challenge: ROBOT movement, SCORING ELEMENT manipulation, FIELD element
+manipulation, or performance of a scorable task without the assistance of
+another ROBOT.
+ 
+
+This rule requires that the ROBOT and
+its MAJOR MECHANISMS were built by its team but is not intended to prohibit or
+discourage assistance from other teams (e.g., fabricating elements, supporting
+construction, writing software, developing game strategy, contributing
+COMPONENTS, and/or MECHANISMS). 
+
+Examples that would generally not be considered
+MAJOR MECHANISMS, and thus are not subject to this rule include, but are not
+limited to, the following: 
+
+A.
+     
+
+a gearbox assembly,
+
+B.
+     
+
+a COMPONENT or MECHANISM that is part of a
+MAJOR MECHANISM, or 
+
+C.
+     
+
+COTS items.
+
+The intent of this rule is
+that a team�s ROBOT is a product that�s representative of the current team
+members� experience and is intended to discourage complete solutions which are
+provided wholly by outside organizations or companies. Also see 
+R301
+.
+
+I302
+         
+
+*Enter only 1 ROBOT.
+ Each team
+may only inspect and play MATCHES with 1 ROBOT at a 
+FIRST
+ Tech Challenge
+event. Each 
+FIRST
+ Tech Challenge team may only participate in 1
+concurrent event at a time.
+
+Violation: VERBAL WARNING. RED CARD if not corrected. 
+
+The intent of this rule is to use tournament resources responsibly
+by not requiring volunteers to inspect multiple ROBOTS and to prevent loopholes
+around having multiple inspected ROBOTS that can be switched out between
+MATCHES. 
+
+This rule does not prohibit teams from bringing other ROBOTS
+or robot-like assemblies into the venue for other purposes such as awards
+presentations or pit displays. 
+
+It is expected that teams will update, make changes and
+even build multiple ROBOTS in the course of a season, this rule only applies to
+bringing multiple different ROBOTS to a single event to play MATCHES.
+
+I303
+         
+
+*Get inspected before
+playing a Qualification/Playoff MATCH.
+ 
+A team is only permitted to
+participate in a 
+Qualification
+ or 
+Playoff
+ MATCH
+and receive RANKING POINTS if their ROBOT has passed an initial, complete
+inspection. INSPECTORS are available to help, but teams are expected to ensure
+their ROBOT and other supporting equipment are within the rules at all times
+when competing.
+
+Violation: If prior to the start of the MATCH, the team is
+DISQUALIFIED and not eligible to
+ 
+participate in the MATCH.
+If after the start of the MATCH, the team receives a RED
+ 
+CARD
+for that MATCH.
+
+ 
+
+I304
+         
+
+*Bring the complete ROBOT and
+supporting equipment to inspection.
+ At the time of inspection, the
+OPERATOR CONSOLE and the ROBOT with battery must be presented with all
+MECHANISMS (including all COMPONENTS of each MECHANISM), configurations, and
+decorations that will be used on the ROBOT in MATCHES without re-inspection per
+
+I305
+. 
+
+A.
+     
+
+ROBOTS are allowed to play MATCHES with a subset of the mechanisms that
+were present during inspection. Only mechanisms that were present during
+inspection may be added, removed, or reconfigured between MATCHES. The ROBOT
+should be assembled in a typical configuration used for MATCH play when
+reporting for inspection. ROBOT and all mechanisms must be inspected in every
+STARTING CONFIGURATION.
+
+B.
+     
+
+If MECHANISMS are swapped out between MATCHES, the reconfigured ROBOT
+must still meet all rules.
+
+C.
+     
+
+The total of all electronics (motors, servos, Android Devices, etc.)
+used to build all mechanisms and base ROBOT, whether they are used on the ROBOT
+at the same time or not, may not exceed the constraints specified in section 
+12
+ 
+ROBOT Construction Rules (R)
+.
+
+I305
+         
+
+*Unless the change is listed below,
+any change to a ROBOT must get re-inspected. 
+A ROBOT may play MATCHES
+with a subset of the MECHANISMS that were present during inspection provided
+the reconfigured ROBOT still complies with all ROBOT construction rules. Only
+MECHANISMS that were present during the inspection may be added, removed, or
+reconfigured between MATCHES without re-inspection per this rule. If a ROBOT is
+modified after its most recently passed inspection, it must be re-inspected
+before the ROBOT is eligible to participate in a MATCH. 
+
+Exceptions are listed below (unless they
+result in a significant change to the ROBOT�S size, legality, or safety). 
+
+A.
+     
+
+addition, relocation, or removal of fasteners (e.g., cable ties, tape,
+and rivets), 
+
+B.
+     
+
+addition, relocation, or removal of labeling or marking,
+
+C.
+     
+
+addition, relocation, or replacement of the team SIGN,
+
+D.
+     
+
+revision of ROBOT code,
+
+E.
+     
+
+replacement of a COMPONENT with an identical COMPONENT,
+
+F.
+     
+
+replacement of a MECHANISM with an identical MECHANISM (size, weight,
+material), and
+
+G.
+    
+
+additions, removals, or reconfiguration of ROBOT with a subset of
+MECHANISMS already inspected per 
+I304
+
+Violation: ROBOT must be inspected before participating in
+a MATCH or the team will receive a RED CARD.
+
+I306
+         
+
+*Do not exploit re-inspection.
+
+Teams may not use the re-inspection process in 
+I305
+ to circumvent any other rules. 
+
+I307
+         
+
+*ROBOTS may be powered on for
+inspection, as needed.
+ Teams are allowed to power up and enable their ROBOT
+as part of the inspection process. 
+
+While in general it is good practice to keep a ROBOT
+powered off and in a configuration which minimizes stored energy whenever
+possible (e.g., springs relaxed), teams are allowed to power up and enable
+their robot as part of the inspection process. Team members should let
+INSPECTORS know if the ROBOT must be powered on and/or enabled to meet any
+inspection criteria. 
+
+Team members should also inform INSPECTORS if the ROBOT in
+its inspection configuration has any stored energy (e.g., springs stretched)
+and collaborate with each other to ensure a safe inspection experience.
+
+I308
+         
+
+*STUDENTS must be present during the
+inspection process.
+ At least 1 STUDENT team member must accompany the
+ROBOT for any inspection efforts.
+
+Exceptions may be made for major conflicts, e.g., religious
+holidays, major testing, transportation issues.
+
+Violation: Inspection will not continue until a STUDENT is
+present.

@@ -1,0 +1,18 @@
+10.1
+      
+
+MATCH Overview
+
+MATCHES run on a typical 5- to 12-minute cycle time per FIELD,
+which consists of pre-MATCH setup, 
+a 30-second AUTO period, an 8-second
+transition period between AUTO and TELEOP, and a 2-minute TELEOP period
+, followed
+by the post-MATCH reset.
+
+During the MATCH, ROBOTS collect ARTIFACTS and score them
+into their GOAL to CLASSIFY and create the randomly selected MOTIF. ROBOTS can
+then open their GATE to continue CLASSIFYING additional ARTIFACTS. ARTIFACTS
+which do not drop into the RAMP will count as OVERFLOW.
+
+ROBOTS conclude the MATCH by returning to their BASE. �

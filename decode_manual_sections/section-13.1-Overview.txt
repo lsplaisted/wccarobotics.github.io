@@ -1,0 +1,27 @@
+13.1
+      
+
+Overview
+
+Each 
+FIRST
+ Tech Challenge competition is played in a
+head-to-head tournament format. Each tournament may consist of Qualification
+MATCHES and Playoff MATCHES.
+
+Qualification MATCHES allow each team to earn MATCH points
+and RANKING POINTS which determine their seeding position and may qualify them
+for participation in the Playoff MATCHES.
+
+Playoff MATCHES determine the event winning ALLIANCE.
+
+These rules apply to all event types described in section 
+4
+ 
+Advancement
+. �Additional rules may apply to League
+Meets and League Tournaments as covered by section 
+14
+ 
+League Play Tournaments (L)
+.

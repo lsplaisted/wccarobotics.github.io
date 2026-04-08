@@ -1,0 +1,216 @@
+12.2
+      
+
+ROBOT Safety & Damage Prevention
+
+R201
+       
+*Do not damage the TILE floor. 
+Traction devices
+must not have surface features which are known to damage the TILE floor.
+Traction devices are all parts of the ROBOT that are designed to transmit any
+propulsive and/or braking forces between the ROBOT and the FIELD.
+
+Examples
+of traction devices known to cause damage when used directly on TILE floors are
+high traction wheels (for example, AndyMark am-2256) and high grip tread (for
+example, Roughtop, AndyMark am-3309). While these (and other) COMPONENTS are
+not outright prohibited, e.g., used as part of an intake, MECHANISMS that
+involve these COMPONENTS contacting the TILE floor are not allowed.
+
+R202
+      
+
+*No exposed sharp edges.
+
+Protrusions from the ROBOT and exposed surfaces on the ROBOT shall not pose
+hazards to the ARENA elements (including SCORING ELEMENTS) or people.
+
+R203
+      
+
+*Design ROBOTS for safety and fair play.
+
+ROBOT parts shall not be made from hazardous materials, be unsafe, cause an
+unsafe condition, or interfere with the operations of other ROBOTS. Examples of
+items that will violate this rule include (but are not limited to):
+
+A.
+     
+
+shields, curtains, or any other devices or materials solely designed or
+used to obstruct or limit the vision of any DRIVE TEAM members and/or interfere
+with their ability to safely control their ROBOT,
+
+B.
+     
+
+speakers, sirens, air horns, or other audio devices that generate sound
+at a level sufficient to be a distraction,
+
+C.
+     
+
+any devices or decorations specifically intended to jam or interfere
+with the remote sensing capabilities of another ROBOT, including vision
+systems, acoustic range finders, sonars, infrared proximity detectors, etc. This
+includes imagery on your ROBOT that utilizes or closely mimics 36h11 AprilTags,
+
+D.
+     
+
+flammable gasses,
+
+E.
+     
+
+any device intended to produce flames or pyrotechnics,
+
+F.
+     
+
+hydraulic fluids or hydraulic items, 
+
+G.
+    
+
+switches or contacts containing liquid mercury,
+
+H.
+    
+
+exposed, untreated hazardous materials (e.g., lead weights) used on the
+ROBOT. These materials may be permitted if painted, encapsulated, or otherwise
+sealed to prevent contact. These materials may not be machined in any way at an
+event,
+
+I.
+       
+
+high intensity light sources used on the ROBOT may only be illuminated
+for a brief time while targeting and may need to be shrouded to prevent any
+exposure to participants. Complaints about the use of such light sources will
+be followed by re-inspection and possible disablement of the device,
+
+J.
+     
+
+animal based materials,
+
+K.
+     
+
+any device designed to damage or flip competing ROBOTS, and
+
+L.
+     
+
+devices or conditions that pose an unnecessary risk of entanglement.
+
+Flashing lights can be particularly distracting and can
+cause harm to some individuals. Decorative or functional lighting which flashes
+at greater than 2Hz will invite additional scrutiny and teams may be asked to
+disable or modify their lighting at the discretion of the Head REFEREE and/or
+LRI.
+
+R204
+      
+
+*SCORING ELEMENTS stay with the
+FIELD.
+ ROBOTS must allow removal of SCORING ELEMENTS from the ROBOT and
+the ROBOT from FIELD elements while powered off.
+
+Teams must make sure that SCORING ELEMENTS and ROBOTS can
+be quickly, simply, and safely removed.
+
+R205
+       
+*Do not make a mess on the FIELD. 
+ROBOTS may
+not contain any materials which if unintentionally released would damage the
+FIELD, other ROBOTS or delay the start of a MATCH due to required clean-up or decontamination.�
+Lubricants may be used only to reduce friction within the ROBOT and must not
+contaminate the FIELD or other ROBOTS. 
+
+Lubricants (e.g., grease) used on the ROBOT must not be
+excessively applied such that they spin off or drip off during normal ROBOT
+operations on the FIELD.
+
+Additional examples of items that will violate this rule
+include (but are not limited to):
+
+-
+       
+
+any ballast not secured sufficiently,
+including loose ballast such as sand, coffee beans, kitty litter, or ball
+bearings, such that it may be released on the FIELD during a MATCH
+
+-
+       
+
+liquid or gel materials
+
+-
+       
+
+tire sealant, and
+
+-
+       
+
+other lubricants including graphite
+powder
+
+R206
+      
+
+*Do not damage SCORING ELEMENTS.
+
+ROBOT elements likely to contact SCORING ELEMENTS shall not pose a significant
+hazard to the SCORING ELEMENT. 
+
+SCORING ELEMENTS are expected to undergo a reasonable
+amount of wear and tear as they are handled by ROBOTS, such as scratching or
+marking. Gouging, tearing off pieces, or routinely marking SCORING ELEMENTS are
+violations of this rule and 
+G407
+. 
+
+R207
+       
+*ROBOTS don�t use air. 
+ROBOTS are restricted in
+their use of air in the following ways:
+
+A.
+     
+
+ROBOTS may not use any closed air devices such as but not limited to
+pneumatic solenoids or cylinders, gas storage vessels, gas springs,
+compressors, or vacuum generating devices. Air-filled (pneumatic) wheels are
+exempt from this rule.
+
+B.
+     
+
+ROBOTS may not use any device which creates high-speed airflow, except
+COTS computing devices manufactured with integrated cooling fans. 
+
+Examples of a �device which creates high-speed airflow�
+include but are not limited to a fan designed to move SCORING ELEMENTS on the
+FIELD. 
+
+High-speed flywheels or rollers used for manipulating
+SCORING ELEMENTS would not on their own be considered a high-speed airflow
+device.
+
+R208
+      
+
+*No grabbing the floor.
+ ROBOTS
+may not use any mechanism which is designed to increase downforce by either
+grabbing FIELD surfaces or by using some form of generated airflow to provide downward
+suction.

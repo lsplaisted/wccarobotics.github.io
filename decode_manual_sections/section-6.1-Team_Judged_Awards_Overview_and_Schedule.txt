@@ -1,0 +1,252 @@
+6.1
+           
+
+Team Judged Awards Overview and Schedule
+
+Most 
+FIRST
+ Tech Challenge
+awards fall into two broad categories: Machine, Creativity, and Innovation
+(MCI), and Team Attributes (TA). In addition to MCI and TA awards, there are
+also two other separate awards, the Think Award and the Judges� Choice Award. The
+final award is the Inspire Award which is a special overarching award (
+Figure 6‑1
+). The local Program Delivery Partner may
+elect to give additional awards to celebrate local sponsors or initiatives, but
+these awards are not considered Team Judged Awards for the purposes of
+advancement calculations as described in Section 
+4
+ 
+Advancement
+. 
+
+Figure 
+6‑1:
+Award hierarchy
+
+-
+       
+
+The 
+Inspire Award
+ recognizes
+teams who excel in MCI, TA, and Think award accomplishments. This team is an
+all-around inspiration for others. 
+
+-
+       
+
+MCI awards
+ recognize the
+technical accomplishments of teams in the brainstorming, design, construction,
+operation, and control of their ROBOTS.
+
+-
+       
+
+TA awards
+ recognize teams
+who have expanded their skillset, created a plan to sustain their program and
+team, and spread the message of 
+FIRST
+ throughout their outreach.
+
+-
+       
+
+The 
+Think Award
+
+recognizes teams who masterfully document their team�s process and ROBOT using
+their PORTFOLIO.
+
+-
+       
+
+Judges� Choice Award
+ recognizes
+
+a team whose unique efforts, performance, or dynamics merit recognition,
+but does not fit into any of the other award categories.
+
+The JUDGES will gather information from the teams through
+several different pathways (Figure 6‑2).� All teams will have the
+opportunity to submit a team PORTFOLIO which should document aspects of their
+team which directly support the judged award criteria or information which they
+wish the JUDGES to consider. Teams can participate in two different types of
+interviews: a structured interview and pit interview(s).
+
+All award winners chosen by the JUDGES are recognized as
+being positive examples of the award criteria, not necessarily the �best� team.
+JUDGES will only consider the published award criteria in section 
+6.3 
+Team Judged Award Descriptions
+.
+
+Teams may participate in judging regardless of the
+inspection status of their ROBOT and are eligible for awards even if they are
+attending the event without a ROBOT. 
+
+6.1.1
+           
+
+Sources of Information Considered for Awards
+
+In addition to the information provided in a team�s
+PORTFOLIO (if submitted) and the interviews, JUDGE Advisors may also accept
+feedback about teams at the event from other volunteers to help inform their
+understanding of the team. All of the sources in Figure 6‑2 help JUDGE
+Advisors facilitate discussions with JUDGES when award deliberations begin.
+
+Figure 
+6‑2:
+Sources of Information for Team Judged Awards.
+
+In addition to the specific
+information sources JUDGES use to evaluate teams, there are also sources of
+information which are specifically disallowed. JUDGES are strictly instructed
+to only consider information from the current event and the current season and
+cannot consider information from outside what they have seen or heard at the
+current event. 
+
+Per 
+A201
+.E
+, progress, challenges, and
+accomplishments which have taken place since January 1, 2025, can be documented
+in the team PORTFOLIO and will be considered as part of the current season.
+
+This means that information like
+past performance (good or bad), personal knowledge of a team, and external
+sources like websites and social media are not considered. JUDGES also do not
+consider ROBOT performance (for example, how many scoring tasks are completed)
+in an award unless it is specifically listed as part of the required or
+encouraged evaluation criteria. A team�s ROBOT placement in a competition
+(winner or finalist, etc.) or qualification ranking is not considered when
+evaluating teams for a judged award.
+
+The awards are a method
+ FIRST
+
+uses to inspire STUDENTS and open their eyes to building a better future
+together. The awards process should foster a positive STUDENT interaction with JUDGES
+who are independent caring adults and can recognize their achievements and
+encourage them to continue learning.
+
+ 
+
+6.1.2
+           
+
+Structured
+Interview
+ 
+
+All teams are encouraged to prepare for a structured
+interview session where the team can present a prepared oral presentation to a
+small panel of JUDGES, followed by a Q&A session. Typically, these interviews
+follow a standard timeline (Figure 6‑3) and last at least 10 minutes
+long, per 
+A205
+.
+
+Instead of the structured interview, interviews conducted
+at the 
+FIRST
+ Championship have a different format. Teams should refer to
+the interview format outlined in 
+Section 15.1.2
+ for
+more details.
+
+Figure 
+6‑3:
+Structured Interview Timeline
+
+1.
+     
+
+Team arrives and JUDGES welcome the team.
+
+2.
+     
+
+Teams may present to the JUDGES uninterrupted for up to 5 minutes.
+
+3.
+     
+
+JUDGES will ask open ended questions to the team for the remaining of
+the scheduled structured interview time. 
+
+4.
+     
+
+Team departs from the interview space.
+
+5.
+     
+
+JUDGES discuss the structured interview and complete the feedback form.
+
+6.
+     
+
+JUDGES welcome the next team into the structured interview location and
+repeat the process.
+
+Teams are encouraged to review the 
+Judge
+Interview Question Bank
+ prior to their judging interviews to understand the
+type of questions that may be asked by the JUDGES. At each event, the JUDGE
+Advisor will select two questions from the question bank that all teams will be
+asked at the start of the structured interview�s question and answer session.
+One question will be focused on the MCI award category, and one question will
+be focused on the TA award category. After the first two questions are asked
+and answered, JUDGES may ask additional questions to help evaluate the team�s
+performance against the award criteria.
+
+Additional questions asked during interviews may come from
+the question bank but teams should be prepared to answer questions that are not
+listed within the document.
+
+6.1.3
+           
+
+Pit Interview(s)
+
+After all the judging panels have finished, the JUDGES
+compare notes and may elect to follow up with the teams in the pit area during
+the competition and conduct informal pit interviews. During pit interviews,
+teams have the opportunity to expand upon materials presented in the structured
+interview and share additional content with the JUDGES (for example, ROBOT
+prototypes, design artifacts, and photos or letters from outreach events). A
+team does not need to prepare another presentation for a pit interview but
+should be ready to answer questions from the JUDGES.
+
+JUDGES may read additional information during pit
+interviews but will not bring back additional printed content to be referenced
+as part of the JUDGE deliberations.
+
+ 
+
+6.1.4
+           
+
+Sustained Outreach and Demonstrating Impact by Numbers
+
+In general, JUDGES will consider ongoing, sustained outreach
+to be of higher quality than occasional or one-off outreach. JUDGES will seek
+to understand what is the impact of the outreach to the individuals being
+reached by the activity. 
+
+Teams are encouraged to review the 
+Outreach
+Terms and Definitions Document
+ to understand the requirements behind specific
+terms (starting a 
+FIRST
+ team, running an event, reaching x number of
+people). JUDGES may ask specific questions when a specific term listed in this
+document is mentioned in a team�s PORTFOLIO or during an interview.

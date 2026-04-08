@@ -1,0 +1,427 @@
+5.1
+           
+
+General Rules
+
+E101
+       
+
+*Personal safety comes first.
+
+All team members must observe the following safety practices throughout the
+event:
+
+A.
+     
+
+wear safety glasses or safety rated glasses with side shields
+(ANSI-approved, UL Listed, CE EN166 rated, AS/NZS certified, or CSA rated)
+while in and around the playing FIELD and in the pit area. Clear or lightly
+tinted safety glasses are preferred. Shaded glasses are allowed for those who
+need them and do not require a specific accommodation request. The only
+instances where teams are not required to wear safety glasses are in their
+first 10 minutes of their event load in, and for the first 10 minutes pits are
+open each day of the event as long as they�re not working on the ROBOT or
+setting up their pit,
+
+B.
+     
+
+wear closed toed/heeled shoes,
+
+C.
+     
+
+control entanglement risks by tying back long hair and removing other
+dangling decorations including lanyards, spirit wear and rings as needed while
+working on or around a ROBOT or ROBOT related materials or tools,
+
+D.
+     
+
+wear appropriate clothing,
+
+E.
+     
+
+walk in the venue, and
+
+F.
+     
+
+comply with government and venue-specific health and safety requirements
+in place for that event (i.e., mask wearing).
+
+Teams are responsible for bringing their own personal
+protective equipment. 
+
+For more information about safety at 
+FIRST
+ events,
+please reference the 
+FIRST
+
+Safety Manual
+.
+
+A partial list of footwear that is not allowed: Crocs,
+slides, sandals, flip flops, Birkenstocks, sandals with an ankle strap, clogs.
+
+E102
+       
+
+*Be Nice.
+ All participants should
+strive to be gracious and professional at all times while attending a 
+FIRST
+
+Tech Challenge event. Uncivil behavior toward any participants is not
+tolerated.
+
+Examples of inappropriate behavior include, but are not
+limited to:
+
+A.
+      
+use of offensive language or other uncivil conduct towards
+someone,
+
+B.
+      
+�weaponizing Gracious Professionalism� by accusing another
+person or team of being �not GP�,
+
+C.
+      
+intentionally blocking the view of other participants or
+spectators for an extended period (Team members momentarily holding up team
+signs while directly supporting their team is not considered a violation of
+this rule.), and
+
+D.
+      
+jamming or interfering with the remote sensing capabilities
+of a ROBOT or the FIELD while in open-access spectator seating areas. 
+
+Examples of remote sensing capabilities include, but are
+not limited to, vision systems, acoustic range finders, sonars, and infrared
+proximity sensors. 
+
+Use of imagery that, to a reasonably astute observer,
+mimics the AprilTags employed on the FIELD is a violation of this rule.
+
+Examples of particularly contemptible behavior that may
+result in ejection from the event include, but are not limited to, the
+following:
+
+E.
+      
+assault, e.g., throwing something that hits another person
+(even if unintended),
+
+F.
+      
+threat, e.g., saying something like �if you don�t reverse
+that call, I�ll make you regret it,�
+
+G.
+     
+harassment, e.g., badgering someone with no new information
+after a decision has been made or a question has been answered,
+
+H.
+     
+bullying, e.g., using body or verbal language to cause
+another person to feel inadequate or unsafe,
+
+I.
+       
+
+insulting, e.g., telling someone they do not
+deserve to be on a team,
+
+J.
+      
+swearing at another person (versus swearing under one�s
+breath or at oneself), and
+
+K.
+      
+yelling at another person(s) in anger or frustration.
+
+E103
+       
+
+*Children with adults, please. 
+Children
+under 12 must be accompanied in the pits by an adult at all times.
+
+E104
+       
+
+*Respect the venue. 
+Teams may
+not damage the venue, including but not limited to bleachers, floors, walls,
+railings, in any way. This includes littering with team giveaways including
+candies, flyers, and stickers. 
+
+E105
+       
+
+*Teams must check in. 
+An adult
+team member must check in at the Pit Administration station, or the designated
+check in location, no later than 45 minutes before Qualification MATCHES are
+scheduled to start unless otherwise specified or approved by the Event Director.
+
+Violation: Failure to check in may result in a team not
+participating in the event.
+
+E106
+       
+
+*Event resources are for competing
+teams only.
+ Only teams registered for an event may use that event�s
+competition FIELD, practice FIELD, and inspection unless pre-approved by the Event
+Director or the Program Delivery Partner. Host teams supplying practice FIELD
+elements and/or machine shop resources may use them; however, teams registered
+for that event must be granted priority.
+
+E107
+       
+
+*Practice only when/where permitted.
+
+Teams may only practice with their ROBOT in their pit space, in the designated
+event practice areas, or while in a Practice MATCH. 
+
+Teams may not set up their own practice equipment outside
+their pit in other areas of the event venue. If the Event Director determines a
+pit practice setup is unsafe or interferes with activity in adjacent pits or
+aisles, the team must discontinue the activity.
+
+Demonstrating robot functionality to guests or JUDGES is
+not considered practice. 
+
+E108
+       
+
+*Work in designated areas only.
+
+At the event venue, teams may only produce FABRICATED ITEMS as follows: 
+
+A.
+     
+
+in their pit area,
+
+B.
+     
+
+in another team�s pit area with permission from that team, 
+
+C.
+     
+
+while queued for a MATCH or practice FIELD (given space constraints,
+extra scrutiny regarding safety is required),
+
+D.
+     
+
+any area designated by event staff (e.g., playoff pit area), or
+
+E.
+     
+
+as permitted at provided machine shops that are available to all teams.
+
+E109
+       
+
+*Some things do not belong at events.
+
+Do not bring or use the following: 
+
+A.
+     
+
+Skateboards,
+
+B.
+     
+
+�hoverboards�,
+
+C.
+     
+
+drones,
+
+D.
+     
+
+bottled gas tanks (e.g., helium),
+
+E.
+     
+
+noisy devices or noisemakers, such as floor stompers, whistles and/or
+air horns,
+
+F.
+     
+
+walkie-talkies, or
+
+G.
+    
+
+scooters, except for those used for accommodations.
+
+E110
+       
+
+*Do not arrange for additional
+utilities.
+ Do not arrange for power, internet access, or phone lines
+from venue service providers or attempt to use venue internet connections
+reserved for event purposes (e.g., 
+FIRST
+ event management software or
+webcasting).
+
+E111
+       
+
+*Do not sell stuff.
+ Teams may
+not conduct sales at an event. This includes, but is not limited to, raffle
+tickets, food, hats, shirts, candy, water, soft drinks, fruit, or any
+promotional products unless specifically allowed by the Event Director.
+
+E112
+       
+
+*Make 
+FIRST
+ loud, but with
+restrictions.
+ Do not invite or bring live bands to play in the audience.
+Do not play loud music.
+
+E113
+       
+
+*Hang banners with care.
+ Be
+respectful when hanging your banners. 
+
+A.
+     
+
+Do not cover or move other team or sponsor signs already in place.
+
+B.
+     
+
+Share the available space fairly with other teams.
+
+C.
+     
+
+Do not obstruct the view of spectators.
+
+D.
+     
+
+Get permission from the Event Director before hanging banners outside of
+your pit. 
+
+E.
+     
+
+Hang signs and banners in a safe manner.
+
+F.
+     
+
+Banners hung outside team pits must not be larger than 25 ft.2 (2.3 m2).
+
+We encourage teams to bring team flags and/or signs for
+display in their pits and/or the ARENA. 
+
+Respect venue-specific rules regarding sign location and
+hanging methods. At the end of the event, safely remove all signs and anything
+used to hang the signs (tape, string, etc.).
+
+E114
+       
+
+*Limit flag and flagpole size if used
+in the ARENA.
+ Flags and flagpoles may not be of unreasonable size and
+weight if they are going to be used around the FIELD.� 
+
+As a guideline, reasonable flags are less than 3 ft. by 5
+ft. (~91 cm by 152 cm) in size and weigh less than 2 lbs. (~907g). Reasonable
+flagpoles may not be more than 8 ft. (~243 cm) long and must weigh less than 3
+lbs. (~1360g).
+
+E115
+       
+
+*No firearms or other weapons.
+
+Firearms or other weapons are prohibited at all 
+FIRST
+ events for all 
+FIRST
+
+programs, including without limitation, 
+all official 
+FIRST
+
+Events posted here
+. This rule includes prop or simulated weapons which
+appear to be real. This policy does not apply to law enforcement or venue
+security personnel.
+
+E116
+       
+
+*Inspection required for practice FIELD
+access.
+ A team may only use a practice FIELD with a ROBOT that has
+passed an initial, complete inspection. This rule only applies to events not
+using scheduled inspection times. 
+
+E117
+       
+
+*Do not record anyone at the event
+without their consent.
+ Do not record interactions with anyone at an
+event, without the person�s consent. 
+FIRST
+ event staff and
+volunteers are empowered to excuse themselves from an interaction in which they
+are being recorded after declining consent.
+
+Please note that many 
+FIRST
+ events are livestreamed
+and 
+FIRST
+ participants have given permission to appear in footage from 
+FIRST
+.
+This does not mean that people can record specific interactions without
+additional consent. 
+
+Laws regarding recording of conversations vary
+state-to-state and country-to country, and, in some cases, recording without
+consent may be criminal. Introducing the idea of recording a conversation with
+an implied reason of proving someone�s error can escalate a discussion and is
+likely to increase its adversarial nature.

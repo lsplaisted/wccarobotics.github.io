@@ -1,0 +1,683 @@
+12.7
+      
+
+Control, Command & Signals System
+
+R701
+      
+
+*Control the ROBOT with a single
+ROBOT CONTROLLER. 
+ROBOTS must be controlled via 1 programmable ROBOT
+CONTROLLER. The ROBOT CONTROLLER is the only source of control for the ROBOT
+actuators and must be comprised of:� 
+
+A.
+     
+
+REV Control Hub (REV-31-1595), or
+
+B.
+     
+
+an allowed smartphone Android device connected to a REV Expansion Hub
+(REV-31-1153) 
+
+In addition
+to A or B, a ROBOT may also contain:
+
+C.
+     
+
+no more than one additional REV Expansion Hub (REV-31-1153).
+
+R702
+       
+*Teams may not alter coprocessor software.
+ Modifying
+software on coprocessors, unless explicitly permitted in this rule or rule 
+R703
+, is not allowed by teams. Firmware
+updates in binary form provided by the manufacturer may be applied as directed
+by the manufacturer.
+ 
+
+The
+following are examples of allowed devices:
+
+Example
+1: The Adafruit BNO055 Absolute Orientation Sensor is an IMU package with an
+onboard ARM Cortex-M0 based coprocessor to crunch sensor data and produce composite
+output. Its coprocessor contains software that is not intended by the
+manufacturer to be modified by users.
+
+Example
+2: The SparkFun Optical Tracking Odometry Sensor is a laser and IMU tracking device
+that uses an onboard microcontroller to perform complex calculations and
+produce simplified results. SparkFun does provide the source code and toolchain
+for advanced users to modify/update the software, which is not permitted by
+this rule. Firmware updates provided by SparkFun are allowed to be applied to
+the device.
+
+Example
+3: The Digital Chicken Labs OctoQuad FTC Edition is an 8-channel encoder/PWM
+interface, utilizing a Raspberry Pi Pico coprocessor. Teams are not permitted
+to modify software running on the device, including replacing the software with
+their own. Updates provided in binary form by the manufacturer (Digital Chicken
+Labs) may be applied to the device.
+
+R703
+       
+*Some vision coprocessors can be programmed.
+ Programmable
+vision coprocessors that are natively supported by the FTC SDK may be programmed.
+The programmable vision coprocessors that are supported are:
+
+Table 12‑9: Supported programmable vision
+coprocessors
+
+Device
+
+Part
+   Number
+
+Limelight Vision
+  Limelight 3A
+
+ 
+
+ 
+
+LL_3A
+
+Example 1: Optical Flow sensors are an example of a sensor
+that utilizes a vision coprocessor that is treated no differently than other
+coprocessors per 
+R702
+.
+
+Example 2:
+The DFRobot HuskyLens and the Charmed Labs Pixy2 are examples of vision coprocessors
+that are configurable but not programmable and are treated no differently than
+other coprocessors per 
+R702
+.
+
+Example 3:
+The OpenMV Cam, Luxonis OAK-1, and LimeLight Vision Limelight 3G are examples
+of programmable vision coprocessors that are prohibited. 
+
+See 
+R715
+ for more information regarding vision
+coprocessor support.
+
+R704
+       
+*Use only legal Android smartphone devices. 
+Android
+smartphone devices, if used, must minimally be running the Android 7 (Nougat)
+operating system. The following table lists the legal Android smartphones: 
+
+Table 12‑10: Legal Android Smartphones
+
+Phone
+
+Notes
+
+Motorola Moto G4 Play
+
+Sometimes noted as �4th
+  Generation�
+
+Motorola Moto G5
+
+ 
+
+Motorola Moto G5 Plus
+
+ 
+
+Motorola Moto E4
+
+USA versions only, includes SKUs XT1765, XT1765PP,
+  XT1766, and XT1767
+
+Motorola Moto E5
+
+XT1920
+
+Motorola Moto E5 Play
+
+XT1921
+
+Some supported models still using Android 6.x (Marshmallow)
+might be updatable by the 
+Motorola Software Fix
+Tool
+.
+
+Teams outside North America with extenuating circumstances
+(such as international purchasing limitations) are allowed to use alternate
+Android smartphones if necessary. Teams doing so must send an email each season
+to 
+customerservice@firstinspires.org
+
+with the following details:
+
+-
+       
+
+Subject of email should be: �Alternate
+FTC Android Phone Use�
+
+-
+       
+
+Team number and region, including reason
+for using an alternate smartphone
+
+-
+       
+
+Smartphone make and model, including version
+of Android OS in use
+
+R705
+      
+
+*Smartphone android devices used as a
+ROBOT CONTROLLER must connect to the REV Expansion Hub using USB. 
+If
+used as a ROBOT CONTROLLER, the smartphone android device must be connected via
+its integrated micro-USB port to a REV Expansion Hub either:
+
+A.
+     
+
+a mini-USB to OTG Micro Cable, or
+
+B.
+     
+
+any combination of Mini USB Cable, a USB Hub (powered or unpowered) and
+an OTG Micro adaptor (the OTG functionality can be integrated into the USB
+Hub). 
+
+R706
+      
+
+*Bandwidth is restricted. 
+Software
+with access to the ROBOT network must limit the amount of data being streamed (i.e.,
+continuous transmission of data) over Wi-Fi. Software may only stream robot control
+data, debugging data, and telemetry to and from the ROBOT. No continuous video stream
+is allowed.
+
+R707
+      
+
+*Configure devices for your team
+number. 
+The ROBOT CONTROLLER, DRIVER STATION, and any spares used must
+be configured/named to correspond to the correct team number as follows:
+
+A.
+     
+
+ROBOT CONTROLLER should be named <team number>-RC (e.g., 12345-RC),
+
+B.
+     
+
+DRIVER STATION should be named <team number>-DS (e.g., 12345-DS), and
+
+C.
+     
+
+If a spare ROBOT CONTROLLER or DRIVER STATION is configured, a letter
+designator may be added <team number>-<letter>-RC/DS (e.g.,
+12345-A-DS, 12345-B-DS) 
+
+See the 
+DRIVER
+STATION Instructions
+
+and 
+ROBOT
+CONTROLLER Instructions
+ for a detailed procedure for updating DRIVER
+STATION and ROBOT CONTROLLER �names.�
+
+R708
+       
+*Do not interfere with the ROBOT networks. 
+During
+a MATCH, all communications signals must originate from only the ROBOT
+CONTROLLER device or the DRIVER STATION device using the ROBOT CONTROLLER Wi-Fi
+network. No other devices may attempt to connect to, interfere with, or alter
+the ROBOT CONTROLLER Wi-Fi network.
+
+Teams are allowed to connect programming laptops and other
+devices to the ROBOT CONTROLLER Wi-Fi network outside of a MATCH. These devices
+must be disconnected from the ROBOT CONTROLLER Wi-Fi network prior to and
+during a MATCH.
+
+R709
+      
+
+*No other wireless allowed. 
+No
+form of wireless communication shall be used to communicate to, from, or within
+the ROBOT, except those specified per 
+R706
+ and 
+R708
+.
+
+Devices that employ signals in the visual spectrum (e.g.,
+cameras) and non-RF sensors that do not receive human-originated commands (e.g.,
+�beam break� sensors or IR sensors on the ROBOT used to detect FIELD elements)
+are not wireless communication devices and thus this rule does not apply.
+
+R710
+      
+
+*Use assigned Wi-Fi bands
+and/or channels if requested.
+ Teams may be asked by the 
+Event
+Director 
+to use a specific Wi-Fi frequency band or channel on the day
+of competition. If requested, teams are required to do so. Teams may work with
+the FTA or 
+wireless technical advisor 
+(WTA) to find an
+alternate frequency band or channel if the suggested band/channel is deemed
+problematic by the FTA or WTA. 
+
+R711
+      
+
+*ROBOT CONTROLLER must be visible for
+inspection. 
+The ROBOT CONTROLLER device must be mounted on the ROBOT
+such that the diagnostic lights, or device screen if applicable, can be visible
+for inspection. 
+
+�Visible for inspection� does not require that the items be
+visible when the ROBOT is in STARTING CONFIGURATION or normally during a MATCH,
+provided the team can make the items viewable during the inspection process if
+necessary. 
+
+Teams are strongly encouraged to make the diagnostic lights
+visible during normal MATCH play ROBOT configurations. If diagnostic LEDs are
+not visible during a MATCH, FIELD STAFF may not be able to provide
+comprehensive support to the team.
+
+Teams are encouraged to mount the ROBOT CONTROLLER device
+away from noise generating devices such as motors and EMF shielding materials
+like sheets of metal.
+
+R712
+       
+*Only specified modifications to core control system
+devices permitted.
+ The DRIVER STATION device and software, Android-based
+ROBOT CONTROLLER device, main and secondary power switch(es), power regulation
+devices, fuses, and batteries shall not be tampered with, modified, or adjusted
+in any way (tampering includes drilling, cutting, machining, rewiring,
+disassembling, painting, removing enclosures and replacing with custom
+enclosures, etc.), with the following exceptions:
+
+A.
+     
+
+wires, cables, and signal lines may be connected via the standard
+connection points provided on the devices,
+
+B.
+     
+
+fasteners (including adhesives) may be used to attach devices to the
+OPERATOR CONSOLE or ROBOT or to secure cables to the device,
+
+C.
+     
+
+thermal interface material may be used to improve heat conduction,
+
+D.
+     
+
+labeling may be applied to indicate device identification, purpose,
+connectivity, functional performance, etc. as long as they do not cover labels
+or markings used to identify the product,
+
+E.
+     
+
+jumpers may be changed from their default location,
+
+F.
+     
+
+jumpers or switches may be moved to configure devices per the
+manufacturer�s manual,
+
+G.
+    
+
+device firmware may be updated with manufacturer supplied firmware,
+
+H.
+    
+
+integral wires on motor controllers and batteries may be cut, stripped,
+and/or connectorized,
+
+I.
+       
+
+devices except batteries may be repaired, provided the performance and
+specifications of the device after the repair are identical to those before the
+repair, 
+
+J.
+     
+
+add insulating material to exposed conductors, 
+
+K.
+     
+
+tape may be applied for debris protection, and
+
+L.
+     
+
+power switch mounting brackets can be modified or replaced.
+
+Please note that while repairs are permitted, the allowance
+is independent of any manufacturer�s warranty. Teams make repairs at their own
+risk and should assume that any warranty or return options are forfeited. Repairs
+must be functionally equivalent to original device condition. 
+
+Be aware that diagnosing and repairing COMPONENTS such as
+these can be difficult. 
+
+For example, �repairs� that change connector types, include
+device footprint modifications, or provide mechanical enhancements, are
+prohibited. 
+
+R713
+      
+
+*Always keep control system device
+software up to date.
+ The following table lists the recommended software
+versions for each core control electronics module, and a link on how to update
+this software. Note that some devices have multiple pieces of software that may
+need to be updated each season, and not all software is available prior to Kickoff
+each season. Check the 
+FIRST
+
+Tech Challenge Blog
+ for release announcements. 
+
+Regardless of the versions selected, it is
+highly recommended that the installed ROBOT CONTROLLER App and DRIVER STATION App
+versions match major and minor values to ensure compatibility as not all
+software versions are compatible with each other.
+
+Table 12‑11: Recommended Software for Control System
+Devices
+
+Device
+
+Software and Minimum Recommended Versions
+
+How to Update
+
+REV Control Hub (REV-31-1595)
+
+Control Hub OS 
+
+Recommended:
+  1.1.2
+
+Updating
+  the Control Hub OS
+
+REV Control Hub (REV-31-1595)
+
+Hub Firmware 
+
+Recommended:
+  1.8.2
+
+Updating
+  the Hub Firmware
+
+REV Control Hub (REV-31-1595)
+
+ROBOT CONTROLLER
+  App 
+
+Recommended: 11.0
+
+Updating
+  the ROBOT CONTROLLER App
+
+REV Expansion Hub (REV-31-1153)
+
+Hub Firmware 
+
+Recommended:
+  1.8.2
+
+Updating
+  the Hub Firmware
+
+Android Smartphone 
+
+(ROBOT CONTROLLER device)
+
+ROBOT CONTROLLER
+  App 
+
+Recommended: 11.0
+
+Updating
+  the ROBOT CONTROLLER App
+
+Android Smartphone 
+
+(DRIVER STATION device)
+
+DRIVER STATION
+  App 
+
+Recommended: 11.0
+
+Updating
+  the DRIVER STATION App
+
+REV Driver Hub (REV-31-1596)
+
+Driver
+  Hub OS 
+
+Recommended: 1.2.0
+
+Updating
+  the Driver Hub OS
+
+REV Driver Hub (REV-31-1596)
+
+DRIVER STATION
+  App 
+
+Recommended:
+  11.0
+
+Updating
+  the DRIVER STATION App
+
+REV Servo Hub (REV-11-1855)
+
+REV Servo Hub
+  Firmware Recommended: 25.0.2
+
+Updating
+  the REV Servo Hub
+
+Software at or above the recommended versions have the
+latest bugfixes and updates. Teams are highly encouraged to update their
+software minimally to the recommended version. FIELD STAFF will not be able to
+provide comprehensive support to teams with software older than the recommended
+version. 
+
+Teams may choose to run older versions without affecting
+their ROBOT inspection status. 
+
+ 
+
+R714
+      
+
+*USB is for vision.
+ Only the
+following devices may be connected to the ROBOT control system using USB:
+
+A.
+     
+
+webcams and optical vision sensors per 
+R715
+,
+
+B.
+     
+
+USB hub or USB switch, and
+
+C.
+     
+
+a REV Expansion Hub.
+
+R715
+       
+*Use only supported USB vision.
+ Only single
+image sensor vision devices that are natively supported by the ROBOT CONTROLLER
+app are allowed to connect to USB (stereoscopic cameras are not allowed). This
+includes the following:
+
+A.
+     
+
+all UVC compatible USB webcams (Logitech C270, and related), and
+
+B.
+     
+
+Vision coprocessors allowed per 
+R703
+.
+
+UVC compatible USB webcams may only use the UVC provided
+stream / data. No other interfaces or data provided by the webcam may be used.
+
+To request support (or to provide sample drivers) for
+alternate USB vision devices for inclusion in future 
+FIRST
+ Tech
+Challenge seasons, please send an email to 
+customerservice@firstinspires.org
+
+with the following details:
+
+-
+       
+
+Subject of email should be: �USB Vision
+Future Support Request�
+
+-
+       
+
+Contact details for providing feedback
+or clarifications
+
+-
+       
+
+Details on the device requesting
+support
+
+R716
+      
+
+*Recording devices are okay.
+ 
+Self-contained
+video recording devices (GoPro or similar) are allowed providing they are used
+only for non-functional post-MATCH viewing and the wireless capability is
+turned off.
+
+R717
+      
+
+*Lasers must be safe.
+ Lasers
+are not allowed unless they meet all of the following criteria:
+
+A.
+     
+
+must be part of a sensor,
+
+B.
+     
+
+must be rated as IEC/EN 60825-1� Class I� or IEC/EN 62471 �Exempt,� and
+
+C.
+     
+
+non-visible spectrum.
+
+R718
+       
+*Configure Android devices appropriately.
+ ROBOT
+CONTROLLER and DRIVER STATION Android devices (smartphones, REV Control Hub,
+REV Driver Hub) must additionally be configured in the following ways:
+
+A.
+     
+
+REV Control Hub users must 
+change
+the Wi-Fi password
+ to a non-default password,
+
+B.
+     
+
+smartphone users must enable Airplane Mode,
+
+C.
+     
+
+on ROBOT CONTROLLER and DRIVER STATION Android devices, Wi-Fi must be
+enabled and Bluetooth must be disabled, and
+
+D.
+     
+
+on smartphones and REV Driver Hub, remove all remembered Wi-Fi Direct
+Groups and Wi-Fi connections, leaving only the ROBOT CONTROLLER Wi-Fi
+connection.

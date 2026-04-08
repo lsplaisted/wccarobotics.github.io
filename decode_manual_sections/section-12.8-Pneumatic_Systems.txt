@@ -1,0 +1,20 @@
+12.8
+       
+Pneumatic
+Systems
+
+In order to maintain safety, the rules in this section apply
+at all times while at the event, not just while the ROBOT is on the FIELD for
+MATCHES. 
+
+R801
+      
+
+*No Pneumatics. 
+No
+closed air systems are allowed on 
+FIRST
+
+Tech Challenge ROBOTS except for those explicitly listed in 
+R207
+.

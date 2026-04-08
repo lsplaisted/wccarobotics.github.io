@@ -1,0 +1,527 @@
+13.8
+      
+
+Dual Division Event
+s
+
+Dual Division events are typically larger events which run
+as 2 different competition events (e.g., 2 parallel Qualifying Tournaments each
+with a minimum of 2 fields each) with concurrent judging for all teams. After
+the Playoff MATCHES have concluded in each division, the 2 division winning
+ALLIANCES compete to determine the overall event winner. 
+
+Advancement from a Dual Division event is defined in section
+
+13.8.1
+ 
+Dual Division Advancement Points
+.
+
+In Dual Division events, teams can be assigned to division
+in a few different methods briefly described below. For complete details
+reference the event management software documentation. The method used is at
+the discretion of the local Program Delivery Partner. 
+
+A.
+      
+Random
+Assignment
+ � Random division assignment take the team list, shuffles it,
+and splits the list in half. If equal division sizes cannot be made, the
+software randomly chooses which division will have an extra team. 
+
+B.
+      
+FIM
+Method
+ � Algorithm is based on the process developed by 
+FIRST 
+in
+Michigan (FIM) and utilizes a �brute force randomizer� approach. It attempts to
+balance ROBOT performance while maintaining a decent factor of randomness.
+Teams are ranked based on a qualification performance metric based on the two
+best events and then assigned to quartiles and distributed between divisions
+such that each quartile is equally represented. Division assignments are
+measured against several metrics to ensure divisions are closely matched. 
+
+C.
+      
+Alternating
+Assignment
+ � Alternating division assignment sorts the team list by team
+number, then assigns teams by alternating divisions while iterating through the
+team list. The lowest team number will be assigned Division 1, the next Division
+2, then Division 1, etc. 
+
+D.
+      
+Child
+League Split-up
+ (only available for League Tournaments) � Algorithm attempts
+to balance the representation of each child league in each division. 
+
+E.
+      
+OPR
+Method
+ � Algorithm attempts to balance the ROBOT performance across the
+division. It calculates every team�s Offensive Power Rating (OPR) for every
+official event they competed in for the current season and selects each team�s
+highest OPR. Then it ranks all the teams by highest OPR and alternately assigns
+teams from highest to lowest OPR into each division. 
+
+F.
+      
+Manual
+
+� The Program Delivery Partner can upload a list of manually assigned teams.
+
+In addition to rules listed in previous manual sections, Dual
+Division event have the following rules:
+
+T801
+      
+
+*Divisions will use the same size
+playoff brackets.
+ The number of playoff ALLIANCES will be determined based
+on the number of playoff eligible teams in the smaller division 
+as
+shown in Table 13‑2. 
+
+T802
+       
+*Dual-Division awards are given at the event level.
+
+All awards are judged and awarded at the tournament level, not the division
+level.
+
+T803
+       
+*Dual-Division award counts are based on total teams.
+ The
+number of awards distributed at a Dual Division event is determined using 
+Table
+6‑1
+. 
+
+13.8.1
+       
+
+Dual Division Advancement Points
+
+For Dual Division events, advancement points are calculated
+per Table 4‑1 except for playoff advancement points which are instead
+calculated as described in Table 13‑7 below. 
+
+Table 
+13‑7: Dual Division Playoff Advancement Points
+
+Category
+
+Advancement Points Earned
+
+Playoff Advancement
+
+40 points for 1
+st
+ Place (Winners)
+
+20 points for 2
+nd
+ Place (Finalists)
+
+10 points for all Division Finalists 
+
+5 points for all Division 3
+rd
+ Places
+
+13.8.2
+       
+
+Dual Division 
+Playoffs
+
+Each division plays a standard tournament as described in Section
+
+13.6
+ 
+Qualification MATCHES
+ followed by Divisional Playoffs
+to produce the Division Winning ALLIANCE. Those 2 Division Winners have their
+win-loss records reset and proceed to play each other in a 2-ALLIANCE double
+eliminations bracket.
+
+Divisions are ranked by the criteria in Table
+13‑1 excluding RANKING SCORE. 
+
+ 
+
+Figure 
+13‑7:
+2-ALLIANCE grand finals playoff bracket (Dual Division) 
+
+ 
+
+Dual division events will play divisional playoff brackets
+and then the two ALLIANCES will play as shown in Figure 13‑7. The first
+to win 2 will be the event winner. An example of Dual Division Playoff Timing
+is shown in Table 13‑8.
+
+ 
+
+ 
+
+Table 
+13‑8:
+6-ALLIANCE Dual Division playoff bracket typical timing
+
+Round
+
+MATCH
+
+Upper/
+
+  Lower
+
+Gap
+
+(min)
+
+Next MATCH
+
+(MATCH # (ALLIANCE
+  color))
+
+FIELD
+
+Blue
+
+Red
+
+Blue
+
+Red
+
+Winner
+
+Loser
+
+Estimated
+
+  Start (min)
+
+1
+
+1
+
+Upper 
+
+1
+
+A5
+
+A4
+
+M3 (B)
+
+M6 (B)
+
+0
+
+2
+
+Upper 
+
+2
+
+A6
+
+A3
+
+M4 (B)
+
+M5 (B)
+
+6
+
+2
+
+3
+
+Upper
+
+1
+
+W1
+
+A1
+
+0:09
+
+M7 (R)
+
+M5 (R)
+
+12
+
+4
+
+Upper
+
+2
+
+W2
+
+A2
+
+0:09
+
+M7 (B)
+
+M6 (R)
+
+18
+
+3
+
+5
+
+Lower
+
+1
+
+L2
+
+L3
+
+0:15
+
+0:09
+
+M8 (B)
+
+Tied 5th
+
+24
+
+6
+
+Lower
+
+2
+
+L1
+
+L4
+
+0:27
+
+0:09
+
+M8 (R)
+
+30
+
+4
+
+7
+
+Upper
+
+1
+
+W4
+
+W3
+
+0:15
+
+0:21
+
+M10 (R)
+
+M9 (R)
+
+36
+
+8
+
+Lower
+
+2
+
+W5
+
+W6
+
+0:15
+
+0:09
+
+M9 (B)
+
+4th
+
+42
+
+8-minute break
+
+45
+
+5
+
+9
+
+Lower
+
+1
+
+W8
+
+L7
+
+0:08
+
+0:14
+
+M10 (B)
+
+3rd
+
+53
+
+8-minute break
+
+56
+
+Finals
+
+10
+
+1
+
+W9
+
+W7
+
+0:08
+
+0:25
+
+M11*
+
+M11*
+
+64
+
+8-minute break
+
+67
+
+Finals*
+
+11
+
+1
+
+W9
+
+W7
+
+0:08
+
+0:08
+
+F1
+
+75
+
+End of Divisional Playoffs/ Judges Choice*(1), Design Award, (3,
+  2, 1), Reach Award (3, 2, 1)
+
+78
+
+Event Finals 1
+
+F1
+
+1
+
+DivA
+
+DivB
+
+0:15
+
+0:15
+
+F2
+
+F2
+
+86
+
+�8-minute break
+
+�
+
+Control Award (3, 2, 1), Innovate Award (3, 2, 1), Sustain Award
+  (3, 2, 1)
+
+89
+
+Event Finals 2
+
+F2
+
+1
+
+DivA
+
+DivB
+
+0:08
+
+0:08
+
+F3*
+
+F3*
+
+97
+
+�8-minute break
+
+Connect Award (3, 2, 1), Think Award (3, 2, 1)
+
+100
+
+Event Finals 3*
+
+F3*
+
+1
+
+DivA
+
+DivB
+
+0:08
+
+0:08
+
+108
+
+Awards: Compass*, Div. Finalists, Division Winners, Event
+  Finalist, Event Winners and Inspire Award (3, 2, 1)
+
+111
+
+ 
+
+* if required
+
+**Awards may be given out after the conclusion of the
+playoff bracket at the discretion of the Event Director.

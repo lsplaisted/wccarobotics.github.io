@@ -1,0 +1,63 @@
+13.5
+       
+Practice
+MATCHES
+
+Practice MATCHES are played before Qualification MATCHES, at
+events that have them. The Practice MATCH schedule is available as soon as
+possible but no later than the start of Practice MATCHES. Schedules may also be
+available on the 
+FTC-Events
+
+site if the tournament is connected to the internet. Practice MATCHES are
+randomly assigned, and teams may not switch scheduled Practice MATCHES. Each
+team is assigned an equal number of Practice MATCHES unless the number of teams
+multiplied by number of Practice MATCHES is not divisible by 4. In this case,
+the event management software randomly selects some teams to play an extra
+Practice MATCH. 
+
+Practice MATCHES are not guaranteed at all events due to
+schedule constraints. 
+
+13.5.1
+       
+
+Filler Line
+ 
+
+A Filler Line is used to fill open slots at events that
+employ scheduled Practice MATCHES or all slots at events with an open Practice
+MATCH schedule. Teams from the Filler Line are used on a first come, first
+served basis to fill empty spots in Practice MATCHES left by other teams that
+do not report to Queueing. The number of teams in the Filler Line is dependent
+upon space at venues. 
+
+Only teams that meet all criteria below qualify for the
+Filler Line: 
+
+A.
+     
+
+ROBOTS in the Filler Line must have passed inspection (this requirement
+may be waived for events with open Practice MATCH schedules), 
+
+B.
+     
+
+DRIVE TEAMS must join the Filler Line with their ROBOT, 
+
+C.
+     
+
+teams may not work on their ROBOT while in the Filler Line, 
+
+D.
+     
+
+teams may not occupy more than 1 spot in the Filler Line, and 
+
+E.
+     
+
+if a team is queued for their Practice MATCH, they may not also join the
+Filler Line.

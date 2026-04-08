@@ -1,0 +1,17 @@
+9.4
+           
+
+TILE 
+Coordinates
+
+TILE coordinates are used to assist with FIELD setup. Figure 9‑4 defines the intersections of each of the TILES on the FIELD where
+the TILE tabs interlock. Figure 9‑5 defines the grid coordinate system for
+each of the TILES. 
+
+Figure 
+9‑4:
+  TILE tab-line locations
+
+Figure 
+9‑5:
+  TILE locations

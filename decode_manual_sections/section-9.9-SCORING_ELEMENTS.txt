@@ -1,0 +1,23 @@
+9.9
+           
+
+SCORING ELEMENTS
+
+SCORING ELEMENT
+S are ALLIANCE
+neutral ARTIFACTS. ARTIFACTS are 
+5 in. (12.70 cm) nominal Gopher
+ResisDent� polypropylene ball
+s in purple (
+am-3376a_purple
+) and green (
+am-3376a_green
+). There are 24
+purple (P) ARTIFACTS and 12 green (G) ARTIFACTS total in a DECODE MATCH. 
+
+ARTIFACTS are not perfectly spherical and may vary in size.
+Teams should plan for this variation when designing their ROBOTS. Based on the
+specifications provided by the manufacturer, ARTFACTS are specified to be 4.9
+in +/- 0.25 in. (12.45 cm +/- 0.65 cm) in diameter at the mold seam.
+
+Figure 9‑17: SCORING ELEMENTS (ARTIFACTS)

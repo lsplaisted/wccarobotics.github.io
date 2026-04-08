@@ -1,0 +1,106 @@
+13.4
+       
+Clarifications
+on MATCH Play Results
+ (�Question Box�)
+
+Each event will have one or more designated Question Boxes in
+the ARENA area. If a DRIVE TEAM has a question about a MATCH, the FIELD, etc.,
+they may send one STUDENT wearing a DRIVE TEAM badge to their corresponding
+Question Box. Depending on timing, the Head REFEREE or FTA may postpone any
+requested discussion until the end of the subsequent MATCH.
+
+Technical questions regarding FIELD or ROBOT operation are
+addressed by the FTA, and additional team members are invited to participate in
+these conversations if necessary. If a DRIVE TEAM needs clarification on a
+ruling or MATCH results, per 
+T401
+, one STUDENT should address the Head REFEREE
+after the MATCH results have been shown. 
+
+While the 
+FIRST
+ event management software tracks
+quantities of MINOR and MAJOR FOULS, 
+FIRST
+ instructs REFEREES to not
+self-track details about MINOR FOULS and MAJOR FOULS; as a result, we do not
+expect REFEREES to recall details about what MINOR FOULS and MAJOR FOULS were
+made, when they occurred, and against whom.
+
+Any reasonable question is fair game in the Question Box,
+and Head REFEREES will make good faith efforts to provide helpful feedback
+(e.g., how/why certain FOULS are being called, why a particular ROBOT may be
+susceptible to certain FOULS based on its design or gameplay, how specific
+rules are being called or interpreted), but please know that they may not be
+able to supply specific details.
+
+T401
+       
+*1 STUDENT, 1 Head REFEREE.
+ A team may only
+address the Head REFEREE with 1 STUDENT. The STUDENT may be accompanied by at
+most 1 silent observer, who may be an adult or a STUDENT.
+
+Violation: The Head REFEREE will not address additional,
+non-compliant team members or peripheral conversations.
+
+T402
+      
+
+*MATCH questions must be timely. 
+If
+a team would like to clarify or dispute the results of a MATCH using the
+process per 
+T401
+ they must present their STUDENT
+representative in the question box in a timely manner as outlined below:
+
+A.
+     
+
+questions regarding events in a Qualification MATCH may be asked at any
+time before ALLIANCE selection begins, or within 5 minutes of the last Qualification
+MATCH at events without Playoff MATCHES 
+
+B.
+     
+
+questions regarding events in a Playoff MATCH must be asked before the start
+of the next Playoff round or, for the last Playoff MATCH, immediately following
+the MATCH. 
+
+Please keep in mind that our REFEREES are human, and the
+more time has passed between the MATCH in questions, the less likely they are
+to remember the details of a specific MATCH. It is best to ask for
+clarification or to dispute the results of a MATCH within 3 MATCHES.
+
+Teams are
+encouraged to ask questions as soon as possible. Questions asked more than 5
+minutes after the last Playoff MATCH will likely not be addressed.
+
+T403
+      
+
+*Keep questions factual and
+constructive. 
+Teams coming to the Question Box should think through
+their requests in advance and are encouraged to have relevant references to
+rules or the 
+Q&A website
+
+available to aid discussions.
+
+There should be no negative implications for teams using
+the question box to advocate for themselves, but everyone should keep in mind
+it can be a high stress situation for team youth and for volunteers alike and it
+is important to remember 
+FIRST
+ 
+Core Values
+ during these
+discussions. 
+
+At some events, MATCH results may be available on the 
+FTC-Events
+ page.

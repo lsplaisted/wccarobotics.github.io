@@ -1,0 +1,31 @@
+8
+       
+
+Game Overview
+
+In DECODE� presented by RTX 2 competing ALLIANCES of 2 teams
+each score purple and green ARTIFACTS in their GOAL, build PATTERNS, and race
+back to their BASE before time runs out. 
+
+Just before the match starts, the OBELISK is randomized to
+show one of 3 MOTIFS. The MOTIF for the MATCH defines what color PATTERN robots
+try to create on their RAMPS. 
+
+During the first 30 seconds of the MATCH, the ROBOTS operate
+autonomously. ROBOTS can use sensors to decode the randomized MATCH MOTIF. ROBOTS
+can earn points by scoring ARTIFACTS in their GOAL and building a PATTERN on
+their RAMP based on the MOTIF. ROBOTS also earn points for moving off the
+LAUNCH LINE. 
+
+During the remaining 2 minutes of the MATCH, human DRIVERS
+take control of their ROBOT. ROBOTS collect and continue to score ARTIFACTS in
+their GOAL to earn points. DRIVE TEAM members can retrieve ARTIFACTS from the
+ALLIANCE�S LOADING ZONE and help their ROBOTS by loading them with ARTIFACTS.
+
+As time runs out, ALLIANCES can work together to return both
+of their ROBOTS to the BASE. ALLIANCES that build PATTERNS based on the MOTIF at
+the end of the MATCH earn additional points. 
+
+The ALLIANCE that earns the most points wins the MATCH and
+additional RANKING POINTS can be earned though completing other scoring
+achievements.

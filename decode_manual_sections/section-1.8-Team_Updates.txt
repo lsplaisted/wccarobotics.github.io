@@ -1,0 +1,38 @@
+1.8
+           
+
+Team
+Updates
+
+Team Updates are used to notify the 
+FIRST
+ Tech
+Challenge community of revisions to the official season documentation (e.g.,
+the manual, drawings) or important season news. Team Update posts are scheduled
+as follows: 
+
+-
+       
+
+Every Thursday beginning on Kickoff day and ending two weeks
+prior to 
+FIRST
+ Championship.
+
+Team Updates are posted on the Game and Season web page and
+are generally posted by 1pm Eastern.
+
+Team Updates are indicated using the following formatting:
+
+-
+       
+
+Additions are highlighted in yellow. 
+This is an example.
+
+-
+       
+
+Deletions are indicated with a strikethrough. 
+This is an
+example.

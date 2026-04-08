@@ -1,0 +1,674 @@
+10.5
+       
+Scoring
+
+ALLIANCES are rewarded for accomplishing various actions
+throughout a MATCH, including LEAVING their LAUNCH LINE, scoring CLASSIFIED or
+OVERFLOW ARTIFACTS, scoring ARTIFACTS in the DEPOT, achieving a PATTERN of
+ARTIFACTS, returning to their BASE, and winning or tying MATCHES. 
+
+ALLIANCES are rewarded for their performance during MATCHES
+via MATCH points and RANKING POINTS (RP), which increase the measure used to
+rank teams per section 
+13.6.3
+ 
+Qualification Ranking
+. 
+
+All achievements are updated by FIELD STAFF throughout the MATCH.
+Scoring achievements are assessed as follows:
+
+A.
+     
+
+Assessment of ARTIFACTS as either CLASSIFIED or OVERFLOW occurs
+throughout the MATCH and continues until all ARTIFACTS have come to rest
+following the conclusion of the MATCH. ARTIFACTS that meet scoring criteria
+prior to the start of TELEOP are assessed as part of AUTO
+
+B.
+     
+
+Assessment of AUTO PATTERN scoring occurs at when all ARTIFACTS have
+come to rest following the conclusion of AUTO or the start of TELEOP, whichever
+comes first.
+
+C.
+      
+Assessment
+of TELEOP PATTERN scoring occurs when all ROBOTS and ARTIFACTS have come to
+rest following the conclusion of the MATCH. 
+
+D.
+      
+Assessment
+of DEPOT scoring occurs at the end of TELEOP when all ROBOTS and ARTIFACTS have
+come to rest following the conclusion of the MATCH.
+
+E.
+      
+Assessment
+of LEAVE scoring occurs at the end of AUTO.
+
+F.
+      
+Assessment
+of BASE scoring occurs at the end of the TELEOP.
+
+LEAVING the LAUNCH LINE, ARTIFACT scoring, and return to
+BASE points are all evaluated and scored by human volunteers. Teams are
+encouraged to make sure that it is obvious and unambiguous that the criteria
+are met.
+
+Achievements scored before the MATCH starts, during the AUTO-to-TELEOP
+transition, and after the MATCH ends at 0:00 are subject to penalties.
+
+10.5.1
+       
+
+ARTIFACT Scoring Criteria
+
+To qualify for CLASSIFIED or OVERFLOW points, an ARTIFACT must
+enter the GOAL through the open top, exit under the archway, and pass through
+the diverting SQUARE. The determination of whether an ARTIFACT is CLASSIFIED or
+OVERFLOW is made as the ARTIFACT passes through the diverting SQUARE as
+follows:
+
+-
+       
+
+An ARTIFACT that passes through the SQUARE and transitions directly
+to the RAMP
+ is considered CLASSIFIED. 
+
+-
+       
+
+An ARTIFACT that passes through the SQUARE but does not meet
+CLASSIFIED criteria
+ is considered OVERFLOW. 
+
+ARTIFACTS that do not meet all the criteria for ARTIFACT scoring
+(e.g., did not enter the GOAL through the open top, did not exit under the
+archway, or did not pass through the diverting SQUARE) do not score as either
+CLASSIFIED or OVERFLOW.
+
+ARTIFACTS that are CLASSIFIED move directly to the RAMP,
+meaning they:
+
+-
+       
+
+do not roll over or otherwise bypass
+any ARTIFACTS on the RAMP.
+
+ARTIFACTS that are OVERFLOW:
+
+-
+       
+
+pass through the SQUARE and may roll
+over one or more ARTIFACTS that are on the RAMP.
+
+To qualify for DEPOT points, ARTIFACTS must be over the DEPOT.
+
+-
+       
+
+DEPOTS are ALLIANCE specific and are tied to the GOAL they are
+adjacent to. 
+
+-
+       
+
+DEPOT points are assessed after the MATCH without regard to which
+ALLIANCE placed the ARTIFACTS in the DEPOT. 
+
+-
+       
+
+DEPOTS are not protected zones, and either ALLIANCE can remove
+ARTIFACTS from either DEPOT during the MATCH.
+
+An ARTIFACT over a DEPOT that is in contact with or in CONTROL
+of a ROBOT from either ALLIANCE will still qualify for DEPOT points for the
+ALLIANCE that owns the DEPOT.
+
+Figure 10‑3: Example DEPOT scoring
+
+ 
+
+10.5.2
+       
+
+PATTERN Scoring Criteria
+
+At the end of AUTO and TELEOP, ARTIFACTS that are directly on
+the RAMP score for PATTERN points if the color of the ARTIFACT in order matches
+the MOTIF color for that index, and the ARTIFACTS are retained by the GATE. 
+
+The randomization of the OBELISK prior to the start of the
+MATCH selects the MOTIF which is repeated 3 times to define the PATTERN colors
+for each of the 9 indices on the RAMP (Figure 10‑4). PATTERN 
+points are scored based on the color of the ARTIFACT on the RAMP matching
+the individual index color defined by the MOTIF 
+(Figure 10‑5).
+
+Figure 
+10‑4:
+MOTIFS as defined by the OBELISK
+
+OBELISK
+
+ 
+
+ 
+
+RAMP
+
+ 
+
+ 
+
+Index
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+ 
+
+G
+ 
+P
+ 
+P
+
+(ID 21)
+
+ 
+
+GATE
+
+G
+
+P
+
+P
+
+G
+
+P
+
+P
+
+G
+
+P
+
+P
+
+SQUARE
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+P 
+G
+ 
+P
+
+(ID 22)
+
+ 
+
+GATE
+
+P
+
+G
+
+P
+
+P
+
+G
+
+P
+
+P
+
+G
+
+P
+
+SQUARE
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+P
+ 
+P
+  
+G
+
+(ID 23)
+
+ 
+
+GATE
+
+�P
+
+P
+
+�G
+
+P
+ 
+
+P
+
+G
+ 
+
+P
+ 
+
+P
+
+G
+ 
+
+SQUARE
+
+ 
+
+ 
+
+ 
+
+MOTIF
+
+ 
+
+ 
+
+Figure 
+10‑5:
+Example PATTERN scoring with GPP scoring 
+
+PATTERN Scored
+
+x
+
+x
+
+�
+
+�
+
+�
+
+�
+
+x
+
+�
+
+x
+
+ 
+
+ARTIFACTS
+
+□
+
+□
+
+□
+
+□
+
+□
+
+□
+
+□
+
+□
+
+-
+
+ 
+
+ 
+
+ 
+
+Index
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+ 
+
+ 
+
+ 
+
+GATE
+
+G
+
+P
+
+P
+
+G
+
+P
+
+P
+
+G
+
+P
+
+P
+
+SQUARE
+
+ 
+
+ 
+
+MOTIF (GPP)
+
+ 
+
+10.5.3
+       
+
+ROBOT Scoring Criteria
+
+To qualify for LEAVE points, 
+a ROBOT must move
+such that it is no longer over any LAUNCH LINE at the end of AUTO
+. 
+
+To qualify for BASE points, a 
+ROBOT must be
+either fully returned or partially returned 
+by meeting the following conditions:
+
+-
+       
+
+A ROBOT fully returned to BASE must only be supported, either
+directly or transitively, by the TILE in the BASE ZONE.
+
+-
+       
+
+A ROBOT partially returned to BASE must be partially supported,
+either directly or transitively, by the TILE in the BASE ZONE.
+
+The TILE in the BASE ZONE is
+the flooring surface bounded by the outside edge of the tape defining the BASE
+ZONE. 
+
+Support comes, either
+directly or transitively through other items on the FIELD (e.g., SCORING
+ELEMENTS, another ROBOT), through the TILE in the BASE ZONE.
+
+If all of the support of the
+ROBOT in the BASE ZONE is from the TILE in the BASE ZONE, the ROBOT is fully
+returned to BASE.
+
+If some of the support of
+the ROBOT in the BASE ZONE is from the TILE in the BASE ZONE and some is from
+TILES outside the BASE ZONE, the ROBOT is partially returned to BASE.
+
+If none of the support of
+the ROBOT in the BASE ZONE is from the TILE in the BASE ZONE, the ROBOT is not considered
+returned to BASE.
+
+ 
+
+10.5.4
+       
+
+Point Values
+
+Table 
+10‑2:
+DECODE point values
+
+ 
+
+MATCH points
+
+RANKING POINTS
+
+AUTO
+
+TELEOP
+
+LEAVE
+
+ 
+
+3
+
+ 
+
+ 
+
+ARTIFACT
+
+CLASSIFIED
+
+3
+
+3
+
+ 
+
+OVERFLOW
+
+1
+
+1
+
+ 
+
+DEPOT
+
+ 
+
+1
+
+ 
+
+PATTERN
+
+ARTIFACT matches MOTIF
+
+2
+
+2
+
+ 
+
+BASE
+
+Partially returned to BASE
+
+ 
+
+5
+
+ 
+
+Fully returned to BASE
+
+ 
+
+10
+
+ 
+
+Additional Bonus: 2 ROBOTS fully returned to BASE.
+
+ 
+
+10
+
+ 
+
+MOVEMENT RP � Combined LEAVE
+  + BASE points earned at or above threshold
+
+1
+
+GOAL RP � The number of ARTIFACTS scored through the SQUARE
+  at or above threshold
+
+1
+
+PATTERN RP � PATTERN points earned at or above threshold
+
+1
+
+WIN
+
+Completing a MATCH with more MATCH points than your opponent
+
+3
+
+TIE
+
+Completing a MATCH with the same MATCH points as your
+  opponent
+
+1
+
+Table 10‑3: DECODE RP thresholds
+
+RP Type
+
+FIRST 
+Championship
+
+Regional Championships
+
+All Other Events*
+
+MOVEMENT RP
+
+21
+
+21
+
+16
+
+GOAL RP
+
+67
+
+42
+
+36
+
+PATTERN RP
+
+22
+
+22
+
+18
+
+RP thresholds for Regional Championships and 
+FIRST
+
+Championship will be announced in Team Updates. 
+
+*Premier Events will be able to set their own thresholds to
+best reflect the experience they want to provide teams.

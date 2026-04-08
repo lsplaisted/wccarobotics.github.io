@@ -1,0 +1,304 @@
+13.2
+       
+General
+Tournament Rules
+
+T201
+       
+*The Head REFEREE has ultimate and final authority regarding
+gameplay during the event.
+ The Head REFEREE may receive 
+input
+from additional sources, e.g., 
+FIRST
+ personnel, FTA, Event Director, Program
+Delivery Partner, and other event staff. The Head REFEREE rulings are final. No
+event staff, including the Head REFEREE, will review video, photos, artistic
+renderings, etc. of any MATCH, from any source, under any circumstances.
+
+A.
+     
+
+When issuing a RED CARD or YELLOW CARD the Head REFEREE must record the
+rule violation.
+
+B.
+     
+
+Event Directors and Program Delivery Partners may not overrule a Head
+REFEREE decision.
+
+C.
+     
+
+FIRST
+ Code of Conduct and Egregious violations may involve
+escalation beyond the Head REFEREE�S initial ruling.
+
+D.
+     
+
+Every Qualification and Playoff MATCH must be observed by a certified Head
+REFEREE. Head REFEREES may only watch 1 MATCH at a time. 
+
+Rules in
+this manual are written for 
+human
+ Head REFEREES to enforce. Some have
+clear unambiguous criteria which can be easily checked, but other rules will
+rely on human judgement. Head REFEREES are asked to make the best call they can
+in the moment with what they or other REFEREES observed during the MATCH. 
+
+When
+there is an ambiguous situation or controversial call it is human instinct to
+wonder what was the �right call� or �what-if..� � for the purposes of 
+FIRST
+
+Tech Challenge gameplay, the right call is the one that was made in good faith
+by the Head REFEREE with the information they had available at the time.� 
+
+T202
+       
+*Only REFEREES can declare a ROBOT DISABLED. 
+A ROBOT
+is only considered DISABLED once a REFEREE has declared the ROBOT DISABLED during
+a MATCH. A ROBOT may be DISABLED as a consequence of a rule violation or due to
+a ROBOT failure. If a REFEREE DISABLES a ROBOT as a consequence for a rule
+violation, the REFEREE may instruct the team to drive the ROBOT to a specific neutral
+position on the FIELD before DISABLING. �
+
+T203
+      
+
+*The Event Director has
+ultimate authority regarding all non-gameplay decisions during an event.
+ The
+Competition Manual is intended to provide a set of rules for the competition
+including gameplay and judging but it is not an exhaustive compilation of
+guidelines for running a 
+FIRST
+ Tech Challenge event.� Issues outside of
+specific gameplay rules which are under the authority of the Head REFEREE per 
+T201
+ are at the discretion of the Event
+Director such as, but not limited to:
+
+A.
+     
+
+venue access as published via the public schedule
+
+B.
+     
+
+pit sizes and utility access
+
+C.
+     
+
+health and safety
+
+D.
+     
+
+team registration and competition eligibility
+
+E.
+     
+
+team conduct away from the ARENA
+
+T204
+       
+*All competition FIELDS at an event must be consistent
+with each other. 
+Events which have multiple competition FIELDS (as
+indicated by the MATCH schedule Figure 13‑1) will be consistent with each
+other. Examples of set-up which must be considered includes but is not limited
+to:
+
+A.
+     
+
+elevation of the FIELD off the floor
+
+B.
+     
+
+FIELD display monitors
+
+C.
+     
+
+FIELD perimeter type
+
+D.
+     
+
+FIELD TILE size and type
+
+Other FIELDS (e.g., practice FIELDS) at the event do not
+need to be consistent with each other or competition FIELDS.
+
+T205
+      
+
+*During optional FIELD measurement
+and calibration time(s) ROBOTS may not practice on the FIELD.
+ During any
+period when the ARENA is open for measurement, ROBOTS may run OpModes but
+cannot move the ROBOT (e.g., CHASSIS) under its own power around the FIELD. 
+
+Violation: VERBAL WARNING. YELLOW CARD if subsequent
+violations during the event.
+
+At the discretion of the Event Director at the event, the
+ARENA may be open for at least 30 minutes prior to the start of Qualification
+MATCHES, during which time teams may survey and/or measure the ARENA and bring
+ROBOTS on the FIELD to perform sensor calibration. The specific time that the
+FIELD is open will be communicated to teams at the event. Teams may bring
+specific questions or comments to the Head REFEREE or FTA.
+
+Allowed activities during ROBOT calibration and measurement
+time(s) include:
+
+A.
+      
+ROBOT may be powered on.
+
+B.
+      
+Team may initialize an OpMode.
+
+C.
+      
+ROBOT may operate or extend MECHANISMS outside the ROBOT
+CHASSIS.
+
+D.
+      
+ROBOT may CONTROL SCORING ELEMENTS.
+
+E.
+      
+ROBOT may be connected to programming laptops and other
+devices.
+
+F.
+      
+Team members may be on the FIELD with the ROBOT.
+
+G.
+     
+Team members may manually move the ROBOT to multiple
+positions around the FIELD (e.g., without driving the ROBOT under its own power).
+
+H.
+     
+Team members or ROBOTS may measure the FIELD with tools
+(e.g., tape measures) or sensors.
+
+Activities not
+allowed during ROBOT calibration and measurement time(s) include: 
+
+I.
+       
+
+ROBOT CHASSIS may not move under its own power
+around the FIELD (i.e., �driving� as part of AUTO or TELEOP).
+
+J.
+      
+ROBOT may not LAUNCH SCORING ELEMENTS.
+
+K.
+      
+�HUMAN PLAYER may not practice (e.g., repetitive actions by
+a TEAM member in the ALLIANCE AREA placing/retrieving SCORING ELEMENTS). 
+
+T206
+      
+
+*No team timeouts, but MATCHES have
+breaks.
+ Teams playing in back-to-back MATCHES will have a minimum break
+between their MATCHES as follows: 
+
+A.
+     
+
+In Qualification MATCHES, each team will have a minimum of 5 minutes from
+when the MATCH results are posted from their previous match until the expected
+start time of their next MATCH for the purpose of 
+G301
+.
+
+B.
+     
+
+In Playoff MATCHES, each team will have a minimum of 8 minutes from when
+MATCH results are posted from their previous MATCH until the expected start
+time of their next MATCH for the purpose of 
+G301
+. 
+
+If a MATCH�S results will not be posted, (e.g., due to an
+immediate replay) each team will be afforded a reasonable time to reset at the
+Head REFEREE�S discretion. 
+
+These breaks are automatically tracked by the 
+FIRST
+
+event management system. FIELD STAFF will communicate expected start times with
+teams as appropriate. Teams may ask the Head REFEREE or their designee about
+the timing of affected MATCHES.
+
+During 
+FIRST
+ Championship da Vinci round-robin
+Playoff MATCHES, each team will have a minimum break of 8 minutes from when a
+MATCH concludes until the expected start time of their next MATCH for the
+purpose of 
+G301
+.
+
+T207
+      
+
+*MATCHES are played in order
+ 
+Qualification
+and Playoff MATCHES will be played in numerical order except for extenuating
+circumstances at the discretion of the Head REFEREE in consultation with the
+Event Director. All Qualification MATCHES must be played before the start of
+ALLIANCE selection and all Playoff MATCHES for the current round must be played
+before the start of the next round. The timing of MATCHES played out of order
+or replayed MATCHES will be communicated by FIELD STAFF or event personnel to
+the teams involved.
+
+Extenuating circumstances that might lead to a MATCH being
+played out of order include, but are not limited to:
+
+A.
+      
+A MATCH replay occurring at the next available break, end
+of day, at the conclusion of other Qualification MATCHES, or the end of the
+current playoff round.
+
+B.
+      
+A lengthy repair on one competition FIELD preventing MATCH
+play from continuing on on that FIELD, but other FIELDS may continue to be
+used. 
+
+C.
+      
+Urgent and extenuating circumstances related to a team. 
+
+The intent of this rule is to
+ensure that MATCHES are played in an orderly fashion while providing
+flexibility for unforeseen circumstances. Regardless of play order, 
+T206
+ and 
+G301
+ remain in effect.

@@ -1,0 +1,13 @@
+9
+       
+
+ARENA
+
+The ARENA 
+includes all elements of the game
+infrastructure that are required to play DECODE: the FIELD, SCORING ELEMENTS,
+queue area, team media area, and all equipment needed for event management
+.
+
+Figure 9‑1 DECODE (queue area, FIELD display, and
+optional media area not pictured)

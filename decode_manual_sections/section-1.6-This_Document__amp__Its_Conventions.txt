@@ -1,0 +1,209 @@
+1.6
+           
+
+This
+Document & Its Conventions
+
+The 
+2025-2026 
+Competition Manual
+is a resource for all 
+FIRST
+ Tech Challenge teams for information
+specific to the 2025-2026 season and the DECODE
+TM
+ presented by RTX
+game. Its audience will find the following details:
+
+-
+       
+
+a general overview of the DECODE game,
+
+-
+       
+
+detail about the DECODE playing FIELD,
+
+-
+       
+
+a description of how to play the DECODE game,
+
+-
+       
+
+rules (related to safety, conduct, gameplay, inspection, event,
+etc.), 
+
+-
+       
+
+ROBOT construction rules, and
+
+-
+       
+
+a description of how teams advance at 2025-2026 tournaments and
+throughout the season.
+
+The intent of this manual is that the text means exactly,
+and only, what it says. Please avoid interpreting the text based on assumptions
+about intent, implementation of past rules, or how a situation might be in
+�real life.� There are no hidden requirements or restrictions. If you�ve read the
+entire manual, you already know everything needed for your journey.
+
+Specific methods are used throughout this manual to
+highlight warnings, cautions, key words, and phrases. These conventions are
+used to alert the reader to important information and are intended to help
+teams in constructing a ROBOT that complies with the rules in a safe manner.
+
+Links to other section headings and rule references within
+this manual appear in 
+blue underlined text with a grey
+background
+. Links to external resources appear 
+blue
+underlined text
+.
+
+For linked references not included in a preview release of this
+document, the links will appear with the section letter and ### for the rules
+number within square brackets. For example, a cross link to a game rule before
+a game rule is released will appear as 
+[G###]
+
+and will be replaced with the current linked rule when that section of the
+manual is released.
+
+Key words that have a particular meaning within the context
+of 
+FIRST
+ Tech Challenge and DECODE are defined in section 
+16
+ 
+Glossary
+ and indicated in ALL CAPS throughout this
+document. 
+
+The rule numbering method
+indicates the section, subsection, and position of the rule within that
+subsection. The letter indicates the section in which the rule is published. 
+
+-
+       
+
+I for Section��������� 
+3
+ 
+Competition Eligibility and Inspection (I)
+
+-
+       
+
+E for Section�������� 
+5
+ 
+Event Rules (E)
+
+-
+       
+
+A for Section�������� 
+6
+ 
+Awards (A)
+
+-
+       
+
+G for Section������� 
+11
+ 
+Game Rules (G)
+
+-
+       
+
+R for Section�������� 
+12
+ 
+ROBOT Construction Rules (R)
+
+-
+       
+
+T for Section�������� 
+13
+ 
+Tournament (T)
+
+-
+       
+
+L for Section�������� 
+14
+ 
+League Play Tournaments (L)
+
+-
+       
+
+C for Section�������� 
+15
+ 
+FIRST Championship (C)
+
+The following digit(s) represents the subsection in which
+the rule can be found. The final digits indicate the rule�s position within
+that subsection.
+
+Figure 1‑2 Rule numbering method
+
+Warnings, cautions, and notes appear in orange boxes. Pay
+close attention to their contents as they�re intended to provide insight into
+the reasoning behind a rule, helpful information on understanding or
+interpreting a rule, and/or possible �best practices� for use when implementing
+systems affected by a rule.
+
+While orange boxes are part of the manual, they do not
+carry the weight of the actual rule (if there is an inadvertent conflict
+between a rule and its orange box, the rule supersedes the language in the
+orange box).
+
+Imperial dimensions are followed by comparable metric
+dimensions in parentheses to provide metric users with the approximate size,
+mass, etc. Metric conversions (e.g., dimensions) round to the nearest 0.05 cm,
+e.g., "17.5 in. (~44.45 cm).� The metric conversions are offered for
+convenient reference only and do not overrule or take the place of the imperial
+dimensions presented in this manual and the official drawings (i.e., dimensions
+and rules will always defer to measurements using imperial units).
+
+Rules include colloquial language, also called headlines, in
+an effort to convey an abbreviated version of the rule or rule set. There are
+two versions of headline formatting. Evergreen rules, rules which are expected
+to go relatively unchanged from season to season, are indicated with their
+headline presented in 
+*bold green text
+ with
+a leading asterisk. �Relatively unchanged� means that the overall intent and
+presence of the rule from season to season is constant, but game specific terms
+may be updated as needed (e.g., changing Pixels to Samples in a rule about what
+DRIVE COACHES may not contact during a MATCH). These rules also start their
+respective section, so their rule number is less likely to change from season
+to season. All other rule headlines use 
+bold
+orange text
+. Any disagreement between the specific language used in the
+rules and the colloquial language is an error, and the specific rule language
+is the ultimate authority. If you discover a disparity, please let us know at 
+customerservice@firstinspires.org
+.
+
+Team resources that are not generally season specific (for
+example, what to expect at an event, communication resources, team organization
+recommendations, and award descriptions) can be found on the 
+FIRST
+
+Tech Challenge website
+.

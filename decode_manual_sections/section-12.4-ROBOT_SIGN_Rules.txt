@@ -1,0 +1,209 @@
+12.4
+      
+
+ROBOT SIGN Rules
+
+A ROBOT SIGN is a required assembly which attaches to the
+ROBOT. 
+A ROBOT SIGN simultaneously identifies a ROBOT�S
+team number as well as its ALLIANCE affiliation for FIELD STAFF. 
+Criteria
+used in writing these rules include the following:
+
+-
+       
+
+Maximize FIELD STAFF�S ability to determine team number and
+ALLIANCE of a ROBOT,
+
+-
+       
+
+Minimize the amount of design challenge in creating ROBOT SIGNS,
+and
+
+-
+       
+
+Increase consistency in displaying ROBOT identification.
+
+R401
+      
+
+*Two ROBOT SIGNS per ROBOT.
+�
+ROBOT SIGNS 
+must be placed in at least 2 separate locations on
+the ROBOT. These locations must be on opposite or adjacent surfaces of the
+ROBOT, ≥90 degrees apart. All ROBOT surfaces visible to FIELD STAFF can
+be used for placing ROBOT SIGNS including the top of the ROBOT. ROBOT SIGNS
+must meet the following criteria:
+
+A.
+     
+
+be made of a robust material, 
+
+B.
+     
+
+minimally be 6.5 inches (16.5 cm) wide,
+
+C.
+     
+
+minimally be 2.5 inches (6.4 cm) tall (Figure
+12‑3), and
+
+D.
+     
+
+be supported by the structure/frame of the ROBOT.
+
+The intent of this rule is for FIELD STAFF to easily view
+ROBOT SIGNS from at least 12 feet (3.65 meters) away before, during, and after
+the MATCH. 
+
+Examples
+of robust materials that satisfy this rule include, but are not limited to,
+acrylic, plastic laminated paper, wood, and metal. ROBOT SIGNS must be designed
+to withstand vigorous game play.
+
+ 
+
+Figure 
+12‑3: Team Number ROBOT SIGN Sizing
+
+R402
+       
+*ROBOT SIGNS indicate your ALLIANCE.� 
+Each
+ROBOT SIGN must contain a rectangle with a solid red or blue opaque background at
+least 6.5 in. by 2.5 in. (16.50 cm by 6.35 cm) in size to indicate their
+ALLIANCE color (Figure 12‑3), as assigned in the MATCH schedule at the
+event. Visible markings on ROBOT SIGNS when installed on the ROBOT, other than
+the following, are prohibited:
+
+A.
+     
+
+those required per 
+R403
+,
+
+B.
+     
+
+solid white 
+FIRST
+ logos no larger than 1.5 in. (3.80 cm) in
+height (Figure 12‑5),
+
+C.
+     
+
+small amounts of hook-and-loop tape, hard fasteners, or functional
+equivalents,
+
+D.
+     
+
+narrow areas of differing colors exposed at corners, folds, or cutouts,
+
+E.
+     
+
+dark narrow markings on background solely for template purposes, and
+
+F.
+     
+
+cannot be powered or rely on power from any sources to illuminate/reveal
+ALLIANCE color.
+
+ROBOT SIGNS that are reversible or configurable must not
+allow the opposite ALLIANCE color to be visible to FIELD STAFF, except where
+permitted by this rule.
+
+Figure 
+12‑4: Minimum sized ALLIANCE rectangle
+
+Figure 
+12‑54: Legal team number display for team 117 playing on the red ALLIANCE
+
+R403
+       
+*Team number on ROBOT SIGNS.
+ Team numbers must
+be displayed and positioned on the ROBOT SIGN as shown in Figure
+12‑3, Figure 12‑6, and Figure 12‑7 and meet the following
+additional criteria:
+
+A.
+     
+
+consist of solid opaque white Arabic numbers (e.g., 1,2,3,4) which are 2.25
+in. +/-0.5 in. (5.70 cm +/- 1.25 cm) tall,
+
+B.
+     
+
+there must be a minimum of 0.25 in. (0.60 cm) of background surrounding
+the numbers,
+
+C.
+     
+
+numbers may not be vertically stacked (Figure 12‑7),
+
+D.
+     
+
+be made of robust materials, and
+
+E.
+     
+
+cannot be powered or rely on power from any sources to illuminate/reveal
+numbers.
+
+Figure 
+12‑6:
+Legal number for team 21001 playing on the blue ALLIANCE
+
+Figure 
+12‑7:
+Team number orientation examples for team 1355 playing on the blue ALLIANCE
+
+If a team at an event does not have completely legal ROBOT
+SIGNS, and there is no color printer or other means available at the event to
+create a legal ROBOT SIGN, the Head REFEREE may approve an alternate substitute
+for use at the event. 
+
+Team numbers must be robust enough to withstand the rigors
+of MATCH play. Example robust materials include:� 
+
+-
+       
+
+self-adhesive numbers (mailbox or vinyl
+numbers) 
+
+-
+       
+
+ink jet or laser printed numbers on
+paper and laminated or protected from ROBOT-to-ROBOT interaction.
+
+Examples
+of prohibited team numbers on ROBOT SIGNS include but are not limited to:
+
+-
+       
+
+team numbers only visible by edge lit engraved plastic
+
+-
+       
+
+LED Display numbers

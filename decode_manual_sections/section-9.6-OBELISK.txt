@@ -1,0 +1,46 @@
+9.6
+           
+
+OBELISK
+
+The 
+OBELISK is an equilateral triangular
+prism 
+(we know, real 
+obelisks
+
+have 4 sides) which is positioned with 1 of the rectangular faces centered on
+the GOAL-side of the FIELD, 
+just outside of the FIELD perimeter
+.
+The OBELISK is 23 in. (58.40 cm) tall and each rectangular face is 11 in. (27.95
+cm) wide (Figure 9‑7). 
+
+Figure 
+9‑7:
+OBELISK dimensions
+
+Each of the 3 rectangular faces of the OBELISK has an
+AprilTag (see section 
+9.10
+ 
+AprilTags
+) which corresponds to a different MOTIF. A
+MOTIF is 
+a series of ARTIFACT colors, comprised of 2 purple (P)
+and 1 green (G), in a unique order
+. There are 3 MOTIFS in DECODE (GPP, PGP,
+PPG). 
+
+The OBELISK orientation is randomized by the FIELD STAFF
+using the event management software after DRIVE TEAMS have set-up for the MATCH
+(
+G304
+). The event management software will determine
+which face of the OBELISK should face towards the FIELD and the FIELD STAFF
+will put it in place. The location of the OBELISK will be approximately
+centered along the outside edge of the FIELD perimeter with the face containing
+the AprilTag approximately parallel to and contacting the FIELD perimeter wall.
+
+The location of the OBELISK is not intended to be deterministic
+relative to the field coordinate system and should not be used for navigation.

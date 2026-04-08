@@ -1,0 +1,117 @@
+9.8
+           
+
+CLASSIFIER
+
+The CLASSIFIER is 
+a structure attached to
+the GOAL which has 3 main components: the SQUARE, RAMP, and GATE
+ (Figure 9‑10).
+
+Figure 
+9‑10:
+CLASSIFIER with no SCORING ELEMENTS
+
+ 
+
+9.8.1
+           
+
+SQUARE
+
+The SQUARE (Figure 9‑11) is 
+a location at
+the top of the RAMP at which ARTIFACT scoring is assessed 
+as per 
+10.5
+ 
+Scoring
+.
+
+Figure 
+9‑11:
+SQUARE on the RAMP
+
+9.8.2
+           
+
+RAMP
+
+The RAMP is a structure made of primarily aluminum
+extrusion. The RAMP 
+can fit up to 9 CLASSIFIED ARTIFACTS
+
+before newly entered ARTIFACTS will OVERFLOW. 
+
+Figure 9‑12: RAMP with no SCORING ELEMENTS
+
+ 
+
+ 
+
+In most cases exactly 9 ARTIFACTS will fit on the RAMP as
+CLASSIFIED before newly entered ARTIFACTS will OVERFLOW, but sometimes
+ARTIFACTS LAUNCHED into the GOAL at a high velocity or with significant spin
+may skip over the 9
+th
+ open CLASSIFIER slot and count as OVERFLOW.
+This is a normal FIELD operation and not an ARENA FAULT. 
+
+Figure 9‑13: RAMP partially full of SCORING ELEMENTS
+
+ 
+
+Figure 9‑14: RAMP full of SCORING ELEMENTS with
+OVERFLOW
+
+ 
+
+9.8.3
+           
+
+GATE
+
+The GATE is 
+an ALLIANCE specific FIELD element
+that prevents CLASSIFIED ARTIFACTS from exiting the RAMP 
+into the opposing
+ALLIANCE�S SECRET TUNNEL ZONE (Figure 9‑15). OVERFLOW ARTIFACTS can pass
+over the top of the GATE to exit the RAMP into the opposing ALLIANCE�S SECRET TUNNEL
+ZONE. The GATE is closed by gravity and after opening it may or may not stay
+open to clear all CLASSIFIED ARTIFACTS. 
+
+Figure 
+9‑15:
+GATE
+
+The GATE is a ROBOT-activated, push to open mechanism which
+will release ARTIFACTS which are CLASSIFIED on the RAMP (Figure 9‑16). 
+
+The GATE will take variable amounts of time to close. The GATE
+closing before all CLASSIFIED ARTIFACTS exit the RAMP is not considered an ARENA
+FAULT, and teams should be prepared to hold the GATE open to fully clear the
+RAMP. The GATE not closing immediately when released by the ROBOT (but closing
+eventually) is not considered an ARENA FAULT. During a MATCH, FIELD STAFF may
+follow steps in the 
+Field
+Mitigation Guide
+ to mitigate some FIELD issues
+during a MATCH. Refer to the Field Mitigation Guide for more guidance on how
+FIELD STAFF will respond to inconsistent FIELD behavior.
+
+When closed, the height of the contact area of the GATE
+above the surface of the TILE ranges from approximately 3.75 in. (9.55 cm) to 5.5
+in. (14.00 cm) and when open the contact point is approximately 3 in. (7.60 cm)
+above the TILES (Figure 9‑16). The total horizontal displacement required
+to move the GATE from closed to open is approximately 2 in. (5.10 cm).
+
+TEAMS are encouraged to design their ROBOTS with a large
+vertical surface which ensures consistent contact with the GATE arm. It is
+particularly important that this panel extends up to the high end of the
+interface range approximately 5.5 in. (14.00 cm) above the TILE surface. This
+ensures the ROBOT cannot end up �under� the GATE arm and will help prevent
+ROBOTS from inadvertently damaging the FIELD.
+
+Figure 
+9‑16:
+GATE Actuation: Open & Closed

@@ -1,0 +1,57 @@
+15.3
+       
+3-ROBOT
+ALLIANCES
+
+ALLIANCES at the 
+FIRST
+ Championship will be made up
+of 3 ROBOTS. Before each division playoff tournament, ALLIANCES are selected
+per the process as described in section 
+13.7.1
+ 
+ALLIANCE Selection Process
+; however, the process
+continues with a 2
+nd
+ round of selection as follows:
+
+Round 2: 
+The same method is used for each ALLIANCE lead�s
+second choice except the selection order is reversed, with ALLIANCE 8 picking
+first and ALLIANCE 1 picking last. This process results in 8 ALLIANCES of 3
+teams each.
+
+ALLIANCES may start each of their MATCHES with any 2 of the 3
+ROBOTS on their ALLIANCE during Division and Championship Playoff MATCHES.
+ALLIANCES do not need to inform FIELD STAFF of which 2 ROBOTS will play ahead
+of the MATCH but must not delay the start of the MATCH per 
+G301
+ by making a late decision. 
+
+For example, an ALLIANCE deciding a different set of 2
+ROBOTS will be playing in the MATCH after 2 ROBOTS have left queuing is likely
+a delay of MATCH.
+
+C301
+      
+
+*Replays use the same
+ROBOTS.
+ If a Playoff MATCH must be replayed, the 2 ROBOTS used in the
+replay must be the same as in the original MATCH. The sole exception is: if, in
+the opinion of the Head REFEREE, the ARENA FAULT rendered a ROBOT inoperable,
+in which case the ROBOTS can be changed. If an additional MATCH is played due
+to a tie, any 2 of the 3 ROBOTS may be played in the additional MATCH.
+ 
+
+FIRST
+ Tech Challenge
+teams play significantly more matches at the 
+FIRST 
+Championship than
+they do at most events, and there are significantly more teams at the event. Drafting
+a 3
+rd
+ ROBOT provides each ALLIANCE with a built-in backup ROBOT and
+flexibility to draft for different MATCH strategies in mind.

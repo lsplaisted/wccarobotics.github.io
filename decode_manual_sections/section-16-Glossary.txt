@@ -1,0 +1,528 @@
+16
+   
+
+Glossary
+
+The following definitions and terms
+are used for the 
+FIRST
+ Tech Challenge game DECODE. Defined terms are in
+ALL CAPITAL LETTERS throughout the manual (for example, ALLIANCE). Competition
+rules mean what they plainly say. If a word is not given a game definition,
+then you should use its common conversational meaning.
+
+Term
+
+Definition
+
+ALLIANCE
+
+a cooperative of 2 
+FIRST
+
+  Tech Challenge teams
+
+ALLIANCE AREA
+
+a
+  96 in. (243.85 cm) wide by 54 in. (137.15 cm) deep by infinitely tall volume
+  formed by placing ALLIANCE colored tape onto the flooring surface outside of
+  the FIELD. 
+
+ALLIANCE CAPTAIN
+
+The designated STUDENT
+  representative from each ALLIANCE lead is called the ALLIANCE CAPTAIN.
+
+ARENA
+
+includes all elements of the
+  game infrastructure that are required to play this season's FTC game
+  including: the FIELD, SCORING ELEMENTS, queue area, team media area, and all
+  equipment needed for FIELD control, ROBOT control, and scorekeeping
+
+ARENA FAULT
+
+ARENA FAULT is an error in
+  ARENA operation
+
+ARTIFACT
+
+An ARTIFACT is a 5
+  in. (12.70 cm) nominal Gopher ResisDent� polypropylene ball ALLIANCE neutral
+  SCORING ELEMENT.
+
+AUTO
+
+the first 30 seconds of the
+  MATCH, during which DRIVERS may not provide input to their ROBOTS, so ROBOTS
+  operate with only their pre-programmed instructions
+
+BASE
+
+A scoring accomplishment in
+  which ROBOT must be either fully returned or partially returned to their BASE
+  ZONE.
+
+BASE ZONE
+
+an 18 in. +/- 0.125 in. (45.70
+  cm +/- 0.30 cm) wide by 18 in. +/- 0.125 in. (45.70 cm +/- 0.30 cm) deep
+  infinitely tall volume bounded by ALLIANCE colored tape
+
+CHASSIS
+
+ROBOT�S MAJOR MECHANISM that enables
+  it to move around a FIELD
+
+CLASSIFIED
+
+An ARTIFACT that passes
+  through the SQUARE and transitions directly to the RAMP
+
+CLASSIFIER
+
+a structure attached to the
+  GOAL which has 3 main components: the SQUARE, RAMP, and GATE
+
+COMPONENT
+
+any part in its most basic
+  configuration, which cannot be disassembled without damaging or destroying
+  the part or altering its fundamental function
+
+CONTINUOUS
+
+describes
+  durations that are more than approximately 10 seconds
+
+CONTROL
+
+an
+  action by a ROBOT in which the SCORING ELEMENT is fully supported by or stuck
+  in, on, or under the ROBOT or it intentionally pushes a SCORING ELEMENT to a
+  desired location or in a preferred direction (i.e., herding). CONTROL
+  requires contact with a ROBOT, either directly or transitively through other
+  SCORING ELEMENTS. Typically, CONTROL requires one of the following to be
+  true:
+
+The SCORING ELEMENT is fully
+       supported by the ROBOT
+
+The ROBOT is moving the
+       SCORING ELEMENT in a preferred direction with a flat or concave face of
+       the ROBOT
+
+COTS
+
+a standard (i.e., not custom
+  order) part commonly available from a VENDOR for all teams for purchase
+
+CUSTOM CIRCUIT
+
+Any active electrical item
+  that is not an actuator (specified in 
+R501
+)
+  or power regulation device (specified in 
+R505
+)
+  
+
+DEPOT
+
+the white tape approximately
+  30 in. (76.20 cm) long which spans the entire length of the GOAL front face
+  and is located at the base of the GOAL
+
+DISABLED
+
+The REFEREE instructs the team
+  to stop the ROBOT which will deactivate all outputs, rendering the ROBOT
+  inoperable for the remainder of the MATCH
+
+DISQUALIFIED
+
+the state of a team in which
+  they receive 0 MATCH points and 0 RANKING POINTS in a Qualification MATCH or
+  causes their ALLIANCE to receive 0 MATCH points in a Playoff MATCH
+
+DRIVE COACH
+
+a guide or advisor
+
+DRIVE TEAM
+
+a set of up to 4 people from
+  the same 
+FIRST
+ Tech Challenge team responsible for team performance
+  for a specific MATCH 
+
+DRIVER
+
+an operator and controller of
+  the ROBOT 
+
+DRIVER STATION
+
+Android device (smartphone or
+  REV Driver Hub) that runs the DRIVER STATION App software to communicate with
+  a ROBOT per 
+R901
+
+FABRICATED ITEM
+
+any COMPONENT or MECHANISM
+  that has been altered, built, cast, constructed, concocted, created, cut,
+  heat treated, machined, manufactured, modified, painted, produced, surface
+  coated, or conjured partially or completely into the final form in which it
+  will be used on the ROBOT
+
+FIELD
+
+an approximately 144 in. by
+  144 in. (365.75 cm by 365.75 cm) area bounded by the inside surface of the
+  walls
+
+FIELD STAFF
+
+volunteers present in and
+  around the ARENA that are responsible for making sure the MATCHES are cycled
+  through efficiently, fairly, safely, and with a spirit of cooperation, 
+Gracious
+  Professionalism
+�
+, and generosity of spirit
+
+FTA
+
+FIRST
+ Technical Advisor
+  
+
+GATE
+
+an ALLIANCE specific FIELD
+  element that prevents CLASSIFIED ARTIFACTS from exiting the RAMP 
+
+GATE ZONE
+
+a 2.75 in. (7.00 cm) wide by
+  10 in. (25.40 cm) long infinitely tall volume bounded by 2 parallel 10 in.
+  (25.40 cm) long ALLIANCE colored tape segments adjacent to each GATE
+
+GOAL
+
+a 3-sided
+  structure with a horizontal triangular shaped opening at the top
+
+HUMAN PLAYER
+
+a SCORING ELEMENT manager
+
+INSPECTOR
+
+a person determined by 
+FIRST
+
+  to accurately and efficiently assess the legality of a given part or the
+  whole of a ROBOT, an event volunteer role
+
+JUDGE
+
+JUDGES meet with teams to
+  learn about and celebrate the unique journey and accomplishments of each team
+  and evaluate these against award requirements. JUDGES interact with STUDENTS
+  during the interview process, and in the pits. As a group, JUDGES determine
+  the teams that receive awards at events
+
+LAUNCH/LAUNCHING
+
+An action by a ROBOT in which
+  the SCORING ELEMENT is shot into the air, propelled across the floor to a
+  desired location or in a preferred direction, or thrown in a forceful way
+
+LAUNCH LINE
+
+the white tape which bounds 2
+  triangular LAUNCH ZONES, as well as 2 segments of white tape located at the
+  base of the GOAL
+
+LAUNCH ZONE
+
+infinitely tall triangular
+  volumes bounded by LAUNCH LINES and the FIELD perimeter
+
+LEAVE
+
+a scoring accomplishment in
+  which a ROBOT must move such that it is no longer over any LAUNCH LINE at the
+  end of AUTO
+
+LOADING ZONE
+
+an approximately 23 in. (58.40
+  cm) wide by 23 in. (58.40 cm) deep infinitely tall volume bounded by white
+  tape and the adjoining FIELD perimeters
+
+LRI
+
+the Lead ROBOT INSPECTOR 
+
+MAJOR FOUL
+
+a credit of 15 points towards
+  the opponent�s MATCH point total
+
+MAJOR MECHANISM
+
+a group of COMPONENTS and/or
+  MECHANISMS assembled together to address at least 1 game challenge: ROBOT
+  movement, SCORING ELEMENT manipulation, FIELD element manipulation, or
+  performance of a scorable task without the assistance of another ROBOT.
+
+MATCH
+
+a 30-second AUTO period, an
+  8-second transition period between AUTO and TELEOP, and a 2-minute TELEOP
+  period in which the ROBOT plays the current season game
+
+MECHANISM
+
+an assembly of COMPONENTS that
+  provide specific functionality on the ROBOT. A MECHANISM can be disassembled
+  (and then reassembled) into individual COMPONENTS without damage to the
+  parts.
+
+MINOR FOUL
+
+a credit of 5 points towards
+  the opponent�s MATCH point total
+
+MOMENTARY
+
+describes durations that are
+  fewer than approximately 3 seconds
+
+MOTIF
+
+a series of ARTIFACT colors,
+  comprised of 2 purple (P) and 1 green (G), in a unique order
+
+OBELISK
+
+OBELISK is an equilateral
+  triangular prism located just outside of the FIELD perimeter
+
+OPERATOR CONSOLE
+
+the set of COMPONENTS and
+  MECHANISMS used by the DRIVE TEAM to relay commands to the ROBOT
+
+OVERFLOW
+
+An ARTIFACT that passes
+  through the SQUARE but does not meet CLASSIFIED criteria
+
+PATTERN
+
+A scoring achievement in which
+  points are scored based on the color of the ARTIFACT on the RAMP matching the
+  individual index color defined by the MOTIF 
+
+PIN/PINNING
+
+an action by a ROBOT that is
+  preventing the movement of an opponent ROBOT by contact, either direct or
+  transitive (such as against a FIELD element)
+
+PORTFOLIO
+
+A document used as part of the
+  judging process with requirements outlined in 
+A201
+
+RAMP
+
+A structure that can
+  fit up to 9 CLASSIFIED ARTIFACTS 
+
+RANKING POINTS (RP)
+
+credited
+  to a team based on their ALLIANCE�S performance in Qualification MATCHES
+
+RANKING SCORE (RS)
+
+A team's RANKING SCORE (RS) is
+  the average number of RANKING POINTS earned by a team throughout their Qualification
+  MATCHES 
+
+RED CARD
+
+a penalty issued by the Head
+  REFEREE for egregious ROBOT or team member behavior or rule violations which
+  results in a team being DISQUALIFIED for the MATCH.
+
+REFEREE
+
+an official who is certified
+  by 
+FIRST
+ to enforce the rules of the current season�s game, an event
+  volunteer role
+
+REPEATED
+
+describes actions that happen
+  more than once within a MATCH
+
+ROBOT
+
+an electromechanical assembly
+  built by a 
+FIRST
+ Tech Challenge team to play the current season�s game
+  and includes all the basic systems required to be an active participant in
+  the game �power, communications, control, and movement about the FIELD
+
+ROBOT CONTROLLER
+
+Android device (smartphone or
+  REV Control Hub) that runs the ROBOT CONTROLLER app to control the ROBOT as
+  defined in 
+R701
+
+ROBOT SIGN
+
+A ROBOT SIGN simultaneously
+  identifies a ROBOT�S team number as well as its ALLIANCE affiliation for
+  FIELD STAFF. 
+
+SCORING ELEMENT
+
+There is 1 type of SCORING ELEMENT used in DECODE: the ARTIFACT.
+
+SECRET TUNNEL ZONE
+
+an approximately 46.5 in.
+  (118.10 cm) long by approximately 6.125 in. (15.55 cm) wide infinitely tall
+  volume bounded by ALLIANCE colored tape, the GOAL assembly, the LOADING ZONE,
+  and the adjoining FIELD perimeter
+
+SIGNAL LEVEL
+
+a term used to characterize
+  circuits which draw ≤1A continuous and have a source incapable of
+  delivering >1A, including but not limited including but not limited to REV
+  Control and Expansion Hub sensor input/output signals (DIO, analog, I2C,
+  encoder, 485)
+
+SPIKE MARK
+
+1 of 6 white tape marks 10 in.
+  (25.40 cm) long used to identify the placement of 3 ARTIFACTS before the MATCH
+
+SQUARE
+
+a location at the top of the
+  RAMP at which ARTIFACT scoring is assessed 
+
+STARTING CONFIGURATION
+
+the
+  physical configuration in which a ROBOT starts a MATCH
+
+STUDENT
+
+a person who has not completed
+  high-school, secondary school, or the comparable level in their home region as
+  of September 1
+st
+
+SURROGATE
+
+a team randomly
+  assigned by event management software to play an extra Qualification MATCH
+
+TELEOP
+
+second period of each MATCH is
+  2 minutes (2:00) long and called the teleoperated period (TELEOP). During TELEOP,
+  DRIVERS remotely operate ROBOTS
+
+TILE
+
+flooring surface of the FIELD
+  is made of 36 interlocking soft foam TILES
+
+VENDOR
+
+a legitimate business source
+  for COTS items that satisfies criteria defined in section 
+12
+ 
+ROBOT Construction Rules (R)
+
+VERBAL WARNING
+
+a warning issued by event
+  staff or the Head REFEREE
+
+YELLOW CARD
+
+a warning issued by the Head
+  REFEREE for egregious ROBOT or team member behavior or rule violations
+
+WTA
+
+wireless
+  technical advisor 
+an event volunteer role
+
+ 
+
+ 
+[TW1]
+I
+have not done any math on this, but might we want this to be 3 for win? Just
+want to make sure this is a deliberate choice.
+
+ 
+[KS2]
+my
+assumption was that the 3 for a W was to weight that more heavily against other
+RP this season. I went with what FRC & CRI have used in the past. 
+
+ 
+
+The sample size of matches v. teams in RR will also
+likely result in multiple teams with the same CS & unless we see a
+substantial number of ties, the impact is low.
+
+ 
+[LS3]
+@John V-Neun
+
+checking math on this
+
+ 
+[TW4]
+Added
+for completeness.
+
+ 
+[TB5]
+FRC
+Had "If tie affects which ALLIANCES advance to Playoffs, a tiebreaker
+MATCH is played between the affected ALLIANCES. If tie is between ALLIANCES
+advancing to Playoffs, FMS randomly seeds tied ALLIANCES to determine ALLIANCE
+color". Although if we want that we should say "advance to da Vinci
+Finals" instead of Playoffs because the RR matches are already playoffs.
+
+ 
+[6]
+My
+concern is that the algorithm is complete. I defer to HQ/show as to whether we
+want to consider more matches.

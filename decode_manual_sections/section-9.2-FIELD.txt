@@ -1,0 +1,71 @@
+9.2
+           
+
+FIELD
+
+Each FIELD for DECODE is 
+an approximately 144
+in. by 144 in. (365.75 cm by 365.75 cm) area bounded by the inside surface of
+the walls
+ of the FIELD perimeter. The 
+flooring surface of the
+FIELD is made of 36 interlocking soft foam TILES
+ which are each approximately
+24 in. by 24 in. by 0.59 in. (60.95 cm by 60.95 cm by 1.50 cm) nominally sized.
+
+The FIELD is populated with and surrounded by the following FIELD
+elements: 
+
+-
+       
+
+1 CLASSIFIER per ALLIANCE which consists of a SQUARE, a RAMP, and
+a GATE
+
+-
+       
+
+1 GOAL per ALLIANCE 
+
+-
+       
+
+1 OBELISK
+
+Official
+events use the full DECODE FIELD manufactured and sold by AndyMark (am-5400_Full)
+or officially licensed equivalent. 
+
+The surface of the FIELD is 
+FIRST
+
+Tech Challenge Field Soft Tiles
+ (am-2499) or equivalent.
+
+The primary version of the FIELD perimeter is the 
+FIRST
+
+Tech Challenge Perimeter Kit
+ (am-0481) sold by AndyMark. All illustrations
+in this manual show the am-0481 version of the FIELD design. Other versions of
+the FIELD perimeter of similar functionality may also be used in competitions. 
+
+Some events including the 
+FIRST
+ Championship (see
+section 
+15.2 Game
+Modification
+) will place the FIELDS on platforms or risers such that
+the FIELD is raised while the ALLIANCE AREAS remain at ground level.
+
+The FIELD variant used at an event will be determined by the
+local Program Delivery Partner and all competition FIELDS at the same event
+must comply with Section 
+9.1
+ 
+Dimensions and Accuracy
+ and be consistent with each
+other per 
+T204
+.

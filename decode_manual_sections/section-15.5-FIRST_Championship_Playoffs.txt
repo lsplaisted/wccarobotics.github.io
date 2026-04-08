@@ -1,0 +1,521 @@
+15.5
+      
+
+FIRST 
+Championship 
+Playoffs
+
+Each division will play in an 8-ALLIANCE double elimination
+playoff tournament, as outlined in Section 
+13.7.6 8-ALLIANCE Bracket and Typical Timing
+.
+The ALLIANCE that wins their division playoff bracket is the Division Champion.
+
+15.5.1
+       
+
+da Vinci Tournament MATCH Bracket
+
+The 6 Division Champions play a round-robin style
+tournament. In this format, each Division Champion plays 1 MATCH against each
+of the other Division Champions. The order of MATCHES is shown in Table 15-2.
+
+Table 15-2 da Vinci playoff
+schedule
+
+Round
+
+MATCH
+
+Field 1
+
+Field 2
+
+Field 3
+
+Field 4
+
+Blue
+
+Red
+
+Blue
+
+Red
+
+Blue
+
+Red
+
+Blue
+
+Red
+
+1
+
+1
+
+Franklin
+
+Edison
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2
+
+ 
+
+ 
+
+Goodall
+
+Jackson
+
+ 
+
+ 
+
+ 
+
+ 
+
+3
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ross
+
+Lovelace
+
+ 
+
+ 
+
+Break
+
+2
+
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Franklin
+
+Goodall
+
+5
+
+Jackson
+
+Ross
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+6
+
+ 
+
+ 
+
+Edison
+
+Lovelace
+
+ 
+
+ 
+
+ 
+
+ 
+
+Break
+
+3
+
+7
+
+ 
+
+ 
+
+ 
+
+ 
+
+Franklin
+
+Jackson
+
+ 
+
+ 
+
+8
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Edison
+
+Ross
+
+9
+
+Goodall
+
+Lovelace
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Break
+
+4
+
+10
+
+ 
+
+ 
+
+Ross
+
+Franklin
+
+ 
+
+ 
+
+ 
+
+ 
+
+11
+
+ 
+
+ 
+
+ 
+
+ 
+
+Edison
+
+Goodall
+
+ 
+
+ 
+
+12
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lovelace
+
+Jackson
+
+Break
+
+5
+
+13
+
+Goodall
+
+Ross
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+14
+
+ 
+
+ 
+
+Jackson
+
+Edison
+
+ 
+
+ 
+
+ 
+
+ 
+
+15
+
+ 
+
+ 
+
+ 
+
+ 
+
+Lovelace
+
+Franklin
+
+ 
+
+ 
+
+Break
+
+Event
+  Finals 1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+RR2
+
+RR1
+
+Break
+
+Event Finals 2
+
+RR2
+
+RR1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Break
+
+Event Finals 3*
+
+RR2
+
+RR1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+*As needed
+
+15.5.2
+       
+
+da Vinci Round-Robin Tournament Ranking
+
+In the
+ FIRST
+
+Championship da Vinci round-robin tournament, ALLIANCES do not earn any Ranking
+Points; they earn Championship Points. Championship Points are units credited
+to an ALLIANCE based on their performance in each MATCH and are awarded at the
+completion of each da Vinci round-robin tournament round. 
+
+�
+        
+
+The winning ALLIANCE receives 
+2 Championship
+Points
+[TW1]
+ 
+[KS2]
+ 
+[LS3]
+ 
+. 
+
+�
+        
+
+The losing ALLIANCE receives 0 Championship Points. 
+
+�
+        
+
+In the event of a tied score, each ALLIANCE receives 1
+Championship Point. 
+
+C501
+      
+
+da Vinci round-robin
+DISQUALIFICATIONS are handled differently
+. A team and/or ALLIANCE
+that is DISQUALIFIED from a da Vinci round-robin MATCH, as determined by the
+Head REFEREE, causes their ALLIANCE to receive 0 Championship Points and 0 for
+all other round-robin ranking criteria for the MATCH.
+
+The total number of Championship Points earned by an
+ALLIANCE throughout the da Vinci round-robin MATCHES divided by the number of
+da Vinci round-robin MATCHES in which they have been scheduled is their
+Championship Score (CS). 
+
+All ALLIANCES participating in da Vinci round-robin MATCHES
+are ranked as shown in Table 15-3.
+
+Table 15-3: da Vinci Round-Robin Tournament Ranking
+Criteria
+
+Order Sort
+
+Criteria
+
+1
+st
+
+Championship Score (CS)
+
+2
+nd
+
+Average ALLIANCE MATCH points,
+  not including MINOR FOULS and MAJOR FOULS (Average MATCH points minus FOULS) 
+
+3
+rd
+
+Average BASE points
+
+4
+th
+
+Average AUTO points
+
+5
+th
+ 
+
+Random sort by the 
+FIRST
+ event management software
+[TW4]
+ 
+[TB5]
+ 
+[6]
+ 
+
+15.5.3
+       
+
+FIRST
+ Championship da Vinci Finals
+
+The 2 ALLIANCES with the highest rank at the conclusion of
+the da Vinci round-robin tournament advance to the da Vinci Finals with rank 1
+as the red ALLIANCE and rank 2 as the blue ALLIANCE. In the da Vinci Finals,
+ALLIANCES do not earn Ranking Points or Championship Points. 
+
+The first ALLIANCE to win 2 MATCHES in da Vinci Finals is
+declared the 2026 
+FIRST
+ Tech Challenge Champions. 
+
+During the da Vinci Finals, if the MATCH score of each
+ALLIANCE is equal (i.e., the MATCH resulted in a tie), an additional MATCH will
+be played.

@@ -1,0 +1,72 @@
+15.2
+      
+
+Game Modification
+
+Game modifications for the 
+FIRST
+ Championship are
+outlined below. 
+
+15.2.1
+       
+
+FIELDS
+
+All division FIELDS will be
+placed on risers which are elevated approximately 24 in. (60.95 cm) from the
+floor. All DRIVE TEAM members and FIELD STAFF will be at floor level.
+Approximately 50% of the practice FIELDS will also be elevated for teams to
+use. To see examples of how the elevated FIELD looks, please watch the field
+tour video from Kickoff. 
+
+FIELDS at the 
+FIRST
+
+Championship will include the following changes which are aesthetic in nature
+and will not affect the performance of the FIELD or impact ROBOT designs:
+
+-
+       
+
+Metal FIELD components (including the RAMP brackets and
+extrusions) will be black anodized.
+
+-
+       
+
+All AprilTags will be printed in a matte material which is more
+glare resistant.
+
+-
+       
+
+The two side faces of the OBELISK will be partially obstructed,
+and teams should not rely on these �side� AprilTags to determine the randomized
+MOTIF selected in each MATCH. The face of the OBELISK facing the FIELD will not
+be obstructed. 
+
+-
+       
+
+Several of the screw and nut fasteners used to attach metal
+brackets to the GOAL will be replaced with aluminum pop-rivets.
+
+-
+       
+
+There will be decorative signs attached to the outside of the
+clear panels of the rear FIELD wall, facing the FIELD. These will be white
+plastic panels with logos and divisional information.
+
+15.2.2
+       
+
+Scoring and Timing
+
+At 
+FIRST
+ Championship,
+the transition between AUTO and TELEOP is 15 seconds, instead of the 8-second
+transition mentioned in Section 10.1, Section 10.4, Table 9-1, and Section 16
+in the definition of MATCH.

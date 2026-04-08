@@ -1,0 +1,35 @@
+9.10
+       
+AprilTags
+
+AprilTags for DECODE are 8.125 in. (~20.65 cm) square
+targets from the 36h11 tag family (Figure 9‑18). 
+
+AprilTags are placed on the front face of the GOAL to help
+aid in ROBOT navigation and targeting. The red ALLIANCE GOAL has ID 24, and the
+blue ALLIANCE GOAL has tag ID 20. Each marker has an identifying �TAG ID� text
+label (Figure 9‑19). 
+
+AprilTags with the ID 21, 22, 23 are located on each rectangular
+face of the OBELISK, which is placed outside of the FIELD and can be used to
+identify the MOTIF for the MATCH. 
+
+The OBELISK AprilTag is not recommended for ROBOT navigational
+use as the exact placement location may vary from MATCH to MATCH. 
+
+Figure 
+9‑18:
+AprilTag Locations on the DECODE FIELD
+
+Figure 
+9‑19:
+AprilTag location on the GOAL 
+
+Do not print the
+images from this manual for practice purposes, they are examples only and are
+not the same size as those used in the ARENA. Please refer to the
+ 
+Playing
+Field Resources page
+ for printable versions of these images, including
+instructions on how to place the images correctly around the FIELD.�

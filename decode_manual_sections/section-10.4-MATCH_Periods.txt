@@ -1,0 +1,35 @@
+10.4
+      
+
+MATCH 
+Periods
+
+The first period of each MATCH is 30 seconds (0:30) long and
+called the Autonomous Period (AUTO). During AUTO, ROBOTS operate without any
+DRIVER control or input. There is an 8-second delay between AUTO and TELEOP for
+scoring purposes as described in Section 
+10.5
+ 
+Scoring
+.
+
+At the 
+FIRST
+ Championship and 
+FIRST
+ Premier events,
+the timing of the transition between AUTO and TELEOP may vary from event to event.
+Details for the 
+FIRST
+ Championship are outlined in section 
+15.2.2 Scoring and Timing
+.
+
+ 
+
+The 
+second period of each MATCH is 2 minutes
+(2:00) long and called the teleoperated period (TELEOP). During TELEOP, DRIVERS
+remotely operate ROBOTS
+ to score points. See Table 9‑1 for detailed MATCH
+timing.

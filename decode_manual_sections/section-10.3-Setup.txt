@@ -1,0 +1,220 @@
+10.3
+      
+
+Setup
+
+Before each MATCH begins, FIELD STAFF stage SCORING ELEMENTS
+as described in section 
+10.3.1
+ 
+SCORING ELEMENTS
+ DRIVE TEAMS stage their ROBOTS (as
+described in section 
+10.3.4
+ 
+ROBOTS
+) and OPERATOR CONSOLES (as described in section
+
+10.3.3
+ 
+OPERATOR CONSOLES
+). Then, DRIVE TEAMS take their
+places as described in section 
+10.3.2
+ 
+DRIVE TEAMS
+
+10.3.1
+       
+
+SCORING ELEMENTS
+
+Figure 10‑2: SCORING ELEMENTS staging positions
+
+24 purple (P) and 12 green (G) ARTIFACTS and are staged on
+the FIELD as follows, with the MOTIFS starting from the middle of the FIELD and
+continuing toward the FIELD perimeter:
+
+A.
+     
+
+3 ARTIFACTS on each SPIKE MARK arranged as follows:
+
+                                                                          
+
+i.
+     
+
+Near (audience side): GPP
+
+                                                                        
+
+ii.
+     
+
+Middle: PGP
+
+                                                                      
+
+iii.
+     
+
+Far (GOAL side): PPG
+
+B.
+     
+
+3 ARTIFACTS (2P, 1G) in each LOADING ZONE biased against the FIELD
+perimeter adjacent to the ALLIANCE AREA and closest to the corner arranged PGP.
+
+C.
+     
+
+6 ARTIFACTS (4P, 2G) in each ALLIANCE AREA (may be organized in provided
+ARTIFACT tray or similar container) with no set order
+
+Each ROBOT may be pre-loaded with up to 3 ARTIFACTS from
+their own ALLIANCE AREA pre-staged ARTIFACTS in C such that each ARTIFACT is in
+direct contact with the ROBOT.
+
+As described in 
+15.2 Game Modification
+,
+ the number, type, and distribution of SCORING ELEMENTS may
+be adjusted for the 
+FIRST
+ Championship and 
+FIRST
+ Premier Events.
+For the 
+FIRST
+ Championship, any game modifications will be published on
+or before the last regularly scheduled Team Update as described in section 
+1.8
+ 
+Team Updates
+. For 
+FIRST
+
+Premier Events, game modifications will be posted by the event organizers prior
+to the event.
+
+10.3.2
+       
+
+DRIVE TEAMS
+ 
+
+DRIVE TEAMS prepare for a MATCH by staging in the ALLIANCE
+AREA after the DRIVE TEAM from the previous MATCH has left. DRIVE TEAM starting
+conditions are listed below, and a DRIVE TEAM obstructing or delaying any of
+the conditions is at risk of violating 
+G301
+. 
+
+A.
+     
+
+only DRIVE TEAM members assigned to the upcoming MATCH are present.
+
+B.
+     
+
+only DRIVE TEAM members whose ROBOTS have passed initial, complete
+Inspection are present.
+
+C.
+     
+
+DRIVE TEAM members are staged in their designated ALLIANCE AREA. If
+members of the ALLIANCE cannot agree where their DRIVE TEAM members will be staged,
+the team listed on the MATCH schedule as �Red 1� or �Blue 1� will stage closest
+to the audience. 
+
+D.
+     
+
+DRIVE TEAM members clearly display their designated DRIVE TEAM badges
+above their waists. 
+
+E.
+     
+
+if a Playoff MATCH, the ALLIANCE CAPTAIN clearly displays their
+designated ALLIANCE CAPTAIN identifier (e.g., hat or armband).
+
+10.3.3
+       
+
+OPERATOR CONSOLES
+
+DRIVE TEAMS set up their OPERATOR CONSOLES as soon as they
+are staged in their ALLIANCE AREA. OPERATOR CONSOLES must be compliant with all
+relevant rules, specifically those in section 
+12.9
+ 
+OPERATOR CONSOLE
+. A DRIVE TEAM obstructing or
+delaying OPERATOR CONSOLE set up is at risk of violating 
+G301
+.
+
+A.
+     
+
+DRIVE TEAMS intending to run an OpMode during AUTO must select an OpMode
+within their DRIVER STATION app with the 30 second timer enabled. 
+
+B.
+     
+
+Otherwise, DRIVE TEAMS must select a TELEOP OpMode within the DRIVER
+STATION app.
+
+C.
+     
+
+The selected OpMode must be initialized by pressing the �INIT� button on
+the DRIVER STATION app. 
+
+10.3.4
+       
+
+ROBOTS
+
+DRIVE TEAMS stage their ROBOT in accordance with 
+G304
+. A DRIVE TEAM obstructing or delaying ROBOT setup
+requirements is at risk of violating 
+G301
+. 
+
+If order of placement matters to either or both ALLIANCES,
+the ALLIANCE notifies the Head REFEREE or their designee before setting up for
+that MATCH, and the Head REFEREE instructs ALLIANCES to alternate placement of
+ROBOTS. REFEREE instructions are that ROBOTS are placed in the following order:
+
+1.
+     
+
+first red ROBOT
+
+2.
+     
+
+first blue ROBOT
+
+3.
+     
+
+second red ROBOT
+
+4.
+     
+
+second blue ROBOT
+
+In
+Qualification MATCHES the ROBOT assigned to Red 1 or Blue 1 places first within
+their ALLIANCE. In Playoff MATCHES the ALLIANCE lead decides which ROBOT places
+first within their ALLIANCE.

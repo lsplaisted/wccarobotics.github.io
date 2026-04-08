@@ -1,0 +1,181 @@
+12.1
+      
+
+General ROBOT Design
+
+R101
+      
+
+*STARTING CONFIGURATION is limited to
+an 18-inch Cube. 
+In the STARTING CONFIGURATION (
+the physical configuration in which a ROBOT
+starts a MATCH
+), the ROBOT must be fully self-contained within an 18 in. (45.70
+cm) wide, by 18 in. (45.70 cm) long, by 18 in. (45.70 cm) high volume. The only
+exception is that:
+
+A.
+     
+
+pre-loaded SCORING ELEMENTS may extend outside the starting size
+constraint. 
+
+If a ROBOT uses interchangeable MECHANISMS per 
+I304
+, teams should be
+prepared to show compliance with this rule and 
+R105
+ in all configurations.
+
+R102
+       
+*ROBOTS may assist in holding the STARTING
+CONFIGURATION. 
+In the STARTING CONFIGURATION, ROBOTS must be fully
+self-supported (i.e., does not exert force on the sides or top of a sizing
+tool). ROBOTS may accomplish this using any combination of: 
+
+A.
+     
+
+mechanical means while powered-off, and/or
+
+B.
+     
+
+initializing an OpMode that pre-positions servos and motors to a desired
+stationary position. OpMode may control motors and servos to hold their
+position to maintain the STARTING CONFIGURATION.
+
+ROBOTS holding STARTING
+CONFIGURATION during inspection or waiting for a MATCH to start may have to do
+so for several minutes and should limit the possibility of thermal failure
+(e.g., not having motors stalled against a hard stop). Teams must also be
+especially cautious when operating a running ROBOT during inspection, notifying
+the INSPECTOR that the ROBOT is live and taking every precaution to ensure the
+process is carried out safely.
+
+R103
+      
+
+*There is no ROBOT weight limit. 
+There
+is no explicit weight limit for 
+FIRST
+ Tech Challenge ROBOTS.
+
+While there is no official weight limit, teams should still
+consider the impact of a ROBOT�S weight on various factors, including but not
+limited to: 
+
+-
+       
+
+FIELD TILE damage
+
+-
+       
+
+battery consumption 
+
+-
+       
+
+ROBOT transportation
+
+-
+       
+
+total ROBOT performance
+
+R104
+       
+*Keep it together.
+
+ROBOTS may not be designed to intentionally detach COMPONENTS. 
+
+Violations
+of this rule during a MATCH will be handled by 
+G209
+.
+
+ 
+
+R105
+       
+There are expansion limits.
+ After the
+MATCH has started, ROBOTS may expand beyond the STARTING CONFIGURATION but are
+still subject to sizing constraints relative to the ROBOT, based on the initial
+STARTING CONFIGURATION. The sizing constraints are: 
+
+A.
+      
+After
+the start of the MATCH, ROBOTS may expand horizontally but must remain within a
+fixed 18 in. (45.70 cm) by 18 in. (45.70 cm) when fully expanded per 
+G414
+. ROBOTS must be physically constrained to fit
+within these horizontal limits without the use of software. 
+
+B.
+      
+After
+the start of the MATCH, ROBOTS may expand vertically up to 18 in. (45.70 cm). ROBOTS
+may be physically constrained or software limited to fit within this vertical
+limit.
+
+C.
+     
+
+Within the limitations per 
+G415
+, ROBOTS may expand vertically up to 38 in. (96.50
+cm). ROBOTS may be physically constrained or software limited to fit within
+this vertical limit.
+
+Figure 12‑1: Horizontal Expansion Limit
+
+ 
+
+Figure 12‑2: Vertical Expansion Limit Examples
+
+Any extension beyond the maximum expansion limit during
+ROBOT operation is considered a violation of this rule. This includes flexible
+extensions (e.g., surgical tubing flappers, star intakes) that cause the ROBOT
+to exceed the expansion limit.
+
+Teams should be prepared to show compliance with this rule
+and demonstrate their ROBOT expansions during the inspection process. During
+inspection, each team will be asked to show the ROBOT�S STARTING CONFIGURATIONS
+and additionally its configurations at maximum mechanical (horizontal) extensions
+and mechanical/software (vertical) extensions. Software limits are not
+sufficient to demonstrate maximum extensions for horizontal expansion.
+
+ROBOTS must show their maximum mechanical extensions during
+the inspection process. A ROBOT that can mechanically exceed the horizontal
+limit would be in violation even if the ROBOT has software limiting the
+position of the extension during the MATCH.
+
+A ROBOT with a single mechanism that can extend out of both
+sides of a ROBOT would be allowed as long as the overall horizontal dimension
+at maximum mechanical extension does not exceed 18 in.
+
+A ROBOT with multiple mechanisms that are not mechanically
+linked that can extend out of both sides of a ROBOT simultaneously would NOT be
+allowed if the overall horizontal dimension at maximum mechanical extension
+exceeds the 18 in. limit.
+
+At maximum extension, a ROBOT in compliance will not exceed
+the maximum allowable vertical extension of 38 in. (96.50 cm) in one direction
+while maintaining the horizontal expansion requirements of 18 in. (45.70 cm) length
+and width perpendicular to the vertical height.
+
+Teams are responsible for maintaining compliance with expansion
+limits and subject to penalties listed in 
+G414
+ and 
+G415
+ for any violations
+during the MATCH.

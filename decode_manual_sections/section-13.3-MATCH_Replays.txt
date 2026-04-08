@@ -1,0 +1,161 @@
+13.3
+      
+
+MATCH Replays
+
+T301
+      
+
+*Replays are allowed, but rare.
+
+MATCH replays are only allowed in extreme circumstances due to an ARENA FAULT
+or for MATCHES which are stopped because FIELD STAFF anticipated FIELD damage
+or personal injury. 
+
+An 
+ARENA FAULT is an
+error in ARENA operation
+ that includes, but is not limited to:
+
+A.
+     
+
+broken FIELD elements due to normal, expected game play, or ROBOT abuse
+of FIELD elements that affects the outcome of the MATCH for their opponents,
+
+A broken FIELD element caused by ROBOT abuse that affects
+the outcome of the MATCH for their ALLIANCE is not an ARENA FAULT.The following
+situations in DECODE are typically not considered ARENA FAULTS:
+
+A.
+      
+An ARTIFACT jam in the GOAL behind the archway,
+
+B.
+      
+An ARTIFACT jam on the CLASSIFIER,
+
+C.
+      
+A GOAL slightly lifts off the TILES , or
+
+D.
+      
+A GATE temporarily sticks open.
+
+The following situations for DECODE are typically
+considered ARENA FAULTS:
+
+E.
+      
+An opponent bends or breaks off a GATE such that it no
+longer operates normally, or
+
+F.
+      
+An opponent causes a GATE to stick open for a substantial
+or impactful portion a MATCH.
+
+B.
+     
+
+FIELD elements moving beyond normal tolerances (not as the result of
+ROBOT interaction)
+
+C.
+     
+
+Wide-spread wireless interference affecting multiple ROBOTS typically at
+the same time and on both ALLIANCES,
+
+D.
+     
+
+failure of the MATCH timer display, or
+
+E.
+     
+
+errors by FIELD STAFF (except those listed in section 
+10.8
+ 
+Other Logistics
+).
+
+To replay a MATCH the Head REFEREE must
+determine that an ARENA FAULT which is MATCH affecting has occurred and a team
+on the affected ALLIANCE must request the replay. In addition, 
+FIRST
+
+Headquarters reserves the right to, with consultation of the Head REFEREE and
+FIELD STAFF, replay any MATCH in which an ARENA FAULT impacts the outcome of an
+event.
+
+Unexpected ROBOT behaviors which are the fault of the team
+are not justifications for a replay. Conditions such as, but not limited to low
+ROBOT battery, programming issues, or ROBOT mechanical problems are not grounds
+for a replay.
+
+The outcome of the MATCH is affected if an error occurs
+that, in the judgement of the Head REFEREE, changes which ALLIANCE would have
+won the MATCH and/or the assignment of RANKING POINTS.
+
+The outcome of an event is affected if an error occurs
+that, in the judgement of 
+FIRST
+ Headquarters, changes the assignment of RANKING
+POINTS or has a dramatic effect on points used for ranking criteria.
+
+Note that an ARENA FAULT that does not affect MATCH
+outcome, in the judgement of the Head REFEREE, does not lead to a MATCH replay.
+Examples include, but are not limited to:
+
+A.
+      
+a piece of FIELD plastic falls into the FIELD, far away
+from any human or ROBOT activity, and in such a way that it does not affect
+MATCH outcome,
+
+B.
+      
+delay in the playing of an ARENA sound, and 
+
+C.
+      
+any adjustment or delay in assignment of a penalty or
+scoring achievement (including those made after the MATCH).
+
+T302
+      
+
+*Replays will replicate the
+conditions of the original MATCH.
+ All reasonable effort is made to
+create the same conditions when replaying a MATCH caused by an ARENA FAULT or FIELD
+damage. This includes:
+
+A.
+     
+
+a ROBOT that was not present for the MATCH or DISABLED prior to the
+start of the original MATCH, which is to be replayed, is DISABLED for the
+replay MATCH
+
+B.
+     
+
+the same FIELD will be used unless otherwise deemed necessary by the Head
+REFEREE due to severity of FIELD damage
+
+Exceptions to
+this rule are:
+
+C.
+     
+
+ROBOT and DRIVE TEAM starting locations and pre-loaded SCORING ELEMENTS do
+not need to be replicated when replaying a MATCH
+
+While efforts will be made to replicate the same conditions
+of the original MATCH, there are environmental factors, such as changes to
+ambient lighting, that may be outside the control of the event.

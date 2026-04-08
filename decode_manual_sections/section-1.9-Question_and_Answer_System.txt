@@ -1,0 +1,122 @@
+1.9
+           
+
+Question and Answer System
+
+The 
+Question
+and Answer System (Q&A)
+ is a resource for teams to ask questions about
+gameplay, competition rules, judging and advancement, ROBOT build rules, and FIELD
+setup. Teams can search for previously asked questions and responses or pose
+new questions. Questions can include examples for clarity or reference multiple
+rules to understand the relationships and differences between them.
+
+The Q&A opens on September 22, 2025, 12:00p.m. ET. 
+Access to the Game Q&A forum is through the 
+Lead
+Coach 1
+ or 
+Lead Coach 2
+�s account on the 
+FIRST
+ dashboard
+. Follow the instructions on 
+how
+to create an official Q&A account
+.
+ 
+Teams may still create a separate view-only account to read
+the forum. 
+
+The Q&A may result in revisions to the text in the
+official manuals (which are communicated using the process described in section
+
+1.8
+ 
+Team Updates
+).
+
+Moderators will answer team questions beginning each Monday,
+and close on Thursday at 5:00pm ET. The responses in the Q&A do not
+supersede the text in the manual, although every effort will be made to
+eliminate inconsistencies between the two. While responses provided in the
+Q&A may be used to aid discussion at each event, REFEREES and INSPECTORS
+are the ultimate authority on rules. If you have concerns about enforcement
+trends by volunteer authorities, please 
+notify 
+FIRST
+.
+
+The Q&A is not a resource
+for firm predictions on how a situation will play out at an event. Questions
+about the following may not be addressed:
+
+-
+       
+
+rulings on vague situations 
+
+-
+       
+
+challenging decisions made at past events 
+
+-
+       
+
+design reviews of a ROBOT system for legality 
+
+-
+       
+
+questions that are overly broad, vague, and/or include no rule
+references 
+
+Some examples of questions
+that may not be answered in the Q&A are:
+
+-
+       
+
+how should the REFEREE have ruled when this specific gameplay
+happened?
+
+-
+       
+
+duplicate questions
+
+-
+       
+
+questions clearly defined/addressed in this manual
+
+Good questions ask generically about features of parts or
+designs, gameplay scenarios, or rules, and often reference one or more relevant
+rules within the question. Some examples of questions that will likely be
+answered in the Q&A are:
+
+-
+       
+
+A device we are considering using on the ROBOT comes with purple
+AWG 40 wire, does this comply with R?? and R??
+
+-
+       
+
+We�re not sure how to interpret Rule G?? applies if blue ROBOT A
+does X and red ROBOT B does Y, can you please clarify?
+
+-
+       
+
+If a ROBOT does this specific action, is it doing what this
+defined term is describing?
+
+Questions from �FTC 1000� represent content asked by key
+volunteers (e.g., REFEREES, INSPECTORS), answered by 
+FIRST
+, and are
+considered relevant to teams.

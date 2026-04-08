@@ -1,0 +1,1325 @@
+11.4
+       
+In-MATCH
+
+Rules in this section pertain to gameplay once a MATCH
+begins.
+
+11.4.1
+       
+
+AUTO
+
+AUTO is 
+the first 30 seconds of the MATCH,
+during which DRIVERS may not provide input to their ROBOTS, so ROBOTS operate
+with only their pre-programmed instructions
+.� 
+
+G401
+      
+
+*Let the ROBOT do its thing.
+ As
+soon as FIELD STAFF begins the randomization process and until the end of AUTO,
+DRIVE TEAM members may not directly or indirectly interact with a ROBOT or an
+OPERATOR CONSOLE, with the following exceptions:
+
+A.
+     
+
+to press the (
+▶
+)
+start button within a MOMENTARY reaction of the start of the MATCH,
+
+B.
+     
+
+to press the (
+■
+) stop
+button either at the team�s discretion or instruction of the Head REFEREE per 
+T202
+, or
+
+C.
+     
+
+for personal safety or OPERATOR CONSOLE safety. 
+
+Violation: MAJOR FOUL plus the ALLIANCE is not eligible for
+PATTERN points in AUTO if the ROBOT LAUNCHES an ARTIFACT such that it enters
+the open top of the GOAL after the interaction and before the end of AUTO. 
+
+FIELD STAFF will not re-randomize the OBELISK due to
+violations of this rule prior to MATCH start.
+
+Teams do not have to start an OpMode if they choose not to
+run an AUTO OpMode.
+
+The intent of 
+G401
+.A
+ is for teams to start AUTO on time, accounting for the
+variability in human factors. Strategic violations of 
+G401
+.A
+ will be considered egregious behavior under 
+G211
+.
+
+ 
+
+G402
+       
+No AUTO opponent interference. 
+During
+AUTO, FIELD
+ 
+columns A, B, C constitute the blue
+side of the FIELD, and columns D, E, F (Figure 9‑5) constitute the red
+side of the FIELD. During AUTO, a ROBOT may not:
+
+A.
+     
+
+contact an opposing ALLIANCE�S ROBOT which is completely within the
+opposing ALLIANCE�S side of the FIELD either directly or transitively through
+an ARTIFACT, or
+
+B.
+     
+
+disrupt an ARTIFACT from its pre-staged location on the opposing
+ALLIANCE�S side of the FIELD either directly or transitively through contact with
+an ARTIFACT, or by LAUNCHING an ARTIFACT directly into it.
+
+Violation: MAJOR FOUL per instance of ROBOT contact in 
+G402
+.A
+ and MAJOR FOUL
+per ARTIFACT in 
+G402.B
+.
+
+Navigating into the opposing ALLIANCE�S
+side of the FIELD during AUTO is a risky gameplay strategy.
+
+LAUNCHED ARTIFACTS which happen to enter
+the other side of the FIELD after being deflected by another object in the
+FIELD (e.g., FIELD element, ROBOT) will not be penalized.
+
+Example 1: A red ROBOT LAUNCHES 1
+ARTIFACT onto the opponent side of the FIELD. The LAUNCHED ARTIFACT disrupts 2
+pre-staged ARTIFACTS on the blue side of the FIELD. Red is assessed 2 MAJOR
+FOULS under 
+G402
+.
+
+Example 2: A red ROBOT LAUNCHES 1
+ARTIFACT at their GOAL in an attempt to score, but the ARTIFACT misses the open
+top of the GOAL, deflects off the GOAL structure and rolls into the blue side
+of the FIELD, disrupting 2 pre-staged ARTIFACTS. No 
+G402
+ penalties are assessed.
+
+11.4.2
+       
+
+TELEOP
+
+G403
+      
+
+*ROBOTS are motionless between
+AUTO and TELEOP.
+ Any powered movement of the ROBOT or any of its MECHANISMS
+is not allowed during the transition period between AUTO and TELEOP.
+
+Violation: MAJOR FOUL.
+
+Movement
+that occurs following the conclusion of an AUTO OpMode (due to inertia,
+gravity, or de-energizing of actuators, etc.) is not a violation of this rule.
+
+Teams may
+press buttons on their DRIVER STATION app to stop the AUTO OpMode, initialize
+or start a TELEOP OpMode during the AUTO to TELEOP transition period. If the
+INIT portion of the OpMode causes the ROBOT to violate this rule (actuators
+moving or twitching in any way) then the team should wait until TELEOP begins before
+pressing INIT.
+
+A ROBOT
+LAUNCHING an ARTIFACT during the transition period is considered a violation of
+this rule.
+
+Strategic violations of this rule will be considered
+egregious behavior under 
+G211
+. Strategic violations include,
+but are not limited to:
+
+-
+       
+
+LAUNCHING multiple SCORING ELEMENTS,
+
+-
+       
+
+operating the GATE, and
+
+-
+       
+
+moving the ROBOT a substantial distance
+in a preferred direction.
+
+G404
+       
+*ROBOTS are motionless at the end of TELEOP
+.
+ 
+ROBOTS
+must no longer have powered movement after the end of TELEOP until the Head
+REFEREE or their designee signals that teams may retrieve their ROBOTS. �
+
+Violation: MINOR FOUL. MAJOR FOUL per ARTIFACT if ROBOT
+LAUNCHES an ARTIFACT such that it enters the open top of a GOAL after the end
+of TELEOP. MAJOR FOUL if ROBOT contacts a GATE after the end of TELEOP.
+
+DRIVE TEAMS should make it
+obvious that the ROBOTS are no longer being controlled by pressing the (
+■
+) stop button on the DRIVER
+STATION app or by discontinuing any operation of the ROBOT by the end of the
+MATCH period and setting down their controllers. 
+
+Movement 
+due to 
+inertia, 
+gravity
+,
+ or 
+de-energizing
+of actuators, etc.
+ 
+is not
+considered powered movement. 
+
+11.4.3
+       
+
+SCORING ELEMENT
+
+G405
+      
+
+*ROBOTS use SCORING ELEMENTS as
+directed.
+ A ROBOT may not deliberately use a SCORING ELEMENT in an
+attempt to ease or amplify a challenge associated with a FIELD element other
+than as intended. 
+
+Violation: MAJOR FOUL per SCORING ELEMENT.
+
+Examples include, but are not limited to: 
+
+A.
+      
+Intentionally positioning SCORING ELEMENTS to impede
+opponent access to FIELD elements
+
+B.
+      
+Intentionally placing SCORING ELEMENTS into inaccessible
+locations on the FIELD such as under the RAMP or GOAL
+
+C.
+      
+Intentionally using a SCORING ELEMENT to hold open the GATE
+
+G406
+      
+
+*Keep SCORING ELEMENTS in bounds.
+
+A ROBOT may not intentionally eject a SCORING ELEMENT from the FIELD (either
+directly or by bouncing off a FIELD element or another ROBOT). 
+
+Violation: MAJOR FOUL per SCORING ELEMENT. 
+
+SCORING ELEMENTS that leave the FIELD during scoring
+attempts are not considered intentional ejections.
+
+G407
+      
+
+*Do not damage SCORING ELEMENTS.
+
+Neither a ROBOT nor a DRIVE TEAM member may damage a SCORING ELEMENT. 
+
+Violation: VERBAL WARNING. MAJOR FOUL if REPEATED. DISABLED if
+the damage is caused by a ROBOT, and the Head REFEREE determines that further
+damage is likely to occur. Corrective action (such as eliminating sharp edges,
+removing the damaging MECHANISM, and/or reinspection) may be required before
+the ROBOT may compete in subsequent MATCHES.
+
+SCORING ELEMENTS are expected to undergo a reasonable
+amount of wear and tear as they are handled by ROBOTS and humans, such as
+scratching, marking, and eventually damage due to fatigue. Routinely gouging,
+tearing off pieces, or marking SCORING ELEMENTS are violations of this rule.
+
+G408
+      
+
+No more than 3 at a time.
+
+A ROBOT may not simultaneously CONTROL more than 3 ARTIFACTS. 
+
+Violation: MINOR FOUL per SCORING ELEMENT over the limit.
+YELLOW CARD if excessive.
+
+Examples of interaction with a SCORING ELEMENT that are not
+�CONTROL� include, but are not limited to:
+
+A.
+      
+�bulldozing� (inadvertent contact with a SCORING ELEMENT
+while in the path of the ROBOT moving about the FIELD)
+
+B.
+      
+�deflecting� (being hit by a SCORING ELEMENT that bounces
+into or off a ROBOT)
+
+C.
+      
+inadvertent contact with a SCORING ELEMENT while attempting
+to acquire a SCORING ELEMENT from the LOADING ZONE. 
+
+D.
+      
+SCORING ELEMENTS that have been LAUNCHED by a ROBOT that
+are no longer in contact with the ROBOT.
+
+It is important to design your ROBOT so that it is
+impossible to inadvertently or unintentionally CONTROL more than the limit.
+
+Excessive violations of CONTROL limits include, but are not
+limited to:
+
+A.
+      
+simultaneous CONTROL of 5 or more ARTIFACTS, or 
+
+B.
+      
+frequent (i.e., 3 or more separate violations in a MATCH),
+greater-than-MOMENTARY CONTROL of 4 or more ARTIFACTS.
+
+REPEATED excessive violations of this rule do not result in
+additional YELLOW CARDS unless the violation reaches the level of egregious to
+trigger a 
+G211
+
+violation.
+
+11.4.4
+       
+
+ROBOT
+
+G409
+      
+
+*ROBOTS must be under control.
+
+A ROBOT must not pose an undue hazard to a human or an ARENA element during a
+MATCH in the following ways: 
+
+A.
+     
+
+the ROBOT or anything it CONTROLS, i.e., a SCORING ELEMENT, disrupts
+anything outside the FIELD or contacts a human that is outside the FIELD.
+
+B.
+     
+
+the ROBOT operation is dangerous.
+
+Violation: DISABLED and VERBAL WARNING. YELLOW CARD if REPEATED
+or if subsequent violations occur during the event.
+
+Please be conscious of REFEREES and FIELD STAFF working
+around the ARENA who may be in close proximity to your ROBOT.
+
+Examples of violations include, but are not limited to:
+
+A.
+      
+Wildly flailing outside the FIELD
+
+B.
+      
+Knocking over a DRIVER STATION stand
+
+C.
+      
+Moving/damaging the FIELD timer display
+
+D.
+      
+Contacting FIELD STAFF or a DRIVE TEAM member outside the
+FIELD
+
+ROBOT contact with ARENA elements outside the FIELD, such
+as a DRIVER STATION stand, the floor outside the FIELD, or the FIELD wall
+perimeter outside of the FIELD is not a violation of this rule.
+
+Disrupting the OBELISK is not a violation of this rule.
+
+G410
+       
+*ROBOTS must stop when instructed.
+ If
+a team is instructed to DISABLE their ROBOT by a REFEREE per 
+T202
+, a DRIVE TEAM member must press
+the (
+■
+)
+stop button on the DRIVER STATION app.
+
+Violation: MAJOR FOUL if greater-than-MOMENTARY delay plus RED
+CARD if CONTINUOUS.
+
+G411
+      
+
+*ROBOTS must be identifiable. 
+A
+ROBOT�S team number and ALLIANCE color must not become indeterminate by
+determination of the Head REFEREE. 
+
+Violation: VERBAL WARNING. MINOR FOUL if subsequent
+violations occur during the event. 
+
+Teams are encouraged to robustly affix their ROBOT SIGNS to
+their ROBOT in highly visible locations such that they do not easily fall off
+or become obscured during normal gameplay. 
+
+G412
+       
+*Don�t damage the FIELD. 
+A ROBOT may not damage
+FIELD elements. 
+
+Violation: VERBAL WARNING. DISABLED if the Head REFEREE
+infers that additional damage is likely. YELLOW CARD for any subsequent damage
+during the event. Corrective action (such as eliminating sharp edges, removing
+the damaging MECHANISM, and/or re-inspection) may be required before the ROBOT
+will be allowed to compete in subsequent MATCHES.
+
+SCORING ELEMENT damage is specifically covered in 
+G407
+. 
+G407
+ and 
+G412
+ do not stack. 
+G412
+ does not apply to
+damage caused by normal gameplay actions.
+
+FIELD damage includes, but is not limited to:
+
+-
+       
+
+contaminating the FIELD with a liquid
+or fine solid as in 
+R205
+,
+
+-
+       
+
+damaging TILE in 
+R201
+,
+
+-
+       
+
+causing the GATE to bend or break off
+
+FIELD damage does not include:
+
+-
+       
+
+normal GATE interaction resulting in a
+GATE that �sticks� open
+
+-
+       
+
+normal interaction with the GOAL that
+causes it to lift off the TILES
+
+G413
+       
+*Watch your ARENA interaction.
+ A ROBOT is prohibited
+from the following interactions with an ARENA element, except for SCORING
+ELEMENTS (per 
+G407
+): 
+
+A.
+     
+
+grabbing,
+
+B.
+     
+
+grasping,
+
+C.
+     
+
+attaching to,
+
+D.
+     
+
+becoming entangled with, or
+
+E.
+     
+
+suspending from.
+
+Violation: MAJOR FOUL plus YELLOW CARD if REPEATED or if greater-than-MOMENTARY.
+DISABLED if the Head REFEREE infers that damage is likely. Corrective action
+(such as removing the offending MECHANISM, and/or re-inspection) may be
+required before the ROBOT will be allowed to compete in subsequent MATCHES.
+
+ROBOTS operating the GATE should make it clear that they do
+not violate this rule. ROBOTS are expected to push the GATE lever down to open,
+but no closing force (e.g., pulling) should be applied. 
+
+G414
+       
+ROBOTS have horizontal expansion limits.
+ ROBOTS
+must comply with the horizontal expansion limits outlined in 
+R105
+.
+A
+ during the MATCH. Exceptions:
+
+A.
+     
+
+If the over-expansion is due to damage and not used for strategic
+benefit.
+
+Violation: MINOR FOUL. MAJOR FOUL if the over-expansion is
+used for strategic benefit, including if it impedes or enables a scoring
+action.
+
+ROBOTS are allowed to have moving parts that extend outside
+its STARTING CONFIGURATION, but these extensions must stay within the expansion
+limit as described in 
+R105
+.
+
+G415
+      
+
+ROBOTS have vertical expansion
+limits, with exceptions. 
+ROBOTS must comply with the vertical expansion
+limits outlined in 
+R105
+. ROBOTS may only expand above 18 in. (45.70 cm)
+up to 38 in. (96.50 cm) if both of the following conditions are true: 
+
+A.
+     
+
+during the final 20 seconds of the MATCH, and
+
+B.
+     
+
+when not in any LAUNCH ZONES.
+
+Violation: MINOR FOUL. MAJOR FOUL if the over-expansion is
+used for strategic benefit, including if it impedes or enables a scoring
+action.
+
+ROBOTS are allowed to have moving parts that extend outside
+its STARTING CONFIGURATION, but these extensions must stay within the expansion
+limit as described in 
+R105
+.
+
+G416
+      
+
+LAUNCHING in the LAUNCH ZONE
+only. 
+ROBOTS may only LAUNCH SCORING ELEMENTS when inside a LAUNCH ZONE
+or overlapping a LAUNCH LINE.
+
+Violation: MINOR FOUL per LAUNCHED SCORING ELEMENT. MAJOR
+FOUL per LAUNCHED SCORING ELEMENT if the SCORING ELEMENT enters the open top of
+the GOAL.
+
+A SCORING ELEMENT is considered LAUNCHED if it is shot into
+the air, propelled across the floor to a desired location or in a preferred
+direction, or thrown in a forceful way.
+
+�Bulldozing� (inadvertent contact with a SCORING ELEMENT
+while in the path of the ROBOT moving about the FIELD) is not considered
+LAUNCHING
+
+This is not intended to penalize teams with active
+manipulators which are expelling SCORING ELEMENTS through normal operation,
+such as:
+
+A.
+      
+Running an intake in reverse causing a SCORING ELEMENT to
+travel a short distance from the ROBOT.
+
+B.
+      
+A ROBOT pushing a SCORING ELEMENT a short distance away in
+the process of herding it across the FIELD.
+
+G417
+      
+
+ROBOTS only operate GATES as directed.
+
+ROBOTS may not:
+
+A.
+     
+
+contact, either directly or transitively through a SCORING ELEMENT, an
+opposing ALLIANCE�S GATE, or
+
+B.
+     
+
+apply, either directly or transitively through a SCORING ELEMENT, any
+closing force to either GATE. 
+
+Violation: MAJOR FOUL and the opposing ALLIANCE is awarded the
+PATTERN RP if 
+G417
+.A
+.
+
+Closing force includes any force applied to the GATE in the
+direction that closes the GATE, even if the GATE is already closed. A ROBOT
+bumping into a GATE handle which is stuck open to try to get it to close is not
+considered a closing force.
+
+G418
+      
+
+ROBOTS may not meddle with ARTIFACTS
+on RAMPS. 
+ROBOTS may not contact, either directly or transitively
+through a SCORING ELEMENT CONTROLLED by the ROBOT, ARTIFACTS on a RAMP,
+including their own RAMP. Additionally, ROBOTS may not: 
+
+A.
+     
+
+remove an ARTIFACT from their own RAMP except by operating the GATE, or
+
+B.
+     
+
+remove an ARTIFACT from the opponent�s RAMP by any means.
+
+Violation: MAJOR FOUL per
+ARTIFACT,
+ 
+and the ALLIANCE is
+ineligible for the PATTERN RP if 
+G418
+.A
+, or the opposing ALLIANCE is awarded the PATTERN RP if 
+G418.B
+. 
+
+Exceptions are granted for inconsequential and inadvertent
+contact made by a ROBOT while operating a GATE.
+
+Example 1: A red ROBOT that contacts an ARTIFACT on the
+blue RAMP is in violation of this rule and is assessed 1 MAJOR FOUL under 
+G418
+. 
+
+Example 2: A red ROBOT that LAUNCHES an ARTIFACT at an
+ARTIFACT on the red RAMP, removing it from the RAMP is in violation of this
+rule. The red ALLIANCE is assessed 1 MAJOR FOUL and is ineligible for the
+PATTERN RP under 
+G418
+.A
+.
+
+Example 3: A red ROBOT contacts and opens the blue GATE,
+causing 5 ARTIFACTS that were on the blue RAMP to leave the RAMP and return to
+the FIELD. Red is assessed a total of 6 MAJOR FOULS � 1 under G417.A and 5
+under G418.B � in addition to blue being awarded PATTERN RP under
+G417.A/G418.B.
+
+G419
+      
+
+ROBOTS LAUNCH into their own GOAL.
+
+ROBOTS may not: 
+
+A.
+     
+
+intentionally place or LAUNCH ARTIFACTS directly onto their own RAMP, or
+
+B.
+     
+
+place or LAUNCH ARTIFACTS into the opponent�s GOAL or onto the
+opponent�s RAMP.
+
+Violation: MAJOR FOUL per ARTIFACT and the opposing ALLIANCE
+is awarded the PATTERN RP if 
+G419
+.B
+.
+
+The intent is for ROBOTS to score by LAUNCHING into the open
+top of their own GOAL. Attempts to intentionally score points with actions that
+enter the ARTIFACT further down on the RAMP are considered violations of this
+rule.
+
+Attempts to score points for the opponent either through
+the opponent GOAL or with actions that enter an ARTIFACT further down on the
+opponent RAMP are also considered violations of this rule.
+
+There is no violation for scoring in an opponent�s DEPOT.
+
+11.4.5
+       
+
+Opponent Interaction
+
+Note, 
+G420
+ and
+
+G421
+ are mutually exclusive. A single ROBOT to
+ROBOT interaction which violates more than 1 of these rules results in the most
+punitive penalty, and only the most punitive penalty, being assessed.
+
+G420
+       
+*This is not combat robotics.
+ A ROBOT may not deliberately
+functionally impair an opponent ROBOT. Damage or functional impairment because
+of contact with a tipped-over or DISABLED opponent ROBOT, which is not
+perceived by a REFEREE to be deliberate, is not a violation of this rule.
+
+Violation: MAJOR FOUL and YELLOW CARD. MAJOR FOUL and RED
+CARD if opponent ROBOT is unable to drive.
+
+FIRST
+ Tech Challenge
+can be a high-contact competition and may include rigorous gameplay. While this
+rule aims to limit severe damage to ROBOTS, teams should design their ROBOTS to
+be robust. Teams are expected to act responsibly. 
+
+An example of a violation
+of this rule includes, but is not limited to: 
+
+A.
+      
+A ROBOT high-speed rams and/or REPEATEDLY smashes an
+opponent ROBOT and causes damage. The REFEREE infers that the ROBOT was
+deliberately trying to damage the opponent�s ROBOT.
+
+Examples of
+functionally impairing another ROBOT include, but are not limited to:
+
+B.
+      
+disconnecting wires for operation of a component inside the
+ROBOT CHASSIS.
+
+C.
+      
+disconnecting the opponent ROBOT�S battery (this example
+also clearly results in a RED CARD because the ROBOT is no longer able to
+drive).
+
+D.
+      
+powering off an opponent�s ROBOT using their reasonably
+well-protected power switch (This example also clearly results in a RED CARD
+because the ROBOT is no longer able to drive).
+
+Teams should mount their main power switch so it is
+protected per 
+R609
+. A team that mounts their ROBOT�S power switch in an
+exposed location puts themselves at high risk of incidental contact. Powering
+off an opponent�s ROBOT by their exposed power switch during normal interactive
+gameplay will be considered incidental and not deliberate.
+
+At the conclusion of the MATCH, the Head REFEREE may elect
+to visually inspect a ROBOT to confirm violations of this rule made during a
+MATCH and remove the violation if the damage cannot be verified.
+
+"Unable to drive" means that because of the
+incident, the DRIVER can no longer drive to a desired location in a reasonable
+time (generally). For example, if a ROBOT can only move in circles, or can only
+move extremely slowly, the ROBOT is considered unable to drive.
+
+G421
+       
+*Do not tip or entangle.
+ A ROBOT may not
+deliberately, as perceived by a REFEREE, attach to, tip, or entangle an
+opponent ROBOT. 
+
+Violation: MAJOR FOUL and YELLOW CARD. MAJOR FOUL and RED
+CARD if CONTINUOUS or opponent ROBOT is unable to drive. 
+
+Examples of
+violations of this rule include, but are not limited to:
+
+A.
+      
+using a wedge-like MECHANISM to tip over an opponent ROBOT
+
+B.
+      
+making frame-to-frame contact with an opponent ROBOT that
+is attempting to right itself after previously falling over and causing them to
+fall over. 
+
+C.
+      
+causing an opponent ROBOT to tip over by contacting the
+ROBOT after it starts to tip if, in the judgement of the REFEREE, that contact
+could have been avoided.
+
+Tipping as an unintended consequence of normal ROBOT-to-ROBOT
+interaction, including single frame-to-frame hits that result in a ROBOT
+tipping, as perceived by the REFEREE, is not a violation of this rule.
+
+"Unable to drive" means that because of the
+incident, the DRIVER can no longer drive to a desired location in a reasonable
+time (generally). For example, if a ROBOT can only move in circles, or can only
+move extremely slowly, the ROBOT is considered unable to drive.
+
+G422
+      
+
+*There is a 3-count on PINS. 
+A
+ROBOT may not PIN an opponent�s ROBOT for more than 3 seconds. A ROBOT is
+PINNING if it is 
+preventing the movement of an opponent ROBOT by
+contact, either direct or transitive (such as against a FIELD element)
+ and
+the opponent ROBOT is attempting to move. A PIN count ends once any of the
+following criteria below are met: 
+
+A.
+     
+
+the ROBOTS have separated by at least 2 ft. (~61 cm) from each other for
+more than 3 seconds,
+
+B.
+     
+
+either ROBOT has moved 2 ft. from where the PIN initiated for more than 3
+seconds, or
+
+C.
+     
+
+the PINNING ROBOT gets PINNED. 
+
+For criteria A, the PIN count pauses once
+ROBOTS are separated by 2 ft. until either the PIN ends or the PINNING ROBOT
+moves back within 2 ft., at which point the PIN count is resumed. 
+
+For criteria B, the PIN count pauses once
+either ROBOT has moved 2ft from where the PIN initiated until the PIN ends or
+until both ROBOTS move back within 2ft., at which point the PIN count is
+resumed.
+
+Violation: MINOR FOUL and an additional MINOR FOUL for every
+3 seconds in which the situation is not corrected.
+
+G423
+       
+*Do not use strategies intended to shut down major
+parts of gameplay. 
+�A ROBOT or ROBOTS may not, in the judgment of a
+REFEREE, isolate or close off any major element of MATCH play for a
+greater-than-MOMENTARY duration. 
+
+Violation: MINOR FOUL and an additional MINOR FOUL for every
+3 seconds in which the situation is not corrected.
+
+Examples of violations of this rule include, but are not
+limited to: 
+
+A.
+      
+shutting down access to all SCORING ELEMENTS,� 
+
+B.
+      
+quarantining an opponent to a small area of the FIELD, 
+
+C.
+      
+quarantining SCORING ELEMENTS out of the opposing
+ALLIANCE�S reach, or
+
+D.
+      
+completely blocking access to the opponent�s GATE.
+
+G424
+       
+GATE ZONE is OFF LIMITS.
+ A ROBOT may not
+contact, directly or transitively though a SCORING ELEMENT, an opponent ROBOT
+if either ROBOT is in the opponent�s GATE ZONE, regardless of who initiates
+contact. Exceptions: 
+
+A.
+     
+
+A ROBOT in their own ALLIANCE�S GATE ZONE and in their opponent�s SECRET
+TUNNEL ZONE is not protected under 
+G424
+. 
+
+Violation: MINOR FOUL.
+
+For the
+exception in 
+G424
+.
+A
+, 
+G425
+ would apply instead.
+
+Figure 11‑2
+ shows
+some examples of typically protected and non-protected contact in the GATE
+ZONE. The intent of this rule is to ensure an ALLIANCE has access to their own
+GATE. Some of the actions shown below may also fall under other penalties including
+
+G423
+ or escalate to 
+G211
+.
+
+Figure 
+11
+‑
+2
+: 
+G424
+
+Examples
+
+G425
+       
+Keep out of opponent�s SECRET TUNNEL
+ A
+ROBOT in the opponent�s SECRET TUNNEL ZONE may not contact, directly or
+transitively though a SCORING ELEMENT, an opponent ROBOT regardless of who
+initiates contact. 
+
+Violation: MINOR FOUL.
+
+Figure 11‑3
+ shows some examples of typically
+protected and non-protected contact in the SECRET TUNNEL ZONE. The intent of
+this rule is to ensure an ALLIANCE has access to ARTIFACTS exiting from the opponent�s
+GATE, but still allow the opponent the opportunity to also access ARTIFACTS if
+there is no defender present.
+
+Figure 
+11
+‑
+3
+: 
+G425
+ Examples
+
+G426
+       
+LOADING ZONE protection.
+ A ROBOT may not
+contact, directly or transitively through a SCORING ELEMENT, an opponent ROBOT
+while either ROBOT is in the opponent�s LOADING ZONE, regardless of who
+initiates contact. 
+
+Violation: MINOR FOUL.
+
+Figure 11‑4
+ shows some examples of typically
+protected and non-protected contact in the LOADING ZONE. The intent of this
+rule is to ensure an ALLIANCE has access to ARTIFACTS exiting from the
+opponent�s GATE but still allows the opponent the opportunity to also access
+ARTIFACTS if there is no defender present.
+
+Some of the actions shown below may also fall under other
+penalties including 
+G423
+. 
+
+Figure 
+11
+‑
+4
+: 
+G426
+ Examples (before the last 20 seconds of the match)
+
+G427
+      
+
+BASE ZONE protection.
+
+During the last 20 seconds of the MATCH, a ROBOT may not contact, directly or
+transitively through a SCORING ELEMENT, an opponent ROBOT while either ROBOT is
+in the opponent�s BASE ZONE, regardless of who initiates contact.
+
+Violation: MAJOR FOUL and opponent ROBOT and any ROBOT fully
+supported by the contacted ROBOT are awarded fully returned to BASE points.
+
+11.4.6
+       
+
+Human
+
+G428
+       
+*No wandering. 
+DRIVE TEAM members must remain
+in their designated ALLIANCE AREA.
+
+A.
+     
+
+DRIVE TEAMS may be anywhere in their respective ALLIANCE AREA during a
+MATCH.
+
+B.
+     
+
+DRIVE TEAM members must be staged inside their respective ALLIANCE AREA
+prior to MATCH start.
+
+Violation: VERBAL WARNING. MINOR FOUL if subsequent
+violations occur during the event.
+
+The intent of this rule is to prevent DRIVE TEAM members
+from leaving their assigned AREA during a MATCH to gain a competitive
+advantage. For example, moving to another part of the FIELD for better viewing
+or reaching into the FIELD. Simply breaking the plane of the AREA during normal
+MATCH play is not a FOUL.
+
+DRIVE TEAM members may retrieve SCORING ELEMENTS that have
+left the FIELD if they are able to do so without violating 
+G428
+, 
+G430
+, and 
+G434
+. Reintroduction of
+SCORING ELEMENTS must follow rule 
+G432
+.
+
+Exceptions are granted in cases concerning safety and for
+actions that are inadvertent, MOMENTARY, and inconsequential.
+
+G429
+      
+
+*DRIVE COACHES and other teams: hands
+off the controls.
+ A ROBOT shall be operated only by the DRIVERS of that team;
+DRIVE COACHES may not handle the gamepads. DRIVE COACHES, if desired, may help
+the DRIVERS in the following ways: 
+
+A.
+     
+
+holding the DRIVER STATION device, 
+
+B.
+     
+
+troubleshooting the DRIVER STATION device,
+
+C.
+     
+
+selecting OpModes on the DRIVER STATION app, 
+
+D.
+     
+
+pressing the INIT button on the DRIVER STATION app, 
+
+E.
+     
+
+pressing the (
+▶
+)
+start button on the DRIVER STATION app, or 
+
+F.
+     
+
+pressing the (
+■
+) stop
+button on the DRIVER STATION app. 
+
+Violation: MAJOR FOUL. YELLOW CARD if
+greater-than-MOMENTARY.
+
+Exceptions may be made before a MATCH for major conflicts,
+e.g., religious holidays, major testing, transportation issues.
+
+G430
+       
+*DRIVE COACHES, SCORING ELEMENTS are off limits. 
+DRIVE
+COACHES may not contact SCORING ELEMENTS, unless for safety purposes.
+
+Violation: MINOR FOUL.
+
+G431
+       
+*DRIVE TEAMS, watch your reach.
+ Once a MATCH
+starts, a DRIVE TEAM member inside the FIELD may not: 
+
+A.
+      
+directly
+contact a ROBOT,
+
+B.
+     
+
+contact a SCORING ELEMENT in contact with a ROBOT,
+
+C.
+      
+disrupt
+SCORING ELEMENT scoring, or
+
+D.
+     
+
+contact a FIELD element.
+
+Violation: MAJOR FOUL plus YELLOW CARD if 
+G431
+.
+A
+. RED CARD and the opposing ALLIANCE is awarded the
+PATTERN RP if 
+G431
+.
+C
+.
+
+Exceptions are granted in cases concerning safety and for
+actions that are inadvertent, MOMENTARY, and inconsequential.
+
+For 
+G431
+.
+A
+ and 
+G431
+.B
+, the penalty is applied to the DRIVE TEAM member
+regardless of whether the DRIVE TEAM member or ROBOT initiates contact.
+
+Impacting ARTIFACT scoring includes, but is not limited to:
+
+A.
+      
+Contacting an ARTIFACT LAUNCHED by the opponent within the
+FIELD
+
+B.
+      
+Contacting an ARTIFACT in the opponent�s GOAL
+
+C.
+      
+Disrupting the scoring of an ARTIFACT on the opponent�s
+RAMP or by operating the opponent�s GATE
+
+ 
+
+G432
+       
+Humans, only meddle with ARTIFACTS in the LOADING
+ZONE.
+ DRIVE TEAM members may only introduce ARTIFACTS to, remove
+ARTIFACTS from, or move ARTIFACTS within the LOADING ZONE and only the LOADING
+ZONE. Actions must occur:
+
+A.
+     
+
+only during TELEOP,
+
+B.
+     
+
+without using a tool,
+
+C.
+     
+
+without causing an ARTIFACT to enter into the LOADING ZONE from
+elsewhere on the FIELD, and 
+
+D.
+     
+
+without causing an ARTIFACT to leave the LOADING ZONE and enter the rest
+of the FIELD unless the ARTIFACT is CONTROLLED by a ROBOT as follows: 
+
+                                                                          
+
+i.
+     
+
+ARTIFACT CONTROL begins when the ROBOT is in the LOADING ZONE, and 
+
+                                                                        
+
+ii.
+     
+
+ARTIFACT is still CONTROLLED by the ROBOT when the ROBOT leaves the
+LOADING ZONE.
+
+Violation: MINOR FOUL per ARTIFACT. MAJOR FOUL per ARTIFACT
+that enters the open top of the GOAL.
+
+DRIVE TEAM members may load SCORING ELEMENTS into a ROBOT
+that is partially or fully in the LOADING ZONE.
+
+ARTIFACTS that are unintentionally deflected, e.g., a DRIVE
+TEAM member protecting themselves from a LAUNCHED ARTIFACT, are an exception to
+this rule.
+
+DECODE is a fast-paced game and teams should practice
+coordination and communication between the DRIVE TEAM members to avoid
+unintentional contact between the ROBOT and any humans in violation of 
+G431
+.
+A
+.
+
+G433
+      
+
+Humans may only enter SCORING
+ELEMENTS.
+ DRIVE TEAM members may only enter ARTIFACTS onto the FIELD.
+
+Violation: MINOR FOUL per non-ARTIFACT item entered onto the
+FIELD.
+
+G434
+       
+The ALLIANCE AREA has a storage limit.
+
+During TELEOP, each ALLIANCE may not store more than 6 ARTIFACTS out of play. 
+DRIVE
+TEAM members making a good-faith effort to immediately enter additional
+ARTIFACTS back into play is an exception to this rule.
+
+Violation: MINOR FOUL per ARTIFACT over the limit and an
+additional MINOR FOUL per ARTIFACT over the limit for 
+every 3
+seconds in which the situation is not corrected.
+
+The intent of this rule is to prevent an ALLIANCE from
+starving the FIELD of ARTIFACTS during TELEOP. 
+
+Examples of �out of play� include, but are not limited to:
+
+A.
+      
+A DRIVE TEAM member holding an ARTIFACT inside or outside
+of the FIELD
+
+B.
+      
+DRIVE TEAM member storing an ARTIFACT outside the FIELD
+
+During AUTO and transition, this rule is not enforced. Upon
+the start of TELEOP, DRIVE TEAM members must make a good-faith effort to
+immediately enter ARTIFACTS into the FIELD until compliant with 
+G434
+.
+
+Teams will not be in violation of this rule if FIELD STAFF
+return ARTIFACTS to the DRIVE TEAM that have left the FIELD per section 
+10.8
+ 
+Other Logistics
+ such that
+the ALLIANCE holds a number of ARTIFACTS over the limit. However, if the DRIVE
+TEAM does not then make a good-faith effort to immediately enter ARTIFACTS into
+the FIELD until compliant with 
+G434
+, they will be in
+violation of this rule.
+
+DRIVE TEAM members must keep ARTIFACTS accessible. DRIVE
+TEAM members intentionally losing access to ARTIFACTS, e.g., by purposefully removing
+them from the FIELD and ALLIANCE AREA, will be considered egregious behavior
+and handled per 
+G211
+.

@@ -1,0 +1,190 @@
+13.6
+      
+
+Qualification MATCHES
+
+13.6.1
+       
+
+Schedule
+
+The Qualification MATCH schedule is made available as soon
+as possible, but no later than 15 minutes before Qualification MATCHES are
+scheduled to begin. Only teams who are eligible and have completed check-in on
+time will be included in the schedule per 
+I102
+ and 
+E105
+. Teams will receive access to the schedule
+through one or more of the following methods: 1 printed hard copy, notice of
+publicly posted hardcopy available to photograph, and/or local digital schedule
+display. Schedules may also be available on the 
+FTC-Events
+ site if the
+tournament is connected to the internet. Each qualification schedule consists
+of a series of rounds in which each team plays 1 MATCH per round.
+
+All event types will schedule either 5 or 6 Qualification MATCHES
+per team as determined by the Event Director based on available schedule time
+allocated. 
+FIRST
+ Championship, 
+FIRST
+ Premier Events, and Regional
+Championship Tournaments may schedule more MATCHES per team at the discretion
+of 
+FIRST 
+Headquarters and the Event Director.
+
+A MATCH schedule is used to coordinate MATCHES at an event. Figure 13‑1 details information shown on each schedule. SURROGATE MATCHES are
+described in section 
+13.6.2
+ 
+MATCH Assignment
+. 
+
+Figure 
+13‑1: Sample MATCH Schedule
+
+13.6.2
+       
+
+MATCH Assignment
+
+FIRST
+ event management software assigns each team 1
+ALLIANCE partner for each Qualification MATCH using a predefined algorithm, and
+teams may not switch Qualification MATCH assignments. The algorithm employs the
+following criteria, listed in order of priority:
+
+1.
+      
+ensure
+each team has at least the minimum required time between MATCHES (varies by
+event size)
+
+2.
+      
+minimize
+the number of times a team is allied with any team
+
+3.
+      
+minimize
+the number of times a team plays opposite any team
+
+4.
+      
+minimize
+the use of SURROGATES (teams 
+randomly assigned by event
+management software to play an extra Qualification MATCH
+)
+
+5.
+      
+provide
+even distribution of MATCHES played on blue and red ALLIANCE
+
+For more information about the MATCH scheduling algorithm,
+please see 
+Idle Loop software�s
+website
+.
+
+All teams are assigned the same number of Qualification MATCHES,
+equal to the number of rounds, unless the number of teams multiplied by number
+of MATCHES is not divisible by 4. In this case, the 
+FIRST
+ event
+management software randomly selects some teams to play an extra MATCH. For the
+purpose of seeding calculations, those teams are designated as SURROGATES for
+the extra MATCH. If a team plays a MATCH as a SURROGATE, it is indicated on the
+MATCH schedule with an * after their team number, it is always their third Qualification
+MATCH, and the outcome of the MATCH has no effect on the team�s ranking. YELLOW
+and RED CARDS assigned to SURROGATES, however, do carry forward to subsequent
+MATCHES.
+
+If
+a team is scheduled to play in a back-to-back MATCHES (e.g., Qualification MATCH
+40 and 41) they will receive a minimum break per 
+T206
+ before their next MATCH.
+
+13.6.3
+       
+
+Qualification Ranking
+
+RANKING POINTS (RP) are units 
+credited
+to a team based on their ALLIANCE�S performance in Qualification MATCHES
+. These
+points are awarded to each eligible team at the completion of each Qualification
+MATCH per Table 10‑2.
+
+A team's RANKING SCORE (RS) is the
+average number of RANKING POINTS earned by a team throughout their Qualification
+MATCHES 
+(excluding any SURROGATE MATCH). 
+
+All teams participating in Qualification MATCHES are ranked
+by RANKING SCORE. If the number of teams in attendance is �n�, they are ranked
+�1� through �n�, with �1� being the team with the highest RANKING SCORE and �n�
+being the team with the lowest RANKING SCORE. SURROGATE MATCHES are excluded
+from all calculations. A MATCH in which a team is DISQUALIFIED contributes 0 to
+all sort criteria.
+
+Teams are ranked in order, using the sorting criteria
+defined in 
+Table 13‑1
+
+ 
+
+Table 
+13‑1:
+Qualification MATCH ranking criteria
+
+Order
+   Sort
+
+Criteria
+
+1
+st
+
+RANKING SCORE (RS)
+
+2
+nd
+
+Average ALLIANCE MATCH points, not including MINOR
+  FOULS and MAJOR FOULS (Average MATCH points minus FOULS) 
+
+3
+rd
+
+Average BASE points
+
+4
+th
+
+Average AUTO points 
+
+5
+th
+
+Random sort by the 
+FIRST
+ event management
+  software
+
+ 
+
+T601
+      
+
+*DISQUALIFICATION applies only to the
+DISQUALIFIED team in Qualifications.
+ During Qualification MATCHES, a team
+DISQUALIFICATION has no effect on their ALLIANCE partner.

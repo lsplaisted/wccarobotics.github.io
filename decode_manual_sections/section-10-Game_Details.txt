@@ -1,0 +1,13 @@
+10
+    
+Game Details
+
+Figure 10‑1: FIELD for DECODE
+
+In DECODE, 2 ALLIANCES (an ALLIANCE is 
+a
+cooperative of 2 
+FIRST
+ Tech Challenge teams
+) play MATCHES, set up
+and implemented per the details described below.

@@ -1,0 +1,48 @@
+5.3
+           
+
+Wireless Rules
+
+E301
+       
+
+*No wireless communication.
+
+Teams may not set up their own Wi-Fi (802.11a/b/g/n/ac/ax/be) wireless
+communication (e.g., access points or ad-hoc networks), Bluetooth, or any other
+communications systems using 2.4GHz or 5GHz wireless in the venue.
+
+A wireless hot spot created by a cellular device, camera,
+smart TV, etc. is considered an access point.
+
+Some smart TVs have access points enabled by factory
+default. Please make sure that functionality is disabled for any TVs brought to
+the event.
+
+Bluetooth uses 2.4GHz frequencies to communicate which can
+interfere with venue and ROBOT systems. 
+
+Many R/C toys (including drones, wireless vehicles, FPV
+systems) use 2.4GHz and 5GHz communications. Do not operate these in the venue.
+
+E302
+       
+
+*Don�t interfere with wireless
+networks.
+ Participants may not interfere, attempt to interfere, or
+attempt to connect with any other team or 
+FIRST
+ wireless network without
+expressed permission. 
+
+Teams are encouraged to report suspected wireless security
+vulnerabilities to the 
+FIRST
+ Technical Advisor (FTA) or Event Director if
+at the event or to 
+FIRST
+ via 
+customerservice@firstinspires.org
+
+to report a suspected issue after the event.

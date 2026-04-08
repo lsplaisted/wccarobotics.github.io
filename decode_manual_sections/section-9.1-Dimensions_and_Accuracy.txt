@@ -1,0 +1,75 @@
+9.1
+           
+
+Dimensions and Accuracy
+
+The specifications for the DECODE FIELD can be retrieved
+from a few locations:
+
+-
+       
+
+The 3D CAD model is the official representation of the DECODE FIELD
+and how it is constructed. Measurements may be taken from this model with a general
+tolerance of +/- 1 in. (+/- 2.5 cm).
+
+-
+       
+
+Illustrations included in the Competition Manual are for a
+general visual understanding of the DECODE ARENA, and any dimensions included
+are nominal. Unless specifically noted, all these dimensions carry a tolerance
+of +/- 1 in. (+/- 2.5 cm).
+
+-
+       
+
+The 
+Event FIELD
+Setup Guide
+ includes instructions on how to build the FIELD, and along with
+showing the ways construction type will influence the field tolerances, it also
+includes many of the key dimensions which are listed in the Official FIELD Drawings.
+
+-
+       
+
+The
+ FIELD
+Acceptance Checklist
+ includes the controlled dimensions (with relevant
+tolerances) which will be regularly inspected by event staff.
+
+-
+       
+
+The 
+FIELD
+Mitigation Guide
+ provides FIELD STAFF recommended mitigation measures for
+issues with the field during an event.
+
+The complete list of DECODE FIELD resources are posted on the
+
+Playing FIELD
+Resources page
+ on the 
+FIRST
+ website. 
+
+The ARENA is modular and is assembled, used, disassembled,
+and transported many times during the competition season. It undergoes wear and
+tear. The ARENA is designed to withstand rigorous play and frequent reassembly.
+Every effort is made to ensure that ARENAS are consistent from event to event. 
+
+However, ARENAS are assembled in different venues by
+different event staff and volunteers, and some small variations occur. In
+addition, every region faces unique challenges which may impact the exact implementation
+of the ARENA, and as such the ARENA specifications are designed to accurately
+reflect the variations which may be present in official play, while still ensuring
+consistency of critical items. Contact your 
+local support
+ to request more information. 
+
+Successful teams will design ROBOTS that are insensitive to
+these variations.

@@ -1,0 +1,1206 @@
+13.7
+      
+
+Playoff MATCHES
+
+Playoff MATCHES follow the Qualification MATCHES. In the Playoffs,
+teams play on set ALLIANCES, chosen during ALLIANCE selection, and advance
+through a double elimination bracket to determine an event winner. Teams do not
+earn RANKING POINTS; they advance based on winning or losing MATCHES. If a team
+is DISQUALIFIED during Playoff MATCHES, the DISQUALIFICATION applies to the
+entire ALLIANCE, and all teams in the ALLIANCE receive 0 MATCH points.
+
+T701
+       
+*Send a STUDENT representative.
+ Each team must
+choose and send a STUDENT team representative to the ARENA at the designated
+ALLIANCE selection time (typically just after the last scheduled Qualification MATCH)
+to represent their team. 
+
+Violation: Teams who do not send a representative are
+ineligible for the playoff tournament
+
+If an absent team would have been an ALLIANCE lead, all
+lower ranked ALLIANCE leads are promoted 1 spot. 
+
+If a team is planning to not participate in the playoff tournament,
+they should proactively inform the Event Director and Head REFEREE as soon as
+possible.
+
+T702
+      
+
+*Declining teams cannot be picked. 
+An
+ALLIANCE CAPTAIN may not invite a team that has declined another ALLIANCE�S
+invitation to participate in the playoff tournament. 
+
+Violation: The ALLIANCE CAPTAIN must make another selection
+
+An ALLIANCE lead that declines an invitation from another
+ALLIANCE is able to invite teams to join their ALLIANCE but may not be invited
+to join another ALLIANCE.
+
+T703
+      
+
+*There are no backup teams in Playoff
+MATCHES.
+ An ALLIANCE may not request a backup team in a Playoff MATCH.
+
+Teams are encouraged to consider reliability when selecting
+partners because all teams on an ALLIANCE must play in each round of the
+playoff tournament.
+
+T704
+       
+*During Playoff MATCHES, teams may have more ARENA
+access. 
+At the direction of the Event Director, during the Playoff
+MATCHES teams may need extra team members to maintain the ROBOT between MATCHES
+in a timely manner. Each team is permitted to have up to 3 additional pit crew
+members to help with needed ROBOT repairs. These team members should be granted
+the same ARENA access as the DRIVE TEAM but may not participate in any MATCH play.
+
+This allocation of additional pit crew members is venue
+specific and at the discretion of the Event Director. 
+
+T705
+      
+
+*Multiple DISQUALIFICATION is handled
+specially.
+ During Playoff MATCHES, 1 or more ALLIANCE DISQUALIFICATIONS
+are handled accordingly: 
+
+A.
+     
+
+if an ALLIANCE is DISQUALIFIED, the DISQUALIFIED ALLIANCE loses
+
+B.
+     
+
+if both ALLIANCES are DISQUALIFIED, the one that is DISQUALIFIED first
+chronologically loses 
+
+C.
+     
+
+if, in the judgement of the Head REFEREE, both ALLIANCES are
+simultaneously DISQUALIFIED, the MATCH results in a tie
+
+13.7.1
+       
+
+ALLIANCE Selection Process
+
+At the end of the Qualification MATCHES, the top ranked
+teams become the ALLIANCE leads. 
+The designated
+STUDENT representative from each ALLIANCE lead is called the ALLIANCE CAPTAIN.
+
+This representative may change between ALLIANCE selection and Playoff MATCHES.
+
+The ranked ALLIANCES are designated, in order, ALLIANCE 1,
+ALLIANCE 2, etc., down to the maximum number of ALLIANCES shown in Table 13‑2. Using the ALLIANCE selection process described in this section,
+each ALLIANCE lead chooses 1 other team to join their ALLIANCE. 
+
+If the team accepts, it becomes a member of that ALLIANCE.
+If an invitation from an ALLIANCE lead to another ALLIANCE lead is accepted,
+all lower ALLIANCE leads are promoted 1 spot. The highest-ranked, unselected
+team becomes the newest ALLIANCE lead.
+
+If the number of complete ALLIANCES in Table
+13‑2 cannot be formed (e.g., due to too many declining teams, due to
+teams leaving early) the event will proceed by playing with incomplete
+ALLIANCES. ALLIANCES with 0 teams will grant an automatic win to the opponent
+and the MATCH will be skipped. ALLIANCES with only 1 team will play the MATCH 1
+versus 2. 
+
+13.7.2
+       
+
+Playoff MATCH Bracket
+
+The Playoff MATCH bracket is how the event winners are
+determined.
+
+The number of ALLIANCES for an event is determined by the
+number of teams who are eligible to participate in the Playoffs based on all
+Qualification MATCH participating teams as shown in Table
+13‑2.
+
+Teams that sign up for the event but do not show up, and
+teams that participate in Awards but are not included in the Qualification
+MATCHES are not included in determining the Playoff MATCH bracket size. Teams
+that participated in the Qualification MATCHES but don�t intend to participate
+in the Playoff MATCH bracket are included in determining the Playoff MATCH
+bracket size.
+
+Table 
+13
+‑
+2
+: Number of
+playoff ALLIANCES based on all Qualification Match participating teams
+
+Total playoff eligible teams
+
+Number of playoff ALLIANCES formed
+
+4-10 Teams
+
+2
+
+11-20 Teams
+
+4
+
+21-40 Teams
+
+6
+
+41-64 Teams
+
+8
+
+See section 
+13.8
+ 
+Dual Division Events
+ for the
+additional dual division related rules. 
+
+The double elimination tournament consists of an upper and lower
+bracket that will scale based on the number of ALLIANCES. Tournaments with 2
+ALLIANCES will have those ALLIANCES face each other in the finals. 
+
+Each ALLIANCE begins in the upper bracket. If an ALLIANCE
+wins a MATCH in the upper bracket, they remain in the upper bracket. If an
+ALLIANCE loses a MATCH in the upper bracket, they transition to the lower
+bracket. ALLIANCES in the lower bracket must win all subsequent MATCHES to
+remain in the tournament, i.e., once they lose 2 total MATCHES, they are out of
+the tournament.
+
+Ties play another MATCH until the MATCH results in 1 winner.
+
+In Round 1, the higher ranked ALLIANCE is assigned to the
+red ALLIANCE. For subsequent rounds, ALLIANCE color is assigned as shown in Figure 13‑2, regardless of ALLIANCE rank at the start of the playoff
+tournament.
+
+As shown in Figure 13‑2, Playoff MATCHES consist of up
+to 6 rounds with breaks between later rounds. Breaks begin after the MATCH
+RESULTS have been posted from the latest MATCH. The Blue and Red Gap columns
+indicate the approximate time between each ALLIANCE�S MATCHES. The expected
+start time of the scheduled MATCH is the time indicated on the MATCH schedule
+or 8 minutes from the end of either ALLIANCE�S previous MATCH, whichever is
+later per 
+T206
+. 
+
+Figure 
+13‑2: 8-ALLIANCE playoff bracket
+
+If a Playoff MATCH needs to be
+replayed as described in section 
+13.3
+ 
+MATCH Replays
+ or an additional MATCH needs to be
+played due to tie, teams are notified of when the MATCH will occur. A minimum 8-minute
+delay is provided for teams to reset their ROBOTS prior to the MATCH unless all
+teams are ready sooner (
+T206
+). The affected MATCH must be played before the
+next round begins.
+
+ 
+
+13.7.3
+       
+
+2-ALLIANCE Bracket and Typical Timing
+
+Figure 13‑3: 2-ALLIANCE playoff bracket
+
+ 
+
+Table 13‑3: 2-ALLIANCE playoff bracket typical timing
+
+Round
+
+MATCH
+
+Upper/
+
+  Lower
+
+Gap
+
+(min)
+
+Next MATCH
+
+(MATCH # (ALLIANCE
+  color))
+
+FIELD
+
+Blue
+
+Red
+
+Blue
+
+Red
+
+Winner
+
+Loser
+
+Estimated
+
+  Start (min)
+
+8-minute break
+
+Judges� Choice* (1), Innovate/Design/Control Award (1)
+
+0
+
+Finals
+
+1
+
+1
+
+A2
+
+A1
+
+M2
+
+M2
+
+15
+
+8-minute break
+
+Sustain/Reach/Connect Award (1)
+
+18
+
+Finals
+
+2
+
+1
+
+A2
+
+A1
+
+0:15
+
+0:15
+
+M3*
+
+M3*
+
+33
+
+8-minute break
+
+Think Award (1)
+
+36
+
+Finals
+
+3*
+
+1
+
+A2
+
+A1
+
+0:10
+
+0:10
+
+46
+
+Awards: Compass*, Finalists, Winners, and Inspire Award (1)
+
+49
+
+* if required
+
+**Awards may be given out
+after the conclusion of the playoff bracket at the discretion of the 
+Event Director.
+ 
+
+13.7.4
+       
+
+4-ALLIANCE Bracket and Typical Timing
+
+Figure 13‑4: 4-ALLIANCE playoff bracket
+
+ 
+
+Table 13‑4: 4-ALLIANCE playoff typical timing
+
+Round
+
+MATCH
+
+Upper/
+
+  Lower
+
+Gap
+
+(min)
+
+Next MATCH
+
+(MATCH # (ALLIANCE
+  color))
+
+FIELD
+
+Blue
+
+Red
+
+Blue
+
+Red
+
+Winner
+
+Loser
+
+Estimated
+
+  Start (min)
+
+1
+
+1
+
+Upper
+
+1
+
+A4
+
+A1
+
+M4 (R)
+
+M3 (R)
+
+0
+
+2
+
+Upper
+
+1
+
+A3
+
+A2
+
+M4 (B)
+
+M3 (B)
+
+6
+
+8-minute break
+
+9
+
+2
+
+3
+
+Lower
+
+1
+
+L2
+
+L1
+
+0:08
+
+0:14
+
+M5 (B)
+
+4th
+
+17
+
+4
+
+Upper
+
+1
+
+W2
+
+W1
+
+0:14
+
+0:20
+
+M6 (R)
+
+M5 (R)
+
+23
+
+8-minute break
+
+Judges� Choice* (1), Design Award (1), Reach Award (1)
+
+26
+
+3
+
+5
+
+Lower
+
+1
+
+W3
+
+L4
+
+0:21
+
+0:15
+
+M6 (B)
+
+3rd
+
+34
+
+8-minute break
+
+Control Award (1), Innovate Award (1), Sustain Award (1)
+
+37
+
+Finals
+
+6
+
+1
+
+W5
+
+W4
+
+0:15
+
+0:33
+
+M7*
+
+M7*
+
+45
+
+8-minute break
+
+Connect Award (1), Think Award (1)
+
+48
+
+Finals
+
+7*
+
+1
+
+W5
+
+W4
+
+0:15
+
+0:15
+
+56
+
+Awards: Compass*, Finalists, Winners, and Inspire Award (2, 1)
+
+59
+
+*If Required
+
+**Awards may be given out after the conclusion of the
+playoff bracket at the discretion of the Event Director.
+ 
+
+13.7.5
+       
+
+6-ALLIANCE Bracket and Typical Timing
+
+Figure 13‑5: 6-ALLIANCE playoff bracket
+
+Table 13‑5: 6-ALLIANCE playoff bracket typical timing
+
+Round
+
+MATCH
+
+Upper/
+
+  Lower
+
+Gap
+
+(min)
+
+Next MATCH
+
+(MATCH # (ALLIANCE
+  color))
+
+FIELD
+
+Blue
+
+Red
+
+Blue
+
+Red
+
+Winner
+
+Loser
+
+Estimated
+
+  Start (min)
+
+1
+
+1
+
+Upper 
+
+1
+
+A5
+
+A4
+
+M3 (B)
+
+M6 (B)
+
+0
+
+2
+
+Upper 
+
+2
+
+A6
+
+A3
+
+M4 (B)
+
+M5 (B)
+
+6
+
+2
+
+3
+
+Upper
+
+1
+
+W1
+
+A1
+
+0:09
+
+M7 (R)
+
+M5 (R)
+
+12
+
+4
+
+Upper
+
+2
+
+W2
+
+A2
+
+0:09
+
+M7 (B)
+
+M6 (R)
+
+18
+
+3
+
+5
+
+Lower
+
+1
+
+L2
+
+L3
+
+0:15
+
+0:09
+
+M8 (B)
+
+Tied 5th
+
+24
+
+6
+
+Lower
+
+2
+
+L1
+
+L4
+
+0:27
+
+0:09
+
+M8 (R)
+
+30
+
+4
+
+7
+
+Upper
+
+1
+
+W4
+
+W3
+
+0:15
+
+0:21
+
+M10 (R)
+
+M9 (R)
+
+36
+
+8
+
+Lower
+
+2
+
+W5
+
+W6
+
+0:15
+
+0:09
+
+M9 (B)
+
+4th
+
+42
+
+8-minute break
+
+Judges� Choice* (1), Design Award (2, 1), Reach Award (2, 1)
+
+45
+
+5
+
+9
+
+Lower
+
+1
+
+W8
+
+L7
+
+0:15
+
+0:21
+
+M10 (B)
+
+3rd
+
+53
+
+8-minute break
+
+Control Award (2, 1), Innovate Award (2, 1), Sustain Award (2,1)
+
+56
+
+Finals
+
+10
+
+1
+
+W9
+
+W7
+
+0:15
+
+0:39
+
+M11*
+
+M11*
+
+64
+
+8-minute break
+
+Connect Award (2, 1), Think Award (2, 1)
+
+67
+
+Finals*
+
+11
+
+1
+
+W9
+
+W7
+
+0:15
+
+0:15
+
+75
+
+Awards: Compass*, Finalists, Winners, and Inspire Award (3, 2,
+  1)
+
+78
+
+* if required
+
+**Awards may be given out after the conclusion of the
+playoff bracket at the discretion of the Event Director.
+ 
+
+13.7.6
+       
+
+8-ALLIANCE Bracket and Typical Timing
+
+Figure 13‑6: 8-ALLIANCE playoff bracket
+
+ 
+
+Table 13‑6: 8-ALLIANCE playoff bracket typical timing
+
+Round
+
+MATCH
+
+Upper/
+
+  Lower
+
+Gap
+
+(min)
+
+Next MATCH
+
+(MATCH # (ALLIANCE
+  color))
+
+FIELD
+
+Blue
+
+Red
+
+Blue
+
+Red
+
+Winner
+
+Loser
+
+Estimated
+
+  Start (min)
+
+1
+
+1
+
+Upper 
+
+1
+
+A8
+
+A1
+
+M7 (R)
+
+M5 (R)
+
+0
+
+2
+
+Upper 
+
+2
+
+A5
+
+A4
+
+M7 (B)
+
+M5 (B)
+
+6
+
+3
+
+Upper 
+
+1
+
+A7
+
+A2
+
+M8 (R)
+
+M6 (R)
+
+12
+
+4
+
+Upper 
+
+2
+
+A6
+
+A3
+
+M8 (B)
+
+M6 (B)
+
+18
+
+2
+
+5
+
+Lower
+
+1
+
+L2
+
+L1
+
+0:15
+
+0:21
+
+M10 (B)
+
+Tied 7th
+
+24
+
+6
+
+Lower
+
+2
+
+L4
+
+L3
+
+0:09
+
+0:15
+
+M9 (B)
+
+30
+
+7
+
+Upper
+
+1
+
+W2
+
+W1
+
+0:27
+
+0:33
+
+M11 (R)
+
+M9 (R)
+
+36
+
+8
+
+Upper
+
+2
+
+W4
+
+W3
+
+0:21
+
+0:27
+
+M11 (B)
+
+M10 (R)
+
+42
+
+3
+
+9
+
+Lower
+
+1
+
+W6
+
+L7
+
+0:15
+
+0:09
+
+M12 (B)
+
+Tied 5th
+
+48
+
+10
+
+Lower
+
+2
+
+W5
+
+L8
+
+0:27
+
+0:09
+
+M12 (R)
+
+54
+
+4
+
+11
+
+Upper
+
+1
+
+W8
+
+W7
+
+0:15
+
+0:21
+
+M14 (R)
+
+M13 (R)
+
+60
+
+12
+
+Lower
+
+2
+
+W9
+
+W10
+
+0:15
+
+0:09
+
+M13 (B)
+
+4th
+
+66
+
+8-minute break
+
+Judges� Choice* (1), Design Award (3,2,1), Reach Award (3,2,1)
+
+69
+
+5
+
+13
+
+Lower
+
+1
+
+W12
+
+L11
+
+0:15
+
+0:21
+
+M14 (B)
+
+3rd
+
+77
+
+8-minute break
+
+Control Award (3,2,1), Innovate Award (3,2,1), Sustain Award
+  (3,2,1)
+
+80
+
+Finals
+
+14
+
+1
+
+W13
+
+W11
+
+0:15
+
+0:39
+
+M15* 
+
+M15*
+
+88
+
+8-minute break
+
+Connect Award (3,2,1), Think Award (3,2,1)
+
+91
+
+Finals*
+
+15
+
+1
+
+W13
+
+W11
+
+0:15
+
+0:15
+
+99
+
+Awards: Compass*, Finalists, Winners, and Inspire Award (3, 2,
+  1)
+
+102
+
+ 
+
+* if required
+
+**Awards may be given out after the conclusion of the
+playoff bracket at the discretion of the Event Director.
