@@ -5,7 +5,7 @@ title: "FTC Scouting Guide — DECODE"
 
 # FTC Scouting Guide — DECODE
 
-Want to help our team at the tournament? Scouting is a fun way to get involved — you watch some matches and jot down what each robot does on a simple paper form. Even scouting a few matches can give us a real edge!
+Want to help our team at the tournament? Scouting is a fun way to get involved — you watch some matches and jot down what each robot does on a simple paper form. Even scouting a few matches can give us a real edge! Plus, learning what to look for will help you understand what's going on in the game, which makes watching the matches a lot more fun.
 
 **You don't need to know anything about robotics to scout.** You don't need to be perfectly accurate, either — just do your best! Even rough notes are useful. This guide will walk you through everything you need to know.
 
@@ -44,7 +44,7 @@ The robots run on their own — no human control. Robots can score **leave point
 
 Drivers control the robots with game controllers. This is where most of the action happens. Robots collect **artifacts** (purple and green balls) and score them by launching them into the gate.
 
-Robots can only launch from designated **launch zones** — they just need to be overlapping a launch line. There are two launch zones on each side of the field:
+Robots can only launch from designated **launch zones** — the robot needs to be inside the zone or overlapping a launch line. There are two launch zones on each side of the field:
 
 - **Near launch zone** — the large triangular area at the back of the field (where the goals are). Most robots score from here.
 - **Far launch zone** — the much smaller triangular area at the front of the field (audience side, near the loading zones). Robots that can score from the far zone are harder to defend because they have two places to shoot from.
@@ -71,7 +71,10 @@ Example: `✓✓✗✓✓✓✗✓` = 6 made, 2 missed
 
 These don't change between matches, so you only need to note them once per team:
 
-- **Drive type**: ☐ Mecanum (can strafe sideways) ☐ Tank (can only turn) ☐ Other. Mecanum drives are generally more maneuverable — better at playing defense and at getting around defenders.
+- **Drive type**:
+  - **Tank drive** — wheels on each side turn independently. Can only drive forward/backward and turn in place. Less maneuverable.
+  - **Mecanum drive** — special wheels that let the robot strafe sideways and move in any direction. Much more maneuverable — better at playing defense and getting around defenders.
+  - **Other** — kiwi drive (3 omniwheels in a triangle), swerve drive, etc.
 - **Has intake?** Robots with an intake can pick up artifacts off the field. Without one, they have to drive back to the loading zone for the human player to load them — much slower cycles.
 
 ### During Autonomous (first 30 seconds)
@@ -85,10 +88,7 @@ These don't change between matches, so you only need to note them once per team:
 ### During Teleop (2 minutes)
 
 1. **Track teleop shots** (✓/✗) — start a new tally for teleop, separate from auto.
-2. **Where do they score from?** Robots can only launch from the **near zone** or **far zone**:
-   - **Near zone only?** Note if they need a specific spot (e.g., right against the goal wall like a starter bot) or can shoot from anywhere in the near zone
-   - **Far zone too?** More versatile — harder to defend
-   - **Both zones?** Most flexible
+2. **Where do they score from?** Note which launch zone(s) they use — near, far, or both. If they can only score from a small area (e.g., one specific spot in the near zone), they're easier to play defense on. Robots that can score from multiple positions are harder to shut down.
 3. **How fast is their cycle?** A "cycle" is: pick up artifacts → drive to launch zone → score → repeat. Fast cyclers are valuable partners.
 4. **Did they play defense?** Some robots focus on blocking the other alliance instead of scoring. Were they effective at it?
 5. **Did the robot return to base?** (None / Partial / Full) — Robots may return to base for bonus points, but they can also keep scoring artifacts, so some teams skip parking.
