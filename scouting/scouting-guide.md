@@ -121,7 +121,7 @@ These don't change between matches, so you only need to note them once per team:
 
 ## Scouting Form
 
-Print one form per match you're scouting. **[Print scouting forms →](/scouting/scouting-form)** (2 per page)
+Here's the form you'll be using. ([Printable version](/scouting/scouting-form) — 2 per page)
 
 {% include scouting-form.html %}
 
