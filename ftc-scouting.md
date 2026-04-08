@@ -70,11 +70,18 @@ The most important thing to track is **shot attempts**. For each shot, mark **�
 
 Example: `✓✓✗✓✓✓✗✓` = 6 made, 2 missed
 
+### Robot Details (anytime — before, during, or after a match)
+
+These don't change between matches, so you only need to note them once per team:
+
+- **Drive type**: ☐ Mecanum (can strafe sideways) ☐ Tank (can only turn) ☐ Other. Mecanum drives are generally more maneuverable — better at playing defense and at getting around defenders.
+- **Has intake?** Robots with an intake can pick up artifacts off the field. Without one, they have to drive back to the loading zone for the human player to load them — much slower cycles.
+
 ### During Autonomous (first 30 seconds)
 
 1. **Did the robot move at all?** Some teams don't have an autonomous program — the robot just sits there.
 2. **Did it score leave points?** The robot must end auto **not over any launch line**. A robot that moves but ends up back on a line doesn't get leave points.
-3. **Track auto shots** (✓/✗) — most robots attempt 1–4 shots in auto.
+3. **Track auto shots** (✓/✗) — robots can start with 3 preloaded artifacts, so expect 0 shots (no auto or leave-only auto), up to 3 shots (preloaded), or more if they pick up additional artifacts with an intake.
 4. **Did it move smoothly or have problems?** (Got stuck, went the wrong way, etc.)
 
 ### During Teleop (2 minutes)
@@ -95,13 +102,6 @@ Example: `✓✓✗✓✓✓✗✓` = 6 made, 2 missed
 
 1. **Did the robot return to base?** (None / Partial / Full)
 2. Robots may return to base for bonus points, but they can also keep scoring artifacts — so some teams make a strategic choice to skip parking and keep shooting.
-
-### Robot Details (anytime — before, during, or after a match)
-
-These don't change between matches, so you only need to note them once per team:
-
-- **Drive type**: ☐ Mecanum (can strafe sideways) ☐ Tank (can only turn) ☐ Other. Mecanum drives are generally more maneuverable — better at playing defense and at getting around defenders.
-- **Has intake?** Robots with an intake can pick up artifacts off the field. Without one, they have to drive back to the loading zone for the human player to load them — much slower cycles.
 
 ### General Observations
 
@@ -152,16 +152,11 @@ Print one form per match you're scouting. Here's what should be on each form:
 | -------------- | --- |
 | Teleop shots: ✓ = made, ✗ = missed | _____ |
 | Scoring zones | ☐ Near zone  ☐ Far zone  ☐ Both |
-| Specific spot in near zone? | ☐ Against goal wall  ☐ Anywhere in near zone |
+| Specific spot in near zone? | _____ |
 | Cycle speed | ☐ Fast  ☐ Medium  ☐ Slow |
 | Played defense? | ☐ Yes  ☐ No |
 | Response to defense | ☐ Kept scoring  ☐ Slowed down  ☐ Stopped  ☐ N/A |
-
-### End Game
-
-| What to record | |
-| -------------- | --- |
-| Returned to base? | ☐ None  ☐ Partial  ☐ Full |
+| Returned to base in end game? | ☐ None  ☐ Partial  ☐ Full |
 
 ### Robot Details (only need to record once per team)
 
@@ -207,19 +202,6 @@ Use your collected scouting sheets to rank potential partners by:
 5. **Drive type** — mecanum drives are more maneuverable for both scoring and defense
 6. **Defense resilience** — in playoffs, opponents will play more defense
 7. **Complementary skills** — if we're strong at scoring, a partner who can play effective defense may be more valuable than a second scorer
-
----
-
-## Reading the Scoreboard
-
-The tournament scoreboard shows:
-
-- **Ranking Score (RS)** — based on wins, losses, and ties (Win = 2, Tie = 1, Loss = 0, divided by matches played)
-- **W-L-T** — wins, losses, ties
-- **Ranking Points (RP)** — bonus points earned for meeting specific scoring thresholds during a match (Movement RP, Goal RP, Pattern RP)
-- **High Score** — the team's best single-match score
-
-Rankings are sorted by Ranking Score first, then by RP and other tiebreakers. A team with a 3-2 record can outrank a 3-2 team if they have more ranking points.
 
 ---
 
