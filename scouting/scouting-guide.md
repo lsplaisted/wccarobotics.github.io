@@ -123,54 +123,7 @@ These don't change between matches, so you only need to note them once per team:
 
 Print one form per match you're scouting. **[Print scouting forms →](/scouting/scouting-form)** (2 per page)
 
-Here's what should be on each form:
-
-### Header
-
-| Field | |
-| ----- | --- |
-| **Match #** | _____ |
-| **Team # being scouted** | _____ |
-| **Team name** | _____ |
-| **Alliance color** | Red / Blue |
-| **Scout name** | _____ |
-
-### Autonomous (30 seconds)
-
-| What to record | |
-| -------------- | --- |
-| Robot moved in auto? | ☐ Yes  ☐ No (just sat there) |
-| Scored leave points? | ☐ Yes (ended off launch line)  ☐ No |
-| Auto shots: ✓ = made, ✗ = missed | _____ |
-| Auto notes | _____ |
-
-### Teleop (2 minutes)
-
-| What to record | |
-| -------------- | --- |
-| Teleop shots: ✓ = made, ✗ = missed | _____ |
-| Scoring zones | ☐ Near zone  ☐ Far zone  ☐ Both |
-| Specific spot in near zone? | _____ |
-| Cycle speed | ☐ Fast  ☐ Medium  ☐ Slow |
-| Played defense? | ☐ Yes  ☐ No |
-| Response to defense | _____ |
-| Returned to base in end game? | ☐ None  ☐ Partial  ☐ Full |
-
-### Robot Details (only need to record once per team)
-
-| What to record | |
-| -------------- | --- |
-| Drive type | ☐ Mecanum  ☐ Tank  ☐ Other |
-| Has intake? | ☐ Yes (picks up off field)  ☐ No (human player loads) |
-
-### Overall Impressions
-
-| What to record | |
-| -------------- | --- |
-| Robot broke down? | ☐ Yes  ☐ No |
-| Driver skill | ☐ Excellent  ☐ Good  ☐ Needs work |
-| Want as alliance partner? | ☐ Definitely  ☐ Maybe  ☐ No |
-| Notes | _____ |
+{% include scouting-form.html %}
 
 ---
 

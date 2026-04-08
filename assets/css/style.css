@@ -588,3 +588,71 @@ td.team-cell-highlight {
   font-size: 0.85rem;
   opacity: 0.7;
 }
+
+/* === Scouting form === */
+.scouting-page {
+  padding: 8px 12px;
+  margin-bottom: 4px;
+  font-size: 11px;
+  line-height: 1.4;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.scouting-page h2 {
+  font-size: 14px;
+  margin: 0 0 6px 0;
+  padding-bottom: 4px;
+  border-bottom: 2px solid var(--navy);
+  color: var(--navy);
+}
+
+.scouting-page h3 {
+  font-size: 11px;
+  margin: 8px 0 3px 0;
+  color: var(--ocean-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-row {
+  display: flex;
+  align-items: baseline;
+  padding: 2px 0;
+  border-bottom: 1px dotted #ddd;
+  gap: 6px;
+}
+.form-row:last-child { border-bottom: none; }
+.form-row:has(+ .form-spacer),
+.form-row:has(+ .form-spacer-lg) { border-bottom: none; }
+
+.form-spacer { height: 30px; }
+.form-spacer-lg { height: 74px; }
+
+.form-label {
+  flex: 0 0 auto;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.form-value {
+  flex: 1;
+  min-width: 0;
+}
+
+.form-line {
+  border-bottom: 1px solid #999;
+  display: inline-block;
+}
+
+.form-checks {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+
+.form-divider {
+  border: none;
+  border-top: 2px solid var(--navy);
+  margin: 12px 0;
+}

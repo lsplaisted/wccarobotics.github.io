@@ -3,14 +3,15 @@ layout: default
 title: "FTC Scouting Form — Print"
 ---
 <style>
-  /* Hide site nav/footer when printing */
   @media print {
-    .site-header, .site-footer, .print-instructions { display: none !important; }
+    .site-header, .site-footer, .print-instructions, .page-content > *:not(.scouting-forms) { display: none !important; }
     body { margin: 0; padding: 0; }
+    .page-content { padding: 0 !important; }
     .scouting-page { page-break-inside: avoid; }
+    .form-spacer { height: 24px; }
+    .form-spacer-lg { height: 60px; }
   }
 
-  /* Screen: show print button */
   .print-instructions {
     max-width: 800px;
     margin: 2rem auto;
@@ -21,87 +22,10 @@ title: "FTC Scouting Form — Print"
   }
   .print-instructions .btn { margin-top: 0.5rem; }
 
-  /* Form styling */
   .scouting-forms {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 1rem;
-  }
-
-  .scouting-page {
-    padding: 8px 12px;
-    margin-bottom: 4px;
-    font-size: 11px;
-    line-height: 1.4;
-    font-family: 'Segoe UI', system-ui, sans-serif;
-  }
-
-  .scouting-page h2 {
-    font-size: 14px;
-    margin: 0 0 6px 0;
-    padding-bottom: 4px;
-    border-bottom: 2px solid #1B2A4A;
-    color: #1B2A4A;
-  }
-
-  .scouting-page h3 {
-    font-size: 11px;
-    margin: 8px 0 3px 0;
-    color: #2E6DB4;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-
-  .form-row {
-    display: flex;
-    align-items: baseline;
-    padding: 2px 0;
-    border-bottom: 1px dotted #ddd;
-    gap: 6px;
-  }
-  .form-row:last-child { border-bottom: none; }
-  .form-row + .form-spacer { border-bottom: none; }
-
-  .form-spacer {
-    height: 30px;
-  }
-  .form-spacer-lg {
-    height: 74px;
-  }
-  .form-row:has(+ .form-spacer) {
-    border-bottom: none;
-  }
-  .form-row:has(+ .form-spacer-lg) {
-    border-bottom: none;
-  }
-
-  .form-label {
-    flex: 0 0 auto;
-    font-weight: 600;
-    white-space: nowrap;
-  }
-
-  .form-value {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .form-line {
-    border-bottom: 1px solid #999;
-    display: inline-block;
-  }
-
-  .form-checks {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    white-space: nowrap;
-  }
-
-  .form-divider {
-    border: none;
-    border-top: 2px solid #1B2A4A;
-    margin: 12px 0;
   }
 </style>
 
@@ -113,156 +37,10 @@ title: "FTC Scouting Form — Print"
 
 <div class="scouting-forms">
 
-<div class="scouting-page">
-  <h2 style="display:flex; justify-content:space-between; align-items:baseline;">
-    <span>FTC Scouting Form — DECODE</span>
-    <span style="font-size:11px;">32314 Marcus Bartholomew the Third Senior</span>
-  </h2>
-
-  <div class="form-row">
-    <span class="form-label">Match #:</span><span class="form-line" style="width:40px">&nbsp;</span>
-    <span class="form-label" style="margin-left:8px">Team #:</span>
-    <span class="form-line" style="width:50px">&nbsp;</span>
-    <span class="form-label" style="margin-left:8px">Name:</span>
-    <span class="form-value"><span class="form-line" style="width:100%">&nbsp;</span></span>
-    <span class="form-label" style="margin-left:8px">Alliance:</span>
-    <span class="form-checks">Red / Blue</span>
-    <span class="form-label" style="margin-left:8px">Scout Name:</span>
-    <span class="form-line" style="width:80px">&nbsp;</span>
-  </div>
-
-  <h3>Autonomous (30 sec)</h3>
-  <div class="form-row">
-    <span class="form-label">Start:</span>
-    <span class="form-checks">Near / Far</span>
-    <span class="form-label" style="margin-left:12px">Moved?</span>
-    <span class="form-checks">Yes / No</span>
-    <span class="form-label" style="margin-left:12px">Leave pts?</span>
-    <span class="form-checks">Yes / No</span>
-  </div>
-  <div class="form-row">
-    <span class="form-label">Auto shots (✓ = scored, ✗ = missed):</span>
-  </div>
-  <div class="form-spacer"></div>
-
-  <h3>Teleop (2 min)</h3>
-  <div class="form-row">
-    <span class="form-label">Teleop shots (✓ = scored, ✗ = missed):</span>
-  </div>
-  <div class="form-spacer-lg"></div>
-  <div class="form-row">
-    <span class="form-label">Shot from:</span>
-    <span class="form-checks">Near / Far / Both</span>
-    <span class="form-label" style="margin-left:8px">Where in near zone:</span>
-    <span class="form-value"><span class="form-line" style="width:100%">&nbsp;</span></span>
-  </div>
-  <div class="form-row">
-    <span class="form-label">Cycle:</span>
-    <span class="form-checks">Fast / Med / Slow</span>
-    <span class="form-label" style="margin-left:8px">Played defense?</span>
-    <span class="form-checks">Yes / No</span>
-    <span class="form-label" style="margin-left:8px">Base?</span>
-    <span class="form-checks">None / Partial / Full</span>
-  </div>
-  <div class="form-row">
-    <span class="form-label">Response to defense:</span>
-    <span class="form-value"><span class="form-line" style="width:100%">&nbsp;</span></span>
-  </div>
-
-  <h3>Robot Details</h3>
-  <div class="form-row">
-    <span class="form-label">Drive:</span>
-    <span class="form-checks">Mecanum / Tank / Other</span>
-    <span class="form-label" style="margin-left:12px">Intake?</span>
-    <span class="form-checks">Yes / No</span>
-  </div>
-
-  <h3>Overall</h3>
-  <div class="form-row">
-    <span class="form-label">Broke down?</span>
-    <span class="form-checks">Yes / No</span>
-    <span class="form-label" style="margin-left:8px">Driver:</span>
-    <span class="form-checks">Excellent / Good / Needs work</span>
-    <span class="form-label" style="margin-left:8px">Want as alliance partner?</span>
-    <span class="form-checks">Def / Maybe / No</span>
-  </div>
-  <div class="form-row"><span class="form-label">Notes:</span></div>
-  <div class="form-spacer"></div>
-</div>
+{% include scouting-form.html %}
 
 <hr class="form-divider">
 
-<div class="scouting-page">
-
-  <div class="form-row">
-    <span class="form-label">Match #:</span><span class="form-line" style="width:40px">&nbsp;</span>
-    <span class="form-label" style="margin-left:8px">Team #:</span>
-    <span class="form-line" style="width:50px">&nbsp;</span>
-    <span class="form-label" style="margin-left:8px">Name:</span>
-    <span class="form-value"><span class="form-line" style="width:100%">&nbsp;</span></span>
-    <span class="form-label" style="margin-left:8px">Alliance:</span>
-    <span class="form-checks">Red / Blue</span>
-    <span class="form-label" style="margin-left:8px">Scout Name:</span>
-    <span class="form-line" style="width:80px">&nbsp;</span>
-  </div>
-
-  <h3>Autonomous (30 sec)</h3>
-  <div class="form-row">
-    <span class="form-label">Start:</span>
-    <span class="form-checks">Near / Far</span>
-    <span class="form-label" style="margin-left:12px">Moved?</span>
-    <span class="form-checks">Yes / No</span>
-    <span class="form-label" style="margin-left:12px">Leave pts?</span>
-    <span class="form-checks">Yes / No</span>
-  </div>
-  <div class="form-row">
-    <span class="form-label">Auto shots (✓ = scored, ✗ = missed):</span>
-  </div>
-  <div class="form-spacer"></div>
-
-  <h3>Teleop (2 min)</h3>
-  <div class="form-row">
-    <span class="form-label">Teleop shots (✓ = scored, ✗ = missed):</span>
-  </div>
-  <div class="form-spacer-lg"></div>
-  <div class="form-row">
-    <span class="form-label">Shot from:</span>
-    <span class="form-checks">Near / Far / Both</span>
-    <span class="form-label" style="margin-left:8px">Where in near zone:</span>
-    <span class="form-value"><span class="form-line" style="width:100%">&nbsp;</span></span>
-  </div>
-  <div class="form-row">
-    <span class="form-label">Cycle:</span>
-    <span class="form-checks">Fast / Med / Slow</span>
-    <span class="form-label" style="margin-left:8px">Played defense?</span>
-    <span class="form-checks">Yes / No</span>
-    <span class="form-label" style="margin-left:8px">Base?</span>
-    <span class="form-checks">None / Partial / Full</span>
-  </div>
-  <div class="form-row">
-    <span class="form-label">Response to defense:</span>
-    <span class="form-value"><span class="form-line" style="width:100%">&nbsp;</span></span>
-  </div>
-
-  <h3>Robot Details</h3>
-  <div class="form-row">
-    <span class="form-label">Drive:</span>
-    <span class="form-checks">Mecanum / Tank / Other</span>
-    <span class="form-label" style="margin-left:12px">Intake?</span>
-    <span class="form-checks">Yes / No</span>
-  </div>
-
-  <h3>Overall</h3>
-  <div class="form-row">
-    <span class="form-label">Broke down?</span>
-    <span class="form-checks">Yes / No</span>
-    <span class="form-label" style="margin-left:8px">Driver:</span>
-    <span class="form-checks">Excellent / Good / Needs work</span>
-    <span class="form-label" style="margin-left:8px">Want as alliance partner?</span>
-    <span class="form-checks">Def / Maybe / No</span>
-  </div>
-  <div class="form-row"><span class="form-label">Notes:</span></div>
-  <div class="form-spacer"></div>
-</div>
+{% include scouting-form.html %}
 
 </div>
