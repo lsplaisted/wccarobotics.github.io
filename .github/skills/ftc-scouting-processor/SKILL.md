@@ -157,7 +157,9 @@ title: "Scouting — TEAM_NUM TEAM_NAME"
 | Drive type | TYPE |
 | Intake | Yes/No — additional details |
 
-## Summary
+## EVENT_NAME (DATE)
+
+### Summary
 
 | Stat | Value |
 | ---- | ----- |
@@ -170,13 +172,13 @@ title: "Scouting — TEAM_NUM TEAM_NAME"
 | Cycle speed | Fast/Med/Slow |
 | Played defense | Yes/No |
 
-## Scouting Notes
+### Scouting Notes
 
-- Compiled notable observations from all forms
+- Compiled notable observations from forms at this event
 
-## Match Details
+### Match Details
 
-### Match N — ALLIANCE Alliance (Won/Lost SCORE–SCORE)
+#### Match N — ALLIANCE Alliance (Won/Lost SCORE–SCORE)
 
 *Scout: NAME*
 
@@ -185,6 +187,10 @@ title: "Scouting — TEAM_NUM TEAM_NAME"
 **Teleop:** Shots: ✓✗ (X/Y, ~Z pts). Shot from zone. Cycle: speed. Defense: details. Base: status.
 
 **Notes:** Any notes from the form.
+
+## PREVIOUS_EVENT_NAME (DATE)
+
+(same structure repeated per event, most recent first)
 ```
 
 **Auto stats should be split by starting position** (near vs far) in the summary. If a team only has auto from one position, show that clearly. If a team chose not to run auto (e.g., let their alliance partner run instead), note that — it's different from not having an auto.
@@ -285,23 +291,33 @@ Scouting data accumulates across events within a season. The same team pages and
 
 ### Team detail pages
 
-Group match details by event with headings:
+Keep data separate by event with headings and per-event summaries:
 
 ```markdown
-## Match Details
+## Carolina Scrimmage (March 1, 2026)
 
-### Carolina Scrimmage (March 1, 2026)
+### Summary
+
+| Stat | Value |
+| ---- | ----- |
+| Matches scouted | 2 |
+| Auto (near start) | 2/2 shots (~6 pts), no leave (1 match) |
+...
+
+### Match Details
 
 #### Match 2 — Red Alliance (Lost 30–39)
 ...
-
-### Championship (April 12, 2026)
-
-#### Match 1 — Blue Alliance (Won 85–42)
-...
 ```
 
-Summary stats should reflect data across all events, but note if data is from a previous event (robots may have changed).
+Do NOT aggregate stats across events — robots change between tournaments.
+
+### Scouting index teams table
+
+The teams table on `scouting/index.md` shows scouting data for each team, but only from one event at a time:
+- If we have scouting data from the **current event**, show that
+- If we only have data from a **previous event**, show that instead (with a note like "from NC Scrimmage")
+- Once we get current event data for a team, replace the previous event data in the table
 
 ### Transitioning to a new tournament
 
