@@ -23,7 +23,31 @@ This skill analyzes an FTC (FIRST Tech Challenge) tournament livestream video to
 
 ### Step 1: Fetch scores and event data from FTC Events
 
-The FTC Events website at `https://ftc-events.firstinspires.org/{season}/{event_code}` provides all structured data. The FTC API at `ftc-api.firstinspires.org` requires authentication, so scrape the website pages instead.
+**Option A — FTC API (preferred when credentials are available):**
+
+Credentials are stored in `ftc-api-credentials.json` (git-ignored). To authenticate:
+
+```python
+import json, base64, urllib.request
+with open('ftc-api-credentials.json') as f:
+    creds = json.load(f)
+token = base64.b64encode((creds['username'] + ':' + creds['auth_key']).encode()).decode()
+headers = {'Authorization': 'Basic ' + token}
+```
+
+API base URL: `https://ftc-api.firstinspires.org/v2.0/{season}/`
+- `matches/{event_code}` — all match results with teams and scores
+- `scores/{event_code}/qual` — detailed score breakdowns per match
+- `rankings/{event_code}` — rankings
+- `teams?eventCode={event_code}` — team list
+- `awards/{event_code}` — awards
+- `alliances/{event_code}` — playoff alliance compositions
+
+When using API data on pages, include an attribution link at the bottom: `<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API).</small>`
+
+**Option B — Web scraping (fallback if no credentials):**
+
+The FTC Events website at `https://ftc-events.firstinspires.org/{season}/{event_code}` provides the same data as HTML pages.
 
 Fetch these pages using `web_fetch`:
 
@@ -318,7 +342,7 @@ The FTC Events website returns reasonably structured HTML that `web_fetch` conve
 - The announcer may mention "qualification X" numbers but not consistently — use sequential mapping as the primary approach
 - Opening ceremonies or pre-match speeches may contain "three two one" but lack the "let's start" or "referees are we ready" context
 - Match redos are rare in FTC but can happen — look for extra countdowns in unexpected positions
-- The FTC API at `ftc-api.firstinspires.org` requires authentication (returns 401) — always use the website instead
+- FTC API credentials are stored in `ftc-api-credentials.json` (git-ignored). If credentials are missing, fall back to web scraping `ftc-events.firstinspires.org`
 - Awards ceremony order may vary between events — use the captions to determine the actual order rather than assuming a fixed order
 - Some events may have additional awards beyond the standard set (e.g., Leadership Award, Judges Award)
 

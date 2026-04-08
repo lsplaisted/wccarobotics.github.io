@@ -94,11 +94,27 @@ Pages mix markdown with raw HTML. Common patterns:
 
 ### FTC Events data
 
-The FTC API (`ftc-api.firstinspires.org`) requires authentication — always scrape `ftc-events.firstinspires.org` instead. Season code is the starting year (2024 = 2024-25 season). URL patterns:
-- `/{season}/{event_code}/qualifications`
-- `/{season}/{event_code}/rankings`
-- `/{season}/{event_code}/playoffs`
-- `/{season}/{event_code}/awards`
+The FTC API at `ftc-api.firstinspires.org` provides structured JSON for matches, rankings, teams, and awards. Credentials are stored in `ftc-api-credentials.json` (git-ignored). To authenticate:
+
+```python
+import json, base64
+with open('ftc-api-credentials.json') as f:
+    creds = json.load(f)
+token = base64.b64encode((creds['username'] + ':' + creds['auth_key']).encode()).decode()
+headers = {'Authorization': 'Basic ' + token}
+```
+
+API base URL: `https://ftc-api.firstinspires.org/v2.0/{season}/`
+- `matches/{event_code}` — match results
+- `rankings/{event_code}` — rankings
+- `teams?eventCode={event_code}` — team list
+- `awards/{event_code}` — awards
+
+Season code is the starting year (2024 = 2024-25 season).
+
+Fallback: if credentials are missing, scrape `ftc-events.firstinspires.org` instead. URL patterns: `/{season}/{event_code}/qualifications`, `/rankings`, `/playoffs`, `/awards`.
+
+When using API data on pages, include an attribution link: `<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API).</small>`
 
 ### Python dependencies for skills
 

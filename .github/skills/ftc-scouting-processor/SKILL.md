@@ -344,6 +344,7 @@ When data gets too large or a season ends, archive to `scouting/archive/FRIENDLY
 - The scouting guide is at `scouting/scouting-guide.md` and the printable form is at `scouting/scouting-form.html` — don't modify these during a tournament
 - Shot points are estimated at ~3 pts per made shot (approximate since we can't distinguish classified from overflow by observation)
 - The scouting index page (`scouting/index.md`) has a combined Teams table at the top (rankings + scouting data) followed by the match schedule
+- Include an attribution link at the bottom of pages using API data: `<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API).</small>`
 
 ## Dependencies
 

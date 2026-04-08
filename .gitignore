@@ -4,3 +4,5 @@ _site/
 Gemfile.lock
 videos/
 __pycache__/
+.env
+ftc-api-credentials.json

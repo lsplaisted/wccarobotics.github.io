@@ -36,3 +36,7 @@ title: "FTC Scouting — Adventist Robotics Carolina Scrimmage"
 | Q8 | 19410 Entropic Fluctuations / 21993 Tech Titans | 27795 The Sentinels / 28228 Mountaingears | **67** – 58 |
 | Q9 | 19410 Entropic Fluctuations / 26520 NC Avengers | 32314 Marcus Bartholomew the Third Senior / 21993 Tech Titans | **91** – 85 |
 | Q10 | 27795 The Sentinels / 20840 The Senjus of Raleigh | 28228 Mountaingears / 23958 Wait4iT | **44** – 34 |
+
+---
+
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API).</small>
