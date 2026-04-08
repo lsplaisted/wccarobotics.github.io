@@ -42,12 +42,14 @@ The robots run on their own — no human control. Robots can score **leave point
 
 ### 2. Driver-Controlled / Teleop Period (2 minutes)
 
-Drivers control the robots with game controllers. This is where most of the action happens. Robots collect **artifacts** (purple and green balls) and score them by launching them into the gate.
+Drivers control the robots with game controllers. This is where most of the action happens. Robots collect **artifacts** (purple and green balls) and score them by launching them into the goal.
 
 Robots can only launch from designated **launch zones** — the robot needs to be inside the zone or overlapping a launch line. There are two launch zones on each side of the field:
 
-- **Near launch zone** — the large triangular area at the back of the field (where the goals are). Most robots score from here.
-- **Far launch zone** — the much smaller triangular area at the front of the field (audience side, near the loading zones). Robots that can score from the far zone are harder to defend because they have two places to shoot from.
+- **Near launch zone** — the large triangular area at the back of the field, near the goals. Most robots score from here.
+- **Far launch zone** — the much smaller triangular area at the front of the field (audience side), farther from the goals. Robots that can score from the far zone are harder to defend because they have two places to shoot from.
+
+*Note: "near" and "far" refer to distance from the goal, not from the audience. The far zone is actually the one closest to the audience.*
 
 ![DECODE field diagram showing launch zones, alliance areas, and loading zones](/assets/images/decode-field-launch-zones.png)
 
@@ -66,16 +68,6 @@ You'll be watching **one robot at a time** during each match. Here's what to rec
 The most important thing to track is **shot attempts**. For each shot, mark **✓** if it went in and **✗** if it missed. Do this for both autonomous and teleop — just keep a running tally on the form. This gives us both accuracy and volume at a glance.
 
 Example: `✓✓✗✓✓✓✗✓` = 6 made, 2 missed
-
-### Robot Details (anytime — before, during, or after a match)
-
-These don't change between matches, so you only need to note them once per team:
-
-- **Drive type**:
-  - **Tank drive** — wheels on each side turn independently. Can only drive forward/backward and turn in place. Less maneuverable.
-  - **Mecanum drive** — special wheels that let the robot strafe sideways and move in any direction. Much more maneuverable — better at playing defense and getting around defenders.
-  - **Other** — kiwi drive (3 omniwheels in a triangle), swerve drive, etc.
-- **Has intake?** Robots with an intake can pick up artifacts off the field. Without one, they have to drive back to the loading zone for the human player to load them — much slower cycles.
 
 ### During Autonomous (first 30 seconds)
 
@@ -99,6 +91,16 @@ These don't change between matches, so you only need to note them once per team:
 7. **Human player activity** — For robots without an intake, the human player loads artifacts in the loading zone. Watch how quickly and effectively the human player loads — a fast human player can partially make up for not having an intake.
 8. **Intake effectiveness** — For robots with an intake, does it pick up artifacts reliably, or does it fumble and need multiple attempts? A fast, reliable intake makes a big difference in cycle speed.
 
+### Robot Details (anytime — before, during, or after a match)
+
+These don't change between matches, so you only need to note them once per team:
+
+- **Drive type**:
+  - **Tank drive** — wheels on each side turn independently. Can only drive forward/backward and turn in place. Less maneuverable.
+  - **Mecanum drive** — special wheels that let the robot strafe sideways and move in any direction. Much more maneuverable — better at playing defense and getting around defenders.
+  - **Other** — kiwi drive (3 omniwheels in a triangle), swerve drive, etc.
+- **Has intake?** Robots with an intake can pick up artifacts off the field. Without one, they have to drive back to the loading zone for the human player to load them — much slower cycles.
+
 ### General Observations
 
 - **Reliability**: Did the robot break down, get stuck, disconnect, or stop moving?
@@ -111,7 +113,7 @@ These don't change between matches, so you only need to note them once per team:
 ## Tips for Scouting
 
 - **Watch one robot per match.** Don't try to track all 4 — you'll miss things. Coordinate with other scouts so each robot is covered.
-- **It's OK to estimate.** "Scored about 8 artifacts" is much better than nothing.
+- **It's OK to estimate or leave things blank.** Partial data is still useful — don't stress about getting everything perfect.
 - **Note breakdowns.** If a robot stops working mid-match, that's critical information.
 - **Watch the whole match.** End game parking is easy to miss if you look away.
 - **Use shorthand.** Develop quick abbreviations on your form (✓ for yes, ✗ for no, etc.)
@@ -170,7 +172,7 @@ Artifacts that miss the goal entirely or don't pass through the square score not
 
 Artifacts can also be placed in the **depot** (a small area at the base of the goal) for **1 pt** each, scored at the end of the match.
 
-### Pattern (2 pts per match)
+### Pattern
 
 Before each match, the **obelisk** is randomized to show a **motif** — a 3-color sequence of purple and green (e.g., green-purple-purple). This motif repeats 3 times to define the target colors for the 9 positions on the ramp.
 
