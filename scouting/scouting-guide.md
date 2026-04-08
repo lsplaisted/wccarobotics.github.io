@@ -38,10 +38,7 @@ Each match has **4 robots** on the field — 2 on the **red alliance** and 2 on 
 
 ### 1. Autonomous Period (30 seconds)
 
-The robots run on their own — no human control. Watch for:
-- Does the robot move at all?
-- Does the robot end up **off its launch line** at the end of auto? (That's how leave points are scored — the robot must not be over any launch line when auto ends)
-- Does the robot score any **artifacts** (colored balls) into the gate?
+The robots run on their own — no human control. Robots can score **leave points** by moving off their launch line, and they can also score artifacts into the gate. Some teams don't have an autonomous program at all, so their robot will just sit there. Robots can start with up to 3 preloaded artifacts.
 
 ### 2. Driver-Controlled / Teleop Period (2 minutes)
 
@@ -155,7 +152,7 @@ Print one form per match you're scouting. Here's what should be on each form:
 | Specific spot in near zone? | _____ |
 | Cycle speed | ☐ Fast  ☐ Medium  ☐ Slow |
 | Played defense? | ☐ Yes  ☐ No |
-| Response to defense | ☐ Kept scoring  ☐ Slowed down  ☐ Stopped  ☐ N/A |
+| Response to defense | _____ |
 | Returned to base in end game? | ☐ None  ☐ Partial  ☐ Full |
 
 ### Robot Details (only need to record once per team)
