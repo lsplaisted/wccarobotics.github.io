@@ -5,21 +5,21 @@ title: "FTC Scouting Guide — DECODE"
 
 # FTC Scouting Guide — DECODE
 
-This guide is for anyone helping scout matches at an FTC tournament — including parents, siblings, and friends who may not be familiar with the game. Scouting means watching matches and recording what each robot does, so our team can make smarter strategic decisions.
+Want to help our team at the tournament? Scouting is a fun way to get involved — you get to watch all the matches up close and your observations can give us a real edge! Scouting means watching matches and jotting down what each robot does on a simple paper form.
 
-**You don't need to know anything about robotics to scout!** You just need to watch the match and mark down what you see on a paper form.
+**You don't need to know anything about robotics to scout.** You don't need to be perfectly accurate, either — just do your best! Even rough notes are useful. This guide will walk you through everything you need to know.
 
 ---
 
-## Why We Scout
+## Why Scouting Helps
 
-Scouting helps us in **two ways**:
+Scouting isn't required for us to do well, but it can give us a bit of an advantage in two ways:
 
 ### 1. Qualification Match Strategy
 
 During qualification matches, we're paired with a different partner each time. Scouting tells us:
 - **What our opponents can do** — If a robot scores a lot but only from one spot on the field, we may be able to play defense on them by blocking that spot
-- **What our partner can do** — If our partner doesn't have an autonomous routine that leaves the starting area, we may be able to help them set up a simple one before the match
+- **What our partner can do** — If our partner doesn't have an autonomous routine that scores leave points, we may be able to help them set up a simple one before the match
 - **How many artifacts opponents typically score** — so we know what we need to beat
 
 ### 2. Alliance Selection
@@ -45,11 +45,18 @@ The robots run on their own — no human control. Watch for:
 
 ### 2. Driver-Controlled / Teleop Period (2 minutes)
 
-Drivers control the robots with game controllers. This is where most of the action happens. Robots collect **artifacts** (purple and green balls) and score them by launching them into the gate. Robots can only launch from designated **launch zones** — a **near zone** close to the goal and a **far zone** farther away.
+Drivers control the robots with game controllers. This is where most of the action happens. Robots collect **artifacts** (purple and green balls) and score them by launching them into the gate.
+
+Robots can only launch from designated **launch zones** — they just need to be overlapping a launch line. There are two launch zones on each side of the field:
+
+- **Near launch zone** — the large triangular area at the back of the field (where the goals are). Most robots score from here.
+- **Far launch zone** — the much smaller triangular area at the front of the field (audience side, near the loading zones). Robots that can score from the far zone are harder to defend because they have two places to shoot from.
+
+![DECODE field diagram showing launch zones, alliance areas, and loading zones](/assets/images/decode-field-launch-zones.png)
 
 ### 3. End Game (last 20 seconds)
 
-During the **last 20 seconds** of teleop, robots try to return to their **base zone** for bonus points. This is also when **base zone protection** kicks in — robots can't contact an opponent in the opponent's base zone (rule G427), or the opponent gets a major foul and automatic full-base points.
+During the **last 20 seconds** of teleop, robots may return to their **base zone** for bonus points — but they can also keep scoring artifacts, so there's a strategic tradeoff. This is also when **base zone protection** kicks in — robots can't contact an opponent in the opponent's base zone (rule G427), or the opponent gets a major foul and automatic full-base points.
 
 ---
 
@@ -57,39 +64,50 @@ During the **last 20 seconds** of teleop, robots try to return to their **base z
 
 You'll be watching **one robot at a time** during each match. Here's what to record:
 
+### Tracking Shots
+
+The most important thing to track is **shot attempts**. For each shot, mark **✓** if it went in and **✗** if it missed. Do this for both autonomous and teleop — just keep a running tally on the form. This gives us both accuracy and volume at a glance.
+
+Example: `✓✓✗✓✓✓✗✓` = 6 made, 2 missed
+
 ### During Autonomous (first 30 seconds)
 
 1. **Did the robot move at all?** Some teams don't have an autonomous program — the robot just sits there.
 2. **Did it score leave points?** The robot must end auto **not over any launch line**. A robot that moves but ends up back on a line doesn't get leave points.
-3. **How many artifacts did it score?** (Count them)
+3. **Track auto shots** (✓/✗) — most robots attempt 1–4 shots in auto.
 4. **Did it move smoothly or have problems?** (Got stuck, went the wrong way, etc.)
 
 ### During Teleop (2 minutes)
 
-1. **Track shots: ✓ for made, O for missed.** For each shot attempt, mark ✓ if it went in and O if it missed. This gives us both accuracy and volume. (Example: ✓✓O✓✓✓O✓ = 6 made, 2 missed)
+1. **Track teleop shots** (✓/✗) — start a new tally for teleop, separate from auto.
 2. **Where do they score from?** Robots can only launch from the **near zone** or **far zone**:
    - **Near zone only?** Note if they need a specific spot (e.g., right against the goal wall like a starter bot) or can shoot from anywhere in the near zone
    - **Far zone too?** More versatile — harder to defend
    - **Both zones?** Most flexible
 3. **How fast is their cycle?** A "cycle" is: pick up artifacts → drive to launch zone → score → repeat. Fast cyclers are valuable partners.
-4. **Drive type**: ☐ Mecanum (can strafe sideways) ☐ Tank (can only turn) ☐ Other. Mecanum drives are generally more maneuverable — better at playing defense and at getting around defenders.
-5. **How did they respond to defense?** If the other alliance played defense on them:
+4. **How did they respond to defense?** If the other alliance played defense on them:
    - Did they get flustered and stop scoring?
    - Did they drive around the defender and keep scoring?
    - Did they switch to a different scoring position?
-6. **Did they play defense?** Some robots focus on blocking the other alliance instead of scoring. Were they effective at it?
+5. **Did they play defense?** Some robots focus on blocking the other alliance instead of scoring. Were they effective at it?
 
 ### During End Game (last 20 seconds)
 
 1. **Did the robot return to base?** (None / Partial / Full)
-2. **Did they stop scoring early to park, or cut it close?**
+2. Robots may return to base for bonus points, but they can also keep scoring artifacts — so some teams make a strategic choice to skip parking and keep shooting.
+
+### Robot Details (anytime — before, during, or after a match)
+
+These don't change between matches, so you only need to note them once per team:
+
+- **Drive type**: ☐ Mecanum (can strafe sideways) ☐ Tank (can only turn) ☐ Other. Mecanum drives are generally more maneuverable — better at playing defense and at getting around defenders.
+- **Has intake?** Robots with an intake can pick up artifacts off the field. Without one, they have to drive back to the loading zone for the human player to load them — much slower cycles.
 
 ### General Observations
 
 - **Reliability**: Did the robot break down, get stuck, disconnect, or stop moving?
 - **Driver skill**: Did the drivers seem confident and in control?
 - **Speed**: Was the robot fast or slow getting around the field?
-- **Intake**: Could they pick up artifacts quickly, or did they struggle?
 - **Any notable features**: Anything that stood out — good or bad?
 
 ---
@@ -125,17 +143,16 @@ Print one form per match you're scouting. Here's what should be on each form:
 | -------------- | --- |
 | Robot moved in auto? | ☐ Yes  ☐ No (just sat there) |
 | Scored leave points? | ☐ Yes (ended off launch line)  ☐ No |
-| Artifacts scored in auto | _____ |
+| Auto shots: ✓ = made, ✗ = missed | _____ |
 | Auto notes | _____ |
 
 ### Teleop (2 minutes)
 
 | What to record | |
 | -------------- | --- |
-| Shots: ✓ = made, O = missed | _____ |
+| Teleop shots: ✓ = made, ✗ = missed | _____ |
 | Scoring zones | ☐ Near zone  ☐ Far zone  ☐ Both |
 | Specific spot in near zone? | ☐ Against goal wall  ☐ Anywhere in near zone |
-| Drive type | ☐ Mecanum  ☐ Tank  ☐ Other |
 | Cycle speed | ☐ Fast  ☐ Medium  ☐ Slow |
 | Played defense? | ☐ Yes  ☐ No |
 | Response to defense | ☐ Kept scoring  ☐ Slowed down  ☐ Stopped  ☐ N/A |
@@ -145,6 +162,13 @@ Print one form per match you're scouting. Here's what should be on each form:
 | What to record | |
 | -------------- | --- |
 | Returned to base? | ☐ None  ☐ Partial  ☐ Full |
+
+### Robot Details (only need to record once per team)
+
+| What to record | |
+| -------------- | --- |
+| Drive type | ☐ Mecanum  ☐ Tank  ☐ Other |
+| Has intake? | ☐ Yes (picks up off field)  ☐ No (human player loads) |
 
 ### Overall Impressions
 
