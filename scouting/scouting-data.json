@@ -1,0 +1,97 @@
+{
+  "event": {
+    "code": "USARLRAS",
+    "season": "2025",
+    "name": "Adventist Robotics Carolina Scrimmage"
+  },
+  "teams": {
+    "26520": { "name": "NC Avengers" },
+    "32314": { "name": "Marcus Bartholomew the Third Senior" },
+    "19410": { "name": "Entropic Fluctuations" },
+    "27795": { "name": "The Sentinels" },
+    "20840": { "name": "The Senjus of Raleigh" },
+    "23958": { "name": "Wait4iT" },
+    "21993": { "name": "Tech Titans" },
+    "28228": { "name": "Mountaingears" }
+  },
+  "matches": [
+    { "num": 1, "red": [23958, 32314], "blue": [21993, 28228], "red_score": 83, "blue_score": 19 },
+    { "num": 2, "red": [19410, 27795], "blue": [26520, 20840], "red_score": 30, "blue_score": 39 },
+    { "num": 3, "red": [21993, 23958], "blue": [20840, 19410], "red_score": 35, "blue_score": 72 },
+    { "num": 4, "red": [28228, 32314], "blue": [27795, 26520], "red_score": 58, "blue_score": 125 },
+    { "num": 5, "red": [20840, 21993], "blue": [32314, 27795], "red_score": 39, "blue_score": 77 },
+    { "num": 6, "red": [26520, 28228], "blue": [23958, 19410], "red_score": 65, "blue_score": 29 },
+    { "num": 7, "red": [26520, 32314], "blue": [23958, 20840], "red_score": 83, "blue_score": 30 },
+    { "num": 8, "red": [19410, 21993], "blue": [27795, 28228], "red_score": 67, "blue_score": 58 },
+    { "num": 9, "red": [19410, 26520], "blue": [32314, 21993], "red_score": 91, "blue_score": 85 },
+    { "num": 10, "red": [27795, 20840], "blue": [28228, 23958], "red_score": 44, "blue_score": 34 }
+  ],
+  "scouting": [
+    {
+      "match": 2,
+      "team": 27795,
+      "alliance": "red",
+      "scout": "Daniel",
+      "auto": {
+        "start": "near",
+        "moved": true,
+        "leave_pts": false,
+        "shots_made": 2,
+        "shots_missed": 0
+      },
+      "teleop": {
+        "shots_made": 5,
+        "shots_missed": 3,
+        "shot_from": "near",
+        "where_in_near": "~3 feet from goal",
+        "cycle": "slow",
+        "played_defense": false,
+        "base": "none"
+      },
+      "response_to_defense": "N/A",
+      "robot": {
+        "drive": "tank",
+        "intake": true
+      },
+      "overall": {
+        "broke_down": false,
+        "driver_skill": null,
+        "want_as_partner": null
+      },
+      "notes": ""
+    },
+    {
+      "match": 5,
+      "team": 27795,
+      "alliance": "blue",
+      "scout": "Daniel",
+      "auto": {
+        "start": "far",
+        "moved": false,
+        "leave_pts": false,
+        "shots_made": 0,
+        "shots_missed": 0
+      },
+      "teleop": {
+        "shots_made": 4,
+        "shots_missed": 3,
+        "shot_from": "near",
+        "where_in_near": "close to goal (but not touching)",
+        "cycle": "slow",
+        "played_defense": false,
+        "base": null
+      },
+      "response_to_defense": "",
+      "robot": {
+        "drive": "tank",
+        "intake": true
+      },
+      "overall": {
+        "broke_down": false,
+        "driver_skill": null,
+        "want_as_partner": null
+      },
+      "notes": "Looks like they didn't have a far auto. Narrow rubber band intake. Launcher seems to not always launch."
+    }
+  ]
+}

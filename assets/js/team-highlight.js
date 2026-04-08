@@ -20,6 +20,18 @@
       wrapTeamRefs(node);
     });
 
+    // Allow clicking anywhere in a table row to highlight, but only for rows with exactly one team
+    document.querySelectorAll('.page-content tr').forEach(function(row) {
+      var teamRefs = row.querySelectorAll('.team-ref');
+      if (teamRefs.length === 1) {
+        row.style.cursor = 'pointer';
+        row.addEventListener('click', function(e) {
+          if (e.target.closest('a')) return;
+          onTeamClick.call(teamRefs[0], e);
+        });
+      }
+    });
+
     document.addEventListener('click', function(e) {
       if (!e.target.closest('.team-ref')) {
         clearHighlight();
