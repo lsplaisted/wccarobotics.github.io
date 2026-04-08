@@ -94,7 +94,16 @@ Pages mix markdown with raw HTML. Common patterns:
 
 ### FTC Events data
 
-The FTC API at `ftc-api.firstinspires.org` provides structured JSON for matches, rankings, teams, and awards. Credentials are stored in `ftc-api-credentials.json` (git-ignored). To authenticate:
+The FTC API at `ftc-api.firstinspires.org` provides structured JSON for matches, rankings, teams, and awards. Credentials are stored in `ftc-api-credentials.json` (git-ignored). If this file doesn't exist on the current machine, ask the user for their auth key and create it:
+
+```json
+{
+  "username": "dsplaisted",
+  "auth_key": "YOUR_AUTH_KEY_HERE"
+}
+```
+
+To authenticate:
 
 ```python
 import json, base64
