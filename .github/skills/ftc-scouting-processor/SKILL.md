@@ -254,6 +254,70 @@ When given a folder of photos, process all new files:
    - If it looks like a robot photo (robot in a pit or on a field), identify team and save as robot photo
 4. Update all affected team pages and the scouting index
 
+## Multi-event data
+
+Scouting data accumulates across events within a season. The same team pages and summary table carry forward from one tournament to the next.
+
+### Data structure
+
+`scouting-data.json` tracks which event each observation came from:
+
+```json
+{
+  "events": {
+    "USARLRAS": {
+      "name": "Adventist Robotics Carolina Scrimmage",
+      "friendly_id": "2026-nc-scrimmage",
+      "date": "2026-03-01"
+    },
+    "USARLCMP": {
+      "name": "Adventist Robotics League Championship",
+      "friendly_id": "2026-championship",
+      "date": "2026-04-12"
+    }
+  },
+  "scouting": [
+    { "event_code": "USARLRAS", "match": 2, "team": 27795, ... },
+    { "event_code": "USARLCMP", "match": 1, "team": 27795, ... }
+  ]
+}
+```
+
+### Team detail pages
+
+Group match details by event with headings:
+
+```markdown
+## Match Details
+
+### Carolina Scrimmage (March 1, 2026)
+
+#### Match 2 — Red Alliance (Lost 30–39)
+...
+
+### Championship (April 12, 2026)
+
+#### Match 1 — Blue Alliance (Won 85–42)
+...
+```
+
+Summary stats should reflect data across all events, but note if data is from a previous event (robots may have changed).
+
+### Transitioning to a new tournament
+
+When setting up for a new tournament:
+1. Keep existing team pages and data — don't delete
+2. Update `scouting/index.md` with the new event's match schedule and rankings
+3. Add the new event to `scouting-data.json` events section
+4. New scouting entries get the new event code
+5. Teams table shows current event rankings but scouting data from all events
+
+### Archiving
+
+When data gets too large or a season ends, archive to `scouting/archive/FRIENDLY_ID/`:
+- Copy `index.md` and team pages
+- The archived version is read-only
+
 ## Key conventions
 
 - All scouting pages live in `scouting/`

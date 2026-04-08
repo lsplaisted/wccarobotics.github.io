@@ -1,8 +1,10 @@
 {
-  "event": {
-    "code": "USARLRAS",
-    "season": "2025",
-    "name": "Adventist Robotics Carolina Scrimmage"
+  "events": {
+    "USARLRAS": {
+      "name": "Adventist Robotics Carolina Scrimmage",
+      "friendly_id": "2026-nc-scrimmage",
+      "date": "2026-03-01"
+    }
   },
   "teams": {
     "26520": { "name": "NC Avengers" },
@@ -28,6 +30,7 @@
   ],
   "scouting": [
     {
+      "event_code": "USARLRAS",
       "match": 2,
       "team": 27795,
       "alliance": "red",
@@ -61,6 +64,7 @@
       "notes": ""
     },
     {
+      "event_code": "USARLRAS",
       "match": 5,
       "team": 27795,
       "alliance": "blue",
