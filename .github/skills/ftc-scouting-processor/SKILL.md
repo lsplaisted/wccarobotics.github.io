@@ -363,14 +363,22 @@ During a tournament, run the scouting watcher script as a background process:
 
 ```bash
 python .github/skills/ftc-scouting-processor/scouting_watcher.py
+python .github/skills/ftc-scouting-processor/scouting_watcher.py --check 5  # only check last 5 photos
 ```
 
 This script:
 1. Connects to iCloud (may prompt for 2FA on first run)
-2. Polls every 30 seconds for new photos
+2. Polls every 30 seconds for new photos (skips movies)
 3. Downloads new photos to `scouting/incoming/` (git-ignored)
 4. Converts HEIC to JPG
-5. Invokes Copilot CLI (`copilot -p ... --autopilot --yes`) to read the form, update scouting data/pages, and git commit + push
+5. Invokes Copilot CLI (`copilot -p ... --autopilot --allow-all`) to process the photo
+
+Copilot will determine what type of photo it is:
+- **Scouting form** — read the form, update data and pages, commit and push
+- **Robot photo** — identify team number, save to team's page, commit and push
+- **Unrelated photo** — skip it (iCloud includes all photos, not just scouting ones)
+
+Use `--check N` to limit how many recent photos are checked each poll. Set this low (e.g., 5) once the tournament starts so it doesn't reprocess older photos.
 
 The watcher tracks processed filenames in `scouting/incoming/watcher_state.json` to avoid reprocessing.
 

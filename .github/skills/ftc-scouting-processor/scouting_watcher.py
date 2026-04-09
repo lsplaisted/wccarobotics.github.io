@@ -25,7 +25,7 @@ REPO_DIR = Path(__file__).parent.parent.parent.parent  # .github/skills/ftc-scou
 INCOMING_DIR = REPO_DIR / "scouting" / "incoming"
 STATE_FILE = INCOMING_DIR / "watcher_state.json"
 POLL_INTERVAL = 30  # seconds
-PHOTOS_TO_CHECK = 20  # how many recent photos to check each poll
+DEFAULT_PHOTOS_TO_CHECK = 20  # how many recent photos to check each poll
 
 
 def get_icloud_api():
@@ -69,26 +69,38 @@ def save_state(state):
 
 
 def download_photo(photo, outdir):
-    """Download a photo and convert HEIC to JPG if needed."""
+    """Download a photo (medium version) and save as JPG."""
     outdir.mkdir(parents=True, exist_ok=True)
 
-    filename = photo.filename
-    raw_path = outdir / filename
+    stem = Path(photo.filename).stem
+
+    # Use medium version: ~1500px, already JPEG, half the file size
+    if "medium" in photo.versions:
+        data = photo.download("medium")
+        jpg_path = outdir / (stem + ".jpg")
+        if data:
+            with open(jpg_path, "wb") as f:
+                f.write(data)
+            return jpg_path
+
+    # Fallback to original if no medium available
     data = photo.download()
     if not data:
         return None
 
+    filename = photo.filename
+    raw_path = outdir / filename
     with open(raw_path, "wb") as f:
         f.write(data)
 
-    # Convert HEIC to JPG for easier viewing
+    # Convert HEIC to JPG if needed
     if filename.upper().endswith(".HEIC"):
         from PIL import Image
         from pillow_heif import register_heif_opener
 
         register_heif_opener()
         img = Image.open(raw_path)
-        jpg_path = outdir / (raw_path.stem + ".jpg")
+        jpg_path = outdir / (stem + ".jpg")
         img.save(jpg_path, quality=90)
         os.remove(raw_path)
         return jpg_path
@@ -99,9 +111,12 @@ def download_photo(photo, outdir):
 def process_with_copilot(photo_path):
     """Invoke Copilot CLI to process a scouting photo."""
     prompt = (
-        f"Process the scouting form photo at {photo_path} using the ftc-scouting-processor skill. "
-        f"Read the form data, update scouting-data.json, update or create the team detail page, "
-        f"update the scouting index, then git add, commit, and push the changes."
+        f"Process the photo at {photo_path} using the ftc-scouting-processor skill. "
+        f"If it's a scouting form, read the form data, update scouting-data.json, "
+        f"update or create the team detail page, update the scouting index, "
+        f"then git add, commit, and push the changes. "
+        f"If it's a robot photo, identify the team number and save it to the team's scouting page. "
+        f"If it's not a scouting form or robot photo, skip it — iCloud may include random personal photos."
     )
 
     print(f"  Invoking Copilot CLI...")
@@ -110,7 +125,7 @@ def process_with_copilot(photo_path):
             "copilot",
             "-p", prompt,
             "--autopilot",
-            "--yes",
+            "--allow-all",
         ],
         cwd=str(REPO_DIR),
         timeout=300,  # 5 minute timeout per photo
@@ -125,9 +140,17 @@ def process_with_copilot(photo_path):
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="FTC Scouting Photo Watcher")
+    parser.add_argument("--check", type=int, default=DEFAULT_PHOTOS_TO_CHECK,
+                        help="Number of recent photos to check each poll (default: %d)" % DEFAULT_PHOTOS_TO_CHECK)
+    args = parser.parse_args()
+    photos_to_check = args.check
+
     print("FTC Scouting Photo Watcher")
     print(f"Repo: {REPO_DIR}")
     print(f"Poll interval: {POLL_INTERVAL}s")
+    print(f"Photos to check: {photos_to_check}")
     print(f"Incoming dir: {INCOMING_DIR}")
     print()
 
@@ -136,20 +159,24 @@ def main():
     processed = set(state["processed_files"])
 
     print(f"Already processed: {len(processed)} photos")
-    print("Watching for new photos... (Ctrl+C to stop)\n")
+    print("Polling for new photos... (Ctrl+C to stop)\n")
 
     while True:
         try:
             all_photos = api.photos.all
 
             new_photos = []
-            for i in range(PHOTOS_TO_CHECK):
+            for i in range(photos_to_check):
                 try:
                     p = all_photos[i]
                 except IndexError:
                     break
-                if p.filename not in processed:
-                    new_photos.append(p)
+                if p.filename in processed:
+                    continue
+                if p.item_type == "movie":
+                    processed.add(p.filename)
+                    continue
+                new_photos.append(p)
 
             if new_photos:
                 print(f"[{datetime.now().strftime('%H:%M:%S')}] Found {len(new_photos)} new photo(s)")
@@ -169,6 +196,8 @@ def main():
                             print(f"  ✓ Processed {photo.filename}")
                         else:
                             print(f"  ✗ Failed to process {photo.filename}")
+
+                print("Polling for new photos...")
             else:
                 # Quiet poll — no output unless something new
                 pass
