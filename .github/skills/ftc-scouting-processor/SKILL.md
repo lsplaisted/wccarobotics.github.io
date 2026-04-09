@@ -230,14 +230,18 @@ Add the photo to the team's scouting page near the top, after the title and back
 ![TEAM_NUM TEAM_NAME robot](/assets/images/scouting/TEAM_NUM-robot.jpg)
 ```
 
-If multiple photos exist for a team, use a photo grid:
+Typically one photo per team is sufficient. If a second photo arrives:
+- If it's a better quality photo of the same view, replace the existing one
+- If it shows a different useful angle (e.g., front view vs intake close-up), place them side-by-side using a photo grid:
 
 ```html
 <div class="photo-grid">
   <img src="/assets/images/scouting/TEAM_NUM-robot-1.jpg" alt="TEAM_NAME robot">
-  <img src="/assets/images/scouting/TEAM_NUM-robot-2.jpg" alt="TEAM_NAME robot">
+  <img src="/assets/images/scouting/TEAM_NUM-robot-2.jpg" alt="TEAM_NAME robot intake">
 </div>
 ```
+
+Otherwise, keep the better photo and skip the duplicate.
 
 ## Updating rankings, scores, and OPR
 
