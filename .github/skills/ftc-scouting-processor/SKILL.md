@@ -245,36 +245,72 @@ Otherwise, keep the better photo and skip the duplicate.
 
 ## Updating rankings, scores, and OPR
 
-Periodically during the tournament, update data from two sources:
+Periodically during the tournament, update data from the FTC Events API. See authentication details in `.github/copilot-instructions.md`.
 
-### FTC Events API (official data)
-Match scores and rankings. See authentication details in `.github/copilot-instructions.md`.
-
-- `https://ftc-api.firstinspires.org/v2.0/{season}/matches/{event_code}`
-- `https://ftc-api.firstinspires.org/v2.0/{season}/rankings/{event_code}`
+- `https://ftc-api.firstinspires.org/v2.0/{season}/matches/{event_code}` — match results
+- `https://ftc-api.firstinspires.org/v2.0/{season}/rankings/{event_code}` — rankings
 
 Fallback: scrape `ftc-events.firstinspires.org` if credentials are missing.
 
-### FTC Scout API (OPR and stats — no auth needed)
+### OPR Calculation
 
-OPR (Offensive Power Rating) estimates each team's individual scoring contribution. FTC Scout calculates this automatically, broken down by auto, teleop, and sub-categories.
+Calculate OPR (Offensive Power Rating) ourselves from the FTC API match data rather than relying on FTC Scout. Use **no-penalty scores** for a cleaner measure of what teams actually do.
 
+```python
+import numpy as np
+import json, urllib.request, base64
+
+# Authenticate with FTC API
+with open('ftc-api-credentials.json') as f:
+    creds = json.load(f)
+token = base64.b64encode((creds['username'] + ':' + creds['auth_key']).encode()).decode()
+headers = {'Authorization': 'Basic ' + token}
+
+# Fetch matches
+req = urllib.request.Request(
+    'https://ftc-api.firstinspires.org/v2.0/{season}/matches/{event_code}',
+    headers=headers)
+matches = json.loads(urllib.request.urlopen(req).read())['matches']
+
+# Build team list from qualification matches
+teams = sorted(set(
+    t['teamNumber'] for m in matches if m['tournamentLevel'] == 'QUALIFICATION'
+    for t in m['teams']
+))
+team_idx = {t: i for i, t in enumerate(teams)}
+
+# Build matrix A and score vector b
+# Use no-penalty scores: scoreRedFinal - scoreRedFoul, scoreBlueFinal - scoreBlueFoul
+A_rows, b_vals = [], []
+for m in matches:
+    if m['tournamentLevel'] != 'QUALIFICATION':
+        continue
+    for color in ['Red', 'Blue']:
+        row = [0] * len(teams)
+        for t in m['teams']:
+            if t['station'].startswith(color):
+                row[team_idx[t['teamNumber']]] = 1
+        A_rows.append(row)
+        # Subtract opponent's foul points to get no-penalty score
+        score = m['score%sFinal' % color] - m.get('score%sFoul' % color, 0)
+        b_vals.append(score)
+
+A = np.array(A_rows, dtype=float)
+b = np.array(b_vals, dtype=float)
+
+# Solve via least squares
+opr = np.linalg.solve(A.T @ A, A.T @ b)
+team_opr = {teams[i]: round(opr[i], 1) for i in range(len(teams))}
 ```
-GET https://api.ftcscout.org/rest/v1/events/{season}/{event_code}/teams
-```
 
-Each team's response includes `stats.opr` with fields like:
-- `totalPointsNp` — overall OPR (no penalties)
-- `autoPoints` — auto OPR
-- `dcPoints` — teleop (driver-controlled) OPR
-- `dcArtifactClassifiedPoints`, `dcArtifactOverflowPoints`, `autoPatternPoints`, etc.
+**Note:** The FTC API match response may use `scoreRedFoul` or `penaltyPointsByOpp` depending on the endpoint. Check the response structure and subtract penalty/foul points from the final score.
 
-For teams at events we haven't attended, look up their stats across their season:
+Display OPR rounded to whole numbers on scouting pages. Sort the teams table by OPR descending.
+
+For teams at events we haven't attended but that are in the upcoming tournament, use FTC Scout's quick-stats API (no auth needed) as a pre-tournament baseline:
 ```
 GET https://api.ftcscout.org/rest/v1/teams/{number}/quick-stats?season={season}
 ```
-
-Add OPR to the teams table on the scouting index page. When displaying, round to whole numbers (e.g., "OPR: 49").
 
 ## Batch processing
 
@@ -476,4 +512,6 @@ pip install pyicloud  # v2.5.0+ from timlaing/pyicloud fork
 ```bash
 pip install pillow-heif   # for HEIC photo conversion (iPhone photos)
 pip install Pillow         # for image processing and cropping
+pip install numpy          # for OPR calculation
+pip install pyicloud       # for iCloud Photos access
 ```
