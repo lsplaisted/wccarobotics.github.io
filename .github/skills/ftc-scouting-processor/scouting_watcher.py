@@ -1,14 +1,17 @@
 """
-FTC Scouting Photo Watcher
+FTC Scouting Watcher
 
-Polls iCloud for new photos and triggers Copilot CLI to process scouting forms.
+Polls iCloud for new photos and the FTC API for new match results,
+then triggers Copilot CLI to process scouting forms and update pages.
 Run this as a background process during a tournament.
 
 Usage:
-    python scouting_watcher.py
+    python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025
+    python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025 --check 5
 
 Requires:
     - icloud-credentials.json (git-ignored)
+    - ftc-api-credentials.json (git-ignored)
     - pyicloud, pillow-heif, Pillow
     - Copilot CLI (copilot) installed and authenticated
 """
@@ -54,11 +57,11 @@ def get_icloud_api():
 
 
 def load_state():
-    """Load watcher state (processed filenames, newest processed date)."""
+    """Load watcher state (processed filenames, newest processed date, match count)."""
     if STATE_FILE.exists():
         with open(STATE_FILE) as f:
             return json.load(f)
-    return {"processed_files": [], "newest_processed": None}
+    return {"processed_files": [], "newest_processed": None, "known_match_count": 0}
 
 
 def save_state(state):
@@ -108,6 +111,67 @@ def download_photo(photo, outdir):
     return raw_path
 
 
+def check_new_matches(season, event_code, known_count):
+    """Check FTC API for new match results. Returns (new_count, has_new)."""
+    import base64
+    import urllib.request
+
+    creds_path = REPO_DIR / "ftc-api-credentials.json"
+    if not creds_path.exists():
+        return known_count, False
+
+    with open(creds_path) as f:
+        creds = json.load(f)
+
+    token = base64.b64encode(
+        (creds["username"] + ":" + creds["auth_key"]).encode()
+    ).decode()
+    headers = {"Authorization": "Basic " + token}
+
+    try:
+        url = "https://ftc-api.firstinspires.org/v2.0/%s/matches/%s" % (season, event_code)
+        req = urllib.request.Request(url, headers=headers)
+        resp = urllib.request.urlopen(req, timeout=10)
+        data = json.loads(resp.read())
+        scored = [m for m in data.get("matches", [])
+                  if m.get("scoreRedFinal") is not None and m.get("scoreRedFinal") >= 0]
+        current_count = len(scored)
+        return current_count, current_count > known_count
+    except Exception as e:
+        print(f"  Warning: FTC API check failed: {e}")
+        return known_count, False
+
+
+def update_matches_with_copilot(season, event_code):
+    """Invoke Copilot CLI to update scouting pages with new match results."""
+    prompt = (
+        f"New match results are available for event {event_code} (season {season}). "
+        f"Using the ftc-scouting-processor skill, fetch the latest match results and rankings "
+        f"from the FTC API, recalculate OPR, update the scouting index page "
+        f"(match schedule, rankings, and OPR in the teams table), "
+        f"then git add, commit, and push the changes."
+    )
+
+    print(f"  Invoking Copilot CLI for match update...")
+    result = subprocess.run(
+        [
+            "copilot",
+            "-p", prompt,
+            "--autopilot",
+            "--allow-all",
+        ],
+        cwd=str(REPO_DIR),
+        timeout=300,
+    )
+
+    if result.returncode == 0:
+        print(f"  ✓ Match update completed")
+    else:
+        print(f"  ✗ Match update failed (code {result.returncode})")
+
+    return result.returncode == 0
+
+
 def process_with_copilot(photo_path):
     """Invoke Copilot CLI to process a scouting photo."""
     prompt = (
@@ -141,16 +205,24 @@ def process_with_copilot(photo_path):
 
 def main():
     import argparse
-    parser = argparse.ArgumentParser(description="FTC Scouting Photo Watcher")
+    parser = argparse.ArgumentParser(description="FTC Scouting Watcher")
     parser.add_argument("--check", type=int, default=DEFAULT_PHOTOS_TO_CHECK,
                         help="Number of recent photos to check each poll (default: %d)" % DEFAULT_PHOTOS_TO_CHECK)
+    parser.add_argument("--event", type=str, default=None,
+                        help="FTC event code (e.g., USARLCMP) for match result polling")
+    parser.add_argument("--season", type=str, default=None,
+                        help="FTC season code (e.g., 2025)")
     args = parser.parse_args()
     photos_to_check = args.check
 
-    print("FTC Scouting Photo Watcher")
+    print("FTC Scouting Watcher")
     print(f"Repo: {REPO_DIR}")
     print(f"Poll interval: {POLL_INTERVAL}s")
     print(f"Photos to check: {photos_to_check}")
+    if args.event and args.season:
+        print(f"Event: {args.event} (season {args.season})")
+    else:
+        print("No event specified — photo polling only (use --event and --season for match updates)")
     print(f"Incoming dir: {INCOMING_DIR}")
     print()
 
@@ -160,10 +232,13 @@ def main():
     newest_processed = state.get("newest_processed")
     if newest_processed:
         newest_processed = datetime.fromisoformat(newest_processed)
+    known_match_count = state.get("known_match_count", 0)
 
     print(f"Already processed: {len(processed)} photos")
     if newest_processed:
         print(f"Skipping photos older than: {newest_processed}")
+    if args.event:
+        print(f"Known scored matches: {known_match_count}")
     print("Polling for new photos... (Ctrl+C to stop)\n")
 
     while True:
@@ -214,6 +289,16 @@ def main():
             else:
                 # Quiet poll — no output unless something new
                 pass
+
+            # Check for new match results
+            if args.event and args.season:
+                new_count, has_new = check_new_matches(args.season, args.event, known_match_count)
+                if has_new:
+                    print(f"[{datetime.now().strftime('%H:%M:%S')}] New match results! ({known_match_count} → {new_count} scored matches)")
+                    update_matches_with_copilot(args.season, args.event)
+                    known_match_count = new_count
+                    state["known_match_count"] = known_match_count
+                    save_state(state)
 
         except KeyboardInterrupt:
             print("\nStopping watcher.")

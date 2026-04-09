@@ -402,16 +402,19 @@ When data gets too large or a season ends, archive to `scouting/archive/FRIENDLY
 During a tournament, run the scouting watcher script as a background process:
 
 ```bash
-python .github/skills/ftc-scouting-processor/scouting_watcher.py
-python .github/skills/ftc-scouting-processor/scouting_watcher.py --check 5  # only check last 5 photos
+python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025
+python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025 --check 5
 ```
 
 This script:
 1. Connects to iCloud (may prompt for 2FA on first run)
-2. Polls every 30 seconds for new photos (skips movies)
+2. Polls every 30 seconds for:
+   - **New photos** from iCloud (skips movies)
+   - **New match results** from the FTC API (if `--event` and `--season` are specified)
 3. Downloads new photos to `scouting/incoming/` (git-ignored)
-4. Converts HEIC to JPG
-5. Invokes Copilot CLI (`copilot -p ... --autopilot --allow-all`) to process the photo
+4. Invokes Copilot CLI to:
+   - Process scouting form photos and robot photos
+   - Update match results, rankings, and OPR when new matches are scored
 
 Copilot will determine what type of photo it is:
 - **Scouting form** — read the form, update data and pages, commit and push
