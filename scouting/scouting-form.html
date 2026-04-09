@@ -44,3 +44,9 @@ title: "FTC Scouting Form — Print"
 {% include scouting-form.html %}
 
 </div>
+<script>
+// Hide header on all but the first form
+document.querySelectorAll('.scouting-forms .scouting-page h2').forEach(function(h2, i) {
+  if (i > 0) h2.style.display = 'none';
+});
+</script>
