@@ -357,6 +357,54 @@ When data gets too large or a season ends, archive to `scouting/archive/FRIENDLY
 - Copy `index.md` and team pages
 - The archived version is read-only
 
+## Live tournament photo polling
+
+During a tournament, run a background loop that checks iCloud for new scouting photos:
+
+```python
+from pyicloud import PyiCloudService
+import json, time
+
+with open('icloud-credentials.json') as f:
+    creds = json.load(f)
+api = PyiCloudService(creds['apple_id'], creds['password'])
+
+last_seen_date = None  # track newest photo we've processed
+
+while True:
+    all_photos = api.photos.all
+    new_photos = []
+    for i in range(20):  # check last 20 photos
+        p = all_photos[i]
+        if last_seen_date and p.added_date <= last_seen_date:
+            break
+        new_photos.append(p)
+    
+    if new_photos:
+        # process new photos...
+        last_seen_date = new_photos[0].added_date
+    
+    time.sleep(30)
+```
+
+**Important:** Use index-based access (`all_photos[i]`), NOT iteration.
+
+### Handling duplicate and updated photos
+
+Track processed photos by their iCloud filename in `scouting-data.json` to avoid re-downloading the same file:
+
+```json
+{
+  "processed_photos": ["IMG_4400.HEIC", "IMG_4401.HEIC"],
+  ...
+}
+```
+
+If a **new photo** (different filename) contains data for an existing match + team combo:
+- It may be a **clearer photo** of the same form — update any fields that were previously hard to read
+- It may be from a **different scout** watching the same team — merge the data, filling in blanks from either form. If values disagree, note the discrepancy.
+- Record both scout names if multiple scouts contributed data for the same match+team
+
 ## Getting photos from iCloud
 
 Photos taken on the user's iPhone can be accessed programmatically via pyicloud. The session persists ~2 months after initial 2FA.
