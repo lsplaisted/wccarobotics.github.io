@@ -7,3 +7,4 @@ __pycache__/
 .env
 ftc-api-credentials.json
 icloud-credentials.json
+scouting/incoming/

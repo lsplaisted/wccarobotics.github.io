@@ -359,35 +359,20 @@ When data gets too large or a season ends, archive to `scouting/archive/FRIENDLY
 
 ## Live tournament photo polling
 
-During a tournament, run a background loop that checks iCloud for new scouting photos:
+During a tournament, run the scouting watcher script as a background process:
 
-```python
-from pyicloud import PyiCloudService
-import json, time
-
-with open('icloud-credentials.json') as f:
-    creds = json.load(f)
-api = PyiCloudService(creds['apple_id'], creds['password'])
-
-last_seen_date = None  # track newest photo we've processed
-
-while True:
-    all_photos = api.photos.all
-    new_photos = []
-    for i in range(20):  # check last 20 photos
-        p = all_photos[i]
-        if last_seen_date and p.added_date <= last_seen_date:
-            break
-        new_photos.append(p)
-    
-    if new_photos:
-        # process new photos...
-        last_seen_date = new_photos[0].added_date
-    
-    time.sleep(30)
+```bash
+python .github/skills/ftc-scouting-processor/scouting_watcher.py
 ```
 
-**Important:** Use index-based access (`all_photos[i]`), NOT iteration.
+This script:
+1. Connects to iCloud (may prompt for 2FA on first run)
+2. Polls every 30 seconds for new photos
+3. Downloads new photos to `scouting/incoming/` (git-ignored)
+4. Converts HEIC to JPG
+5. Invokes Copilot CLI (`copilot -p ... --autopilot --yes`) to read the form, update scouting data/pages, and git commit + push
+
+The watcher tracks processed filenames in `scouting/incoming/watcher_state.json` to avoid reprocessing.
 
 ### Handling duplicate and updated photos
 
