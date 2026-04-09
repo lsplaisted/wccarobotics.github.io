@@ -125,6 +125,14 @@ Fallback: if credentials are missing, scrape `ftc-events.firstinspires.org` inst
 
 When using API data on pages, include an attribution link: `<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API).</small>`
 
+### FTC Scout API (OPR and stats — no auth needed)
+
+FTC Scout provides OPR and other derived stats. No authentication required.
+
+- Team stats at an event: `https://api.ftcscout.org/rest/v1/events/{season}/{event_code}/teams`
+- Team quick stats: `https://api.ftcscout.org/rest/v1/teams/{number}/quick-stats?season={season}`
+- Event matches: `https://api.ftcscout.org/rest/v1/events/{season}/{event_code}/matches`
+
 ### Python dependencies for skills
 
 ```bash
@@ -132,4 +140,6 @@ pip install yt-dlp                    # YouTube caption/audio download
 pip install faster-whisper            # speech recognition (when no captions)
 pip install playwright Pillow numpy   # scorecard generator
 python -m playwright install chromium
+pip install pyicloud                  # iCloud Photos access (scouting form photos)
+pip install pillow-heif               # HEIC image conversion
 ```

@@ -239,15 +239,38 @@ If multiple photos exist for a team, use a photo grid:
 </div>
 ```
 
-## Updating rankings and scores
+## Updating rankings, scores, and OPR
 
-Periodically during the tournament, re-fetch data from FTC Events to update:
-- Match scores in the match schedule table
-- Rankings in the teams table
+Periodically during the tournament, update data from two sources:
 
-Use `web_fetch` to get the latest data from:
-- `https://ftc-events.firstinspires.org/{season}/{event_code}/qualifications`
-- `https://ftc-events.firstinspires.org/{season}/{event_code}/rankings`
+### FTC Events API (official data)
+Match scores and rankings. See authentication details in `.github/copilot-instructions.md`.
+
+- `https://ftc-api.firstinspires.org/v2.0/{season}/matches/{event_code}`
+- `https://ftc-api.firstinspires.org/v2.0/{season}/rankings/{event_code}`
+
+Fallback: scrape `ftc-events.firstinspires.org` if credentials are missing.
+
+### FTC Scout API (OPR and stats — no auth needed)
+
+OPR (Offensive Power Rating) estimates each team's individual scoring contribution. FTC Scout calculates this automatically, broken down by auto, teleop, and sub-categories.
+
+```
+GET https://api.ftcscout.org/rest/v1/events/{season}/{event_code}/teams
+```
+
+Each team's response includes `stats.opr` with fields like:
+- `totalPointsNp` — overall OPR (no penalties)
+- `autoPoints` — auto OPR
+- `dcPoints` — teleop (driver-controlled) OPR
+- `dcArtifactClassifiedPoints`, `dcArtifactOverflowPoints`, `autoPatternPoints`, etc.
+
+For teams at events we haven't attended, look up their stats across their season:
+```
+GET https://api.ftcscout.org/rest/v1/teams/{number}/quick-stats?season={season}
+```
+
+Add OPR to the teams table on the scouting index page. When displaying, round to whole numbers (e.g., "OPR: 49").
 
 ## Batch processing
 
@@ -333,6 +356,57 @@ When setting up for a new tournament:
 When data gets too large or a season ends, archive to `scouting/archive/FRIENDLY_ID/`:
 - Copy `index.md` and team pages
 - The archived version is read-only
+
+## Getting photos from iCloud
+
+Photos taken on the user's iPhone can be accessed programmatically via pyicloud. The session persists ~2 months after initial 2FA.
+
+### Authentication
+
+Credentials are stored in `icloud-credentials.json` (git-ignored). If this file doesn't exist on the current machine, ask the user for their Apple ID and password and create it:
+
+```json
+{
+  "apple_id": "YOUR_APPLE_ID",
+  "password": "YOUR_PASSWORD_HERE"
+}
+```
+
+```python
+from pyicloud import PyiCloudService
+import json
+
+with open('icloud-credentials.json') as f:
+    creds = json.load(f)
+
+api = PyiCloudService(creds['apple_id'], creds['password'])
+
+if api.requires_2fa:
+    api.request_2fa_code()  # MUST call this explicitly to trigger the 2FA prompt
+    code = input('Enter 2FA code: ')
+    api.validate_2fa_code(code)
+    api.trust_session()
+
+# After trusting, subsequent logins won't need 2FA
+```
+
+**Critical:** Just checking `requires_2fa` does NOT send a code to the user's device. You must call `request_2fa_code()` explicitly.
+
+### Downloading recent photos
+
+```python
+for photo in api.photos.all:
+    if photo.asset_date > cutoff_date:
+        download = photo.download()
+        with open(photo.filename, 'wb') as f:
+            f.write(download.raw.read())
+```
+
+### Dependencies
+
+```bash
+pip install pyicloud  # v2.5.0+ from timlaing/pyicloud fork
+```
 
 ## Key conventions
 

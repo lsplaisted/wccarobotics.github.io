@@ -1,42 +1,46 @@
 ---
 layout: page
-title: "FTC Scouting — Adventist Robotics Carolina Scrimmage"
+title: "FTC Scouting — Adventist Robotics League Championship"
 ---
 
-# FTC Scouting — Carolina Scrimmage
+# FTC Scouting — League Championship
 
-**March 1, 2026** · [Event on FTC Events](https://ftc-events.firstinspires.org/2025/USARLRAS)
+**April 12, 2026** · [Event on FTC Events](https://ftc-events.firstinspires.org/2025/USARLCMP) · [Scouting Guide](/scouting/scouting-guide)
 
 ## Teams
 
-| Rank | Team | RS | W-L-T | Match Pts | Avg Auto | Avg Teleop | Teleop Acc. | Notes |
-| ---- | ---- | -- | ----- | --------- | -------- | ---------- | ----------- | ----- |
-| 1 | 26520 NC Avengers | 3.80 | 5-0-0 | 65.60 | | | | |
-| 2 | 32314 Marcus Bartholomew the Third Senior | 2.40 | 3-2-0 | 68.20 | | | | |
-| 3 | 19410 Entropic Fluctuations | 2.20 | 3-2-0 | 53.80 | | | | |
-| 4 | [27795 The Sentinels](/scouting/27795) | 2.20 | 3-2-0 | 49.80 | ~6 pts (near only) | ~13.5 pts | 9/15 (60%) | Slow cycle, near zone only |
-| 5 | 20840 The Senjus of Raleigh | 2.00 | 3-2-0 | 37.80 | | | | |
-| 6 | 23958 Wait4iT | 0.80 | 1-4-0 | 38.20 | | | | |
-| 7 | 21993 Tech Titans | 0.80 | 1-4-0 | 37.00 | | | | |
-| 8 | 28228 Mountaingears | 0.60 | 1-4-0 | 36.80 | | | | |
+Sorted by OPR (Offensive Power Rating) from previous events. Teams without prior event data are listed at the bottom.
 
-*Scouting columns filled in as data comes in.*
+| Team | OPR | Avg Auto | Avg Teleop | Teleop Acc. | Notes |
+| ---- | --- | -------- | ---------- | ----------- | ----- |
+| 32314 Marcus Bartholomew the Third Senior | 48.5 | | | | *That's us!* |
+| 24813 SHCA Happy Hawks | 25.8 | | | | |
+| [27795 The Sentinels](/scouting/27795) | 20.8 | ~6 pts (near only) | ~13.5 pts | 9/15 (60%) | Slow cycle, near zone only |
+| 23958 Wait4iT | 14.7 | | | | |
+| 19712 NDAASentinels | 14.3 | | | | |
+| 20840 The Senjus of Raleigh | 13.3 | | | | |
+| 21993 Tech Titans | 13.2 | | | | |
+| 28228 Mountaingears | 9.2 | | | | |
+| 16899 CPUsaders_T | 1.7 | | | | |
+| 5198 Wingnuts | — | | | | |
+| 8990 Mile High Academy Mustangs | — | | | | |
+| 11020 Gearhead Gladiators | — | | | | |
+| 13153 Marvin's Minions | — | | | | |
+| 18783 Eagle Tech | — | | | | |
+| 24480 JagTech | — | | | | |
+| 26646 Stallion Robotics | — | | | | |
+| 30646 Apocalypse Neo Gen | — | | | | |
+| 31620 Titanium Talons | — | | | | |
+| 31907 Wisconsin Academy | — | | | | |
+| 32350 CODEIAKS | — | | | | |
+| 32453 TIGERBOTICS | — | | | | |
 
-## Match Schedule & Results
+*OPR data from [FTC Scout](https://ftcscout.org). Will be updated with championship data once matches begin.*
 
-| Match | Red Alliance | Blue Alliance | Score |
-| ----- | ------------ | ------------- | ----- |
-| Q1 | 23958 Wait4iT / 32314 Marcus Bartholomew the Third Senior | 21993 Tech Titans / 28228 Mountaingears | **83** – 19 |
-| Q2 | 19410 Entropic Fluctuations / 27795 The Sentinels | 26520 NC Avengers / 20840 The Senjus of Raleigh | 30 – **39** |
-| Q3 | 21993 Tech Titans / 23958 Wait4iT | 20840 The Senjus of Raleigh / 19410 Entropic Fluctuations | 35 – **72** |
-| Q4 | 28228 Mountaingears / 32314 Marcus Bartholomew the Third Senior | 27795 The Sentinels / 26520 NC Avengers | 58 – **125** |
-| Q5 | 20840 The Senjus of Raleigh / 21993 Tech Titans | 32314 Marcus Bartholomew the Third Senior / 27795 The Sentinels | 39 – **77** |
-| Q6 | 26520 NC Avengers / 28228 Mountaingears | 23958 Wait4iT / 19410 Entropic Fluctuations | **65** – 29 |
-| Q7 | 26520 NC Avengers / 32314 Marcus Bartholomew the Third Senior | 23958 Wait4iT / 20840 The Senjus of Raleigh | **83** – 30 |
-| Q8 | 19410 Entropic Fluctuations / 21993 Tech Titans | 27795 The Sentinels / 28228 Mountaingears | **67** – 58 |
-| Q9 | 19410 Entropic Fluctuations / 26520 NC Avengers | 32314 Marcus Bartholomew the Third Senior / 21993 Tech Titans | **91** – 85 |
-| Q10 | 27795 The Sentinels / 20840 The Senjus of Raleigh | 28228 Mountaingears / 23958 Wait4iT | **44** – 34 |
+## Match Schedule
+
+Match schedule will be posted once available.
 
 ---
 
-<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API).</small>
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). OPR data from [FTC Scout](https://ftcscout.org).</small>

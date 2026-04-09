@@ -4,17 +4,36 @@
       "name": "Adventist Robotics Carolina Scrimmage",
       "friendly_id": "2026-nc-scrimmage",
       "date": "2026-03-01"
+    },
+    "USARLCMP": {
+      "name": "Adventist Robotics League Championship",
+      "friendly_id": "2026-championship",
+      "date": "2026-04-12"
     }
   },
   "teams": {
-    "26520": { "name": "NC Avengers" },
-    "32314": { "name": "Marcus Bartholomew the Third Senior" },
-    "19410": { "name": "Entropic Fluctuations" },
-    "27795": { "name": "The Sentinels" },
+    "5198": { "name": "Wingnuts" },
+    "8990": { "name": "Mile High Academy Mustangs" },
+    "11020": { "name": "Gearhead Gladiators" },
+    "13153": { "name": "Marvin's Minions" },
+    "16899": { "name": "CPUsaders_T" },
+    "18783": { "name": "Eagle Tech" },
+    "19712": { "name": "NDAASentinels" },
     "20840": { "name": "The Senjus of Raleigh" },
-    "23958": { "name": "Wait4iT" },
     "21993": { "name": "Tech Titans" },
-    "28228": { "name": "Mountaingears" }
+    "23958": { "name": "Wait4iT" },
+    "24480": { "name": "JagTech" },
+    "24813": { "name": "SHCA Happy Hawks" },
+    "26520": { "name": "NC Avengers" },
+    "26646": { "name": "Stallion Robotics" },
+    "27795": { "name": "The Sentinels" },
+    "28228": { "name": "Mountaingears" },
+    "30646": { "name": "Apocalypse Neo Gen" },
+    "31620": { "name": "Titanium Talons" },
+    "31907": { "name": "Wisconsin Academy" },
+    "32314": { "name": "Marcus Bartholomew the Third Senior" },
+    "32350": { "name": "CODEIAKS" },
+    "32453": { "name": "TIGERBOTICS" }
   },
   "matches": [
     { "num": 1, "red": [23958, 32314], "blue": [21993, 28228], "red_score": 83, "blue_score": 19 },
