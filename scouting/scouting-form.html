@@ -8,9 +8,12 @@ title: "FTC Scouting Form — Print"
     body { margin: 0; padding: 0; }
     .page-content { padding: 0 !important; }
     .scouting-page { page-break-inside: avoid; }
+    .page-break { page-break-after: always; height: 0; }
     .form-spacer { height: 24px; }
     .form-spacer-lg { height: 60px; }
   }
+
+  .page-break { display: none; }
 
   .print-instructions {
     max-width: 800px;
@@ -30,8 +33,8 @@ title: "FTC Scouting Form — Print"
 </style>
 
 <div class="print-instructions">
-  <p><strong>FTC Scouting Forms</strong> — Two forms per page. Print as many copies as you need!</p>
-  <p>Tip: Set margins to "Minimum" or "None" in your print settings for best results.</p>
+  <p><strong>FTC Scouting Forms</strong> — Four forms per sheet with duplex printing.</p>
+  <p>Tip: Select "Print on both sides" and set margins to "Minimum" in your print settings.</p>
   <button class="btn btn-blue" onclick="window.print()">🖨️ Print Scouting Forms</button>
 </div>
 
@@ -43,10 +46,18 @@ title: "FTC Scouting Form — Print"
 
 {% include scouting-form.html %}
 
+<div class="page-break"></div>
+
+{% include scouting-form.html %}
+
+<hr class="form-divider">
+
+{% include scouting-form.html %}
+
 </div>
 <script>
-// Hide header on all but the first form
+// Hide header on 2nd and 4th forms (within each page pair)
 document.querySelectorAll('.scouting-forms .scouting-page h2').forEach(function(h2, i) {
-  if (i > 0) h2.style.display = 'none';
+  if (i === 1 || i === 3) h2.style.display = 'none';
 });
 </script>
