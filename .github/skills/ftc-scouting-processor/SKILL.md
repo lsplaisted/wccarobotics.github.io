@@ -394,12 +394,18 @@ if api.requires_2fa:
 
 ### Downloading recent photos
 
+**Important:** Use index-based access (`all_photos[i]`), NOT iteration. Iteration goes oldest-first, but indexing respects newest-first sort order.
+
 ```python
-for photo in api.photos.all:
-    if photo.asset_date > cutoff_date:
-        download = photo.download()
-        with open(photo.filename, 'wb') as f:
-            f.write(download.raw.read())
+all_photos = api.photos.all
+# Index 0 = most recently added photo
+for i in range(10):  # check last 10 photos
+    p = all_photos[i]
+    if p.added_date < cutoff_date:
+        break
+    data = p.download()
+    with open(p.filename, 'wb') as f:
+        f.write(data)
 ```
 
 ### Dependencies
