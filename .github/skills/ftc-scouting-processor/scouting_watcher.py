@@ -54,11 +54,11 @@ def get_icloud_api():
 
 
 def load_state():
-    """Load watcher state (processed filenames, last check time)."""
+    """Load watcher state (processed filenames, newest processed date)."""
     if STATE_FILE.exists():
         with open(STATE_FILE) as f:
             return json.load(f)
-    return {"processed_files": [], "last_check": None}
+    return {"processed_files": [], "newest_processed": None}
 
 
 def save_state(state):
@@ -157,8 +157,13 @@ def main():
     api = get_icloud_api()
     state = load_state()
     processed = set(state["processed_files"])
+    newest_processed = state.get("newest_processed")
+    if newest_processed:
+        newest_processed = datetime.fromisoformat(newest_processed)
 
     print(f"Already processed: {len(processed)} photos")
+    if newest_processed:
+        print(f"Skipping photos older than: {newest_processed}")
     print("Polling for new photos... (Ctrl+C to stop)\n")
 
     while True:
@@ -170,6 +175,9 @@ def main():
                 try:
                     p = all_photos[i]
                 except IndexError:
+                    break
+                # Stop scanning once we hit photos older than our cutoff
+                if newest_processed and p.added_date <= newest_processed:
                     break
                 if p.filename in processed:
                     continue
@@ -188,8 +196,13 @@ def main():
                     if local_path:
                         success = process_with_copilot(local_path)
                         processed.add(photo.filename)
+
+                        # Update newest processed date
+                        if newest_processed is None or photo.added_date > newest_processed:
+                            newest_processed = photo.added_date
+
                         state["processed_files"] = list(processed)
-                        state["last_check"] = datetime.now(timezone.utc).isoformat()
+                        state["newest_processed"] = newest_processed.isoformat()
                         save_state(state)
 
                         if success:
