@@ -13,7 +13,7 @@ Sorted by OPR (Offensive Power Rating) from previous events. Teams without prior
 
 | Team | OPR | Avg Auto | Avg Teleop | Teleop Acc. | Notes |
 | ---- | --- | -------- | ---------- | ----------- | ----- |
-| 32314 Marcus Bartholomew the Third Senior | 48.5 | | | | *That's us!* |
+| [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48.5 | | | | *That's us!* |
 | 24813 SHCA Happy Hawks | 25.8 | | | | |
 | [27795 The Sentinels](/scouting/27795) | 20.8 | ~6 pts (near only) | ~13.5 pts | 9/15 (60%) | Slow cycle, near zone only |
 | 23958 Wait4iT | 14.7 | | | | |
