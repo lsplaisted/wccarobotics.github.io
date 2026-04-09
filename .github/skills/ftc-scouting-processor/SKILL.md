@@ -409,10 +409,12 @@ python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCM
 This script:
 1. Connects to iCloud (may prompt for 2FA on first run)
 2. Polls every 30 seconds for:
+   - **Match schedule** — checks if qualification pairings have been posted (one-time, stops checking after found)
    - **New photos** from iCloud (skips movies)
    - **New match results** from the FTC API (if `--event` and `--season` are specified)
 3. Downloads new photos to `scouting/incoming/` (git-ignored)
 4. Invokes Copilot CLI to:
+   - Post the match schedule when it becomes available
    - Process scouting form photos and robot photos
    - Update match results, rankings, and OPR when new matches are scored
 

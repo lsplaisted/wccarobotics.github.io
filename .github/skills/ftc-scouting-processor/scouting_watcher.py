@@ -61,7 +61,7 @@ def load_state():
     if STATE_FILE.exists():
         with open(STATE_FILE) as f:
             return json.load(f)
-    return {"processed_files": [], "newest_processed": None, "known_match_count": 0}
+    return {"processed_files": [], "newest_processed": None, "known_match_count": 0, "schedule_posted": False}
 
 
 def save_state(state):
@@ -109,6 +109,65 @@ def download_photo(photo, outdir):
         return jpg_path
 
     return raw_path
+
+
+def check_schedule_available(season, event_code):
+    """Check FTC API for qualification schedule. Returns True if schedule exists."""
+    import base64
+    import urllib.request
+
+    creds_path = REPO_DIR / "ftc-api-credentials.json"
+    if not creds_path.exists():
+        return False
+
+    with open(creds_path) as f:
+        creds = json.load(f)
+
+    token = base64.b64encode(
+        (creds["username"] + ":" + creds["auth_key"]).encode()
+    ).decode()
+    headers = {"Authorization": "Basic " + token}
+
+    try:
+        url = "https://ftc-api.firstinspires.org/v2.0/%s/schedule/%s?tournamentLevel=qual" % (season, event_code)
+        req = urllib.request.Request(url, headers=headers)
+        resp = urllib.request.urlopen(req, timeout=10)
+        data = json.loads(resp.read())
+        schedule = data.get("schedule", [])
+        return len(schedule) > 0
+    except Exception as e:
+        print(f"  Warning: Schedule check failed: {e}")
+        return False
+
+
+def post_schedule_with_copilot(season, event_code):
+    """Invoke Copilot CLI to add the match schedule to the scouting page."""
+    prompt = (
+        f"The qualification match schedule is now available for event {event_code} (season {season}). "
+        f"Using the ftc-scouting-processor skill, fetch the schedule from the FTC API "
+        f"(endpoint: /v2.0/{season}/schedule/{event_code}?tournamentLevel=qual) "
+        f"and update the scouting index page with the match pairings. "
+        f"Then git add, commit, and push the changes."
+    )
+
+    print(f"  Invoking Copilot CLI for schedule update...")
+    result = subprocess.run(
+        [
+            "copilot",
+            "-p", prompt,
+            "--autopilot",
+            "--allow-all",
+        ],
+        cwd=str(REPO_DIR),
+        timeout=300,
+    )
+
+    if result.returncode == 0:
+        print(f"  ✓ Schedule posted")
+    else:
+        print(f"  ✗ Schedule update failed (code {result.returncode})")
+
+    return result.returncode == 0
 
 
 def check_new_matches(season, event_code, known_count):
@@ -239,6 +298,7 @@ def main():
         print(f"Skipping photos older than: {newest_processed}")
     if args.event:
         print(f"Known scored matches: {known_match_count}")
+        print(f"Schedule posted: {state.get('schedule_posted', False)}")
     print("Polling for new photos... (Ctrl+C to stop)\n")
 
     while True:
@@ -290,8 +350,17 @@ def main():
                 # Quiet poll — no output unless something new
                 pass
 
-            # Check for new match results
+            # Check for schedule and new match results
             if args.event and args.season:
+                # Check for schedule if not yet posted
+                if not state.get("schedule_posted", False):
+                    if check_schedule_available(args.season, args.event):
+                        print(f"[{datetime.now().strftime('%H:%M:%S')}] Match schedule is available!")
+                        if post_schedule_with_copilot(args.season, args.event):
+                            state["schedule_posted"] = True
+                            save_state(state)
+
+                # Check for new match results
                 new_count, has_new = check_new_matches(args.season, args.event, known_match_count)
                 if has_new:
                     print(f"[{datetime.now().strftime('%H:%M:%S')}] New match results! ({known_match_count} → {new_count} scored matches)")
