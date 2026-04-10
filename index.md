@@ -16,6 +16,11 @@ layout: home
 <div class="section section-alt">
   <div class="container">
     <div class="highlight-box">
+      <h3>📺 FTC Championship — April 12</h3>
+      <p>Our FTC team <strong>Marcus Bartholomew the Third Senior</strong> competes in the <strong>Adventist Robotics FTC Championship</strong> this Sunday at Forest Lake Academy! The opening ceremony and livestream start around 10:30 AM.</p>
+      <a href="https://www.youtube.com/live/ggJtTakQWaU" class="btn btn-blue" style="margin-top: 0.75rem;" target="_blank">Watch the Livestream →</a>
+    </div>
+    <div class="highlight-box" style="margin-top: 1.5rem;">
       <h3>🏆 1st and 2nd at Florida Qualifier!</h3>
       <p>Our FLL teams swept the top spots at the Adventist Robotics Florida Qualifying Tournament on March 29! <strong>Robo Gators of the Lost Park</strong> won the <strong>Champions Award</strong> and <strong>Marcus Bartholomew the Third Junior</strong> took 2nd place — both teams advance to the Championship!</p>
       <a href="/tournaments/fll/2026-FLL-Florida-Qualifier" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
@@ -24,11 +29,6 @@ layout: home
       <h3>🏆 Scrimmage Champions!</h3>
       <p>Our FTC team <strong>Marcus Bartholomew the Third Senior</strong> won the <strong>Adventist Robotics FTC Carolina Scrimmage</strong> finals 2–1 on March 1, 2026!</p>
       <a href="/ftc#competitions" class="btn btn-blue" style="margin-top: 0.75rem;">Watch the Matches →</a>
-    </div>
-    <div class="highlight-box" style="margin-top: 1.5rem;">
-      <h3>🏆 National Champions!</h3>
-      <p>Our FLL team <strong>Marcus Bartholomew the Third Junior</strong> won <strong>1st place</strong> at the Adventist Robotics Championship Tournament in the 2024–25 Submerged season!</p>
-      <a href="/fll" class="btn btn-blue" style="margin-top: 0.75rem;">Learn More →</a>
     </div>
   </div>
 </div>
