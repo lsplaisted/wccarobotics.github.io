@@ -70,7 +70,108 @@ Individual match score breakdowns are available at:
 - **Qualifications**: `https://ftc-events.firstinspires.org/{season}/{event_code}/qualifications/{match_number}`
 - **Playoffs**: `https://ftc-events.firstinspires.org/{season}/{event_code}/playoff/{series}/{match_number}`
 
-### Step 2: Get transcript from YouTube
+### Step 2 (Recommended): Find match timestamps using video frame capture
+
+FTC tournament livestreams display a match overlay graphic at the bottom of the screen during matches. This overlay shows the match type and number (e.g., "Qualification 4 of 25"), team numbers for both alliances, and a countdown timer. Use Playwright to capture frames and read these overlays to find exact match timestamps.
+
+This approach is more reliable than caption-based finding because it reads on-screen match data directly rather than relying on speech recognition.
+
+#### Set up Playwright and open the video
+
+```python
+from playwright.sync_api import sync_playwright
+import time
+
+pw = sync_playwright().start()
+browser = pw.chromium.launch(headless=True)
+page = browser.new_page(viewport={"width": 1920, "height": 1080})
+page.goto(VIDEO_URL, wait_until="domcontentloaded")
+time.sleep(3)
+
+# Dismiss consent dialogs
+for text in ["Accept all", "Accept", "Reject all"]:
+    try:
+        page.locator(f'button:has-text("{text}")').click(timeout=2000)
+        time.sleep(1)
+        break
+    except:
+        pass
+
+# Start playing to initialize the stream
+try:
+    page.click(".ytp-play-button", timeout=5000)
+    time.sleep(3)
+except:
+    pass
+
+# Check seekable range
+seekable_end = page.evaluate("document.querySelector('video').seekable.end(0)")
+```
+
+#### Capture a frame at a specific timestamp
+
+```python
+def capture_frame(page, target_seconds, outfile):
+    """Seek to target_seconds and screenshot the video element."""
+    page.evaluate(f"document.querySelector('video').currentTime = {target_seconds}")
+    time.sleep(3)  # wait for seek + buffer
+    actual = page.evaluate("document.querySelector('video').currentTime")
+    page.query_selector("video").screenshot(path=outfile)
+    return actual
+```
+
+Seeking is accurate to within 2–3 seconds in the middle of the seekable range. Avoid seeking to the very start or very end of the range (stay at least 60 seconds from edges).
+
+#### Scan the video for match timestamps
+
+**Post-tournament analysis (all matches at once):** Scan forward through the video. Matches are sequential, so once you find match N, match N+1 is ~5–7 minutes later.
+
+1. Estimate the first match position (~10–20 minutes in, after opening ceremonies)
+2. Capture a frame. If no match overlay is visible, jump forward 2 minutes and retry.
+3. When a match overlay appears, read the match number, team numbers, and timer
+4. Verify team numbers against the FTC Events data for that match
+5. Calculate the match start time (see below)
+6. Estimate the next match position (~5–7 minutes later) and repeat
+7. After all qualification matches, expect a 30–60 minute gap for alliance selection before playoffs
+
+**Live tournament (finding a specific new match):** Search backward from the live edge.
+
+1. The match just finished, so start from the current live position
+2. Go back in 2-minute chunks, capturing a frame at each position
+3. Look for the target match number in the overlay
+4. When found, calculate the start time
+5. YouTube live DVR typically covers ~6–14 hours, more than enough for a tournament day
+
+#### Read the match overlay and calculate start time
+
+Examine each captured frame for the FTC match overlay at the bottom ~15% of the screen:
+- **Match identifier**: "QUALIFICATION 4 of 25" or "SEMIFINAL 1-1"
+- **Team numbers**: 4 team numbers (2 red, 2 blue) — verify against FTC Events data
+- **Timer**: remaining time in the current match period
+
+**Calculate the match start time:**
+
+FTC matches run: 30s autonomous → ~8s transition → 120s teleop ≈ 158s total.
+
+| Timer shows | Period | Elapsed since match start |
+|-------------|--------|--------------------------|
+| 0:NN remaining in auto | Autonomous | `30 - NN` seconds |
+| M:SS remaining in teleop | Teleop | `38 + (120 - teleop_remaining_seconds)` seconds |
+
+**Match start time** = `frame_stream_position - elapsed_seconds`
+
+Subtract ~5 seconds from the result to link to the pre-match countdown rather than the exact match start.
+
+**Tips:**
+- Look for frames where the timer is non-zero (match is actively running, not ended)
+- If the overlay isn't visible, the video may be between matches, showing replays, or in a ceremony
+- If you can't determine the period (auto vs teleop), capture another frame 30s earlier or later
+- Each frame capture takes ~15 seconds (seek + buffer + screenshot)
+- Verify team numbers in the overlay against FTC Events data to confirm you have the right match
+
+If video frame capture is not feasible (e.g., video is private, Playwright not available, overlay not consistently visible), use the caption-based approach in Steps 3–5 below instead.
+
+### Step 3 (Alternative): Get transcript from YouTube
 
 **Option A — Auto-generated captions (try first):**
 
@@ -120,7 +221,7 @@ If yt-dlp is not installed or is outdated, install/update it:
 pip install --upgrade yt-dlp
 ```
 
-### Step 3: Parse transcript and find match timestamps
+### Step 4 (Alternative): Parse transcript and find match timestamps
 
 #### Step 3a: Parse captions into timestamped entries
 
@@ -175,7 +276,7 @@ Map the validated match starts to the qualification and playoff matches in seque
 
 Watch for a **lunch break** between qualification matches (typically a 60-90 minute gap in timestamps). The matches continue in sequence after the break.
 
-### Step 4: Verify match-to-timestamp mapping
+### Step 5 (Alternative): Verify match-to-timestamp mapping
 
 Search the captions near each match start for team numbers and names to verify the mapping:
 - Look within 2 minutes before each countdown for team number mentions
@@ -190,7 +291,7 @@ Also search for explicit match number mentions:
 - Extra: Check for false starts ("reset", "stop" within 30s after countdown), opening ceremony kickoffs, or match redos
 - Missing: Estimate timestamps based on spacing between known matches (FTC matches are typically 5-7 minutes apart)
 
-### Step 5: Search for awards ceremony timestamps
+### Step 6: Search for awards ceremony timestamps
 
 Search the last ~30-60 minutes of captions for award announcements. Standard FTC awards (in typical order of announcement):
 
@@ -209,7 +310,7 @@ Search for keywords: "award", "inspire", "think award", "connect", "innovate", "
 
 Record the timestamp for each award announcement.
 
-### Step 6: Generate the markdown page
+### Step 7: Generate the markdown page
 
 Use the collected data to create the markdown file following this template:
 
@@ -273,7 +374,7 @@ Video links use the format: `https://www.youtube.com/watch?v=VIDEO_ID&t=SECONDS`
 
 **Team highlighting**: The site includes `assets/js/team-highlight.js` which automatically makes team numbers clickable on tournament pages. When a user clicks a team number, all occurrences of that team are highlighted in orange across the entire page (with table cells getting a background wash). No special markup is needed — the script detects team numbers (4-5 digit numbers followed by a name) in table cells and list items, including inside links.
 
-### Step 7: Add to FTC tournaments index
+### Step 8: Add to FTC tournaments index
 
 After creating the tournament page, add an entry to `tournaments/ftc/index.md`. Follow the existing card format:
 
@@ -286,7 +387,7 @@ After creating the tournament page, add an entry to `tournaments/ftc/index.md`. 
 </div>
 ```
 
-### Step 8: Clean up
+### Step 9: Clean up
 
 Remove temporary files: `captions.en.vtt`, `transcript.json`, `tournament_audio.mp4`, and any Python scripts created during the process.
 

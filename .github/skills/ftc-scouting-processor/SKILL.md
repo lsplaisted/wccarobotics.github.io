@@ -60,12 +60,12 @@ Auto column format:
 ```markdown
 ## Match Schedule & Results
 
-| Match | Red Alliance | Blue Alliance | Score |
-| ----- | ------------ | ------------- | ----- |
-| Q1 | TEAM / TEAM | TEAM / TEAM | **SCORE** – SCORE |
+| Match | Red Alliance | Blue Alliance | Score | Video |
+| ----- | ------------ | ------------- | ----- | ----- |
+| Q1 | TEAM / TEAM | TEAM / TEAM | **SCORE** – SCORE | [H:MM:SS](URL&t=SECONDS) |
 ```
 
-Update scores as results come in from FTC Events.
+Update scores as results come in from FTC Events. The Video column links to the match start in the livestream — see "Finding match timestamps in a livestream" below. Omit the Video column if no livestream URL is available.
 
 ## Processing scouting forms
 
@@ -312,6 +312,54 @@ For teams at events we haven't attended but that are in the upcoming tournament,
 GET https://api.ftcscout.org/rest/v1/teams/{number}/quick-stats?season={season}
 ```
 
+## Finding match timestamps in a livestream
+
+When a livestream URL is provided (via `--video` in the scouting watcher), find the timestamp for each new match in the video using Playwright-based frame capture. This uses the same approach as the FTC Tournament Analyzer skill.
+
+### How it works
+
+FTC tournament livestreams display a match overlay graphic at the bottom of the screen showing:
+- Match type and number (e.g., "Qualification 4 of 25")
+- Team numbers for both alliances
+- A countdown timer
+
+When the scouting watcher detects new match results from the FTC API:
+
+1. Open the livestream in headless Playwright (or reuse an existing session)
+2. The match just finished, so search backward from the live edge in 2-minute chunks
+3. Capture a frame at each position and examine it for the match overlay
+4. When the target match is found (match number and team numbers match), read the timer
+5. Calculate the match start time:
+   - Auto period: `match_start = frame_position - (30 - auto_remaining)`
+   - Teleop period: `match_start = frame_position - (38 + 120 - teleop_remaining)`
+6. Subtract ~5 seconds to link to the pre-match countdown
+7. Add the timestamped link to the Video column in the match schedule table
+
+### Frame capture code
+
+```python
+from playwright.sync_api import sync_playwright
+import time
+
+def capture_frame(page, target_seconds, outfile):
+    """Seek to target_seconds and screenshot the video element."""
+    page.evaluate(f"document.querySelector('video').currentTime = {target_seconds}")
+    time.sleep(3)
+    actual = page.evaluate("document.querySelector('video').currentTime")
+    page.query_selector("video").screenshot(path=outfile)
+    return actual
+```
+
+### Timestamp display format
+
+Format the video link as `H:MM:SS` or `M:SS` for the display text, with the link pointing to `VIDEO_URL&t=SECONDS`:
+
+```markdown
+| Q5 | 32314 / 27795 | 24813 / 23958 | **45** – 30 | [1:23:45](https://www.youtube.com/watch?v=VIDEO_ID&t=5025) |
+```
+
+For full details on the frame capture approach (Playwright setup, overlay reading, scanning strategies), see the [FTC Tournament Analyzer skill](/.github/skills/ftc-tournament-analyzer/SKILL.md), Step 2.
+
 ## Batch processing
 
 When given a folder of photos, process all new files:
@@ -403,6 +451,7 @@ During a tournament, run the scouting watcher script as a background process:
 
 ```bash
 python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025
+python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025 --video "https://www.youtube.com/watch?v=VIDEO_ID"
 python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025 --check 5
 ```
 
@@ -417,6 +466,7 @@ This script:
    - Post the match schedule when it becomes available
    - Process scouting form photos and robot photos
    - Update match results, rankings, and OPR when new matches are scored
+   - Find match timestamps in the livestream (if `--video` is specified) and add Video links to the match table
 
 Copilot will determine what type of photo it is:
 - **Scouting form** — read the form, update data and pages, commit and push
@@ -519,4 +569,6 @@ pip install pillow-heif   # for HEIC photo conversion (iPhone photos)
 pip install Pillow         # for image processing and cropping
 pip install numpy          # for OPR calculation
 pip install pyicloud       # for iCloud Photos access
+pip install playwright     # for livestream frame capture
+# python -m playwright install chromium
 ```
