@@ -14,7 +14,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48.5 | | | | |
 | [24813 SHCA Happy Hawks](/scouting/24813) | 25.8 | | | | |
 | [27795 The Sentinels](/scouting/27795) | 20.8 | | ~6 pts (near only) | ~13.5 pts | 9/15 (60%) |
-| [23958 Wait4iT](/scouting/23958) | 14.7 | | | | |
+| [23958 Wait4iT](/scouting/23958) | 14.7 | | ~0 pts (leave) | ~9 pts | 3/11 (27%) |
 | [19712 NDAASentinels](/scouting/19712) | 14.3 | | ~0 pts (leave) | ~18 pts | 6/12 (50%) |
 | 20840 The Senjus of Raleigh | 13.3 | | | | |
 | [21993 Tech Titans](/scouting/21993) | 13.2 | | ~0 pts (far only, leave) | ~18 pts | 6/17 (35%) |
@@ -28,7 +28,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | [24480 JagTech](/scouting/24480) | — | | No auto (far only) | ~6 pts | 2/5 (40%) |
 | 26646 Stallion Robotics | — | | | | |
 | 30646 Apocalypse Neo Gen | — | | | | |
-| 31620 Titanium Talons | — | | | | |
+| [31620 Titanium Talons](/scouting/31620) | — | | No auto (far only) | ~0 pts | 0/2 (0%) |
 | 31907 Wisconsin Academy | — | | | | |
 | [32350 CODEIAKS](/scouting/32350) | — | | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
 | [32453 TIGERBOTICS](/scouting/32453) | — | | | | |

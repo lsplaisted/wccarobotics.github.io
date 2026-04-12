@@ -1,5 +1,5 @@
 {
-  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg", "IMG_4450.jpg", "IMG_4452.jpg"],
+  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg", "IMG_4450.jpg", "IMG_4452.jpg", "IMG_4453.jpg"],
   "events": {
     "USARLRAS": {
       "name": "Adventist Robotics Carolina Scrimmage",
@@ -353,6 +353,74 @@
         "broke_down": false,
         "driver_skill": "good",
         "want_as_partner": "no"
+      },
+      "notes": ""
+    },
+    {
+      "event_code": "USARLCMP",
+      "match": null,
+      "team": 23958,
+      "alliance": "red",
+      "scout": "Andrew",
+      "auto": {
+        "start": null,
+        "moved": true,
+        "leave_pts": true,
+        "shots_made": 0,
+        "shots_missed": 0
+      },
+      "teleop": {
+        "shots_made": 3,
+        "shots_missed": 8,
+        "shot_from": "near",
+        "where_in_near": "Front of goal",
+        "cycle": null,
+        "played_defense": false,
+        "base": "partial"
+      },
+      "response_to_defense": "",
+      "robot": {
+        "drive": "tank",
+        "intake": false
+      },
+      "overall": {
+        "broke_down": false,
+        "driver_skill": "good",
+        "want_as_partner": null
+      },
+      "notes": ""
+    },
+    {
+      "event_code": "USARLCMP",
+      "match": null,
+      "team": 31620,
+      "alliance": "blue",
+      "scout": null,
+      "auto": {
+        "start": "far",
+        "moved": false,
+        "leave_pts": false,
+        "shots_made": 0,
+        "shots_missed": 0
+      },
+      "teleop": {
+        "shots_made": 0,
+        "shots_missed": 2,
+        "shot_from": "near",
+        "where_in_near": "Front of goal",
+        "cycle": "slow",
+        "played_defense": null,
+        "base": "none"
+      },
+      "response_to_defense": "",
+      "robot": {
+        "drive": "mecanum",
+        "intake": true
+      },
+      "overall": {
+        "broke_down": null,
+        "driver_skill": "needs work",
+        "want_as_partner": null
       },
       "notes": ""
     }
