@@ -11,29 +11,29 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 
 | Team | OPR | W-L-T | Avg Auto | Avg Teleop | Teleop Acc. |
 | ---- | --- | ----- | -------- | ---------- | ----------- |
-| 30646 Apocalypse Neo Gen | 103 | 1-0-0 | | | |
-| [27795 The Sentinels](/scouting/27795) | 86 | 1-1-0 | ~6 pts (near only) | ~24 pts | 8/8 (100%) |
-| [21993 Tech Titans](/scouting/21993) | 73 | 2-0-0 | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
-| [24813 SHCA Happy Hawks](/scouting/24813) | 69 | 2-0-0 | ~9 pts (near) | ~39 pts | 13/16 (81%) |
-| [32350 CODEIAKS](/scouting/32350) | 60 | 0-1-0 | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
-| [24480 JagTech](/scouting/24480) | 59 | 2-0-0 | No auto (far only) | ~6 pts | 2/5 (40%) |
-| [13153 Marvin's Minions](/scouting/13153) | 54 | 2-0-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
-| [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 54 | 1-1-0 | | | |
-| [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | 50 | 1-1-0 | No auto (far only) | ~0 pts | 0/2 (0%) |
-| [32453 TIGERBOTICS](/scouting/32453) | 45 | 1-1-0 | ~0 pts (near only) | ~15 pts | 5/7 (71%) |
-| [23958 Wait4iT](/scouting/23958) | 37 | 0-1-0 | ~0 pts (leave) | ~10.5 pts | 7/20 (35%) |
-| [5198 Wingnuts](/scouting/5198) | 28 | 1-1-0 | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
-| [8990 Mile High Academy Mustangs](/scouting/8990) | 25 | 0-2-0 | ~0 pts (near only, leave) | ~0 pts | 0/0 |
-| 20840 The Senjus of Raleigh | 20 | 0-2-0 | | | |
-| [11020 Gearhead Gladiators](/scouting/11020) | 16 | 0-1-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
-| 18783 Eagle Tech | 10 | 1-0-0 | | | |
-| [16899 CPUsaders_T](/scouting/16899) | 10 | 1-1-0 | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
-| [31907 Wisconsin Academy](/scouting/31907) | 1 | 0-2-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
-| [19712 NDAASentinels](/scouting/19712) | -15 | 0-1-0 | ~1.5 pts | ~15 pts | 10/17 (59%) |
-| [26646 Stallion Robotics](/scouting/26646) | -29 | 1-1-0 | ~1.5 pts | ~9 pts | 6/9 (67%) |
-| [28228 Mountaingears](/scouting/28228) | -47 | 1-1-0 | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
+| [21993 Tech Titans](/scouting/21993) | 97 | 2-0-0 | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
+| 30646 Apocalypse Neo Gen | 81 | 1-1-0 | | | |
+| [27795 The Sentinels](/scouting/27795) | 73 | 1-1-0 | ~6 pts (near only) | ~24 pts | 8/8 (100%) |
+| [24813 SHCA Happy Hawks](/scouting/24813) | 70 | 3-0-0 | ~9 pts (near) | ~39 pts | 13/16 (81%) |
+| [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 64 | 1-1-0 | | | |
+| [23958 Wait4iT](/scouting/23958) | 57 | 0-2-0 | ~0 pts (leave) | ~10.5 pts | 7/20 (35%) |
+| [13153 Marvin's Minions](/scouting/13153) | 56 | 2-0-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
+| [32350 CODEIAKS](/scouting/32350) | 51 | 1-1-0 | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
+| 20840 The Senjus of Raleigh | 40 | 0-2-0 | | | |
+| [32453 TIGERBOTICS](/scouting/32453) | 40 | 1-1-0 | ~0 pts (near only) | ~15 pts | 5/7 (71%) |
+| [8990 Mile High Academy Mustangs](/scouting/8990) | 37 | 0-2-0 | ~0 pts (near only, leave) | ~0 pts | 0/0 |
+| [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | 36 | 1-1-0 | No auto (far only) | ~0 pts | 0/2 (0%) |
+| [24480 JagTech](/scouting/24480) | 35 | 2-0-0 | No auto (far only) | ~6 pts | 2/5 (40%) |
+| 18783 Eagle Tech | 34 | 2-0-0 | | | |
+| [16899 CPUsaders_T](/scouting/16899) | 19 | 1-1-0 | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
+| [5198 Wingnuts](/scouting/5198) | 4 | 1-2-0 | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
+| [19712 NDAASentinels](/scouting/19712) | 2 | 1-1-0 | ~1.5 pts | ~15 pts | 10/17 (59%) |
+| [11020 Gearhead Gladiators](/scouting/11020) | 0 | 0-2-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
+| [31907 Wisconsin Academy](/scouting/31907) | -15 | 0-2-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
+| [28228 Mountaingears](/scouting/28228) | -29 | 1-1-0 | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
+| [26646 Stallion Robotics](/scouting/26646) | -35 | 1-1-0 | ~1.5 pts | ~9 pts | 6/9 (67%) |
 
-*OPR is now recalculated from official championship qualification results using no-penalty scores.*
+*OPR is recalculated from official championship qualification results using no-penalty scores through Qualification 11.*
 
 ## Qualification Match Schedule
 
@@ -50,8 +50,8 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | Q7 | 1:00 PM | 28228 Mountaingears | 31620 Titanium Talons (Collegedale Academy) | 24480 JagTech | 21993 Tech Titans | 18 | **132** |
 | Q8 | 1:06 PM | 31907 Wisconsin Academy | 8990 Mile High Academy Mustangs | 24813 SHCA Happy Hawks | 13153 Marvin's Minions | 56 | **128** |
 | Q9 | 1:12 PM | 5198 Wingnuts | 20840 The Senjus of Raleigh | 27795 The Sentinels | 16899 CPUsaders_T | 63 | **106** |
-| Q10 | 1:18 PM | 11020 Gearhead Gladiators | 23958 Wait4iT | 19712 NDAASentinels | 32350 CODEIAKS | | |
-| Q11 | 1:24 PM | 24813 SHCA Happy Hawks | 18783 Eagle Tech | 30646 Apocalypse Neo Gen | 5198 Wingnuts | | |
+| Q10 | 1:18 PM | 11020 Gearhead Gladiators | 23958 Wait4iT | 19712 NDAASentinels | 32350 CODEIAKS | 61 | **72** |
+| Q11 | 1:24 PM | 24813 SHCA Happy Hawks | 18783 Eagle Tech | 30646 Apocalypse Neo Gen | 5198 Wingnuts | **114** | 102 |
 | Q12 | 1:30 PM | 26646 Stallion Robotics\* | 11020 Gearhead Gladiators | 27795 The Sentinels\* | 28228 Mountaingears | | |
 | Q13 | 1:36 PM | 23958 Wait4iT\* | 32314 Marcus Bartholomew the Third Senior | 8990 Mile High Academy Mustangs | 24480 JagTech | | |
 | Q14 | 1:42 PM | 30646 Apocalypse Neo Gen | 13153 Marvin's Minions | 16899 CPUsaders_T | 19712 NDAASentinels | | |
@@ -73,4 +73,4 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 
 ---
 
-<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). OPR recalculated from official qualification results using no-penalty scores.</small>
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). OPR recalculated from official qualification results using no-penalty scores through Qualification 11.</small>
