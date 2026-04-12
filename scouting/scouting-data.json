@@ -1,5 +1,5 @@
 {
-  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg", "IMG_4450.jpg", "IMG_4452.jpg", "IMG_4453.jpg", "IMG_4454.jpg"],
+  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg", "IMG_4450.jpg", "IMG_4452.jpg", "IMG_4453.jpg", "IMG_4454.jpg", "IMG_4455.jpg"],
   "events": {
     "USARLRAS": {
       "name": "Adventist Robotics Carolina Scrimmage",
@@ -458,6 +458,40 @@
         "want_as_partner": "no"
       },
       "notes": "Auto got interfered with. Slow robot."
+    },
+    {
+      "event_code": "USARLCMP",
+      "match": null,
+      "team": 31907,
+      "alliance": null,
+      "scout": "DSP",
+      "auto": {
+        "start": "far",
+        "moved": false,
+        "leave_pts": false,
+        "shots_made": 0,
+        "shots_missed": 0
+      },
+      "teleop": {
+        "shots_made": 5,
+        "shots_missed": 0,
+        "shot_from": "near",
+        "where_in_near": "On line near[?]",
+        "cycle": "slow",
+        "played_defense": false,
+        "base": null
+      },
+      "response_to_defense": "",
+      "robot": {
+        "drive": "tank",
+        "intake": true
+      },
+      "overall": {
+        "broke_down": null,
+        "driver_skill": "needs work",
+        "want_as_partner": null
+      },
+      "notes": "Problem w/ loader"
     }
   ]
 }

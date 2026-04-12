@@ -29,7 +29,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 26646 Stallion Robotics | — | | | | |
 | 30646 Apocalypse Neo Gen | — | | | | |
 | [31620 Titanium Talons](/scouting/31620) | — | | No auto (far only) | ~0 pts | 0/2 (0%) |
-| 31907 Wisconsin Academy | — | | | | |
+| [31907 Wisconsin Academy](/scouting/31907) | — | | No auto (far only) | ~15 pts | 5/5 (100%) |
 | [32350 CODEIAKS](/scouting/32350) | — | | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
 | [32453 TIGERBOTICS](/scouting/32453) | — | | | | |
 
