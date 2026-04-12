@@ -17,12 +17,12 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | [23958 Wait4iT](/scouting/23958) | 14.7 | | ~0 pts (leave) | ~10.5 pts | 7/20 (35%) |
 | [19712 NDAASentinels](/scouting/19712) | 14.3 | | ~1.5 pts | ~15 pts | 10/17 (59%) |
 | 20840 The Senjus of Raleigh | 13.3 | | | | |
-| [21993 Tech Titans](/scouting/21993) | 13.2 | | ~0 pts (far only, leave) | ~18 pts | 6/17 (35%) |
+| [21993 Tech Titans](/scouting/21993) | 13.2 | | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
 | [28228 Mountaingears](/scouting/28228) | 9.2 | | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
 | [16899 CPUsaders_T](/scouting/16899) | 1.7 | | ~0 pts (far only, leave) | ~18 pts | 6/8 (75%) |
 | [5198 Wingnuts](/scouting/5198) | — | | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
 | [8990 Mile High Academy Mustangs](/scouting/8990) | — | | ~0 pts (near only, leave) | ~0 pts | 0/0 |
-| 11020 Gearhead Gladiators | — | | | | |
+| [11020 Gearhead Gladiators](/scouting/11020) | — | | No auto (near only) | ~0 pts | 0/1 (0%) |
 | [13153 Marvin's Minions](/scouting/13153) | — | | No auto (far only) | ~6 pts | 2/7 (29%) |
 | 18783 Eagle Tech | — | | | | |
 | [24480 JagTech](/scouting/24480) | — | | No auto (far only) | ~6 pts | 2/5 (40%) |
