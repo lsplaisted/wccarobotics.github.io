@@ -30,7 +30,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 30646 Apocalypse Neo Gen | — | | | | |
 | 31620 Titanium Talons | — | | | | |
 | 31907 Wisconsin Academy | — | | | | |
-| 32350 CODEIAKS | — | | | | |
+| [32350 CODEIAKS](/scouting/32350) | — | | | | |
 | 32453 TIGERBOTICS | — | | | | |
 
 *OPR data from [FTC Scout](https://ftcscout.org). Will be updated with championship data once matches begin.*
