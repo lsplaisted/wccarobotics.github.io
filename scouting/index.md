@@ -20,13 +20,13 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | [21993 Tech Titans](/scouting/21993) | 13.2 | | ~0 pts (far only, leave) | ~18 pts | 6/17 (35%) |
 | [28228 Mountaingears](/scouting/28228) | 9.2 | | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
 | [16899 CPUsaders_T](/scouting/16899) | 1.7 | | ~0 pts (far only, leave) | ~18 pts | 6/8 (75%) |
-| [5198 Wingnuts](/scouting/5198) | — | | ~9 pts (leave) | ~36 pts | 12/15 (80%) |
+| [5198 Wingnuts](/scouting/5198) | — | | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
 | [8990 Mile High Academy Mustangs](/scouting/8990) | — | | ~0 pts (near only, leave) | ~0 pts | 0/0 |
 | 11020 Gearhead Gladiators | — | | | | |
 | [13153 Marvin's Minions](/scouting/13153) | — | | No auto (far only) | ~6 pts | 2/7 (29%) |
 | 18783 Eagle Tech | — | | | | |
 | [24480 JagTech](/scouting/24480) | — | | No auto (far only) | ~6 pts | 2/5 (40%) |
-| [26646 Stallion Robotics](/scouting/26646) | — | | | | |
+| [26646 Stallion Robotics](/scouting/26646) | — | | ~3 pts (near only) | ~15 pts | 5/7 (71%) |
 | 30646 Apocalypse Neo Gen | — | | | | |
 | [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | — | | No auto (far only) | ~0 pts | 0/2 (0%) |
 | [31907 Wisconsin Academy](/scouting/31907) | — | | No auto (far only) | ~15 pts | 5/5 (100%) |
