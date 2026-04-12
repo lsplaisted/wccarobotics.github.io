@@ -1,5 +1,5 @@
 {
-  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg", "IMG_4450.jpg", "IMG_4452.jpg", "IMG_4453.jpg"],
+  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg", "IMG_4450.jpg", "IMG_4452.jpg", "IMG_4453.jpg", "IMG_4454.jpg"],
   "events": {
     "USARLRAS": {
       "name": "Adventist Robotics Carolina Scrimmage",
@@ -423,6 +423,41 @@
         "want_as_partner": null
       },
       "notes": ""
+    },
+    {
+      "event_code": "USARLCMP",
+      "match": null,
+      "match_label": "practice",
+      "team": 16899,
+      "alliance": "red",
+      "scout": "Lucas",
+      "auto": {
+        "start": "far",
+        "moved": true,
+        "leave_pts": true,
+        "shots_made": 0,
+        "shots_missed": 3
+      },
+      "teleop": {
+        "shots_made": 6,
+        "shots_missed": 2,
+        "shot_from": "near",
+        "where_in_near": "close to goal",
+        "cycle": "slow",
+        "played_defense": false,
+        "base": "none"
+      },
+      "response_to_defense": "none",
+      "robot": {
+        "drive": "mecanum",
+        "intake": false
+      },
+      "overall": {
+        "broke_down": false,
+        "driver_skill": "needs work",
+        "want_as_partner": "no"
+      },
+      "notes": "Auto got interfered with. Slow robot."
     }
   ]
 }
