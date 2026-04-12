@@ -33,7 +33,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 19 | [11020 Gearhead Gladiators](/scouting/11020) | 10 | 0-5-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
 | 21 | [26646 Stallion Robotics](/scouting/26646) | -10 | 1-4-0 | ~1.5 pts | ~9 pts | 6/9 (67%) |
 
-*Refreshed from the FTC API: final qualification rankings and recalculated no-penalty OPR are current through Qualification 27, and playoff results are now posted through the upper bracket semifinals.*
+*Refreshed from the FTC API: final qualification rankings and recalculated no-penalty OPR are current through Qualification 27, and playoff results are now posted through Lower Bracket Round 3 Match 5.*
 
 ## Qualification Match Schedule & Results
 
@@ -77,10 +77,11 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | Upper Bracket Round 1 Match 2 | 24480 JagTech | 19712 NDAASentinels | 18783 Eagle Tech | 32453 TIGERBOTICS | **113** | 73 |
 | Upper Bracket Round 2 Match 3 | 21993 Tech Titans | 24813 SHCA Happy Hawks | 16899 CPUsaders_T | 32314 Marcus Bartholomew the Third Senior | 124 | **129** |
 | Upper Bracket Round 2 Match 4 | 5198 Wingnuts | 27795 The Sentinels | 24480 JagTech | 19712 NDAASentinels | 100 | **121** |
+| Lower Bracket Round 3 Match 5 | 24813 SHCA Happy Hawks | 21993 Tech Titans | 32453 TIGERBOTICS | 18783 Eagle Tech | **150** | 86 |
 
 **Our qualification matches (32314):** Q2, Q6, Q13, Q21, Q26  
 **Our playoff matches (32314):** Upper Bracket Round 1 Match 1, Upper Bracket Round 2 Match 3
 
 ---
 
-<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). Official qualification rankings and recalculated no-penalty OPR are final through Qualification 27, and playoff results are posted through the upper bracket semifinals.</small>
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). Official qualification rankings and recalculated no-penalty OPR are final through Qualification 27, and playoff results are posted through Lower Bracket Round 3 Match 5.</small>
