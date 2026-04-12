@@ -1,5 +1,5 @@
 {
-  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg"],
+  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg", "IMG_4450.jpg", "IMG_4452.jpg"],
   "events": {
     "USARLRAS": {
       "name": "Adventist Robotics Carolina Scrimmage",
@@ -122,7 +122,7 @@
       "match": null,
       "team": 19712,
       "alliance": null,
-      "scout": null,
+      "scout": "Andrew",
       "auto": {
         "start": null,
         "moved": true,
@@ -251,6 +251,108 @@
         "broke_down": false,
         "driver_skill": "excellent",
         "want_as_partner": "maybe"
+      },
+      "notes": ""
+    },
+    {
+      "event_code": "USARLCMP",
+      "match": null,
+      "team": 13153,
+      "alliance": "blue",
+      "scout": null,
+      "auto": {
+        "start": "far",
+        "moved": false,
+        "leave_pts": false,
+        "shots_made": 0,
+        "shots_missed": 0
+      },
+      "teleop": {
+        "shots_made": 2,
+        "shots_missed": 5,
+        "shot_from": "near",
+        "where_in_near": "Front of goal",
+        "cycle": "slow",
+        "played_defense": false,
+        "base": "partial"
+      },
+      "response_to_defense": "",
+      "robot": {
+        "drive": "mecanum",
+        "intake": false
+      },
+      "overall": {
+        "broke_down": false,
+        "driver_skill": "needs work",
+        "want_as_partner": null
+      },
+      "notes": ""
+    },
+    {
+      "event_code": "USARLCMP",
+      "match": null,
+      "team": 32350,
+      "alliance": "red",
+      "scout": "LV",
+      "auto": {
+        "start": "far",
+        "moved": true,
+        "leave_pts": true,
+        "shots_made": 3,
+        "shots_missed": 0
+      },
+      "teleop": {
+        "shots_made": 14,
+        "shots_missed": 4,
+        "shot_from": "near",
+        "where_in_near": "Sketch of shooting positions rather than text",
+        "cycle": "fast",
+        "played_defense": false,
+        "base": "none"
+      },
+      "response_to_defense": "Drove around",
+      "robot": {
+        "drive": "mecanum",
+        "intake": true
+      },
+      "overall": {
+        "broke_down": false,
+        "driver_skill": "good",
+        "want_as_partner": "maybe"
+      },
+      "notes": "Had some fouls shooting out of zone."
+    },
+    {
+      "event_code": "USARLCMP",
+      "match": null,
+      "team": 21993,
+      "alliance": "blue",
+      "scout": "LV",
+      "auto": {
+        "start": "far",
+        "moved": true,
+        "leave_pts": true,
+        "shots_made": 0,
+        "shots_missed": 3
+      },
+      "teleop": {
+        "shots_made": 6,
+        "shots_missed": 11,
+        "shot_from": "far",
+        "where_in_near": null,
+        "cycle": "med",
+        "played_defense": false,
+        "base": "full"
+      },
+      "response_to_defense": "N/A",
+      "robot": {
+        "drive": "tank",
+        "intake": false
+      },
+      "overall": {
+        "broke_down": false,
+        "driver_skill": "good",
+        "want_as_partner": "no"
       },
       "notes": ""
     }
