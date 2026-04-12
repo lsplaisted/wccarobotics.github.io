@@ -12,13 +12,13 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | Team | OPR | W-L-T | Avg Auto | Avg Teleop | Teleop Acc. |
 | ---- | --- | ----- | -------- | ---------- | ----------- |
 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48.5 | | | | |
-| [24813 SHCA Happy Hawks](/scouting/24813) | 25.8 | | ~12 pts (near) | ~69 pts | 23/26 (88%) |
+| [24813 SHCA Happy Hawks](/scouting/24813) | 25.8 | | ~9 pts (near) | ~39 pts | 13/16 (81%) |
 | [27795 The Sentinels](/scouting/27795) | 20.8 | | ~6 pts (near only) | ~13.5 pts | 9/15 (60%) |
 | [23958 Wait4iT](/scouting/23958) | 14.7 | | ~0 pts (leave) | ~9 pts | 3/11 (27%) |
 | [19712 NDAASentinels](/scouting/19712) | 14.3 | | ~1.5 pts | ~15 pts | 10/17 (59%) |
 | 20840 The Senjus of Raleigh | 13.3 | | | | |
 | [21993 Tech Titans](/scouting/21993) | 13.2 | | ~0 pts (far only, leave) | ~18 pts | 6/17 (35%) |
-| 28228 Mountaingears | 9.2 | | | | |
+| [28228 Mountaingears](/scouting/28228) | 9.2 | | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
 | [16899 CPUsaders_T](/scouting/16899) | 1.7 | | ~0 pts (far only, leave) | ~18 pts | 6/8 (75%) |
 | [5198 Wingnuts](/scouting/5198) | — | | ~9 pts (leave) | ~36 pts | 12/15 (80%) |
 | [8990 Mile High Academy Mustangs](/scouting/8990) | — | | ~0 pts (near only, leave) | ~0 pts | 0/0 |
