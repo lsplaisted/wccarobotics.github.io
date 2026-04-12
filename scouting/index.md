@@ -29,11 +29,11 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 8 | [19712 NDAASentinels](/scouting/19712) | 17 | 3-2-0 | ~1.5 pts | ~15 pts | 10/17 (59%) |
 | 11 | 18783 Eagle Tech | 17 | 2-2-0 |  |  |  |
 | 20 | [11020 Gearhead Gladiators](/scouting/11020) | 17 | 0-4-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
-| 21 | 20840 The Senjus of Raleigh | 16 | 0-5-0 |  |  |  |
+| 21 | 20840 The Senjus of Raleigh | 15 | 0-5-0 |  |  |  |
 | 17 | [31907 Wisconsin Academy](/scouting/31907) | 11 | 1-3-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
 | 19 | [26646 Stallion Robotics](/scouting/26646) | -20 | 1-2-0 | ~1.5 pts | ~9 pts | 6/9 (67%) |
 
-*Official FTC rankings and recalculated no-penalty OPR are current through Qualification 24.*
+*Refreshed from the FTC API: official rankings and recalculated no-penalty OPR are current through Qualification 24. Q25-Q27 are still awaiting posted scores.*
 
 ## Qualification Match Schedule & Results
 
@@ -73,4 +73,4 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 
 ---
 
-<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). Official rankings and recalculated OPR are current through Qualification 24.</small>
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). Official rankings and recalculated OPR are current through Qualification 24; Q25-Q27 are still awaiting posted scores.</small>
