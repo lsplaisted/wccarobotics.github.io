@@ -23,7 +23,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 5198 Wingnuts | — | | | | |
 | 8990 Mile High Academy Mustangs | — | | | | |
 | 11020 Gearhead Gladiators | — | | | | |
-| 13153 Marvin's Minions | — | | | | |
+| [13153 Marvin's Minions](/scouting/13153) | — | | | | |
 | 18783 Eagle Tech | — | | | | |
 | 24480 JagTech | — | | | | |
 | 26646 Stallion Robotics | — | | | | |
