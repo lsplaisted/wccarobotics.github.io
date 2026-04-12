@@ -31,7 +31,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 31620 Titanium Talons | — | | | | |
 | 31907 Wisconsin Academy | — | | | | |
 | [32350 CODEIAKS](/scouting/32350) | — | | | | |
-| 32453 TIGERBOTICS | — | | | | |
+| [32453 TIGERBOTICS](/scouting/32453) | — | | | | |
 
 *OPR data from [FTC Scout](https://ftcscout.org). Will be updated with championship data once matches begin.*
 
