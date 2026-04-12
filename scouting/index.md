@@ -25,7 +25,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 11020 Gearhead Gladiators | — | | | | |
 | [13153 Marvin's Minions](/scouting/13153) | — | | | | |
 | 18783 Eagle Tech | — | | | | |
-| 24480 JagTech | — | | | | |
+| [24480 JagTech](/scouting/24480) | — | | No auto (far only) | ~6 pts | 2/5 (40%) |
 | 26646 Stallion Robotics | — | | | | |
 | 30646 Apocalypse Neo Gen | — | | | | |
 | 31620 Titanium Talons | — | | | | |
