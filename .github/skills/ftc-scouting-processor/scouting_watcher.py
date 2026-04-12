@@ -7,7 +7,6 @@ Run this as a background process during a tournament.
 
 Usage:
     python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025
-    python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025 --video "https://www.youtube.com/watch?v=VIDEO_ID"
     python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025 --check 5
 
 Requires:
@@ -202,22 +201,20 @@ def check_new_matches(season, event_code, known_count):
         return known_count, False
 
 
-def update_matches_with_copilot(season, event_code, video_url=None):
+def update_matches_with_copilot(season, event_code):
     """Invoke Copilot CLI to update scouting pages with new match results."""
     prompt = (
         f"New match results are available for event {event_code} (season {season}). "
         f"Using the ftc-scouting-processor skill, fetch the latest match results and rankings "
         f"from the FTC API, recalculate OPR, update the scouting index page "
-        f"(match schedule, rankings, and OPR in the teams table), "
+        f"(match schedule, rankings, and OPR in the teams table). "
+        f"Also find the livestream URL from the tournament info pages on this site "
+        f"(look for pages referencing {event_code}), then find the timestamps for the new matches "
+        f"in the livestream using Playwright frame capture (search backward from the live edge in "
+        f"2-minute chunks, read the match overlay to find match number and timer, calculate match "
+        f"start time). Add the timestamps as links in the Video column of the match schedule table. "
+        f"Then git add, commit, and push the changes."
     )
-    if video_url:
-        prompt += (
-            f"then find the timestamps for the new matches in the livestream at {video_url} "
-            f"using Playwright frame capture (search backward from the live edge in 2-minute chunks, "
-            f"read the match overlay to find match number and timer, calculate match start time). "
-            f"Add the timestamps as links in the Video column of the match schedule table. "
-        )
-    prompt += "Then git add, commit, and push the changes."
 
     print(f"  Invoking Copilot CLI for match update...")
     result = subprocess.run(
@@ -279,8 +276,6 @@ def main():
                         help="FTC event code (e.g., USARLCMP) for match result polling")
     parser.add_argument("--season", type=str, default=None,
                         help="FTC season code (e.g., 2025)")
-    parser.add_argument("--video", type=str, default=None,
-                        help="YouTube livestream URL for match timestamp capture")
     args = parser.parse_args()
     photos_to_check = args.check
 
@@ -292,8 +287,6 @@ def main():
         print(f"Event: {args.event} (season {args.season})")
     else:
         print("No event specified — photo polling only (use --event and --season for match updates)")
-    if args.video:
-        print(f"Livestream: {args.video}")
     print(f"Incoming dir: {INCOMING_DIR}")
     print()
 
@@ -376,7 +369,7 @@ def main():
                 new_count, has_new = check_new_matches(args.season, args.event, known_match_count)
                 if has_new:
                     print(f"[{datetime.now().strftime('%H:%M:%S')}] New match results! ({known_match_count} → {new_count} scored matches)")
-                    update_matches_with_copilot(args.season, args.event, args.video)
+                    update_matches_with_copilot(args.season, args.event)
                     known_match_count = new_count
                     state["known_match_count"] = known_match_count
                     save_state(state)

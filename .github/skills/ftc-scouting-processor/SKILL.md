@@ -21,7 +21,8 @@ This skill processes photos of handwritten scouting forms and robot images taken
 
 Optional:
 3. **Robot photos** — photos of robots at the tournament, with team number visible on the nameplate
-4. **Scouting data folder** — a folder to watch for new photos (e.g., `C:\Users\Daniel\OneDrive\Documents\Scouting`)
+4. **Handwritten robot notes** — photos of handwritten notes about robots (observations, capabilities, strategy notes taken before or after qualification matches)
+5. **Scouting data folder** — a folder to watch for new photos (e.g., `C:\Users\Daniel\OneDrive\Documents\Scouting`)
 
 ## Setup for a new tournament
 
@@ -243,6 +244,29 @@ Typically one photo per team is sufficient. If a second photo arrives:
 
 Otherwise, keep the better photo and skip the duplicate.
 
+## Processing handwritten robot notes
+
+These are photos of handwritten notes about robots — observations about capabilities, mechanisms, strategy, strengths, or weaknesses. They may be taken during pit scouting before qualifications start, during matches, or after the event. Notes may cover one team or multiple teams on the same page.
+
+### Step 1: Read the notes
+
+Examine the photo and transcribe all the handwritten notes. Identify which team(s) the notes refer to — look for team numbers written on the page. If multiple teams are covered, separate the notes by team.
+
+### Step 2: Add to team scouting page(s)
+
+Add the observations to each team's scouting page under the **Scouting Notes** section for the current event. Integrate with any existing notes — don't duplicate information that's already there from scouting forms.
+
+Format the notes as bullet points summarizing the key observations. Use the original wording where it's clear, but clean up abbreviations and shorthand into readable text. For example:
+- "fast intake, can grab from wall" → "Fast intake — can grab samples from the wall"
+- "no auto" → "Does not run autonomous"
+- "good at defense, blocks well" → "Strong defensive play — effective at blocking"
+
+If the notes mention capabilities not captured by scouting forms (e.g., pit scouting observations about mechanisms, build quality, or strategy), these are especially valuable — make sure they're included.
+
+### Step 3: Update the index page
+
+If the notes contain information that would be useful in the Notes column of the Teams table in `scouting/index.md`, add a brief summary there too.
+
 ## Updating rankings, scores, and OPR
 
 Periodically during the tournament, update data from the FTC Events API. See authentication details in `.github/copilot-instructions.md`.
@@ -314,7 +338,7 @@ GET https://api.ftcscout.org/rest/v1/teams/{number}/quick-stats?season={season}
 
 ## Finding match timestamps in a livestream
 
-When a livestream URL is provided (via `--video` in the scouting watcher), find the timestamp for each new match in the video using Playwright-based frame capture. This uses the same approach as the FTC Tournament Analyzer skill.
+When a livestream URL is available, find the timestamp for each new match in the video using Playwright-based frame capture. This uses the same approach as the FTC Tournament Analyzer skill. The scouting watcher automatically finds the livestream URL by searching the site's markdown files for pages that reference the event code (e.g., the tournament info page).
 
 ### How it works
 
@@ -451,7 +475,6 @@ During a tournament, run the scouting watcher script as a background process:
 
 ```bash
 python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025
-python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025 --video "https://www.youtube.com/watch?v=VIDEO_ID"
 python .github/skills/ftc-scouting-processor/scouting_watcher.py --event USARLCMP --season 2025 --check 5
 ```
 
@@ -464,13 +487,14 @@ This script:
 3. Downloads new photos to `scouting/incoming/` (git-ignored)
 4. Invokes Copilot CLI to:
    - Post the match schedule when it becomes available
-   - Process scouting form photos and robot photos
+   - Process scouting form photos, robot photos, and handwritten robot notes
    - Update match results, rankings, and OPR when new matches are scored
-   - Find match timestamps in the livestream (if `--video` is specified) and add Video links to the match table
+   - Find the livestream URL from the site's tournament info pages, find match timestamps, and add Video links to the match table
 
 Copilot will determine what type of photo it is:
 - **Scouting form** — read the form, update data and pages, commit and push
 - **Robot photo** — identify team number, save to team's page, commit and push
+- **Handwritten robot notes** — read the notes, add observations to the appropriate team scouting page(s), commit and push
 - **Unrelated photo** — skip it (iCloud includes all photos, not just scouting ones)
 
 Use `--check N` to limit how many recent photos are checked each poll. Set this low (e.g., 5) once the tournament starts so it doesn't reprocess older photos.
