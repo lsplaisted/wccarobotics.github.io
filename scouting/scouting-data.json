@@ -1,5 +1,5 @@
 {
-  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg", "IMG_4450.jpg", "IMG_4452.jpg", "IMG_4453.jpg", "IMG_4454.jpg", "IMG_4455.jpg", "IMG_4456.jpg", "IMG_4457.jpg", "IMG_4458.jpg", "IMG_4459.jpg", "IMG_4465.jpg", "IMG_4466.jpg", "IMG_4467.jpg", "IMG_4468.jpg", "IMG_4469.jpg", "IMG_4470.jpg", "IMG_4471.jpg", "IMG_4472.jpg"],
+  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg", "IMG_4450.jpg", "IMG_4452.jpg", "IMG_4453.jpg", "IMG_4454.jpg", "IMG_4455.jpg", "IMG_4456.jpg", "IMG_4457.jpg", "IMG_4458.jpg", "IMG_4459.jpg", "IMG_4465.jpg", "IMG_4466.jpg", "IMG_4467.jpg", "IMG_4468.jpg", "IMG_4469.jpg", "IMG_4470.jpg", "IMG_4471.jpg", "IMG_4472.jpg", "IMG_4473.jpg"],
   "events": {
     "USARLRAS": {
       "name": "Adventist Robotics Carolina Scrimmage",
@@ -153,7 +153,8 @@
     },
     {
       "event_code": "USARLCMP",
-      "match": null,
+      "match": 1,
+      "match_label": "practice",
       "team": 24480,
       "alliance": "blue",
       "scout": "LV",
@@ -184,6 +185,40 @@
         "want_as_partner": "no"
       },
       "notes": "Driving either poor or robot partially not functioning."
+    },
+    {
+      "event_code": "USARLCMP",
+      "match": 2,
+      "team": 27795,
+      "alliance": "red",
+      "scout": "LW",
+      "auto": {
+        "start": "near",
+        "moved": null,
+        "leave_pts": null,
+        "shots_made": 2,
+        "shots_missed": 1
+      },
+      "teleop": {
+        "shots_made": 8,
+        "shots_missed": 0,
+        "shot_from": "near",
+        "where_in_near": "Sketch of shooting positions rather than text",
+        "cycle": "med",
+        "played_defense": false,
+        "base": "full"
+      },
+      "response_to_defense": "Paused or drove around",
+      "robot": {
+        "drive": "tank",
+        "intake": true
+      },
+      "overall": {
+        "broke_down": false,
+        "driver_skill": "good",
+        "want_as_partner": "maybe"
+      },
+      "notes": ""
     },
     {
       "event_code": "USARLCMP",
