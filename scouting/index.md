@@ -12,7 +12,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | Team | OPR | W-L-T | Avg Auto | Avg Teleop | Teleop Acc. |
 | ---- | --- | ----- | -------- | ---------- | ----------- |
 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48.5 | | | | |
-| [24813 SHCA Happy Hawks](/scouting/24813) | 25.8 | | | | |
+| [24813 SHCA Happy Hawks](/scouting/24813) | 25.8 | | ~12 pts (near) | ~69 pts | 23/26 (88%) |
 | [27795 The Sentinels](/scouting/27795) | 20.8 | | ~6 pts (near only) | ~13.5 pts | 9/15 (60%) |
 | [23958 Wait4iT](/scouting/23958) | 14.7 | | ~0 pts (leave) | ~9 pts | 3/11 (27%) |
 | [19712 NDAASentinels](/scouting/19712) | 14.3 | | ~0 pts (leave) | ~18 pts | 6/12 (50%) |
