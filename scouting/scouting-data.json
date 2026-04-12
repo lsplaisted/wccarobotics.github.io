@@ -1,5 +1,5 @@
 {
-  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg"],
+  "processed_photos": ["IMG_4400.jpg", "IMG_4401.jpg", "IMG_4402.jpg", "IMG_4430.jpg", "IMG_4435.jpg", "IMG_4436.jpg", "IMG_4437.jpg", "IMG_4438.jpg", "IMG_4439.jpg", "IMG_4440.jpg", "IMG_4441.jpg", "IMG_4442.jpg", "IMG_4443.jpg", "IMG_4444.jpg", "IMG_4445.jpg", "IMG_4446.jpg", "IMG_4449.jpg"],
   "events": {
     "USARLRAS": {
       "name": "Adventist Robotics Carolina Scrimmage",
@@ -184,6 +184,75 @@
         "want_as_partner": "no"
       },
       "notes": "Driving either poor or robot partially not functioning."
+    },
+    {
+      "event_code": "USARLCMP",
+      "match": null,
+      "match_label": "practice",
+      "team": 24480,
+      "alliance": "red",
+      "scout": "Daniel",
+      "auto": {
+        "start": "near",
+        "moved": true,
+        "leave_pts": true,
+        "shots_made": 4,
+        "shots_missed": 2
+      },
+      "teleop": {
+        "shots_made": 23,
+        "shots_missed": 3,
+        "shot_from": "near",
+        "where_in_near": null,
+        "cycle": "med",
+        "played_defense": false,
+        "base": "partial"
+      },
+      "response_to_defense": "N/A",
+      "robot": {
+        "drive": "tank",
+        "intake": true
+      },
+      "overall": {
+        "broke_down": null,
+        "driver_skill": null,
+        "want_as_partner": null
+      },
+      "notes": "RI3D design"
+    },
+    {
+      "event_code": "USARLCMP",
+      "match": null,
+      "team": 5198,
+      "alliance": null,
+      "scout": null,
+      "auto": {
+        "start": null,
+        "moved": true,
+        "leave_pts": true,
+        "shots_made": 3,
+        "shots_missed": 0
+      },
+      "teleop": {
+        "shots_made": 12,
+        "shots_missed": 3,
+        "shot_from": "near",
+        "where_in_near": "Towards top of near",
+        "cycle": "med",
+        "played_defense": false,
+        "base": "partial"
+      },
+      "response_to_defense": "",
+      "robot": {
+        "drive": "mecanum",
+        "intake": true
+      },
+      "overall": {
+        "broke_down": false,
+        "driver_skill": "excellent",
+        "want_as_partner": "maybe"
+      },
+      "notes": ""
     }
   ]
 }

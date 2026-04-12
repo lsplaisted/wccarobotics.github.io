@@ -20,7 +20,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 21993 Tech Titans | 13.2 | | | | |
 | 28228 Mountaingears | 9.2 | | | | |
 | 16899 CPUsaders_T | 1.7 | | | | |
-| 5198 Wingnuts | — | | | | |
+| [5198 Wingnuts](/scouting/5198) | — | | ~9 pts (leave) | ~36 pts | 12/15 (80%) |
 | 8990 Mile High Academy Mustangs | — | | | | |
 | 11020 Gearhead Gladiators | — | | | | |
 | [13153 Marvin's Minions](/scouting/13153) | — | | | | |
