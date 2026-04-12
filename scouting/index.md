@@ -20,20 +20,20 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 7 | [32350 CODEIAKS](/scouting/32350) | 48 | 3-2-0 | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
 | 13 | [16899 CPUsaders_T](/scouting/16899) | 39 | 3-2-0 | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
 | 17 | [23958 Wait4iT](/scouting/23958) | 32 | 1-4-0 | ~0 pts (leave) | ~10.5 pts | 7/20 (35%) |
-| 18 | 30646 Apocalypse Neo Gen | 27 | 1-4-0 |  |  |  |
 | 14 | [31907 Wisconsin Academy](/scouting/31907) | 27 | 2-3-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
+| 18 | 30646 Apocalypse Neo Gen | 27 | 1-4-0 |  |  |  |
 | 11 | [28228 Mountaingears](/scouting/28228) | 26 | 3-2-0 | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
 | 12 | [8990 Mile High Academy Mustangs](/scouting/8990) | 26 | 3-2-0 | ~0 pts (near only, leave) | ~0 pts | 0/0 |
 | 16 | [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | 25 | 2-3-0 | No auto (far only) | ~0 pts | 0/2 (0%) |
 | 10 | [32453 TIGERBOTICS](/scouting/32453) | 19 | 3-2-0 | ~0 pts (near only) | ~15 pts | 5/7 (71%) |
 | 9 | 18783 Eagle Tech | 18 | 3-2-0 |  |  |  |
-| 15 | [13153 Marvin's Minions](/scouting/13153) | 14 | 2-3-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
 | 8 | [19712 NDAASentinels](/scouting/19712) | 14 | 3-2-0 | ~1.5 pts | ~15 pts | 10/17 (59%) |
+| 15 | [13153 Marvin's Minions](/scouting/13153) | 14 | 2-3-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
 | 20 | 20840 The Senjus of Raleigh | 14 | 0-5-0 |  |  |  |
 | 19 | [11020 Gearhead Gladiators](/scouting/11020) | 10 | 0-5-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
 | 21 | [26646 Stallion Robotics](/scouting/26646) | -10 | 1-4-0 | ~1.5 pts | ~9 pts | 6/9 (67%) |
 
-*Refreshed from the FTC API: official rankings and recalculated no-penalty OPR are current through Qualification 27, with all qualification scores now posted.*
+*Refreshed from the FTC API: final qualification rankings and recalculated no-penalty OPR are current through Qualification 27, and playoff results are now posted through the upper bracket semifinals.*
 
 ## Qualification Match Schedule & Results
 
@@ -69,8 +69,18 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | Q26 | 2:54 PM | 11020 Gearhead Gladiators | 30646 Apocalypse Neo Gen | 21993 Tech Titans | 32314 Marcus Bartholomew the Third Senior | 38 | **80** |
 | Q27 | 3:00 PM | 18783 Eagle Tech | 27795 The Sentinels | 26646 Stallion Robotics | 23958 Wait4iT | **101** | 68 |
 
-**Our matches (32314):** Q2, Q6, Q13, Q21, Q26
+## Playoff Matches
+
+| Match | Red 1 | Red 2 | Blue 1 | Blue 2 | Red Score | Blue Score |
+| ----- | ----- | ----- | ------ | ------ | --------- | ---------- |
+| Upper Bracket Round 1 Match 1 | 32314 Marcus Bartholomew the Third Senior | 16899 CPUsaders_T | 32350 CODEIAKS | 8990 Mile High Academy Mustangs | **100** | 48 |
+| Upper Bracket Round 1 Match 2 | 24480 JagTech | 19712 NDAASentinels | 18783 Eagle Tech | 32453 TIGERBOTICS | **113** | 73 |
+| Upper Bracket Round 2 Match 3 | 21993 Tech Titans | 24813 SHCA Happy Hawks | 16899 CPUsaders_T | 32314 Marcus Bartholomew the Third Senior | 124 | **129** |
+| Upper Bracket Round 2 Match 4 | 5198 Wingnuts | 27795 The Sentinels | 24480 JagTech | 19712 NDAASentinels | 100 | **121** |
+
+**Our qualification matches (32314):** Q2, Q6, Q13, Q21, Q26  
+**Our playoff matches (32314):** Upper Bracket Round 1 Match 1, Upper Bracket Round 2 Match 3
 
 ---
 
-<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). Official rankings and recalculated OPR are current through Qualification 27, with the full qualification slate now posted.</small>
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). Official qualification rankings and recalculated no-penalty OPR are final through Qualification 27, and playoff results are posted through the upper bracket semifinals.</small>
