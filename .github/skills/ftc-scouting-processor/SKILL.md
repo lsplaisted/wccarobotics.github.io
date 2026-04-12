@@ -44,9 +44,9 @@ The teams table combines rankings and scouting data in one view:
 ```markdown
 ## Teams
 
-| Rank | Team | RS | W-L-T | Match Pts | Avg Auto | Avg Teleop | Teleop Acc. | Notes |
-| ---- | ---- | -- | ----- | --------- | -------- | ---------- | ----------- | ----- |
-| 1 | [TEAM_NUM TEAM_NAME](/scouting/TEAM_NUM) | RS | W-L-T | PTS | auto data | teleop data | accuracy | notes |
+| Team | OPR | W-L-T | Avg Auto | Avg Teleop | Teleop Acc. |
+| ---- | --- | ----- | -------- | ---------- | ----------- |
+| [TEAM_NUM TEAM_NAME](/scouting/TEAM_NUM) | OPR | W-L-T | auto data | teleop data | accuracy |
 ```
 
 Teams with scouting data link to their detail page. Scouting columns are blank until data comes in.
@@ -202,7 +202,7 @@ title: "Scouting — TEAM_NUM TEAM_NAME"
 
 Update the team's row in the Teams table in `scouting/index.md`:
 - Add a link to the team detail page
-- Fill in Avg Auto (with near/far note if only one position), Avg Teleop, Teleop Accuracy, and Notes
+- Fill in W-L-T, Avg Auto (with near/far note if only one position), Avg Teleop, and Teleop Accuracy
 - Update rankings if they've changed
 
 ## Processing robot photos
@@ -263,9 +263,9 @@ Format the notes as bullet points summarizing the key observations. Use the orig
 
 If the notes mention capabilities not captured by scouting forms (e.g., pit scouting observations about mechanisms, build quality, or strategy), these are especially valuable — make sure they're included.
 
-### Step 3: Update the index page
+### Step 3: Commit and push
 
-If the notes contain information that would be useful in the Notes column of the Teams table in `scouting/index.md`, add a brief summary there too.
+Commit the updated scouting page(s) and push.
 
 ## Updating rankings, scores, and OPR
 

@@ -485,6 +485,21 @@ img { max-width: 100%; height: auto; }
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  user-select: none;
+}
+
+.page-content th.sort-asc::after,
+.page-content th.sort-desc::after {
+  margin-left: 0.35em;
+  font-size: 0.7em;
+}
+
+.page-content th.sort-asc::after {
+  content: "▲";
+}
+
+.page-content th.sort-desc::after {
+  content: "▼";
 }
 
 .page-content td {
