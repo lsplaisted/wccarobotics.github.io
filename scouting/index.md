@@ -11,29 +11,29 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 
 | Team | OPR | W-L-T | Avg Auto | Avg Teleop | Teleop Acc. |
 | ---- | --- | ----- | -------- | ---------- | ----------- |
-| [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48.5 | | | | |
-| [24813 SHCA Happy Hawks](/scouting/24813) | 25.8 | | ~9 pts (near) | ~39 pts | 13/16 (81%) |
-| [27795 The Sentinels](/scouting/27795) | 20.8 | | ~6 pts (near only) | ~24 pts | 8/8 (100%) |
-| [23958 Wait4iT](/scouting/23958) | 14.7 | | ~0 pts (leave) | ~10.5 pts | 7/20 (35%) |
-| [19712 NDAASentinels](/scouting/19712) | 14.3 | | ~1.5 pts | ~15 pts | 10/17 (59%) |
-| 20840 The Senjus of Raleigh | 13.3 | | | | |
-| [21993 Tech Titans](/scouting/21993) | 13.2 | | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
-| [28228 Mountaingears](/scouting/28228) | 9.2 | | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
-| [16899 CPUsaders_T](/scouting/16899) | 1.7 | | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
-| [5198 Wingnuts](/scouting/5198) | — | | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
-| [8990 Mile High Academy Mustangs](/scouting/8990) | — | | ~0 pts (near only, leave) | ~0 pts | 0/0 |
-| [11020 Gearhead Gladiators](/scouting/11020) | — | | No auto (near only) | ~0 pts | 0/1 (0%) |
-| [13153 Marvin's Minions](/scouting/13153) | — | | No auto (far only) | ~6 pts | 2/7 (29%) |
-| 18783 Eagle Tech | — | | | | |
-| [24480 JagTech](/scouting/24480) | — | | No auto (far only) | ~6 pts | 2/5 (40%) |
-| [26646 Stallion Robotics](/scouting/26646) | — | | ~1.5 pts | ~9 pts | 6/9 (67%) |
-| 30646 Apocalypse Neo Gen | — | | | | |
-| [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | — | | No auto (far only) | ~0 pts | 0/2 (0%) |
-| [31907 Wisconsin Academy](/scouting/31907) | — | | No auto (far only) | ~15 pts | 5/5 (100%) |
-| [32350 CODEIAKS](/scouting/32350) | — | | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
-| [32453 TIGERBOTICS](/scouting/32453) | — | | ~0 pts (near only) | ~15 pts | 5/7 (71%) |
+| 30646 Apocalypse Neo Gen | 103 | 1-0-0 | | | |
+| [27795 The Sentinels](/scouting/27795) | 86 | 1-1-0 | ~6 pts (near only) | ~24 pts | 8/8 (100%) |
+| [21993 Tech Titans](/scouting/21993) | 73 | 2-0-0 | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
+| [24813 SHCA Happy Hawks](/scouting/24813) | 69 | 2-0-0 | ~9 pts (near) | ~39 pts | 13/16 (81%) |
+| [32350 CODEIAKS](/scouting/32350) | 60 | 0-1-0 | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
+| [24480 JagTech](/scouting/24480) | 59 | 2-0-0 | No auto (far only) | ~6 pts | 2/5 (40%) |
+| [13153 Marvin's Minions](/scouting/13153) | 54 | 2-0-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
+| [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 54 | 1-1-0 | | | |
+| [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | 50 | 1-1-0 | No auto (far only) | ~0 pts | 0/2 (0%) |
+| [32453 TIGERBOTICS](/scouting/32453) | 45 | 1-1-0 | ~0 pts (near only) | ~15 pts | 5/7 (71%) |
+| [23958 Wait4iT](/scouting/23958) | 37 | 0-1-0 | ~0 pts (leave) | ~10.5 pts | 7/20 (35%) |
+| [5198 Wingnuts](/scouting/5198) | 28 | 1-1-0 | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
+| [8990 Mile High Academy Mustangs](/scouting/8990) | 25 | 0-2-0 | ~0 pts (near only, leave) | ~0 pts | 0/0 |
+| 20840 The Senjus of Raleigh | 20 | 0-2-0 | | | |
+| [11020 Gearhead Gladiators](/scouting/11020) | 16 | 0-1-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
+| 18783 Eagle Tech | 10 | 1-0-0 | | | |
+| [16899 CPUsaders_T](/scouting/16899) | 10 | 1-1-0 | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
+| [31907 Wisconsin Academy](/scouting/31907) | 1 | 0-2-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
+| [19712 NDAASentinels](/scouting/19712) | -15 | 0-1-0 | ~1.5 pts | ~15 pts | 10/17 (59%) |
+| [26646 Stallion Robotics](/scouting/26646) | -29 | 1-1-0 | ~1.5 pts | ~9 pts | 6/9 (67%) |
+| [28228 Mountaingears](/scouting/28228) | -47 | 1-1-0 | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
 
-*OPR data from [FTC Scout](https://ftcscout.org). Will be updated with championship data once matches begin.*
+*OPR is now recalculated from official championship qualification results using no-penalty scores.*
 
 ## Qualification Match Schedule
 
@@ -41,15 +41,15 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 
 | Match | Time | Red 1 | Red 2 | Blue 1 | Blue 2 | Red Score | Blue Score |
 | ----- | ---- | ----- | ----- | ------ | ------ | --------- | ---------- |
-| Q1 | 11:15 AM | 24480 JagTech | 18783 Eagle Tech | 32453 TIGERBOTICS | 16899 CPUsaders_T | | |
-| Q2 | 11:21 AM | 19712 NDAASentinels | 27795 The Sentinels | 32314 Marcus Bartholomew the Third Senior | 31620 Titanium Talons (Collegedale Academy) | | |
-| Q3 | 11:28 AM | 13153 Marvin's Minions | 26646 Stallion Robotics | 20840 The Senjus of Raleigh | 11020 Gearhead Gladiators | | |
-| Q4 | 11:34 AM | 8990 Mile High Academy Mustangs | 32350 CODEIAKS | 5198 Wingnuts | 21993 Tech Titans | | |
-| Q5 | 11:41 AM | 23958 Wait4iT | 31907 Wisconsin Academy | 30646 Apocalypse Neo Gen | 28228 Mountaingears | | |
-| Q6 | 11:47 AM | 24813 SHCA Happy Hawks | 32453 TIGERBOTICS | 32314 Marcus Bartholomew the Third Senior | 26646 Stallion Robotics | | |
-| Q7 | 1:00 PM | 28228 Mountaingears | 31620 Titanium Talons (Collegedale Academy) | 24480 JagTech | 21993 Tech Titans | | |
-| Q8 | 1:06 PM | 31907 Wisconsin Academy | 8990 Mile High Academy Mustangs | 24813 SHCA Happy Hawks | 13153 Marvin's Minions | | |
-| Q9 | 1:12 PM | 5198 Wingnuts | 20840 The Senjus of Raleigh | 27795 The Sentinels | 16899 CPUsaders_T | | |
+| Q1 | 11:15 AM | 24480 JagTech | 18783 Eagle Tech | 32453 TIGERBOTICS | 16899 CPUsaders_T | **99** | 70 |
+| Q2 | 11:21 AM | 19712 NDAASentinels | 27795 The Sentinels | 32314 Marcus Bartholomew the Third Senior | 31620 Titanium Talons (Collegedale Academy) | 106 | **119** |
+| Q3 | 11:28 AM | 13153 Marvin's Minions | 26646 Stallion Robotics | 20840 The Senjus of Raleigh | 11020 Gearhead Gladiators | **40** | 36 |
+| Q4 | 11:34 AM | 8990 Mile High Academy Mustangs | 32350 CODEIAKS | 5198 Wingnuts | 21993 Tech Titans | 100 | **101** |
+| Q5 | 11:41 AM | 23958 Wait4iT | 31907 Wisconsin Academy | 30646 Apocalypse Neo Gen | 28228 Mountaingears | 58 | **71** |
+| Q6 | 11:47 AM | 24813 SHCA Happy Hawks | 32453 TIGERBOTICS | 32314 Marcus Bartholomew the Third Senior | 26646 Stallion Robotics | **129** | 70 |
+| Q7 | 1:00 PM | 28228 Mountaingears | 31620 Titanium Talons (Collegedale Academy) | 24480 JagTech | 21993 Tech Titans | 18 | **132** |
+| Q8 | 1:06 PM | 31907 Wisconsin Academy | 8990 Mile High Academy Mustangs | 24813 SHCA Happy Hawks | 13153 Marvin's Minions | 56 | **128** |
+| Q9 | 1:12 PM | 5198 Wingnuts | 20840 The Senjus of Raleigh | 27795 The Sentinels | 16899 CPUsaders_T | 63 | **106** |
 | Q10 | 1:18 PM | 11020 Gearhead Gladiators | 23958 Wait4iT | 19712 NDAASentinels | 32350 CODEIAKS | | |
 | Q11 | 1:24 PM | 24813 SHCA Happy Hawks | 18783 Eagle Tech | 30646 Apocalypse Neo Gen | 5198 Wingnuts | | |
 | Q12 | 1:30 PM | 26646 Stallion Robotics\* | 11020 Gearhead Gladiators | 27795 The Sentinels\* | 28228 Mountaingears | | |
@@ -73,4 +73,4 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 
 ---
 
-<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). OPR data from [FTC Scout](https://ftcscout.org).</small>
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). OPR recalculated from official qualification results using no-penalty scores.</small>
