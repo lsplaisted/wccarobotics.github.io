@@ -26,7 +26,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | [13153 Marvin's Minions](/scouting/13153) | — | | No auto (far only) | ~6 pts | 2/7 (29%) |
 | 18783 Eagle Tech | — | | | | |
 | [24480 JagTech](/scouting/24480) | — | | No auto (far only) | ~6 pts | 2/5 (40%) |
-| 26646 Stallion Robotics | — | | | | |
+| [26646 Stallion Robotics](/scouting/26646) | — | | | | |
 | 30646 Apocalypse Neo Gen | — | | | | |
 | [31620 Titanium Talons](/scouting/31620) | — | | No auto (far only) | ~0 pts | 0/2 (0%) |
 | [31907 Wisconsin Academy](/scouting/31907) | — | | No auto (far only) | ~15 pts | 5/5 (100%) |
