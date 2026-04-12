@@ -14,7 +14,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48.5 | | | | |
 | [24813 SHCA Happy Hawks](/scouting/24813) | 25.8 | | | | |
 | [27795 The Sentinels](/scouting/27795) | 20.8 | | ~6 pts (near only) | ~13.5 pts | 9/15 (60%) |
-| 23958 Wait4iT | 14.7 | | | | |
+| [23958 Wait4iT](/scouting/23958) | 14.7 | | | | |
 | 19712 NDAASentinels | 14.3 | | | | |
 | 20840 The Senjus of Raleigh | 13.3 | | | | |
 | 21993 Tech Titans | 13.2 | | | | |
