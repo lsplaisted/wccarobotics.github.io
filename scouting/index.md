@@ -19,7 +19,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 20840 The Senjus of Raleigh | 13.3 | | | | |
 | [21993 Tech Titans](/scouting/21993) | 13.2 | | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
 | [28228 Mountaingears](/scouting/28228) | 9.2 | | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
-| [16899 CPUsaders_T](/scouting/16899) | 1.7 | | ~0 pts (far only, leave) | ~18 pts | 6/8 (75%) |
+| [16899 CPUsaders_T](/scouting/16899) | 1.7 | | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
 | [5198 Wingnuts](/scouting/5198) | — | | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
 | [8990 Mile High Academy Mustangs](/scouting/8990) | — | | ~0 pts (near only, leave) | ~0 pts | 0/0 |
 | [11020 Gearhead Gladiators](/scouting/11020) | — | | No auto (near only) | ~0 pts | 0/1 (0%) |
