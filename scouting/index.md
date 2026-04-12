@@ -15,7 +15,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | [24813 SHCA Happy Hawks](/scouting/24813) | 25.8 | | | | |
 | [27795 The Sentinels](/scouting/27795) | 20.8 | | ~6 pts (near only) | ~13.5 pts | 9/15 (60%) |
 | [23958 Wait4iT](/scouting/23958) | 14.7 | | | | |
-| 19712 NDAASentinels | 14.3 | | | | |
+| [19712 NDAASentinels](/scouting/19712) | 14.3 | | ~0 pts (leave) | ~18 pts | 6/12 (50%) |
 | 20840 The Senjus of Raleigh | 13.3 | | | | |
 | 21993 Tech Titans | 13.2 | | | | |
 | 28228 Mountaingears | 9.2 | | | | |
