@@ -11,29 +11,29 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 
 | Rank | Team | OPR | W-L-T | Avg Auto | Avg Teleop | Teleop Acc. |
 | ---- | ---- | --- | ----- | -------- | ---------- | ----------- |
-| 2 | [24813 SHCA Happy Hawks](/scouting/24813) | 89 | 4-1-0 | ~9 pts (near) | ~39 pts | 13/16 (81%) |
-| 5 | [27795 The Sentinels](/scouting/27795) | 67 | 3-1-0 | ~6 pts (near only) | ~24 pts | 8/8 (100%) |
-| 4 | [24480 JagTech](/scouting/24480) | 66 | 4-1-0 | No auto (far only) | ~6 pts | 2/5 (40%) |
-| 6 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 64 | 2-2-0 |  |  |  |
-| 1 | [21993 Tech Titans](/scouting/21993) | 63 | 4-0-0 | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
-| 7 | [32350 CODEIAKS](/scouting/32350) | 50 | 3-2-0 | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
-| 3 | [5198 Wingnuts](/scouting/5198) | 48 | 3-2-0 | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
-| 13 | [16899 CPUsaders_T](/scouting/16899) | 42 | 3-2-0 | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
-| 18 | 30646 Apocalypse Neo Gen | 30 | 1-3-0 |  |  |  |
-| 12 | [8990 Mile High Academy Mustangs](/scouting/8990) | 28 | 3-2-0 | ~0 pts (near only, leave) | ~0 pts | 0/0 |
-| 10 | [28228 Mountaingears](/scouting/28228) | 24 | 3-2-0 | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
-| 14 | [31907 Wisconsin Academy](/scouting/31907) | 24 | 2-3-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
-| 17 | [23958 Wait4iT](/scouting/23958) | 23 | 1-3-0 | ~0 pts (leave) | ~10.5 pts | 7/20 (35%) |
-| 16 | [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | 21 | 2-3-0 | No auto (far only) | ~0 pts | 0/2 (0%) |
-| 9 | [32453 TIGERBOTICS](/scouting/32453) | 19 | 3-2-0 | ~0 pts (near only) | ~15 pts | 5/7 (71%) |
-| 15 | [13153 Marvin's Minions](/scouting/13153) | 18 | 2-3-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
-| 11 | 18783 Eagle Tech | 17 | 2-2-0 |  |  |  |
-| 20 | [11020 Gearhead Gladiators](/scouting/11020) | 16 | 0-4-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
+| 2 | [24813 SHCA Happy Hawks](/scouting/24813) | 93 | 4-1-0 | ~9 pts (near) | ~39 pts | 13/16 (81%) |
+| 5 | [27795 The Sentinels](/scouting/27795) | 70 | 4-1-0 | ~6 pts (near only) | ~24 pts | 8/8 (100%) |
+| 4 | [24480 JagTech](/scouting/24480) | 69 | 4-1-0 | No auto (far only) | ~6 pts | 2/5 (40%) |
+| 1 | [21993 Tech Titans](/scouting/21993) | 50 | 5-0-0 | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
+| 3 | [5198 Wingnuts](/scouting/5198) | 49 | 3-2-0 | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
+| 6 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48 | 3-2-0 |  |  |  |
+| 7 | [32350 CODEIAKS](/scouting/32350) | 48 | 3-2-0 | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
+| 13 | [16899 CPUsaders_T](/scouting/16899) | 39 | 3-2-0 | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
+| 17 | [23958 Wait4iT](/scouting/23958) | 32 | 1-4-0 | ~0 pts (leave) | ~10.5 pts | 7/20 (35%) |
+| 18 | 30646 Apocalypse Neo Gen | 27 | 1-4-0 |  |  |  |
+| 14 | [31907 Wisconsin Academy](/scouting/31907) | 27 | 2-3-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
+| 11 | [28228 Mountaingears](/scouting/28228) | 26 | 3-2-0 | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
+| 12 | [8990 Mile High Academy Mustangs](/scouting/8990) | 26 | 3-2-0 | ~0 pts (near only, leave) | ~0 pts | 0/0 |
+| 16 | [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | 25 | 2-3-0 | No auto (far only) | ~0 pts | 0/2 (0%) |
+| 10 | [32453 TIGERBOTICS](/scouting/32453) | 19 | 3-2-0 | ~0 pts (near only) | ~15 pts | 5/7 (71%) |
+| 9 | 18783 Eagle Tech | 18 | 3-2-0 |  |  |  |
+| 15 | [13153 Marvin's Minions](/scouting/13153) | 14 | 2-3-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
 | 8 | [19712 NDAASentinels](/scouting/19712) | 14 | 3-2-0 | ~1.5 pts | ~15 pts | 10/17 (59%) |
-| 21 | 20840 The Senjus of Raleigh | 14 | 0-5-0 |  |  |  |
-| 19 | [26646 Stallion Robotics](/scouting/26646) | -22 | 1-3-0 | ~1.5 pts | ~9 pts | 6/9 (67%) |
+| 20 | 20840 The Senjus of Raleigh | 14 | 0-5-0 |  |  |  |
+| 19 | [11020 Gearhead Gladiators](/scouting/11020) | 10 | 0-5-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
+| 21 | [26646 Stallion Robotics](/scouting/26646) | -10 | 1-4-0 | ~1.5 pts | ~9 pts | 6/9 (67%) |
 
-*Refreshed from the FTC API: official rankings and recalculated no-penalty OPR are current through Qualification 25. Q26-Q27 are still awaiting posted scores.*
+*Refreshed from the FTC API: official rankings and recalculated no-penalty OPR are current through Qualification 27, with all qualification scores now posted.*
 
 ## Qualification Match Schedule & Results
 
@@ -66,11 +66,11 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | Q23 | 2:36 PM | 24480 JagTech | 19712 NDAASentinels | 20840 The Senjus of Raleigh | 24813 SHCA Happy Hawks | **126** | 114 |
 | Q24 | 2:42 PM | 28228 Mountaingears | 32453 TIGERBOTICS | 27795 The Sentinels | 8990 Mile High Academy Mustangs | 64 | **92** |
 | Q25 | 2:48 PM | 16899 CPUsaders_T | 31907 Wisconsin Academy | 32350 CODEIAKS | 26646 Stallion Robotics | **117** | 87 |
-| Q26 | 2:54 PM | 11020 Gearhead Gladiators | 30646 Apocalypse Neo Gen | 21993 Tech Titans | 32314 Marcus Bartholomew the Third Senior | — | — |
-| Q27 | 3:00 PM | 18783 Eagle Tech | 27795 The Sentinels | 26646 Stallion Robotics | 23958 Wait4iT | — | — |
+| Q26 | 2:54 PM | 11020 Gearhead Gladiators | 30646 Apocalypse Neo Gen | 21993 Tech Titans | 32314 Marcus Bartholomew the Third Senior | 38 | **80** |
+| Q27 | 3:00 PM | 18783 Eagle Tech | 27795 The Sentinels | 26646 Stallion Robotics | 23958 Wait4iT | **101** | 68 |
 
 **Our matches (32314):** Q2, Q6, Q13, Q21, Q26
 
 ---
 
-<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). Official rankings and recalculated OPR are current through Qualification 25; Q26-Q27 are still awaiting posted scores.</small>
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). Official rankings and recalculated OPR are current through Qualification 27, with the full qualification slate now posted.</small>
