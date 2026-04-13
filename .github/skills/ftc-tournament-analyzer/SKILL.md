@@ -15,7 +15,12 @@ This skill analyzes an FTC (FIRST Tech Challenge) tournament livestream video to
 
 ## Required inputs
 
-1. **YouTube video URL** — the full tournament livestream
+1. **YouTube video URL** — the full tournament livestream. Before asking the user, check for it in:
+   - The homepage (`index.md`) — announcement boxes often contain livestream links
+   - The FTC page (`ftc.md`) — may have a championship info section with the link
+   - Tournament info pages (`tournaments/ftc/*-Info.md`) — event logistics pages often embed the livestream
+   - The scouting index (`scouting/index.md`) — may reference the video
+   Only ask the user if the link can't be found on the site.
 2. **FTC Events URL** — e.g., `https://ftc-events.firstinspires.org/2024/USARLCMP` — for scores, rankings, alliances, and awards
 3. **Output filename** — the markdown file to create (e.g., `tournaments/ftc/2025-Adventist-Robotics-League-Championship-FTC.md`)
 
