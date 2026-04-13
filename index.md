@@ -16,12 +16,12 @@ layout: home
 <div class="section section-alt">
   <div class="container">
     <div class="highlight-box">
-      <h3>📺 FTC Championship — April 12</h3>
-      <p>Our FTC team <strong>Marcus Bartholomew the Third Senior</strong> competes in the <strong>Adventist Robotics FTC Championship</strong> this Sunday at Forest Lake Academy! The opening ceremony and livestream start around 10:30 AM.</p>
-      <a href="https://www.youtube.com/live/ggJtTakQWaU" class="btn btn-blue" style="margin-top: 0.75rem;" target="_blank">Watch the Livestream →</a>
+      <h3>🏆 Control Award & 3rd Place at FTC Championship!</h3>
+      <p>Our FTC team <strong>Marcus Bartholomew the Third Senior</strong> won the <strong>Control Award</strong> and finished <strong>3rd place in the playoffs</strong> at the Adventist Robotics FTC Championship on April 12! As the 4th-seeded alliance, we upset the #1 seed in the upper bracket before falling in the lower bracket semifinals.</p>
+      <a href="/tournaments/ftc/2026-Adventist-Robotics-League-Championship-FTC" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
     </div>
     <div class="highlight-box" style="margin-top: 1.5rem;">
-      <h3>🏆 1st and 2nd at Florida Qualifier!</h3>
+      <h3>🏆 1st and 2nd at FLL Florida Qualifier!</h3>
       <p>Our FLL teams swept the top spots at the Adventist Robotics Florida Qualifying Tournament on March 29! <strong>Robo Gators of the Lost Park</strong> won the <strong>Champions Award</strong> and <strong>Marcus Bartholomew the Third Junior</strong> took 2nd place — both teams advance to the Championship!</p>
       <a href="/tournaments/fll/2026-FLL-Florida-Qualifier" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
     </div>
