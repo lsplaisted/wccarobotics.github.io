@@ -291,6 +291,17 @@ Also search for explicit match number mentions:
 - Extra: Check for false starts ("reset", "stop" within 30s after countdown), opening ceremony kickoffs, or match redos
 - Missing: Estimate timestamps based on spacing between known matches (FTC matches are typically 5-7 minutes apart)
 
+**If the FTC API has scheduled match times**, you can compute a time offset between the API's scheduled times and your caption timestamps. If the offset is consistent across known matches, apply it to calculate timestamps for missing ones. This works well when the schedule ran on time but may be unreliable if there were significant delays.
+
+#### Using frame capture to fill gaps (hybrid approach)
+
+When caption-based timestamps have gaps or ambiguous spots — for example, matches with irregular spacing, unclear countdown classifications, or large sections without usable captions — use Playwright frame capture (Step 2) to resolve them. This is faster than scanning the entire video with frames, and more reliable than interpolation when the match schedule wasn't regular.
+
+1. Identify the gaps: time ranges where you expect a match start but have no confident caption timestamp
+2. For each gap, capture 2–3 frames at estimated positions within the gap
+3. Read the match overlay to confirm which match is playing and calculate the exact start time
+4. This typically requires only 5–10 frame captures total (~2 minutes), not one per match
+
 ### Step 6: Search for awards ceremony timestamps
 
 Search the last ~30-60 minutes of captions for award announcements. Standard FTC awards (in typical order of announcement):
