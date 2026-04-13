@@ -150,6 +150,10 @@ Alliances were formed through alliance selection after qualification matches. Th
 
 ### FIRST Leadership Award — [7:46:59](https://www.youtube.com/live/ggJtTakQWaU?t=28019)
 
+Semifinalists were presented during the [opening ceremony](https://www.youtube.com/live/ggJtTakQWaU?t=1848):
+
+- Semi-Finalist: 16899 CPUsaders_T — Will Molina
+- Semi-Finalist: 24813 SHCA Happy Hawks — Andrea Solace
 - **Winner: 24813 SHCA Happy Hawks — Jose Laurencio Soriano**
 
 ### Inspire Award — [7:48:57](https://www.youtube.com/live/ggJtTakQWaU?t=28137)
