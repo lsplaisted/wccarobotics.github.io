@@ -19,6 +19,7 @@ layout: home
       <h3>🏆 Control Award & 3rd Place at FTC Championship!</h3>
       <p>Our FTC team <strong>Marcus Bartholomew the Third Senior</strong> won the <strong>Control Award</strong> and finished <strong>3rd place in the playoffs</strong> at the Adventist Robotics FTC Championship on April 12! As the 4th-seeded alliance, we upset the #1 seed in the upper bracket before falling in the lower bracket semifinals.</p>
       <a href="/tournaments/ftc/2026-Adventist-Robotics-League-Championship-FTC" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
+      <a href="/ftc/ftc-decode-portfolio-32314-v1.0.pdf" class="btn btn-blue" style="margin-top: 0.5rem;">View Our Judging Portfolio →</a>
     </div>
     <div class="highlight-box" style="margin-top: 1.5rem;">
       <h3>🏆 1st and 2nd at FLL Florida Qualifier!</h3>
