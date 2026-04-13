@@ -15,7 +15,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 5 | [27795 The Sentinels](/scouting/27795) | 70 | 4-1-0 | ~6 pts (near only) | ~24 pts | 8/8 (100%) |
 | 4 | [24480 JagTech](/scouting/24480) | 69 | 4-1-0 | No auto (far only) | ~22.5 pts | 15/20 (75%) |
 | 1 | [21993 Tech Titans](/scouting/21993) | 50 | 5-0-0 | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
-| 3 | [5198 Wingnuts](/scouting/5198) | 49 | 3-2-0 | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
+| 3 | [5198 Wingnuts](/scouting/5198) | 49 | 3-2-0 | ~5 pts (leave) | ~31 pts | 31/42 (74%) |
 | 6 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48 | 3-2-0 |  |  |  |
 | 7 | [32350 CODEIAKS](/scouting/32350) | 48 | 3-2-0 | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
 | 13 | [16899 CPUsaders_T](/scouting/16899) | 39 | 3-2-0 | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
@@ -31,7 +31,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 15 | [13153 Marvin's Minions](/scouting/13153) | 14 | 2-3-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
 | 20 | 20840 The Senjus of Raleigh | 14 | 0-5-0 |  |  |  |
 | 19 | [11020 Gearhead Gladiators](/scouting/11020) | 10 | 0-5-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
-| 21 | [26646 Stallion Robotics](/scouting/26646) | -10 | 1-4-0 | ~1.5 pts | ~9 pts | 6/9 (67%) |
+| 21 | [26646 Stallion Robotics](/scouting/26646) | -10 | 1-4-0 | ~2 pts | ~9 pts | 9/15 (60%) |
 
 *Refreshed from the FTC API: final qualification rankings and recalculated no-penalty OPR are current through Qualification 27, and playoff results are now final through Final Bracket Round 6 Match 10.*
 
