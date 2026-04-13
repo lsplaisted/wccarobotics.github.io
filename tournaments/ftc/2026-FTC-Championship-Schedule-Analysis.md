@@ -20,26 +20,28 @@ A higher (less negative) value means a team had stronger partners and/or weaker 
 | Team | OPR | Rank | W-L | Avg Favorability | Expected Wins | Actual Wins | Luck |
 | ---- | --- | ---- | --- | ---------------- | ------------- | ----------- | ---- |
 | 21993 Tech Titans | 44 | 1 | 5-0 | +3.4 | 5.0 | 5 | 0.0 |
-| 24813 SHCA Happy Hawks | 101 | 2 | 4-1 | −62.5 | 5.0 | 4 | −1.0 |
-| 5198 Wingnuts | 58 | 3 | 3-2 | −56.6 | 3.0 | 3 | 0.0 |
+| 24813 SHCA Happy Hawks | 100 | 2 | 4-1 | −62.5 | 5.0 | 4 | −1.0 |
+| 5198 Wingnuts | 57 | 3 | 3-2 | −56.6 | 3.0 | 3 | 0.0 |
 | 24480 JagTech | 80 | 4 | 4-1 | −62.5 | 3.0 | 4 | +1.0 |
-| 27795 The Sentinels | 72 | 5 | 4-1 | −29.5 | 6.0 | 4 | −2.0 |
+| 27795 The Sentinels | 71 | 5 | 4-1 | −34.2 | 5.0 | 4 | −1.0 |
 | 32314 Marcus Bartholomew the Third Senior | 60 | 6 | 3-2 | −53.7 | 2.0 | 3 | +1.0 |
 | 32350 CODEIAKS | 54 | 7 | 3-2 | −37.3 | 3.0 | 3 | 0.0 |
-| 19712 NDAASentinels | 30 | 8 | 3-2 | −19.9 | 3.0 | 3 | 0.0 |
-| 18783 Eagle Tech | 28 | 9 | 3-2 | −17.9 | 3.0 | 3 | 0.0 |
+| 19712 NDAASentinels | 29 | 8 | 3-2 | −19.9 | 3.0 | 3 | 0.0 |
+| 18783 Eagle Tech | 27 | 9 | 3-2 | −17.9 | 3.0 | 3 | 0.0 |
 | 32453 TIGERBOTICS | 22 | 10 | 3-2 | −21.7 | 3.0 | 3 | 0.0 |
-| 28228 Mountaingears | 30 | 11 | 3-2 | −32.6 | 2.0 | 3 | +1.0 |
+| 28228 Mountaingears | 29 | 11 | 3-2 | −32.6 | 2.0 | 3 | +1.0 |
 | 8990 Mile High Academy Mustangs | 33 | 12 | 3-2 | −27.3 | 3.0 | 3 | 0.0 |
-| 16899 CPUsaders_T | 46 | 13 | 3-2 | −51.2 | 3.0 | 3 | 0.0 |
-| 31907 Wisconsin Academy | 42 | 14 | 2-3 | −45.7 | 3.0 | 2 | −1.0 |
+| 16899 CPUsaders_T | 45 | 13 | 3-2 | −51.2 | 3.0 | 3 | 0.0 |
+| 31907 Wisconsin Academy | 41 | 14 | 2-3 | −45.7 | 3.0 | 2 | −1.0 |
 | 13153 Marvin's Minions | 12 | 15 | 2-3 | −24.5 | 2.0 | 2 | 0.0 |
-| 31620 Titanium Talons (Collegedale Academy) | 30 | 16 | 2-3 | −59.1 | 1.0 | 2 | +1.0 |
-| 23958 Wait4iT | 29 | 17 | 1-4 | −51.0 | 2.0 | 1 | −1.0 |
+| 31620 Titanium Talons (Collegedale Academy) | 29 | 16 | 2-3 | −59.1 | 1.0 | 2 | +1.0 |
+| 23958 Wait4iT | 29 | 17 | 1-4 | −50.6 | 2.0 | 1 | −1.0 |
 | 30646 Apocalypse Neo Gen | 33 | 18 | 1-4 | −61.6 | 0.0 | 1 | +1.0 |
 | 11020 Gearhead Gladiators | 11 | 19 | 0-5 | −52.4 | 0.0 | 0 | 0.0 |
 | 20840 The Senjus of Raleigh | 16 | 20 | 0-5 | −40.7 | 1.0 | 0 | −1.0 |
-| 26646 Stallion Robotics | 24 | 21 | 1-4 | −50.2 | 1.0 | 1 | 0.0 |
+| 26646 Stallion Robotics | 24 | 21 | 1-4 | −42.2 | 1.0 | 1 | 0.0 |
+
+Surrogate matches (Match 12: Stallion Robotics, The Sentinels; Match 13: Wait4iT) are excluded from the favorability and expected wins calculations, as their results don't count toward rankings.
 
 ## Key Takeaways
 
@@ -47,7 +49,7 @@ A higher (less negative) value means a team had stronger partners and/or weaker 
 
 **Happy Hawks** (OPR 101, by far the highest) and **JagTech** (OPR 80, 2nd-highest) had the hardest schedules (−62.5), tied for last. Despite being the two strongest teams, they were randomly assigned the weakest partners on average.
 
-**The Sentinels** (OPR 72, 3rd-highest) were the unluckiest team — they expected 6 wins based on OPR but only got 4. Combined with a moderate schedule, they ranked 5th despite being one of the strongest teams.
+**The Sentinels** (OPR 71, 3rd-highest) expected 5 wins but got 4 — one match didn't go their way despite favorable OPR predictions. With a moderate schedule (−34.2), they ranked 5th despite being one of the strongest teams.
 
 The MatchMaker scheduling algorithm is strength-blind — it optimizes for pairing diversity and match separation, not competitive balance. These favorability differences are purely random, which is why OPR is a better predictor of playoff performance than qualification rankings.
 
