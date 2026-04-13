@@ -9,6 +9,21 @@ Our FTC team competes in Adventist Robotics tournaments. Each tournament page be
 
 ---
 
+## 2025–26 DECODE Season
+
+<div class="tournament-list">
+
+<div class="tournament-card">
+  <h3><a href="/tournaments/ftc/2026-Adventist-Robotics-League-Championship-FTC">Adventist Robotics League Championship</a></h3>
+  <p><strong>April 12, 2026</strong> · 21 teams · Forest Lake Academy, Apopka, FL</p>
+  <p>🏆 Inspire Award: SHCA Happy Hawks · Winning Alliance: JagTech / NDAASentinels</p>
+  <a href="/tournaments/ftc/2026-Adventist-Robotics-League-Championship-FTC" class="btn btn-blue" style="margin-top: 0.5rem;">View Results →</a>
+</div>
+
+</div>
+
+---
+
 ## 2024–25 INTO THE DEEP Season
 
 <div class="tournament-list">
