@@ -47,29 +47,29 @@ On this page you can see the results of the Adventist Robotics League Championsh
 
 ## Qualification Rankings
 
-| Rank | Team | Ranking Score | W-L-T | High Score |
-| ---- | ---- | ------------- | ----- | ---------- |
-| 1 | 21993 Tech Titans | 4.40 | 5-0-0 | 142 |
-| 2 | 24813 SHCA Happy Hawks | 3.20 | 4-1-0 | 142 |
-| 3 | 5198 Wingnuts | 3.20 | 3-2-0 | 102 |
-| 4 | 24480 JagTech | 3.00 | 4-1-0 | 132 |
-| 5 | 27795 The Sentinels | 3.00 | 4-1-0 | 144 |
-| 6 | 32314 Marcus Bartholomew the Third Senior | 2.80 | 3-2-0 | 119 |
-| 7 | 32350 CODEIAKS | 2.40 | 3-2-0 | 144 |
-| 8 | 19712 NDAASentinels | 2.40 | 3-2-0 | 126 |
-| 9 | 18783 Eagle Tech | 2.40 | 3-2-0 | 114 |
-| 10 | 32453 TIGERBOTICS | 2.40 | 3-2-0 | 129 |
-| 11 | 28228 Mountaingears | 2.20 | 3-2-0 | 110 |
-| 12 | 8990 Mile High Academy Mustangs | 2.00 | 3-2-0 | 107 |
-| 13 | 16899 CPUsaders_T | 2.00 | 3-2-0 | 117 |
-| 14 | 31907 Wisconsin Academy | 2.00 | 2-3-0 | 117 |
-| 15 | 13153 Marvin's Minions | 1.80 | 2-3-0 | 128 |
-| 16 | 31620 Titanium Talons (Collegedale Academy) | 1.80 | 2-3-0 | 119 |
-| 17 | 23958 Wait4iT | 1.40 | 1-4-0 | 81 |
-| 18 | 30646 Apocalypse Neo Gen | 1.40 | 1-4-0 | 102 |
-| 19 | 11020 Gearhead Gladiators | 1.00 | 0-5-0 | 61 |
-| 20 | 20840 The Senjus of Raleigh | 0.80 | 0-5-0 | 114 |
-| 21 | 26646 Stallion Robotics | 0.80 | 1-4-0 | 87 |
+| Rank | Team | Ranking Score | W-L-T | High Score | OPR |
+| ---- | ---- | ------------- | ----- | ---------- | --- |
+| 1 | 21993 Tech Titans | 4.40 | 5-0-0 | 142 | 44 |
+| 2 | 24813 SHCA Happy Hawks | 3.20 | 4-1-0 | 142 | 101 |
+| 3 | 5198 Wingnuts | 3.20 | 3-2-0 | 102 | 58 |
+| 4 | 24480 JagTech | 3.00 | 4-1-0 | 132 | 80 |
+| 5 | 27795 The Sentinels | 3.00 | 4-1-0 | 144 | 72 |
+| 6 | 32314 Marcus Bartholomew the Third Senior | 2.80 | 3-2-0 | 119 | 60 |
+| 7 | 32350 CODEIAKS | 2.40 | 3-2-0 | 144 | 54 |
+| 8 | 19712 NDAASentinels | 2.40 | 3-2-0 | 126 | 30 |
+| 9 | 18783 Eagle Tech | 2.40 | 3-2-0 | 114 | 28 |
+| 10 | 32453 TIGERBOTICS | 2.40 | 3-2-0 | 129 | 22 |
+| 11 | 28228 Mountaingears | 2.20 | 3-2-0 | 110 | 30 |
+| 12 | 8990 Mile High Academy Mustangs | 2.00 | 3-2-0 | 107 | 33 |
+| 13 | 16899 CPUsaders_T | 2.00 | 3-2-0 | 117 | 46 |
+| 14 | 31907 Wisconsin Academy | 2.00 | 2-3-0 | 117 | 42 |
+| 15 | 13153 Marvin's Minions | 1.80 | 2-3-0 | 128 | 12 |
+| 16 | 31620 Titanium Talons (Collegedale Academy) | 1.80 | 2-3-0 | 119 | 30 |
+| 17 | 23958 Wait4iT | 1.40 | 1-4-0 | 81 | 29 |
+| 18 | 30646 Apocalypse Neo Gen | 1.40 | 1-4-0 | 102 | 33 |
+| 19 | 11020 Gearhead Gladiators | 1.00 | 0-5-0 | 61 | 11 |
+| 20 | 20840 The Senjus of Raleigh | 0.80 | 0-5-0 | 114 | 16 |
+| 21 | 26646 Stallion Robotics | 0.80 | 1-4-0 | 87 | 25 |
 
 ## Playoff Matches
 
