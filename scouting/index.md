@@ -13,7 +13,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | ---- | ---- | --- | ----- | -------- | ---------- | ----------- |
 | 2 | [24813 SHCA Happy Hawks](/scouting/24813) | 93 | 4-1-0 | ~9 pts (near) | ~39 pts | 13/16 (81%) |
 | 5 | [27795 The Sentinels](/scouting/27795) | 70 | 4-1-0 | ~6 pts (near only) | ~24 pts | 8/8 (100%) |
-| 4 | [24480 JagTech](/scouting/24480) | 69 | 4-1-0 | No auto (far only) | ~6 pts | 2/5 (40%) |
+| 4 | [24480 JagTech](/scouting/24480) | 69 | 4-1-0 | No auto (far only) | ~22.5 pts | 15/20 (75%) |
 | 1 | [21993 Tech Titans](/scouting/21993) | 50 | 5-0-0 | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
 | 3 | [5198 Wingnuts](/scouting/5198) | 49 | 3-2-0 | ~4.5 pts (leave) | ~28.5 pts | 19/27 (70%) |
 | 6 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48 | 3-2-0 |  |  |  |
