@@ -322,14 +322,16 @@ Search the last ~30-60 minutes of captions for award announcements. Standard FTC
 9. **Winning Alliance** — first-place playoff alliance
 10. **Inspire Award** (1st, 2nd, 3rd) — best overall team
 
+The number of runner-ups for each award varies based on tournament size and judge discretion — some awards may have no runner-up, one runner-up, or multiple. The Inspire Award typically has 3 places but may have fewer at smaller events. Don't assume a fixed number; use what the captions show.
+
 Search for keywords: "award", "inspire", "think award", "connect", "innovate", "control award", "motivate", "design award", "winning alliance", "finalist alliance", "winner", "runner up"
 
 Record the timestamp for each award announcement.
 
 For each award, extract from the captions:
 1. **Award description** — the announcer reads a standard description of what each award recognizes. Clean up the auto-caption text into proper English (fix stutters, grammar, capitalize "FIRST" properly).
-2. **Judges' citation** — after announcing the winner, the announcer reads what the judges wrote about the winning team. Extract this and clean it up. These are typically 2-4 sentences starting with phrases like "Here's what the judges had to say..." or "This team..."
-3. **Runner-up citations** — some awards have a 2nd place; the Inspire Award has 3rd, 2nd, and 1st. Extract citations for each if available.
+2. **Judges' citation** — the announcer reads what the judges wrote about the team *before* announcing the winner (the audience hears the citation first, then the team name). Extract this and clean it up. These are typically 2-4 sentences starting with phrases like "Here's what the judges had to say..." or "This team..."
+3. **Runner-up citations** — some awards have runner-ups with their own citations. Extract citations for each if available.
 
 Format award descriptions as italicized text and judges' citations as blockquotes (see template below).
 
