@@ -162,4 +162,4 @@ Semifinalists were presented during the [opening ceremony](https://www.youtube.c
 - [2nd Place](https://www.youtube.com/live/ggJtTakQWaU?t=28305): 27795 The Sentinels
 - [**1st Place**](https://www.youtube.com/live/ggJtTakQWaU?t=28487): 24813 SHCA Happy Hawks
 
-<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API).</small>
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). This page was generated with the help of the [FTC Tournament Analyzer](https://github.com/wccarobotics/wccarobotics.github.io/blob/main/.github/skills/ftc-tournament-analyzer/SKILL.md) AI skill.</small>
