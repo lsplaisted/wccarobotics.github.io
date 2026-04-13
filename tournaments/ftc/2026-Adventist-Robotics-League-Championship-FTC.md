@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Adventist Robotics League Championship — FTC"
+title: "2026 Adventist Robotics League Championship — FTC"
 ---
 
-# Adventist Robotics League Championship — FTC
+# 2026 Adventist Robotics League Championship — FTC
 
 **April 12, 2026 · Forest Lake Academy, Apopka, FL · 2025–26 DECODE Season**
 

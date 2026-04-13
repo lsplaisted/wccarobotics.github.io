@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Adventist Robotics League Championship — FTC"
+title: "2025 Adventist Robotics League Championship — FTC"
 ---
 
-# Adventist Robotics League Championship — FTC
+# 2025 Adventist Robotics League Championship — FTC
 
 **April 13, 2025 · Forest Lake Academy, Apopka, FL · 2024–25 INTO THE DEEP Season**
 
