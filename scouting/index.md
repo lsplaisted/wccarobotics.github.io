@@ -19,7 +19,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 6 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48 | 3-2-0 |  |  |  |
 | 7 | [32350 CODEIAKS](/scouting/32350) | 48 | 3-2-0 | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
 | 13 | [16899 CPUsaders_T](/scouting/16899) | 39 | 3-2-0 | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
-| 17 | [23958 Wait4iT](/scouting/23958) | 32 | 1-4-0 | ~0 pts (leave) | ~10.5 pts | 7/20 (35%) |
+| 17 | [23958 Wait4iT](/scouting/23958) | 32 | 1-4-0 | ~0 pts (leave) | ~11 pts | 11/27 (41%) |
 | 14 | [31907 Wisconsin Academy](/scouting/31907) | 27 | 2-3-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
 | 18 | 30646 Apocalypse Neo Gen | 27 | 1-4-0 |  |  |  |
 | 11 | [28228 Mountaingears](/scouting/28228) | 26 | 3-2-0 | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
