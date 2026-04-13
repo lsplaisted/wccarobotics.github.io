@@ -351,9 +351,11 @@ Bold the winning score.
 
 ## Qualification Rankings
 
-| Rank | Team | Ranking Score | W-L-T | High Score |
-| ---- | ---- | ------------- | ----- | ---------- |
-| 1 | TEAM_NUM TEAM_NAME | RS | W-L-T | HIGH |
+| Rank | Team | Ranking Score | W-L-T | High Score | OPR |
+| ---- | ---- | ------------- | ----- | ---------- | --- |
+| 1 | TEAM_NUM TEAM_NAME | RS | W-L-T | HIGH | OPR |
+
+Calculate OPR from qualification matches using no-penalty scores (subtract foul points from final scores). See the scouting processor skill for the OPR calculation method. Round to whole numbers.
 
 ## Playoff Matches
 
@@ -379,6 +381,8 @@ Alliances were formed through alliance selection after qualification matches. Th
 
 - Runner-up: TEAM_NUM TEAM_NAME
 - **Winner: TEAM_NUM TEAM_NAME**
+
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). This page was generated with the help of the [FTC Tournament Analyzer](https://github.com/wccarobotics/wccarobotics.github.io/blob/main/.github/skills/ftc-tournament-analyzer/SKILL.md) AI skill.</small>
 ```
 
 Video links use the format: `https://www.youtube.com/watch?v=VIDEO_ID&t=SECONDS`
