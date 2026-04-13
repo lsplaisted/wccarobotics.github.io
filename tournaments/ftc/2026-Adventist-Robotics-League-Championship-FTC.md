@@ -9,6 +9,8 @@ title: "Adventist Robotics League Championship — FTC"
 
 On this page you can see the results of the Adventist Robotics League Championship FTC tournament. There are links to the start of each match in the livestream video. This is great for sharing with friends and family who weren't able to attend the tournament, so they can see the excitement and hard work on display. You can also use it to review your matches and look for ways to improve, or scout strategies that other teams are using!
 
+**Tip:** Click on any team number to highlight all of that team's appearances on the page.
+
 [Full tournament livestream](https://www.youtube.com/live/ggJtTakQWaU)
 
 [Event results on FTC Events](https://ftc-events.firstinspires.org/2025/USARLCMP)
