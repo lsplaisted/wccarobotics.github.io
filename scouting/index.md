@@ -22,11 +22,11 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 17 | [23958 Wait4iT](/scouting/23958) | 32 | 1-4-0 | ~0 pts (leave) | ~11 pts | 11/27 (41%) |
 | 14 | [31907 Wisconsin Academy](/scouting/31907) | 27 | 2-3-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
 | 18 | 30646 Apocalypse Neo Gen | 27 | 1-4-0 |  |  |  |
-| 11 | [28228 Mountaingears](/scouting/28228) | 26 | 3-2-0 | ~0 pts (leave) | ~21 pts | 7/9 (78%) |
+| 11 | [28228 Mountaingears](/scouting/28228) | 26 | 3-2-0 | ~0 pts (leave) | ~10.5 pts | 7/12 (58%) |
 | 12 | [8990 Mile High Academy Mustangs](/scouting/8990) | 26 | 3-2-0 | ~0 pts (near only, leave) | ~0 pts | 0/0 |
 | 16 | [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | 25 | 2-3-0 | No auto (far only) | ~0 pts | 0/2 (0%) |
 | 10 | [32453 TIGERBOTICS](/scouting/32453) | 19 | 3-2-0 | ~0 pts (near only) | ~15 pts | 5/7 (71%) |
-| 9 | 18783 Eagle Tech | 18 | 3-2-0 |  |  |  |
+| 9 | [18783 Eagle Tech](/scouting/18783) | 18 | 3-2-0 | No auto | ~3 pts | 1/6 (17%) |
 | 8 | [19712 NDAASentinels](/scouting/19712) | 14 | 3-2-0 | ~1.5 pts | ~15 pts | 10/17 (59%) |
 | 15 | [13153 Marvin's Minions](/scouting/13153) | 14 | 2-3-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
 | 20 | 20840 The Senjus of Raleigh | 14 | 0-5-0 |  |  |  |
