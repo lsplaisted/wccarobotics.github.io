@@ -45,28 +45,28 @@ On this page you can see the results of the Adventist Robotics League Championsh
 
 ## Qualification Rankings
 
-| Rank | Team | Ranking Score | W-L-T | High Score |
-| ---- | ---- | ------------- | ----- | ---------- |
-| 1 | 27795 The Sentinels | 2.00 | 5-0-0 | 108 |
-| 2 | 21993 Tech Titans | 1.60 | 4-1-0 | 115 |
-| 3 | 19712 NDAASentinels | 1.60 | 4-1-0 | 81 |
-| 4 | 11020 Gearhead Gladiators | 1.60 | 4-1-0 | 108 |
-| 5 | 5198 Wingnuts | 1.20 | 3-2-0 | 102 |
-| 6 | 18783 Eagle Tech | 1.20 | 3-2-0 | 113 |
-| 7 | 13153 Marvin's Minions | 1.20 | 3-2-0 | 83 |
-| 8 | 24813 SHCA Happy Hawks | 1.20 | 3-2-0 | 115 |
-| 9 | 23958 Wait4iT | 1.20 | 3-2-0 | 83 |
-| 10 | 24043 USA Eagles | 1.20 | 3-2-0 | 69 |
-| 11 | 28228 Mountaingears | 0.80 | 2-3-0 | 111 |
-| 12 | 21391 Mighty Cypress | 0.80 | 2-3-0 | 60 |
-| 13 | 16899 CPUsaders_T | 0.80 | 2-3-0 | 78 |
-| 14 | 24480 GCA Robotics | 0.80 | 2-3-0 | 84 |
-| 15 | 21021 WarriorTech Robotics | 0.80 | 2-3-0 | 72 |
-| 16 | 20840 The Senjus of Raleigh | 0.40 | 1-4-0 | 62 |
-| 17 | 8990 Mile High Academy Mustangs | 0.40 | 1-4-0 | 49 |
-| 18 | 27033 Tech Titans | 0.40 | 1-4-0 | 79 |
-| 19 | 26646 Deep Sea Stallions | 0.40 | 1-4-0 | 70 |
-| 20 | 15931 Tin Heads | 0.40 | 1-4-0 | 47 |
+| Rank | Team | Ranking Score | W-L-T | High Score | OPR |
+| ---- | ---- | ------------- | ----- | ---------- | --- |
+| 1 | 27795 The Sentinels | 2.00 | 5-0-0 | 108 | 59 |
+| 2 | 21993 Tech Titans | 1.60 | 4-1-0 | 115 | 78 |
+| 3 | 19712 NDAASentinels | 1.60 | 4-1-0 | 81 | 42 |
+| 4 | 11020 Gearhead Gladiators | 1.60 | 4-1-0 | 108 | 39 |
+| 5 | 5198 Wingnuts | 1.20 | 3-2-0 | 102 | 31 |
+| 6 | 18783 Eagle Tech | 1.20 | 3-2-0 | 113 | 35 |
+| 7 | 13153 Marvin's Minions | 1.20 | 3-2-0 | 83 | 11 |
+| 8 | 24813 SHCA Happy Hawks | 1.20 | 3-2-0 | 115 | 32 |
+| 9 | 23958 Wait4iT | 1.20 | 3-2-0 | 83 | 43 |
+| 10 | 24043 USA Eagles | 1.20 | 3-2-0 | 69 | 21 |
+| 11 | 28228 Mountaingears | 0.80 | 2-3-0 | 111 | 23 |
+| 12 | 21391 Mighty Cypress | 0.80 | 2-3-0 | 60 | 27 |
+| 13 | 16899 CPUsaders_T | 0.80 | 2-3-0 | 78 | 13 |
+| 14 | 24480 GCA Robotics | 0.80 | 2-3-0 | 84 | -4 |
+| 15 | 21021 WarriorTech Robotics | 0.80 | 2-3-0 | 72 | 10 |
+| 16 | 20840 The Senjus of Raleigh | 0.40 | 1-4-0 | 62 | 21 |
+| 17 | 8990 Mile High Academy Mustangs | 0.40 | 1-4-0 | 49 | 8 |
+| 18 | 27033 Tech Titans | 0.40 | 1-4-0 | 79 | 24 |
+| 19 | 26646 Deep Sea Stallions | 0.40 | 1-4-0 | 70 | 29 |
+| 20 | 15931 Tin Heads | 0.40 | 1-4-0 | 47 | 11 |
 
 ## Playoff Matches
 
@@ -141,4 +141,6 @@ Alliances were formed through alliance selection after qualification matches. Th
 - [3rd Place](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=25184): 16899 CPUsaders_T
 - [2nd Place](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=25258): 11020 Gearhead Gladiators
 - [**1st Place**](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=25402): 24813 SHCA Happy Hawks
+
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). This page was generated with the help of the [FTC Tournament Analyzer](https://github.com/wccarobotics/wccarobotics.github.io/blob/main/.github/skills/ftc-tournament-analyzer/SKILL.md) AI skill.</small>
 
