@@ -321,6 +321,13 @@ Search for keywords: "award", "inspire", "think award", "connect", "innovate", "
 
 Record the timestamp for each award announcement.
 
+For each award, extract from the captions:
+1. **Award description** — the announcer reads a standard description of what each award recognizes. Clean up the auto-caption text into proper English (fix stutters, grammar, capitalize "FIRST" properly).
+2. **Judges' citation** — after announcing the winner, the announcer reads what the judges wrote about the winning team. Extract this and clean it up. These are typically 2-4 sentences starting with phrases like "Here's what the judges had to say..." or "This team..."
+3. **Runner-up citations** — some awards have a 2nd place; the Inspire Award has 3rd, 2nd, and 1st. Extract citations for each if available.
+
+Format award descriptions as italicized text and judges' citations as blockquotes (see template below).
+
 ### Step 7: Generate the markdown page
 
 Use the collected data to create the markdown file following this template:
@@ -381,8 +388,12 @@ Alliances were formed through alliance selection after qualification matches. Th
 
 ### AWARD_NAME — [TIMESTAMP](VIDEO_URL&t=SECONDS)
 
+*Award description read by the announcer, cleaned up from captions into proper English.*
+
 - Runner-up: TEAM_NUM TEAM_NAME
 - **Winner: TEAM_NUM TEAM_NAME**
+
+> "Judges' citation for the winner, extracted from the captions and cleaned up."
 
 <small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). This page was generated with the help of the [FTC Tournament Analyzer](https://github.com/wccarobotics/wccarobotics.github.io/blob/main/.github/skills/ftc-tournament-analyzer/SKILL.md) AI skill.</small>
 ```
