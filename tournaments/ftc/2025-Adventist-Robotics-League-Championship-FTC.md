@@ -101,32 +101,56 @@ Alliances were formed through alliance selection after qualification matches. Th
 
 ### Design Award — [6:40:40](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=24040)
 
+*The Design Award expands on this year's challenge, inspiring teams to incorporate industrial design into their robots. These elements can be shown in the simplicity of the design as it applies to the task, the look and feel of the robot, and how the design allows us to think about robots in new ways.*
+
 - Runner-up: 21021 WarriorTech Robotics
 - **Winner: 27795 The Sentinels**
 
+> "Get ready to celebrate a triumph of engineering artistry. This design has been engineered with exceptional creativity and functionality. You've tackled the FIRST Tech Challenge with bold vision, sketching innovative solutions during intensive brainstorming sessions and refining your robot with precision and shared enthusiasm. Your imaginative approach and meticulous craftsmanship inspire all who witness your work."
+
 ### Motivate Award — [6:43:06](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=24186)
+
+*The Motivate Award celebrates the culture of FIRST and clearly shows what it means to be a team. This award celebrates the team that represents the essence of FIRST Tech Challenge competition through team building, team spirit, and displayed enthusiasm. This is a team who makes a collaborative effort to make FIRST known throughout their school and community and sparks others to embrace the culture of FIRST.*
 
 - Runner-up: 20840 The Senjus of Raleigh
 - **Winner: 8990 Mile High Academy Mustangs**
 
+> "The Motivate Award honors teams that go above and beyond to promote FIRST Robotics within their school communities, building awareness and exciting connections. Our first place Motivate team reached out in multiple formats to make their message stick."
+
 ### Control Award — [6:45:11](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=24311)
+
+*The Control Award celebrates the team that demonstrates innovative thinking in their control systems to solve game challenges such as autonomous operation, enhancing mechanical systems with intelligent control, and using sensors to achieve better results on the field.*
 
 - **Winner: 21993 Tech Titans**
 
+> "Be prepared to be impressed by a team that is no stranger to FTC championship tournaments. They traveled all the way from another state to compete. Their coding prowess — blending intricate algorithms and dynamic ingenuity — sets a blazing trail. Their two-part autonomous design, the most sophisticated our judges have ever seen, is complemented by their flair for creative fundraising, including their hot tamales."
+
 ### Innovate Award — [6:47:01](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=24421)
+
+*The Innovate Award sponsored by RTX celebrates a team that has the ingenuity and inventiveness to make their designs come to life. This award is given to the team that the judges feel has the most innovative and creative robot design solution in this season's game. Elements of this award include elegant design, robustness, and out-of-the-box thinking. This award may address the design of the whole robot or some subassembly component. The creative component needs to work consistently.*
 
 - Runner-up: 13153 Marvin's Minions
 - **Winner: 5198 Wingnuts**
 
+> "Innovation is the perfect blend of brainstorming and creativity. Our first place team not only built a functional robot, but also mastered multiple fabrication methods to safeguard their machinery."
+
 ### Connect Award — [6:49:00](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=24540)
+
+*The Connect Award is presented to the team the judges feel is most connected with their local science, technology, engineering, and math (STEM) community. A true FIRST team recognizes that engaging in their local STEM community plays an essential part in their success. The recipient of this award is recognized for helping their community understand FIRST and the FIRST Tech Challenge.*
 
 - Runner-up: 24480 GCA Robotics
 - **Winner: 21391 Mighty Cypress**
 
+> "The judges were impressed by this team's ability to meet with STEM professionals. This team met different engineers and scientists during the season. The judges are excited to award this mighty team."
+
 ### Think Award — [6:50:57](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=24657)
+
+*The Think Award is given to the team the judges feel best reflects the journey of the engineering and design process. The engineering portfolio is a key reference for judges to help them identify the most deserving team. This team's engineering portfolio focused on the design and building stages of their team's robot and exemplified their journey as a team and engineers.*
 
 - Runner-up: 23958 Wait4iT
 - **Winner: 26646 Deep Sea Stallions**
+
+> "Using communication strategies to keep up with their team meetings, this team knows how to make a splash with their documentation in a sea of portfolios."
 
 ### Finalist Alliance — [6:55:11](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=24911)
 
@@ -140,9 +164,19 @@ Alliances were formed through alliance selection after qualification matches. Th
 
 ### Inspire Award — [6:58:35](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=25115)
 
+*The Inspire Award is presented to the team that the judges felt embodied the challenge of the FIRST Tech Challenge program. The team that receives this award is a strong ambassador for FIRST programs and works to promote FIRST in their community. The team has performed well in all judging categories and is chosen by judges as a model FIRST Tech Challenge team both on and off the playing field. The team shares their experiences, enthusiasm, and knowledge with other teams, sponsors, community, and the judges. Working as a unit, this team will have shown success in performing the tasks of designing and building the robot.*
+
 - [3rd Place](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=25184): 16899 CPUsaders_T
+
+  > "They stood out for their incredible outreach, connecting with industry experts, and bringing STEM to life through a community night. They didn't stop there, hosting multiple fundraisers to support their mission and inspire others."
+
 - [2nd Place](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=25258): 11020 Gearhead Gladiators
+
+  > "Get ready to honor a team that radiates brilliance. They've embraced the FIRST Tech Challenge with infectious enthusiasm and seamless teamwork. Their journey, fueled by creative design, adept programming, and concise construction, showcases a passion that lights the way for others."
+
 - [**1st Place**](https://www.youtube.com/watch?v=CUv7-8DNF5Y&t=25402): 24813 SHCA Happy Hawks
+
+  > "What an incredible display of talent and teamwork. You've embodied the spirit of FIRST Tech Challenge with every step of your journey. Your enthusiasm, hard work, passion, and unity along with great design, programming, and construction have lifted you to new heights."
 
 <small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). This page was generated with the help of the [FTC Tournament Analyzer](https://github.com/wccarobotics/wccarobotics.github.io/blob/main/.github/skills/ftc-tournament-analyzer/SKILL.md) AI skill.</small>
 
