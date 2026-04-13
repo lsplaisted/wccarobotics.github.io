@@ -33,7 +33,7 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | 19 | [11020 Gearhead Gladiators](/scouting/11020) | 10 | 0-5-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
 | 21 | [26646 Stallion Robotics](/scouting/26646) | -10 | 1-4-0 | ~2 pts | ~9 pts | 9/15 (60%) |
 
-*Refreshed from the FTC API: final qualification rankings and recalculated no-penalty OPR are current through Qualification 27, and playoff results are now final through Final Bracket Round 6 Match 10.*
+*Refreshed from the FTC API: final qualification rankings and recalculated no-penalty OPR are current through Qualification 27, and playoff results are now final through Final Bracket Round 7 Match 11.*
 
 ## Qualification Match Schedule & Results
 
@@ -83,10 +83,11 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 | Lower Bracket Round 4 Match 8 | 27795 The Sentinels | 5198 Wingnuts | 24813 SHCA Happy Hawks | 21993 Tech Titans | 140 | **153** |
 | Lower Bracket Round 5 Match 9 | 16899 CPUsaders_T | 32314 Marcus Bartholomew the Third Senior | 21993 Tech Titans | 24813 SHCA Happy Hawks | 91 | **128** |
 | Final Bracket Round 6 Match 10 | 24480 JagTech | 19712 NDAASentinels | 21993 Tech Titans | 24813 SHCA Happy Hawks | 115 | **129** |
+| Final Bracket Round 7 Match 11 | 24480 JagTech | 19712 NDAASentinels | 21993 Tech Titans | 24813 SHCA Happy Hawks | **58** | 46 |
 
 **Our qualification matches (32314):** Q2, Q6, Q13, Q21, Q26  
 **Our playoff matches (32314):** Upper Bracket Round 1 Match 1, Upper Bracket Round 2 Match 3, Upper Bracket Round 4 Match 7, Lower Bracket Round 5 Match 9
 
 ---
 
-<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). Official qualification rankings and recalculated no-penalty OPR are final through Qualification 27, and playoff results are final through Final Bracket Round 6 Match 10.</small>
+<small>Match data provided by the [FIRST Tech Challenge Events API](https://ftc-events.firstinspires.org/services/API). Official qualification rankings and recalculated no-penalty OPR are final through Qualification 27, and playoff results are final through Final Bracket Round 7 Match 11.</small>
