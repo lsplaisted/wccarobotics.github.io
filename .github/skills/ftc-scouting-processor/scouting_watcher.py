@@ -30,6 +30,10 @@ STATE_FILE = INCOMING_DIR / "watcher_state.json"
 POLL_INTERVAL = 30  # seconds
 DEFAULT_PHOTOS_TO_CHECK = 20  # how many recent photos to check each poll
 
+# Copilot session reuse — all invocations share one session so Copilot retains
+# context about the event, team list, scouting data format, and page structure.
+copilot_session_id = None
+
 
 def get_icloud_api():
     """Connect to iCloud. Returns API object."""
@@ -140,6 +144,47 @@ def check_schedule_available(season, event_code):
         return False
 
 
+def run_copilot(prompt, label="task", timeout=300):
+    """Invoke Copilot CLI, reusing the same session across calls.
+
+    On the first call, starts a new session and captures its ID.
+    Subsequent calls resume that session so Copilot retains context
+    about the event, teams, scouting data format, and page structure.
+    """
+    global copilot_session_id
+
+    cmd = ["copilot", "-p", prompt, "--autopilot", "--allow-all"]
+    if copilot_session_id:
+        cmd.extend(["--resume", copilot_session_id])
+    else:
+        cmd.extend(["--name", "scouting-watcher"])
+
+    print(f"  Invoking Copilot CLI for {label}...")
+    result = subprocess.run(
+        cmd,
+        cwd=str(REPO_DIR),
+        timeout=timeout,
+        capture_output=True,
+        text=True,
+    )
+
+    # Capture the session ID from the first successful run
+    if copilot_session_id is None and result.returncode == 0:
+        # The session ID is a UUID in the output or can be found via session name
+        # Use the named session for resume — Copilot supports --resume="name"
+        copilot_session_id = "scouting-watcher"
+        print(f"  Session established: {copilot_session_id}")
+
+    if result.returncode == 0:
+        print(f"  ✓ {label} completed")
+    else:
+        print(f"  ✗ {label} failed (code {result.returncode})")
+        if result.stderr:
+            print(f"    {result.stderr[:200]}")
+
+    return result.returncode == 0
+
+
 def post_schedule_with_copilot(season, event_code):
     """Invoke Copilot CLI to add the match schedule to the scouting page."""
     prompt = (
@@ -149,25 +194,7 @@ def post_schedule_with_copilot(season, event_code):
         f"and update the scouting index page with the match pairings. "
         f"Then git add, commit, and push the changes."
     )
-
-    print(f"  Invoking Copilot CLI for schedule update...")
-    result = subprocess.run(
-        [
-            "copilot",
-            "-p", prompt,
-            "--autopilot",
-            "--allow-all",
-        ],
-        cwd=str(REPO_DIR),
-        timeout=300,
-    )
-
-    if result.returncode == 0:
-        print(f"  ✓ Schedule posted")
-    else:
-        print(f"  ✗ Schedule update failed (code {result.returncode})")
-
-    return result.returncode == 0
+    return run_copilot(prompt, label="schedule update")
 
 
 def check_new_matches(season, event_code, known_count):
@@ -215,25 +242,7 @@ def update_matches_with_copilot(season, event_code):
         f"start time). Add the timestamps as links in the Video column of the match schedule table. "
         f"Then git add, commit, and push the changes."
     )
-
-    print(f"  Invoking Copilot CLI for match update...")
-    result = subprocess.run(
-        [
-            "copilot",
-            "-p", prompt,
-            "--autopilot",
-            "--allow-all",
-        ],
-        cwd=str(REPO_DIR),
-        timeout=300,
-    )
-
-    if result.returncode == 0:
-        print(f"  ✓ Match update completed")
-    else:
-        print(f"  ✗ Match update failed (code {result.returncode})")
-
-    return result.returncode == 0
+    return run_copilot(prompt, label="match update")
 
 
 def process_with_copilot(photo_path):
@@ -246,25 +255,7 @@ def process_with_copilot(photo_path):
         f"If it's a robot photo, identify the team number and save it to the team's scouting page. "
         f"If it's not a scouting form or robot photo, skip it — iCloud may include random personal photos."
     )
-
-    print(f"  Invoking Copilot CLI...")
-    result = subprocess.run(
-        [
-            "copilot",
-            "-p", prompt,
-            "--autopilot",
-            "--allow-all",
-        ],
-        cwd=str(REPO_DIR),
-        timeout=300,  # 5 minute timeout per photo
-    )
-
-    if result.returncode == 0:
-        print(f"  Copilot finished successfully")
-    else:
-        print(f"  Copilot returned code {result.returncode}")
-
-    return result.returncode == 0
+    return run_copilot(prompt, label=f"photo {Path(photo_path).name}")
 
 
 def main():

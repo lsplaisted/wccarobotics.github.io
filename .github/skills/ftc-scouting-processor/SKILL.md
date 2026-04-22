@@ -491,6 +491,8 @@ This script:
    - Update match results, rankings, and OPR when new matches are scored
    - Find the livestream URL from the site's tournament info pages, find match timestamps, and add Video links to the match table
 
+**Session reuse**: All Copilot invocations share a single named session (`scouting-watcher`). The first invocation creates the session; subsequent invocations resume it with `--resume`. This means Copilot retains context about the event, team list, scouting data structure, and page formats across all photos and match updates — no redundant file reading or re-learning conventions.
+
 Copilot will determine what type of photo it is:
 - **Scouting form** — read the form, update data and pages, commit and push
 - **Robot photo** — identify team number, save to team's page, commit and push
