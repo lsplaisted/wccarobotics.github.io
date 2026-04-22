@@ -304,19 +304,22 @@ teams = sorted(set(
 team_idx = {t: i for i, t in enumerate(teams)}
 
 # Build matrix A and score vector b
-# Use no-penalty scores: scoreRedFinal - scoreRedFoul, scoreBlueFinal - scoreBlueFoul
+# Use no-penalty scores: subtract OPPONENT's foul points from your final score
+# scoreRedFoul = fouls committed BY red (added to blue's score)
+# scoreBlueFoul = fouls committed BY blue (added to red's score)
+# So: no-penalty red score = scoreRedFinal - scoreBlueFoul
 A_rows, b_vals = [], []
 for m in matches:
     if m['tournamentLevel'] != 'QUALIFICATION':
         continue
-    for color in ['Red', 'Blue']:
+    for color, opp in [('Red', 'Blue'), ('Blue', 'Red')]:
         row = [0] * len(teams)
         for t in m['teams']:
             if t['station'].startswith(color):
                 row[team_idx[t['teamNumber']]] = 1
         A_rows.append(row)
-        # Subtract opponent's foul points to get no-penalty score
-        score = m['score%sFinal' % color] - m.get('score%sFoul' % color, 0)
+        # Subtract opponent's committed foul points (which were added to our score)
+        score = m[f'score{color}Final'] - m.get(f'score{opp}Foul', 0)
         b_vals.append(score)
 
 A = np.array(A_rows, dtype=float)
@@ -327,7 +330,7 @@ opr = np.linalg.solve(A.T @ A, A.T @ b)
 team_opr = {teams[i]: round(opr[i], 1) for i in range(len(teams))}
 ```
 
-**Note:** The FTC API match response may use `scoreRedFoul` or `penaltyPointsByOpp` depending on the endpoint. Check the response structure and subtract penalty/foul points from the final score.
+**Important:** `scoreRedFoul` means fouls committed BY red (these points are added to BLUE's score). To get no-penalty red score, subtract `scoreBlueFoul` (opponent's fouls) from `scoreRedFinal`. Do NOT subtract `scoreRedFoul` — that's the team's own committed fouls, not the foul bonus they received.
 
 Display OPR rounded to whole numbers on scouting pages. Sort the teams table by OPR descending.
 

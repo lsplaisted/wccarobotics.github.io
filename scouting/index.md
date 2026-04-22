@@ -11,27 +11,27 @@ title: "FTC Scouting — Adventist Robotics League Championship"
 
 | Rank | Team | OPR | W-L-T | Avg Auto | Avg Teleop | Teleop Acc. |
 | ---- | ---- | --- | ----- | -------- | ---------- | ----------- |
-| 2 | [24813 SHCA Happy Hawks](/scouting/24813) | 93 | 4-1-0 | ~9 pts (near) | ~39 pts | 13/16 (81%) |
-| 5 | [27795 The Sentinels](/scouting/27795) | 70 | 4-1-0 | ~6 pts (near only) | ~24 pts | 8/8 (100%) |
-| 4 | [24480 JagTech](/scouting/24480) | 69 | 4-1-0 | No auto (far only) | ~22.5 pts | 15/20 (75%) |
-| 1 | [21993 Tech Titans](/scouting/21993) | 50 | 5-0-0 | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
-| 3 | [5198 Wingnuts](/scouting/5198) | 49 | 3-2-0 | ~5 pts (leave) | ~31 pts | 31/42 (74%) |
-| 6 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 48 | 3-2-0 |  |  |  |
-| 7 | [32350 CODEIAKS](/scouting/32350) | 48 | 3-2-0 | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
-| 13 | [16899 CPUsaders_T](/scouting/16899) | 39 | 3-2-0 | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
+| 2 | [24813 SHCA Happy Hawks](/scouting/24813) | 81 | 4-1-0 | ~9 pts (near) | ~39 pts | 13/16 (81%) |
+| 4 | [24480 JagTech](/scouting/24480) | 67 | 4-1-0 | No auto (far only) | ~22.5 pts | 15/20 (75%) |
+| 3 | [5198 Wingnuts](/scouting/5198) | 51 | 3-2-0 | ~5 pts (leave) | ~31 pts | 31/42 (74%) |
+| 5 | [27795 The Sentinels](/scouting/27795) | 51 | 4-1-0 | ~6 pts (near only) | ~24 pts | 8/8 (100%) |
+| 6 | [32314 Marcus Bartholomew the Third Senior](/scouting/32314) | 50 | 3-2-0 |  |  |  |
+| 7 | [32350 CODEIAKS](/scouting/32350) | 50 | 3-2-0 | ~9 pts (far only, leave) | ~42 pts | 14/18 (78%) |
+| 1 | [21993 Tech Titans](/scouting/21993) | 47 | 5-0-0 | ~6 pts (far only, leave) | ~21 pts | 7/11 (64%) |
+| 8 | [19712 NDAASentinels](/scouting/19712) | 35 | 3-2-0 | ~1.5 pts | ~15 pts | 10/17 (59%) |
+| 12 | [8990 Mile High Academy Mustangs](/scouting/8990) | 33 | 3-2-0 | ~0 pts (near only, leave) | ~0 pts | 0/0 |
+| 13 | [16899 CPUsaders_T](/scouting/16899) | 32 | 3-2-0 | ~0 pts (far only, leave) | ~18 pts | 12/17 (71%) |
 | 17 | [23958 Wait4iT](/scouting/23958) | 32 | 1-4-0 | ~0 pts (leave) | ~11 pts | 11/27 (41%) |
-| 14 | [31907 Wisconsin Academy](/scouting/31907) | 27 | 2-3-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
-| 18 | 30646 Apocalypse Neo Gen | 27 | 1-4-0 |  |  |  |
+| 9 | [18783 Eagle Tech](/scouting/18783) | 26 | 3-2-0 | No auto | ~3 pts | 1/6 (17%) |
 | 11 | [28228 Mountaingears](/scouting/28228) | 26 | 3-2-0 | ~0 pts (leave) | ~10.5 pts | 7/12 (58%) |
-| 12 | [8990 Mile High Academy Mustangs](/scouting/8990) | 26 | 3-2-0 | ~0 pts (near only, leave) | ~0 pts | 0/0 |
-| 16 | [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | 25 | 2-3-0 | No auto (far only) | ~0 pts | 0/2 (0%) |
-| 10 | [32453 TIGERBOTICS](/scouting/32453) | 19 | 3-2-0 | ~0 pts (near only) | ~15 pts | 5/7 (71%) |
-| 9 | [18783 Eagle Tech](/scouting/18783) | 18 | 3-2-0 | No auto | ~3 pts | 1/6 (17%) |
-| 8 | [19712 NDAASentinels](/scouting/19712) | 14 | 3-2-0 | ~1.5 pts | ~15 pts | 10/17 (59%) |
-| 15 | [13153 Marvin's Minions](/scouting/13153) | 14 | 2-3-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
-| 20 | 20840 The Senjus of Raleigh | 14 | 0-5-0 |  |  |  |
-| 19 | [11020 Gearhead Gladiators](/scouting/11020) | 10 | 0-5-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
-| 21 | [26646 Stallion Robotics](/scouting/26646) | -10 | 1-4-0 | ~2 pts | ~9 pts | 9/15 (60%) |
+| 21 | [26646 Stallion Robotics](/scouting/26646) | 21 | 1-4-0 | ~2 pts | ~9 pts | 9/15 (60%) |
+| 14 | [31907 Wisconsin Academy](/scouting/31907) | 20 | 2-3-0 | No auto (far only) | ~15 pts | 5/5 (100%) |
+| 18 | 30646 Apocalypse Neo Gen | 18 | 1-4-0 |  |  |  |
+| 20 | 20840 The Senjus of Raleigh | 18 | 0-5-0 |  |  |  |
+| 16 | [31620 Titanium Talons (Collegedale Academy)](/scouting/31620) | 16 | 2-3-0 | No auto (far only) | ~0 pts | 0/2 (0%) |
+| 15 | [13153 Marvin's Minions](/scouting/13153) | 13 | 2-3-0 | No auto (far only) | ~6 pts | 2/7 (29%) |
+| 10 | [32453 TIGERBOTICS](/scouting/32453) | 12 | 3-2-0 | ~0 pts (near only) | ~15 pts | 5/7 (71%) |
+| 19 | [11020 Gearhead Gladiators](/scouting/11020) | 7 | 0-5-0 | No auto (near only) | ~0 pts | 0/1 (0%) |
 
 *Refreshed from the FTC API: final qualification rankings and recalculated no-penalty OPR are current through Qualification 27, and playoff results are now final through Final Bracket Round 7 Match 11.*
 

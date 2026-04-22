@@ -371,7 +371,7 @@ Bold the winning score.
 | ---- | ---- | ------------- | ----- | ---------- | --- |
 | 1 | TEAM_NUM TEAM_NAME | RS | W-L-T | HIGH | OPR |
 
-Calculate OPR from qualification matches using no-penalty scores (subtract foul points from final scores). See the scouting processor skill for the OPR calculation method. Round to whole numbers.
+Calculate OPR from qualification matches using no-penalty scores. **Important:** `scoreRedFoul` = fouls committed BY red (added to blue's score). To get no-penalty red score, subtract `scoreBlueFoul` (opponent's committed fouls) from `scoreRedFinal`, NOT `scoreRedFoul`. See the scouting processor skill for the full OPR calculation method. Round to whole numbers.
 
 ## Playoff Matches
 
