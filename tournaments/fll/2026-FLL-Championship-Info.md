@@ -43,6 +43,15 @@ Sabbath meals and Sunday lunch can be pre-ordered by **April 28**. Meals for tea
 
 > 🚫 **No food or drink (other than water in a closed container) is allowed in the gymnasium.** Plan accordingly.
 
+## 🎉 Celebration Dinner
+
+After the tournament, we'll be having a celebration dinner at **Rainforest Cafe at Disney Springs**! The reservation is at **7:00 PM**.
+
+- **Team members:** The robotics team will cover the cost.
+- **Parents and others:** $50 per person.
+
+Please let us know who to expect for the celebration dinner so we can plan accordingly!
+
 ## 🏨 Lodging
 
 Please let us know whether your child will be **staying with family** or will **need lodging with the team**.
@@ -89,6 +98,7 @@ Follow along with live scores on the scoreboard:
 | 1:20 PM | **Official Robot Rounds Begin** | ✅ Open to public |
 | ~4:00 PM | Robot Game Ends | |
 | ~4:05 PM | **Closing/Awards Ceremony** | ✅ Open to public |
+| 7:00 PM | **Celebration Dinner** — Rainforest Cafe, Disney Springs | 🎉 Everyone welcome |
 
 > ⏰ **Times are approximate** — the final schedule with judging times and match assignments will be provided at the event.
 
@@ -107,21 +117,6 @@ Follow along with live scores on the scoreboard:
 Each team competes in **3 official rounds** (plus a practice round that doesn't count). In each round, two teams are at the table at the same time — each team runs their own robot independently (they're not competing against each other). Each match is **2.5 minutes** long.
 
 The team's **Robot Performance score** is their **highest score** from any of the three official rounds.
-
----
-
-## What to Bring
-
-- Robot, attachments, extra parts, and laptop with power cord
-- Extension cord and power strip (you'll have access to a single outlet)
-- USB download cable
-- A box or bin to carry your robot to the competition field
-- Project judging materials, props, and displays
-- Graphics demonstrating programming strategy for robot design judging
-- Games or activities for downtime (there will be long waits between matches!)
-- Provisions for lunch if not ordering catered meals
-- A bin or bag for personal items to store under the pit table
-- Fresh/spare batteries and rechargeable battery charger
 
 ---
 
@@ -157,18 +152,11 @@ Queuers keep the robot game rounds running on schedule. Before each round, queue
 
 Between their official robot game rounds, teams need time to test and adjust their robots. Practice table attendants manage the practice tables, making sure each team gets fair access to practice time, keeping the area safe and organized, and helping maintain the table setup.
 
-**Interested in volunteering?** Reach out to us through our [contact page](/contact) — we'd love to have you!
+### 🔄 Field Resetter
 
----
+Field resetters help reset the LEGO competition tables between matches — putting mission models back in their correct positions so the next team is ready to go. It's a hands-on role that keeps the competition moving smoothly.
 
-## 🎉 Celebration Dinner
-
-After the tournament, we'll be having a celebration dinner at **Rainforest Cafe at Disney Springs**! The reservation is at **7:00 PM**.
-
-- **Team members:** The robotics team will cover the cost.
-- **Parents and others:** $50 per person.
-
-Please let us know who to expect for the celebration dinner so we can plan accordingly!
+**Interested in volunteering?** [**Sign up here**](https://my.firstinspires.org/ExpressVolunteer/landing-page/2141d6c9-dbdf-11f0-9eb7-00505699b848) or reach out to us through our [contact page](/contact)!
 
 ---
 
