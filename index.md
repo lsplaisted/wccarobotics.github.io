@@ -16,6 +16,13 @@ layout: home
 <div class="section section-alt">
   <div class="container">
     <div class="highlight-box">
+      <h3>📣 FLL Championship — May 3!</h3>
+      <p>Both of our FLL teams are competing at the <strong>Adventist Robotics FLL Championship</strong> on May 3 at Forest Lake Academy in Apopka, FL. Cheer them on!</p>
+      <a href="/tournaments/fll/2026-FLL-Championship-Info" class="btn btn-blue" style="margin-top: 0.75rem;">Parent Info & Schedule →</a>
+      <a href="https://www.youtube.com/watch?v=uMzQvutiZAQ" class="btn btn-blue" style="margin-top: 0.5rem;" target="_blank">Watch the Livestream →</a>
+      <a href="https://fllgameday.com/scoreboard/82259ccf-076c-4392-bf0e-ed2f48181632" class="btn btn-blue" style="margin-top: 0.5rem;" target="_blank">Live Scoreboard →</a>
+    </div>
+    <div class="highlight-box" style="margin-top: 1.5rem;">
       <h3>🏆 Control Award & 3rd Place at FTC Championship!</h3>
       <p>Our FTC team <strong>Marcus Bartholomew the Third Senior</strong> won the <strong>Control Award</strong> and finished <strong>3rd place in the playoffs</strong> at the Adventist Robotics FTC Championship on April 12! As the 4th-seeded alliance, we upset the #1 seed in the upper bracket before falling in the lower bracket semifinals.</p>
       <a href="/tournaments/ftc/2026-Adventist-Robotics-League-Championship-FTC" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
