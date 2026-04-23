@@ -57,10 +57,13 @@ Park only in the **designated team parking area**. Do NOT park on the grass — 
 
 There is a major construction project on campus for new classrooms and an administration building. This area is fenced off. Team members should always be supervised by an adult. Please stay away from the areas near the construction fencing for additional safety.
 
-## 📺 Livestream
+## 📺 Livestream & Scoreboard
 
 The tournament will be livestreamed on 3ABN and the Adventist Robotics YouTube channel:
 [**Watch the livestream**](https://www.youtube.com/watch?v=uMzQvutiZAQ)
+
+Follow along with live scores on the scoreboard:
+[**Live Scoreboard**](https://fllgameday.com/scoreboard/82259ccf-076c-4392-bf0e-ed2f48181632)
 
 ---
 
@@ -155,6 +158,17 @@ Queuers keep the robot game rounds running on schedule. Before each round, queue
 Between their official robot game rounds, teams need time to test and adjust their robots. Practice table attendants manage the practice tables, making sure each team gets fair access to practice time, keeping the area safe and organized, and helping maintain the table setup.
 
 **Interested in volunteering?** Reach out to us through our [contact page](/contact) — we'd love to have you!
+
+---
+
+## 🎉 Celebration Dinner
+
+After the tournament, we'll be having a celebration dinner at **Rainforest Cafe at Disney Springs**! The reservation is at **7:00 PM**.
+
+- **Team members:** The robotics team will cover the cost.
+- **Parents and others:** $50 per person.
+
+Please let us know who to expect for the celebration dinner so we can plan accordingly!
 
 ---
 
