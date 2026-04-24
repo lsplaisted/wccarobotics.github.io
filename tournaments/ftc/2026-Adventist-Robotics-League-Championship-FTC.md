@@ -11,6 +11,8 @@ On this page you can see the results of the Adventist Robotics League Championsh
 
 **Tip:** Click on any team number to highlight all of that team's appearances on the page.
 
+[Tournament Photo Gallery](https://floridaconference.pic-time.com/-adventistrobotics/gallery)
+
 [Full tournament livestream](https://www.youtube.com/live/ggJtTakQWaU)
 
 [Event results on FTC Events](https://ftc-events.firstinspires.org/2025/USARLCMP)
