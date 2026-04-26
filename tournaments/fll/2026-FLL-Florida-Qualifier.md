@@ -11,7 +11,13 @@ On this page you can see the results of the Florida Qualifying Tournament. There
 
 [Full tournament livestream](https://www.youtube.com/live/9R1q378CFRo)
 
+[Tournament Photo Gallery](https://floridaconference.pic-time.com/-roboticsfirst/gallery)
+
 [Robot game scoreboard](https://fllgameday.com/scoreboard/dc56b48e-0a19-429a-94ed-45cb5d97144c)
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/L82cwqlbeLA" title="FIRST LEGO League Qualifying Tournament 2026 - UNEARTHED - Highlights Reel" allowfullscreen></iframe>
+</div>
 
 *56092 UnionJags and 67182 Robotic Moles did not compete. Their scheduled partners ran solo — the solo team's score counts normally.*
 
