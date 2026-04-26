@@ -52,6 +52,19 @@ After the tournament, we'll be having a celebration dinner at **Rainforest Cafe 
 
 Please let us know who to expect for the celebration dinner so we can plan accordingly!
 
+### Menu (served sharing style)
+
+- **Spinach & Artichoke Dip**
+- **Islander Caesar Salad**
+- **Lava Smothered Hickory Chicken** — grilled chicken with BBQ sauce, mushrooms, and cheese
+- **Mozzarella Flatbread w/ Arugula** — marinara sauce and mozzarella cheese topped with arugula, tomato & parmesan cheese, balsamic reduction
+- **Anaconda Pasta** — gluten-sensitive pasta, local garden vegetables, mushrooms, basil, shaved parmesan cheese, red pepper flakes, and white wine tomato sauce
+- **Island Rice**
+- **Safari Fries**
+- **Sparkling Chocolate Volcano** 🌋
+
+*Includes unlimited soft drinks, iced tea, and coffee.*
+
 ## 🏨 Lodging
 
 Please let us know whether your child will be **staying with family** or will **need lodging with the team**.
