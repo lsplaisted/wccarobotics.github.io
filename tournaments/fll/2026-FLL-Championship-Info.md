@@ -9,8 +9,6 @@ title: "FLL Championship — Parent Info"
 
 **Location:** Forest Lake Academy Gymnasium, 500 Education Loop, Apopka, FL 32703
 
-**Tournament Contact:** Mel Wade — [mel@adventistrobotics.net](mailto:mel@adventistrobotics.net) · 321-435-4035
-
 ---
 
 ## Our Teams
