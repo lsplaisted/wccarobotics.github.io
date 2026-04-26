@@ -111,7 +111,7 @@ Follow along with live scores on the scoreboard:
 | 1:20 PM | **Official Robot Rounds Begin** | ✅ Open to public |
 | ~4:00 PM | Robot Game Ends | |
 | ~4:05 PM | **Closing/Awards Ceremony** | ✅ Open to public |
-| 7:00 PM | **Celebration Dinner** — Rainforest Cafe, Disney Springs | 🎉 Everyone welcome |
+| 7:00 PM | **Celebration Dinner** — Rainforest Cafe, Disney Springs | 🎉 Everyone welcome, please RSVP |
 
 > ⏰ **Times are approximate** — the final schedule with judging times and match assignments will be provided at the event.
 
