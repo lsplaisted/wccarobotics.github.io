@@ -136,6 +136,56 @@ Based on what we learned at the dig, we made further improvements to Prototype 2
 
 ![Final version of the Protection Backpack with clamps and reinforced sides](/assets/images/innovation/rg-prototype-final.jpg){: .portrait}
 
+## Sharing With Our Community
+
+We didn't stop at expert feedback — we also shared our solution with a wider community to gather more perspectives.
+
+### Church Presentations
+
+We presented our innovation project at **three different churches** in our community.
+
+![The Robo Gators presenting at a community church](/assets/images/innovation/rg-church-presentation.jpg)
+
+### School Robotics Night
+
+We also shared our solution at a **school robotics night**, where we let people try on the backpack and give us feedback.
+
+![Presenting the Protection Backpack at the school robotics night](/assets/images/innovation/rg-school-robotics-night.jpg)
+
+People said the backpack was **comfortable and lightweight**, but a few mentioned it was hard to see through the sides. Their suggestions for improvement included:
+
+- Clear sides instead of opaque fabric
+- Velcro windows that can open and close
+- A built-in water sipping pack for hydration
+- An ice pack pocket to stay cool
+
+## Professional Manufacturing Feedback
+
+To learn how a real product like ours could be manufactured, we reached out to outdoor gear companies. **Bill Van Pelt**, a Customer Service Representative at **Johnson Outdoors (Eureka! Camping and Jetboil)**, wrote back with detailed advice:
+
+> "Your **creative idea has excellent merit**. Most modern camping tents are made using a combination of **PU (polyurethane) coated polyester** (approx 68–75 Denier) and **'No-See-Um' polyester netting** (approx 40 Denier). Beyond that, **zippers and hook-and-loop (Velcro) closures** are needed. Sewn areas of the shelter are done using **polyester thread**. Polyester fabrics and thread provide the **greatest resistance to sunlight (UV radiation)** and do not absorb as much moisture as synthetic fabrics such as nylon. This means greater durability in the finished product."
+>
+> "I wish you the very best luck developing your excellent idea!"
+
+### Materials for Manufacturing
+
+Based on Bill's advice, a production version of the Protection Backpack would be made from:
+
+- **Tent poles** (instead of PVC pipe) for a lighter, collapsible frame
+- **Polyurethane-coated polyester** for the canopy
+- **Polyester "No-See-Um" netting** for see-through, bug-proof side panels
+- **Zippers and Velcro** for adjustable openings and windows
+- **Polyester thread** for durable, UV-resistant seams
+- A **lightweight backpack** to carry it all and store tools
+
+## Our Final Product
+
+Putting all the feedback together — from archaeologists, our community, and a tent industry expert — here is our concept for the finished Archaeologist Field Pack with Integrated Shelter Canopy:
+
+![Final product concept: Archaeologist Field Pack with Integrated Shelter Canopy — sun, rain, and insect protection](/assets/images/innovation/rg-final-product.jpg)
+
+The final design deploys in seconds: pull the canopy out of the pack, open the side panels, and extend it over your head and front for instant protection from sun, rain, and insects. When you're done, it rolls back up and stows neatly in the pack.
+
 ## Conclusion
 
-The Protection Backpack is a portable, lightweight weather shield designed to help archaeologists work comfortably in extreme conditions. Based on feedback from professional archaeologists and real-world testing at our mock dig, we refined our design to be sturdy, see-through, and practical for field use. We believe this solution could help archaeologists stay dry, cool, and productive — allowing them to focus on what they do best: uncovering the past.
+The Protection Backpack is a portable, lightweight weather shield designed to help archaeologists work comfortably in extreme conditions. Based on feedback from professional archaeologists, our community, an industry manufacturing expert, and real-world testing at our mock dig, we refined our design to be sturdy, see-through, and practical for field use. We believe this solution could help archaeologists stay dry, cool, and productive — allowing them to focus on what they do best: uncovering the past.
