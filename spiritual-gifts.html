@@ -1,0 +1,392 @@
+---
+layout: page
+title: "Spiritual Gifts Test"
+---
+
+<style>
+.sg-intro {
+  margin-bottom: 2rem;
+}
+.sg-instructions {
+  background: #f0f4ff;
+  border-left: 4px solid #2563eb;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+}
+.sg-question {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+.sg-question:last-child {
+  border-bottom: none;
+}
+.sg-num {
+  font-weight: bold;
+  min-width: 2rem;
+  text-align: right;
+  color: #4b5563;
+}
+.sg-text {
+  flex: 1;
+}
+.sg-options {
+  display: flex;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+.sg-options label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: #6b7280;
+  min-width: 3rem;
+  text-align: center;
+}
+.sg-options input[type="radio"] {
+  margin: 0;
+  cursor: pointer;
+}
+.sg-options label:hover {
+  background: #f3f4f6;
+}
+.sg-section-header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.25rem;
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #2563eb;
+}
+.sg-section-header span {
+  min-width: 3rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #374151;
+}
+.sg-score-btn {
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 2rem 0;
+}
+.sg-score-btn:hover {
+  background: #1d4ed8;
+}
+.sg-results {
+  display: none;
+  margin-top: 2rem;
+}
+.sg-results.visible {
+  display: block;
+}
+.sg-results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+.sg-results-table th, .sg-results-table td {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+}
+.sg-results-table th {
+  background: #2563eb;
+  color: white;
+}
+.sg-results-table tr:nth-child(even) {
+  background: #f9fafb;
+}
+.sg-results-table .sg-highlight {
+  background: #dbeafe;
+  font-weight: bold;
+}
+.sg-results-table td:first-child,
+.sg-results-table td:nth-child(2) {
+  text-align: left;
+}
+.sg-bar {
+  display: inline-block;
+  height: 1.2rem;
+  background: #2563eb;
+  border-radius: 3px;
+  vertical-align: middle;
+  transition: width 0.3s;
+}
+.sg-top-gifts {
+  background: #f0fdf4;
+  border: 2px solid #16a34a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+.sg-top-gifts h3 {
+  margin-top: 0;
+  color: #16a34a;
+}
+.sg-warning {
+  color: #dc2626;
+  font-weight: bold;
+  display: none;
+  margin-top: 1rem;
+}
+.sg-warning.visible {
+  display: block;
+}
+.sg-pdf-link {
+  margin-top: 1rem;
+}
+@media (max-width: 600px) {
+  .sg-question {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .sg-options {
+    align-self: flex-end;
+  }
+  .sg-options label {
+    min-width: 2.5rem;
+    padding: 0.25rem 0.3rem;
+    font-size: 0.65rem;
+  }
+}
+</style>
+
+<div class="sg-intro" style="display:flex; gap:2rem; align-items:center; flex-wrap:wrap;">
+  <div style="flex:1; min-width:250px;">
+    <p>Discover your spiritual gifts! Answer each question below based on how much you have experienced it with satisfaction in your life, or how well it "fits" your personality. Then click <strong>Score My Results</strong> to see which gifts are strongest for you.</p>
+    <p class="sg-pdf-link"><a href="/assets/SpiritualGiftsTest.pdf" class="btn btn-blue" target="_blank">Download PDF Version</a></p>
+  </div>
+  <div style="text-align:center; flex-shrink:0;">
+    <img src="/assets/images/spiritual-gifts-qr.png" alt="QR code link to this page" style="width:200px; height:200px;">
+    <br><small style="color:#6b7280;">Scan to share this page</small>
+  </div>
+</div>
+
+<div class="sg-instructions">
+  <strong>Rating Scale:</strong><br>
+  <strong>Much</strong> = Strongly fits me &nbsp;|&nbsp;
+  <strong>Some</strong> = Somewhat fits me &nbsp;|&nbsp;
+  <strong>Little</strong> = Slightly fits me &nbsp;|&nbsp;
+  <strong>Not at all</strong> = Doesn't fit me
+</div>
+
+<form id="sgForm">
+  <div class="sg-section-header">
+    <span>Much</span>
+    <span>Some</span>
+    <span>Little</span>
+    <span>Not at all</span>
+  </div>
+  <div id="sgQuestions"></div>
+
+  <p class="sg-warning" id="sgWarning">⚠️ Please answer all questions before scoring.</p>
+  <button type="button" class="sg-score-btn" onclick="scoreTest()">Score My Results</button>
+</form>
+
+<div class="sg-results" id="sgResults">
+  <h2>Your Results</h2>
+  <div class="sg-top-gifts" id="sgTopGifts"></div>
+  <h3>Full Scores</h3>
+  <table class="sg-results-table">
+    <thead>
+      <tr><th>Row</th><th>Spiritual Gift</th><th>Score</th><th></th></tr>
+    </thead>
+    <tbody id="sgResultsBody"></tbody>
+  </table>
+</div>
+
+<script>
+const questions = [
+  "Believing God will keep His promises despite conflicting circumstantial evidence.",
+  "Studying and discovering new truths for myself.",
+  "To give and gain a blessing from visiting people in their homes or in hospitals.",
+  "Fitting in easily to a culture different from mine.",
+  "To help people learn and retain Biblical truth.",
+  "Correctly sensing the long-term implications for right and wrong when an idea is first proposed.",
+  "Persuading others to work toward achieving objectives that strengthen the church.",
+  "To pray for others at length without thinking about the time.",
+  "Enjoy providing food and lodging to those in need.",
+  "Finding it difficult to say \u201cno\u201d when asked to do some church related task that I feel comfortable with.",
+  "Verbally strengthening a spiritually apathetic fellow church member.",
+  "Managing my money to be able to give liberally to special church needs.",
+  "Can accurately recognize what spiritual talents another Christian has or doesn\u2019t have.",
+  "Able to lead others to decide to follow Jesus as their Lord.",
+  "Expecting real miracles to happen in my life when needed.",
+  "Acquiring and mastering new principles of Bible truth.",
+  "Able to cheer up and comfort someone who is lonely, sick or in prison.",
+  "Can relate well to an individual of different ethnic background.",
+  "Able to make difficult Biblical truths understandable to others.",
+  "Can effectively apply Biblical principles to problems that I face.",
+  "Can set goals and make sound plans to reach them.",
+  "Maintain a mental or written prayer list and pray regularly for those on it.",
+  "Would rather invite someone home to dinner after church than to be alone or just with family.",
+  "Like to look for ways to assist key leaders in the church.",
+  "Counseling with someone who feels confused and guilty.",
+  "Give freely of my resources to church needs.",
+  "Can look beneath the surface and accurately evaluate people\u2019s motives.",
+  "Can tell others about my experience as a Christian in such a way that they want to know more.",
+  "Trusting in the power of God for things that appear impossible to some.",
+  "Spending time studying and reading to better understand God\u2019s plan for me.",
+  "Feel a desire to involve myself in helping a member whose faith may be faltering.",
+  "Can look at life from the perspective of someone who grew up under conditions vastly different from me.",
+  "Able to explain the word of God clearly to others.",
+  "Enjoy working out solutions to complicated dilemmas in life.",
+  "Able to lead a group in making decisions together.",
+  "Have prayer be one of my favorite spiritual exercises.",
+  "Able to make strangers feel especially welcome in my home.",
+  "Volunteer to help someone out when I see they could use assistance in something that I am familiar with.",
+  "Restore backslidden members to renewed commitment.",
+  "Be deeply moved when confronted with urgent needs in our worldwide work.",
+  "Can usually see through a phony before his phoniness is clearly evident.",
+  "Finding it easy to initiate or turn a conversation toward talking about Jesus.",
+  "Trusting in the reliability of God when all looks dim.",
+  "Able to distinguish key and important facts of scripture.",
+  "Enjoy visiting a shut-in member to cheer them up.",
+  "Able to adapt my words, appearance and actions in whatever way is most effective to reach someone for Christ.",
+  "Can illustrate Christian concepts in a way people remember and understand.",
+  "Sensing God\u2019s leading when making important religious decisions.",
+  "Can steer others through difficulties that sometimes arise when doing church-related tasks.",
+  "Seeing God consistently answer my prayers in a tangible way.",
+  "Enjoy and feel at ease with each guest in my house.",
+  "Enjoy doing such church tasks as setting up chairs and tables, telephoning, typing, running errands, or cleaning after meetings.",
+  "Encouraging those who are troubled or feeling \u201cdown\u201d.",
+  "Quietly giving things or money to my church beyond what is typically expected.",
+  "My suggestion of what person should do a particular job usually proves to be a good choice.",
+  "Can pick out those who may be receptive to God\u2019s Spirit and search for ways to reach them.",
+  "Believing big things will happen in God\u2019s work here when others aren\u2019t so sure.",
+  "Enjoy and look forward to personal Bible study.",
+  "Providing real help to new or straying Christians.",
+  "Developing close friendship with someone whose cultural background isn\u2019t at all like mine.",
+  "Speaking in such a way that others listen and learn.",
+  "Judging well between good and bad ideas.",
+  "Able to plan and oversee a good project that benefits our church.",
+  "Praying for others and believing God will draw especially close to those people because I prayed for them.",
+  "Especially enjoy having visitors in my home.",
+  "Willing and satisfied to be doing church jobs that appear routine or boring to some.",
+  "Able to tactfully redirect complacent or wayward Christians to face reality.",
+  "Willing to maintain a lower standard of living in order to benefit God\u2019s work.",
+  "Clearly perceiving the difference between truth and error when someone is speaking.",
+  "Speaking to others about Jesus in a way that awakens them to their need of Him."
+];
+
+const gifts = [
+  { row: "A", name: "Faith", questions: [1,15,29,43,57] },
+  { row: "B", name: "Knowledge", questions: [2,16,30,44,58] },
+  { row: "C", name: "Mercy", questions: [3,17,31,45,59] },
+  { row: "D", name: "Missionary", questions: [4,18,32,46,60] },
+  { row: "E", name: "Teaching", questions: [5,19,33,47,61] },
+  { row: "F", name: "Wisdom", questions: [6,20,34,48,62] },
+  { row: "G", name: "Leadership", questions: [7,21,35,49,63] },
+  { row: "H", name: "Intercession", questions: [8,22,36,50,64] },
+  { row: "I", name: "Hospitality", questions: [9,23,37,51,65] },
+  { row: "J", name: "Helping/Service", questions: [10,24,38,52,66] },
+  { row: "K", name: "Exhortation", questions: [11,25,39,53,67] },
+  { row: "L", name: "Giving", questions: [12,26,40,54,68] },
+  { row: "M", name: "Discernment", questions: [13,27,41,55,69] },
+  { row: "N", name: "Evangelism", questions: [14,28,42,56,70] }
+];
+
+// Build the question form
+const container = document.getElementById('sgQuestions');
+questions.forEach((text, i) => {
+  const num = i + 1;
+  const div = document.createElement('div');
+  div.className = 'sg-question';
+  div.innerHTML = `
+    <span class="sg-num">${num}.</span>
+    <span class="sg-text">${text}</span>
+    <span class="sg-options">
+      <label><input type="radio" name="q${num}" value="3">Much</label>
+      <label><input type="radio" name="q${num}" value="2">Some</label>
+      <label><input type="radio" name="q${num}" value="1">Little</label>
+      <label><input type="radio" name="q${num}" value="0">Not at all</label>
+    </span>
+  `;
+  container.appendChild(div);
+});
+
+function scoreTest() {
+  const warning = document.getElementById('sgWarning');
+  const answers = {};
+  let unanswered = [];
+
+  for (let i = 1; i <= 70; i++) {
+    const selected = document.querySelector(`input[name="q${i}"]:checked`);
+    if (!selected) {
+      unanswered.push(i);
+    } else {
+      answers[i] = parseInt(selected.value);
+    }
+  }
+
+  if (unanswered.length > 0) {
+    warning.textContent = `⚠️ Please answer all questions. Missing: ${unanswered.join(', ')}`;
+    warning.classList.add('visible');
+    // Scroll to first unanswered
+    const firstMissing = document.querySelector(`input[name="q${unanswered[0]}"]`);
+    if (firstMissing) firstMissing.closest('.sg-question').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    return;
+  }
+
+  warning.classList.remove('visible');
+
+  // Calculate scores
+  const results = gifts.map(gift => {
+    const score = gift.questions.reduce((sum, q) => sum + answers[q], 0);
+    return { ...gift, score };
+  });
+
+  // Sort by score descending for top gifts
+  const sorted = [...results].sort((a, b) => b.score - a.score);
+  const maxScore = 15;
+
+  // Display results
+  const tbody = document.getElementById('sgResultsBody');
+  tbody.innerHTML = '';
+  const topScore = sorted[0].score;
+
+  results.forEach(r => {
+    const isTop = r.score === topScore;
+    const barWidth = Math.round((r.score / maxScore) * 150);
+    const tr = document.createElement('tr');
+    if (isTop) tr.className = 'sg-highlight';
+    tr.innerHTML = `
+      <td>${r.row}</td>
+      <td>${r.name}</td>
+      <td>${r.score} / ${maxScore}</td>
+      <td style="text-align:left"><span class="sg-bar" style="width:${barWidth}px"></span></td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  // Top gifts section
+  const topGifts = sorted.filter(r => r.score >= sorted[0].score - 2 && r.score >= 10);
+  const topDiv = document.getElementById('sgTopGifts');
+  if (topGifts.length > 0) {
+    topDiv.innerHTML = `<h3>🎁 Your Top Spiritual Gifts</h3><ul>${topGifts.map(g => 
+      `<li><strong>${g.name}</strong> — ${g.score}/${maxScore}</li>`
+    ).join('')}</ul>
+    <p style="margin-bottom:0"><em>These are the areas where your gifts appear to be strongest. Consider how you might use them in service to God and others!</em></p>`;
+  } else {
+    topDiv.innerHTML = `<h3>Your Scores</h3><p>Your scores are relatively even across categories. Consider retaking the test after reflecting on each question more deeply.</p>`;
+  }
+
+  const resultsDiv = document.getElementById('sgResults');
+  resultsDiv.classList.add('visible');
+  resultsDiv.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
