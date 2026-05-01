@@ -203,7 +203,7 @@ title: "Spiritual Gifts Test"
   <h3>Full Scores</h3>
   <table class="sg-results-table">
     <thead>
-      <tr><th>Row</th><th>Spiritual Gift</th><th>Score</th><th></th></tr>
+      <tr><th>Row</th><th>Score</th><th></th></tr>
     </thead>
     <tbody id="sgResultsBody"></tbody>
   </table>
@@ -284,20 +284,20 @@ const questions = [
 ];
 
 const gifts = [
-  { row: "A", name: "Faith", questions: [1,15,29,43,57] },
-  { row: "B", name: "Knowledge", questions: [2,16,30,44,58] },
-  { row: "C", name: "Mercy", questions: [3,17,31,45,59] },
-  { row: "D", name: "Missionary", questions: [4,18,32,46,60] },
-  { row: "E", name: "Teaching", questions: [5,19,33,47,61] },
-  { row: "F", name: "Wisdom", questions: [6,20,34,48,62] },
-  { row: "G", name: "Leadership", questions: [7,21,35,49,63] },
-  { row: "H", name: "Intercession", questions: [8,22,36,50,64] },
-  { row: "I", name: "Hospitality", questions: [9,23,37,51,65] },
-  { row: "J", name: "Helping/Service", questions: [10,24,38,52,66] },
-  { row: "K", name: "Exhortation", questions: [11,25,39,53,67] },
-  { row: "L", name: "Giving", questions: [12,26,40,54,68] },
-  { row: "M", name: "Discernment", questions: [13,27,41,55,69] },
-  { row: "N", name: "Evangelism", questions: [14,28,42,56,70] }
+  { row: "A", questions: [1,15,29,43,57] },
+  { row: "B", questions: [2,16,30,44,58] },
+  { row: "C", questions: [3,17,31,45,59] },
+  { row: "D", questions: [4,18,32,46,60] },
+  { row: "E", questions: [5,19,33,47,61] },
+  { row: "F", questions: [6,20,34,48,62] },
+  { row: "G", questions: [7,21,35,49,63] },
+  { row: "H", questions: [8,22,36,50,64] },
+  { row: "I", questions: [9,23,37,51,65] },
+  { row: "J", questions: [10,24,38,52,66] },
+  { row: "K", questions: [11,25,39,53,67] },
+  { row: "L", questions: [12,26,40,54,68] },
+  { row: "M", questions: [13,27,41,55,69] },
+  { row: "N", questions: [14,28,42,56,70] }
 ];
 
 // Build the question form
@@ -365,8 +365,7 @@ function scoreTest() {
     const tr = document.createElement('tr');
     if (isTop) tr.className = 'sg-highlight';
     tr.innerHTML = `
-      <td>${r.row}</td>
-      <td>${r.name}</td>
+      <td>Row ${r.row}</td>
       <td>${r.score} / ${maxScore}</td>
       <td style="text-align:left"><span class="sg-bar" style="width:${barWidth}px"></span></td>
     `;
@@ -377,8 +376,8 @@ function scoreTest() {
   const topGifts = sorted.filter(r => r.score >= sorted[0].score - 2 && r.score >= 10);
   const topDiv = document.getElementById('sgTopGifts');
   if (topGifts.length > 0) {
-    topDiv.innerHTML = `<h3>🎁 Your Top Spiritual Gifts</h3><ul>${topGifts.map(g => 
-      `<li><strong>${g.name}</strong> — ${g.score}/${maxScore}</li>`
+    topDiv.innerHTML = `<h3>🎁 Your Top Rows</h3><ul>${topGifts.map(g => 
+      `<li><strong>Row ${g.row}</strong> — ${g.score}/${maxScore}</li>`
     ).join('')}</ul>
     <p style="margin-bottom:0"><em>These are the areas where your gifts appear to be strongest. Consider how you might use them in service to God and others!</em></p>`;
   } else {
