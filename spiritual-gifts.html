@@ -207,6 +207,10 @@ title: "Spiritual Gifts Test"
     </thead>
     <tbody id="sgResultsBody"></tbody>
   </table>
+  <div style="text-align:center; margin-top:1rem;">
+    <button id="sgEmailBtn" class="sg-score-btn" style="display:none" onclick="emailResults()">📧 Email Results to Myself</button>
+    <button id="sgDownloadBtn" class="sg-score-btn" style="display:none" onclick="downloadResults()">💾 Download Results</button>
+  </div>
 </div>
 
 <script>
@@ -300,22 +304,40 @@ const gifts = [
   { row: "N", questions: [14,28,42,56,70] }
 ];
 
+// Load saved answers from localStorage
+const STORAGE_KEY = 'spiritualGiftsAnswers';
+function saveAnswers() {
+  const saved = {};
+  for (let i = 1; i <= 70; i++) {
+    const sel = document.querySelector(`input[name="q${i}"]:checked`);
+    if (sel) saved[i] = sel.value;
+  }
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+}
+function loadAnswers() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch(e) { return {}; }
+}
+
 // Build the question form
 const container = document.getElementById('sgQuestions');
+const savedAnswers = loadAnswers();
 questions.forEach((text, i) => {
   const num = i + 1;
   const div = document.createElement('div');
   div.className = 'sg-question';
+  const saved = savedAnswers[num];
   div.innerHTML = `
     <span class="sg-num">${num}.</span>
     <span class="sg-text">${text}</span>
     <span class="sg-options">
-      <label><input type="radio" name="q${num}" value="3">Much</label>
-      <label><input type="radio" name="q${num}" value="2">Some</label>
-      <label><input type="radio" name="q${num}" value="1">Little</label>
-      <label><input type="radio" name="q${num}" value="0">Not at all</label>
+      <label><input type="radio" name="q${num}" value="3"${saved==='3'?' checked':''}>Much</label>
+      <label><input type="radio" name="q${num}" value="2"${saved==='2'?' checked':''}>Some</label>
+      <label><input type="radio" name="q${num}" value="1"${saved==='1'?' checked':''}>Little</label>
+      <label><input type="radio" name="q${num}" value="0"${saved==='0'?' checked':''}>Not at all</label>
     </span>
   `;
+  // Save on each answer change
+  div.querySelectorAll('input[type="radio"]').forEach(r => r.addEventListener('change', saveAnswers));
   container.appendChild(div);
 });
 
@@ -386,6 +408,44 @@ function scoreTest() {
 
   const resultsDiv = document.getElementById('sgResults');
   resultsDiv.classList.add('visible');
+  document.getElementById('sgEmailBtn').style.display = 'inline-block';
+  document.getElementById('sgDownloadBtn').style.display = 'inline-block';
   resultsDiv.scrollIntoView({ behavior: 'smooth' });
+}
+
+function emailResults() {
+  const body = buildResultsText();
+  const mailto = 'mailto:?subject=' + encodeURIComponent('My Spiritual Gifts Test Results') + '&body=' + encodeURIComponent(body);
+  window.location.href = mailto;
+}
+
+function buildResultsText() {
+  const rows = document.querySelectorAll('#sgResultsBody tr');
+  let text = 'Spiritual Gifts Test Results\n';
+  text += '============================\n\n';
+  const topDiv = document.getElementById('sgTopGifts');
+  const topItems = topDiv.querySelectorAll('li');
+  if (topItems.length > 0) {
+    text += 'Top Rows:\n';
+    topItems.forEach(li => text += '  ' + li.textContent + '\n');
+    text += '\n';
+  }
+  text += 'All Scores:\n';
+  rows.forEach(tr => {
+    const cells = tr.querySelectorAll('td');
+    text += '  ' + cells[0].textContent.padEnd(8) + cells[1].textContent + '\n';
+  });
+  text += '\nTake the test: https://wccarobotics.github.io/spiritual-gifts\n';
+  return text;
+}
+
+function downloadResults() {
+  const text = buildResultsText();
+  const blob = new Blob([text], { type: 'text/plain' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'spiritual-gifts-results.txt';
+  a.click();
+  URL.revokeObjectURL(a.href);
 }
 </script>
