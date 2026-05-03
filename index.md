@@ -19,7 +19,7 @@ layout: home
       <h3>📣 FLL Championship — May 3!</h3>
       <p>Both of our FLL teams are competing at the <strong>Adventist Robotics FLL Championship</strong> on May 3 at Forest Lake Academy in Apopka, FL. Cheer them on!</p>
       <a href="/tournaments/fll/2026-FLL-Championship-Info" class="btn btn-blue" style="margin-top: 0.75rem;">Parent Info & Schedule →</a>
-      <a href="https://www.youtube.com/watch?v=uMzQvutiZAQ" class="btn btn-blue" style="margin-top: 0.5rem;" target="_blank">Watch the Livestream →</a>
+      <a href="https://www.youtube.com/watch?v=Fr3Q8xQ7GSM" class="btn btn-blue" style="margin-top: 0.5rem;" target="_blank">Watch the Livestream →</a>
       <a href="https://fllgameday.com/scoreboard/82259ccf-076c-4392-bf0e-ed2f48181632" class="btn btn-blue" style="margin-top: 0.5rem;" target="_blank">Live Scoreboard →</a>
     </div>
     <div class="highlight-box" style="margin-top: 1.5rem;">
