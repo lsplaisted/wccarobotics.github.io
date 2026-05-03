@@ -80,7 +80,7 @@ There is a major construction project on campus for new classrooms and an admini
 ## 📺 Livestream & Scoreboard
 
 The tournament will be livestreamed on 3ABN and the Adventist Robotics YouTube channel:
-[**Watch the livestream**](https://www.youtube.com/watch?v=uMzQvutiZAQ)
+[**Watch the livestream**](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM)
 
 Follow along with live scores on the scoreboard:
 [**Live Scoreboard**](https://fllgameday.com/scoreboard/82259ccf-076c-4392-bf0e-ed2f48181632)
