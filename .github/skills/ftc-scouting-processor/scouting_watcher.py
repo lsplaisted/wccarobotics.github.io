@@ -235,11 +235,7 @@ def update_matches_with_copilot(season, event_code):
         f"Using the ftc-scouting-processor skill, fetch the latest match results and rankings "
         f"from the FTC API, recalculate OPR, update the scouting index page "
         f"(match schedule, rankings, and OPR in the teams table). "
-        f"Also find the livestream URL from the tournament info pages on this site "
-        f"(look for pages referencing {event_code}), then find the timestamps for the new matches "
-        f"in the livestream using Playwright frame capture (search backward from the live edge in "
-        f"2-minute chunks, read the match overlay to find match number and timer, calculate match "
-        f"start time). Add the timestamps as links in the Video column of the match schedule table. "
+        f"Do NOT try to find livestream timestamps — those will be added later from the recorded video. "
         f"Then git add, commit, and push the changes."
     )
     return run_copilot(prompt, label="match update")
