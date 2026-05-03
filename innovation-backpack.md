@@ -10,6 +10,10 @@ title: "Innovation Project — Robo Gators of the Lost Park"
 **Innovation Project by Robo Gators of the Lost Park (FLL Team #64434)**
 **2025–26 Unearthed Season**
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/0KhH7vzZ_dM" allowfullscreen></iframe>
+</div>
+
 ## Research
 
 Our team started by learning about archaeology from multiple sources. Pastor Andrew Raduly shared his experience in Egyptian archaeology, teaching us how archaeologists use details and clues, take careful notes, create grid systems at dig sites, and plan ahead. We also studied resources from the [Archaeological Institute of America](https://www.archaeological.org/) and the [Florida Division of Historical Resources](https://dos.fl.gov/historical/archaeology/).
@@ -185,12 +189,6 @@ Putting all the feedback together — from archaeologists, our community, and a 
 ![Final product concept: Archaeologist Field Pack with Integrated Shelter Canopy — sun, rain, and insect protection](/assets/images/innovation/rg-final-product.jpg)
 
 The final design deploys in seconds: pull the canopy out of the pack, open the side panels, and extend it over your head and front for instant protection from sun, rain, and insects. When you're done, it rolls back up and stows neatly in the pack.
-
-## Video Presentation
-
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/0KhH7vzZ_dM" allowfullscreen></iframe>
-</div>
 
 ## Conclusion
 
