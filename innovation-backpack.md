@@ -186,6 +186,12 @@ Putting all the feedback together — from archaeologists, our community, and a 
 
 The final design deploys in seconds: pull the canopy out of the pack, open the side panels, and extend it over your head and front for instant protection from sun, rain, and insects. When you're done, it rolls back up and stows neatly in the pack.
 
+## Video Presentation
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/0KhH7vzZ_dM" allowfullscreen></iframe>
+</div>
+
 ## Conclusion
 
 The Protection Backpack is a portable, lightweight weather shield designed to help archaeologists work comfortably in extreme conditions. Based on feedback from professional archaeologists, our community, an industry manufacturing expert, and real-world testing at our mock dig, we refined our design to be sturdy, see-through, and practical for field use. We believe this solution could help archaeologists stay dry, cool, and productive — allowing them to focus on what they do best: uncovering the past.
