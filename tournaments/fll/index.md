@@ -14,6 +14,13 @@ Our FLL teams compete in Adventist Robotics tournaments. Each tournament page be
 <div class="tournament-list">
 
 <div class="tournament-card">
+  <h3><a href="/tournaments/fll/2026-FLL-Championship">Adventist Robotics Championship Tournament</a></h3>
+  <p><strong>May 3, 2026</strong> · 29 teams · Forest Lake Academy</p>
+  <p>🏆 Robot Performance: Robo Gators of the Lost Park (460 pts)</p>
+  <a href="/tournaments/fll/2026-FLL-Championship" class="btn btn-blue" style="margin-top: 0.5rem;">View Results →</a>
+</div>
+
+<div class="tournament-card">
   <h3><a href="/tournaments/fll/2026-FLL-Florida-Qualifier">Florida Qualifying Tournament</a></h3>
   <p><strong>March 29, 2026</strong> · 18 teams · Adventist Robotics</p>
   <p>🏆 Champions Award: Robo Gators of the Lost Park · Robot Performance: Robo Gators of the Lost Park (360 pts)</p>
