@@ -114,7 +114,7 @@ On this page you can see the results of the Adventist Robotics Championship Tour
 - Start of awards ceremony [4:47:25](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17245)
 - Awards
   - [Engineering Excellence Award](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17322)
-    - Winner: 3079 The Archaeolo-Cows
+    - Winner: [3079 The Archaeolo-Cows](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17370)
   - [Motivate Award](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17405)
     - Winner: [54580 Gear Girls](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17435)
   - [Core Values Award](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17474)
