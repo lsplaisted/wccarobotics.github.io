@@ -13,7 +13,7 @@ On this page you can see the results of the Adventist Robotics Championship Tour
 
 [Robot game scoreboard](https://fllgameday.com/scoreboard/82259ccf-076c-4392-bf0e-ed2f48181632)
 
-*This tournament had 29 teams (odd number), so each round included one surrogate match where a volunteer team filled the empty table slot. Surrogate scores are not counted in rankings. The surrogate match start countdown was not detected in the livestream captions for any round, so timestamps for those matches are not provided.*
+*This tournament had 29 teams (odd number), so each round included one surrogate match where a volunteer team filled the empty table slot. Surrogate scores are not counted in rankings. The surrogate match start countdowns were not detected in the livestream captions, so timestamps for the Round 1 and Round 3 surrogate matches are not provided.*
 
 ## Round 1
 
@@ -39,7 +39,7 @@ On this page you can see the results of the Adventist Robotics Championship Tour
 
 | Team A | Points Scored | Team B | Points Scored | Video Link |
 | ------ | ------------- | ------ | ------------- | ---------- |
-| 70021 Supernovus | 180 | *(surrogate)* | — | |
+| 70021 Supernovus | 180 | 61349 Marcus Bartholomew the Third Junior *(surrogate)* | — | |
 | 4254 The Grave Diggers | 340 | 67853 4 0 6 Bricks | 180 | [1:32:27](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=5547) |
 | 64608 M.I.T. Nitro Blue | 350 | 70235 Deserted | 195 | [1:39:49](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=5989) |
 | 56334 Motorized Hawks | 245 | 3079 The Archaeolo-Cows | 230 | [1:43:13](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=6193) |
@@ -71,11 +71,9 @@ On this page you can see the results of the Adventist Robotics Championship Tour
 | 70267 Circuit Breakers | 255 | 69648 TerraBots | 165 | [3:16:50](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11810) |
 | 63955 Royals Robotics | 240 | 74238 Vanguards | 140 | [3:19:59](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11999) |
 | 55784 Groundbreaking Eagles | 195 | 28238 VVAA T-WaveTronics | 450 | [3:25:03](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12303) |
-| 69511 Indiana Bones | 230 | 58108 Iron Eagles | 300 | [3:28:12](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12492) |
-| 67444 Eagle Warriors | 200 | 54580 Gear Girls | 355 | [3:31:47](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12707) |
-| 61349 Marcus Bartholomew the Third Junior | 360 | 73471 Speed Coders | 220 | [3:35:38](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12938) |
-
-> *After Round 3 completed, there were two exhibition matches: 20201 Robo Falcons & 54580 Gear Girls at [3:39:35](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=13175), and 61349 Marcus Bartholomew the Third Junior & 67444 Eagle Warriors at [3:43:08](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=13388). These were unofficial runs and scores do not count in the rankings.*
+| 69511 Indiana Bones | 230 | 58108 Iron Eagles | 300 | [3:35:40](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12940) |
+| 67444 Eagle Warriors | 200 | 54580 Gear Girls | 355 | [3:39:35](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=13175) |
+| 61349 Marcus Bartholomew the Third Junior | 360 | 73471 Speed Coders | 220 | [3:43:08](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=13388) |
 
 ## Robot Game Rankings
 
