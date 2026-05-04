@@ -176,27 +176,54 @@ Also verify countdowns manually by pairing starts with ends:
 
 **Beware the ceremonial "321 LEGO"**: The opening ceremony often ends with a crowd countdown ("321 LEGO!") to kick off the competition. This is NOT a match start — it has no corresponding end countdown ~150s later. Exclude it.
 
-#### Step 3c: Map countdowns to schedule matches
+#### Step 3c: Map countdowns to schedule matches with AI verification
 
 **Key insight: Tables/pods typically run sequentially, not simultaneously.** Even when the schedule lists multiple pods at the same "time" (e.g., "1:20 PM — Pod 1 and Pod 2"), each pod gets its own separate countdown 3-5 minutes apart. So:
 
 - A tournament with 2 pods and 5 time slots per round has **10 countdowns per round** (not 5)
 - Countdowns naturally pair up: Pod 1 start, Pod 2 start (3-5 min later), then gap to next time slot
 
-Map countdowns to scheduled matches in order:
-1. Take the first countdown → assign to the first scheduled match (Time Slot 1, Pod 1)
-2. Take the next countdown → assign to Time Slot 1, Pod 2
-3. Continue in schedule order through all time slots and rounds
+**⚠️ DANGER: Sequential assignment is fragile.** If you blindly map "the Nth detected countdown → the Nth scheduled match," a single missed countdown shifts EVERY subsequent match to the wrong timestamp. This commonly happens because:
+- Surrogate match countdowns are sometimes muffled, mistimed, or the announcer skips the formal "3-2-1 lego" ("we're just going to start this practice run").
+- Auto-captions occasionally drop a countdown entirely.
+- The number of detected countdowns rarely matches the number of scheduled matches exactly.
 
-#### Step 3d: Verify structural consistency
+**The correct approach: AI-assisted whole-transcript mapping.** Don't rely on regex/keyword matching alone for team identification. Instead, after dedup and parsing the transcript:
 
-Scores come entirely from the API — they are NOT visible in the video (and aren't available until well after each match). Verification is about confirming the **countdown-to-match mapping** is correct:
+1. Split the focus window of the transcript (from first match to last match) into a clean text file with `[H:MM:SS t=SECONDS] caption` per line.
+2. Launch a sub-agent (e.g., Claude Sonnet) with:
+   - The full transcript text file (typically 100-300KB)
+   - The complete team list (number → name)
+   - The schedule pairings in announced order, including surrogate slot positions (start vs end of round)
+   - Common auto-caption mishearings to expect (see below)
+3. Ask the sub-agent to identify EVERY match start countdown AND identify the two teams playing using announcer callouts in the ~30-90 seconds **before** the countdown ("team 54580…it's team 69511…3, 2, 1, Lego!").
+4. The sub-agent should produce one row per match: `t=, HH:MM:SS, Round, Teams, Surrogate?, Evidence (caption snippets)`.
 
-- Each team appears exactly once per round
-- The total countdown count matches the expected number of matches (accounting for sequential pods)
-- START-END countdown pairs are ~140-160 seconds apart (confirms real matches vs. false detections)
-- Round boundaries make sense (gaps between rounds are longer than gaps between pods within a round)
-- **Spot-check team names in captions** — search for team names/numbers within ~2 minutes before each countdown. The announcer typically calls teams to the table before a match starts. If the team names near a countdown don't match the assigned schedule pairing, the mapping may be off. Note: captions often mishear names, so a mismatch isn't definitive — but a correct match is strong confirmation.
+This is dramatically more reliable than script-based mapping because the AI:
+- Reads team names AND numbers in context (handles "five-four-five-eight-zero" digit-by-digit callouts).
+- Handles common mishearings ("Speed Coders" → "Code Breakers"/"coat breakers", "Marcus Bartholomew" → "Marcus Baral", "TerraBots" → "Terabucks", "EnginEagles" → "Indian Eagles").
+- Detects surrogate matches via explicit announcer language ("stepping in as a surrogate", "we have a blank spot", "practice round").
+- Can distinguish match countdowns from the opening ceremony "3-2-1 lego" kickoff.
+
+#### Step 3d: Verify EVERY mapping before generating the page
+
+**This is the step that was missing the first time and caused massive errors.** After producing a mapping, validate it before writing markdown:
+
+1. **For each match, check that the announcer named both assigned teams** in the ~60 seconds before the countdown. If a caption near the countdown names different teams, the mapping is wrong.
+2. **Cross-check sequential timestamps** — countdowns within the same time slot should be 3-5 minutes apart; between slots there's typically a 4-8 minute gap; between rounds there's often a 10+ minute gap. A "match" with a 0-minute gap from the previous one is suspicious.
+3. **Watch for cascading errors** — if you find one wrong assignment, check ALL surrounding matches. A single off-by-one error from a missed surrogate countdown tends to shift many matches.
+4. **Don't invent "exhibition matches"** — if there are extra timestamps that don't fit your mapping, your mapping is more likely wrong than there being unscheduled matches. Verify before adding exhibition match notes.
+
+#### Step 3e: Identify each surrogate volunteer
+
+Each round with an odd team count has one surrogate match where a volunteer team plays alongside the team whose schedule slot has `*` or is blank. **Identify each volunteer explicitly from captions** — do not guess. Search the transcript for:
+- "surrogate"
+- "stepping in"
+- "volunteer"
+- "blank spot"
+- "practice run" / "practice round" (sometimes used)
+
+The announcer typically thanks the volunteer team by name shortly after they play. Example: *"I want to give kudos to Iron Eagles because they're stepping in as a surrogate team."*
 
 If you have Whisper JSON output instead of VTT, analyze it directly. Search the transcript for:
 
@@ -347,6 +374,24 @@ Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `
 - **Coach Mentor Award**: This is given to a coach/mentor, not a team. Note the coach's name and their team.
 - **Rising All-Star Award**: This award may have multiple winners (not just one).
 - **yt-dlp download-sections**: The `--download-sections` flag for extracting video clips often fails with YouTube HLS streams (HTTP 403 errors on segments). Use Playwright screenshots instead for extracting frames.
+
+### Verifying award winners with on-screen overlays
+
+FLL livestreams typically display lower-third graphic overlays during the awards ceremony showing the award name and team number/name (e.g., "The Core Values Award goes to: 46068 - Past Patrol"). **Caption-based award identification is unreliable** because the announcer often misspeaks, the audio is muffled by music/applause, and Whisper VAD filtering drops awards-ceremony segments. **Always verify award winners against the on-screen overlay graphics.**
+
+Workflow:
+
+1. From the captions, extract approximate timestamps for each award announcement (search for award names: "core values", "innovation project", "robot design", "robot performance", "champions", "engineering excellence", "motivate", etc.).
+2. **Beware of overlay lag.** The on-screen graphic typically appears 30-120 seconds AFTER the announcer says the award name. The runner-up names appear before the winner name, separated by 10-30 seconds each. Capture multiple frames in a window from `t+30` to `t+150` for each award.
+3. Use Playwright to capture frames (1920×1080 viewport, headless). For each frame: load the YouTube URL with `?t=N`, accept cookies, click play+pause to load player, then `page.evaluate("video.currentTime = N")`, sleep 5s, and `video_element.screenshot()`.
+4. **Resize frames before AI review.** Full 1920×1080 PNGs are ~1.5MB each. Convert to ~1280×720 JPEG quality 80 (~150KB each) using PIL: `img.thumbnail((1280, 720)); img.save(out, 'JPEG', quality=80)`. This dramatically reduces token cost when delegating verification to sub-agents.
+5. **Delegate frame verification to multiple parallel sub-agents** (use Claude Haiku for cost). Group 5-10 frames per agent (e.g., one agent per award). Ask each agent to report exactly what overlay text is shown, including award name AND team number/name AND winner-vs-runner-up label.
+6. **Always recapture failed frames.** If a frame comes back at 27KB or other tiny size, the YouTube player didn't load. Retry with a fresh page load (close and recreate the page object) instead of just re-seeking.
+7. **⚠️ Sub-agent vision is not infallible.** A sub-agent may report "this overlay shows X" with high confidence when it actually shows Y. Cross-check by:
+   - Capturing multiple frames at different timestamps for each award (2-5 frames spanning the winner/runner-up reveal).
+   - If a sub-agent says an award doesn't exist, capture more frames in the gap before concluding it's missing — most awards have a 60-120s announcement window with multiple distinct overlays.
+   - When a sub-agent's reading contradicts both the captions AND the typical FLL award lineup (e.g., "Motivate Award doesn't exist"), capture additional frames to verify before deleting content.
+8. **Do not trust caption-derived award winners as final.** Always verify against at least one on-screen overlay frame per award.
 
 ### Verification checklist
 After generating the page, verify:
