@@ -16,7 +16,7 @@ Our FLL teams compete in Adventist Robotics tournaments. Each tournament page be
 <div class="tournament-card">
   <h3><a href="/tournaments/fll/2026-FLL-Championship">Adventist Robotics Championship Tournament</a></h3>
   <p><strong>May 3, 2026</strong> · 29 teams · Forest Lake Academy</p>
-  <p>🏆 Robot Performance: Robo Gators of the Lost Park (460 pts)</p>
+  <p>🏆 Champions Award: Marcus Bartholomew the Third Junior · Robot Performance: Robo Gators of the Lost Park (460 pts)</p>
   <a href="/tournaments/fll/2026-FLL-Championship" class="btn btn-blue" style="margin-top: 0.5rem;">View Results →</a>
 </div>
 
