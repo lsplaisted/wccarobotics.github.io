@@ -13,7 +13,7 @@ On this page you can see the results of the Adventist Robotics Championship Tour
 
 [Robot game scoreboard](https://fllgameday.com/scoreboard/82259ccf-076c-4392-bf0e-ed2f48181632)
 
-*This tournament had 29 teams (odd number), so each round included one surrogate match where a volunteer team filled the empty table slot. Surrogate scores are not counted in rankings. The surrogate match start countdowns were not detected in the livestream captions, so timestamps for the Round 1 and Round 3 surrogate matches are not provided.*
+*This tournament had 29 teams (odd number), so each round included one surrogate match where a volunteer team filled the empty table slot. Surrogate scores are not counted in rankings. The Round 1 surrogate volunteer was 20201 Robo Falcons, the Round 2 surrogate volunteer was 58108 Iron Eagles, and the Round 3 surrogate volunteer was 61349 Marcus Bartholomew the Third Junior.*
 
 ## Round 1
 
@@ -31,49 +31,49 @@ On this page you can see the results of the Adventist Robotics Championship Tour
 | 63955 Royals Robotics | 200 | 74238 Vanguards | 185 | [1:14:17](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=4457) |
 | 70267 Circuit Breakers | 220 | 55784 Groundbreaking Eagles | 240 | [1:17:29](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=4649) |
 | 28238 VVAA T-WaveTronics | 350 | 58108 Iron Eagles | 280 | [1:20:56](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=4856) |
-| 67444 Eagle Warriors | 130 | 54580 Gear Girls | 410 | [1:25:07](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=5107) |
-| 69511 Indiana Bones | 400 | 61349 Marcus Bartholomew the Third Junior | 320 | [1:28:51](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=5331) |
-| 73471 Speed Coders | 260 | *(surrogate)* | — | |
+| 67444 Eagle Warriors | 130 | 54580 Gear Girls | 410 | [1:24:30](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=5070) |
+| 69511 Indiana Bones | 400 | 61349 Marcus Bartholomew the Third Junior | 320 | [1:28:55](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=5335) |
+| 73471 Speed Coders | 260 | 20201 Robo Falcons *(surrogate)* | — | [1:32:29](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=5549) |
 
 ## Round 2
 
 | Team A | Points Scored | Team B | Points Scored | Video Link |
 | ------ | ------------- | ------ | ------------- | ---------- |
-| 70021 Supernovus | 180 | 61349 Marcus Bartholomew the Third Junior *(surrogate)* | — | |
-| 4254 The Grave Diggers | 340 | 67853 4 0 6 Bricks | 180 | [1:32:27](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=5547) |
-| 64608 M.I.T. Nitro Blue | 350 | 70235 Deserted | 195 | [1:39:49](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=5989) |
-| 56334 Motorized Hawks | 245 | 3079 The Archaeolo-Cows | 230 | [1:43:13](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=6193) |
-| 68567 ACA Charleston Chargers | 170 | 52342 Antelope Valley Atoms | 285 | [1:47:32](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=6452) |
-| 46068 Past Patrol | 235 | 64434 Robo Gators of the Lost Park | 460 | [1:51:41](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=6701) |
-| 71837 Bug Busters | 200 | 63472 Engin Eagles | 240 | [1:55:18](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=6918) |
-| 61372 Sentinels | 340 | 74564 Midnight Reign | 230 | [1:59:39](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=7179) |
-| 10075 Team Gold | 215 | 20201 Robo Falcons | 305 | [2:03:16](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=7396) |
-| 69648 TerraBots | 265 | 63955 Royals Robotics | 250 | [2:06:36](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=7596) |
-| 74238 Vanguards | 140 | 70267 Circuit Breakers | 190 | [2:10:38](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=7838) |
-| 55784 Groundbreaking Eagles | 275 | 28238 VVAA T-WaveTronics | 270 | [2:15:45](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=8145) |
-| 58108 Iron Eagles | 280 | 67444 Eagle Warriors | 170 | [2:18:56](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=8336) |
-| 54580 Gear Girls | 405 | 69511 Indiana Bones | 320 | [2:22:29](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=8549) |
-| 61349 Marcus Bartholomew the Third Junior | 415 | 73471 Speed Coders | 240 | [2:31:04](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=9064) |
+| 70021 Supernovus | 180 | 58108 Iron Eagles *(surrogate)* | — | [1:39:52](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=5992) |
+| 4254 The Grave Diggers | 340 | 67853 4 0 6 Bricks | 180 | [1:43:17](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=6197) |
+| 64608 M.I.T. Nitro Blue | 350 | 70235 Deserted | 195 | [1:47:35](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=6455) |
+| 56334 Motorized Hawks | 245 | 3079 The Archaeolo-Cows | 230 | [1:51:41](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=6701) |
+| 68567 ACA Charleston Chargers | 170 | 52342 Antelope Valley Atoms | 285 | [1:54:15](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=6855) |
+| 46068 Past Patrol | 235 | 64434 Robo Gators of the Lost Park | 460 | [1:59:39](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=7179) |
+| 71837 Bug Busters | 200 | 63472 Engin Eagles | 240 | [2:03:22](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=7402) |
+| 61372 Sentinels | 340 | 74564 Midnight Reign | 230 | [2:06:39](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=7599) |
+| 10075 Team Gold | 215 | 20201 Robo Falcons | 305 | [2:10:47](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=7847) |
+| 69648 TerraBots | 265 | 63955 Royals Robotics | 250 | [2:15:50](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=8150) |
+| 74238 Vanguards | 140 | 70267 Circuit Breakers | 190 | [2:18:58](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=8338) |
+| 55784 Groundbreaking Eagles | 275 | 28238 VVAA T-WaveTronics | 270 | [2:22:31](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=8551) |
+| 58108 Iron Eagles | 280 | 67444 Eagle Warriors | 170 | [2:25:45](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=8745) |
+| 54580 Gear Girls | 405 | 69511 Indiana Bones | 320 | [2:31:06](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=9066) |
+| 61349 Marcus Bartholomew the Third Junior | 415 | 73471 Speed Coders | 240 | [2:34:18](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=9258) |
 
 ## Round 3
 
 | Team A | Points Scored | Team B | Points Scored | Video Link |
 | ------ | ------------- | ------ | ------------- | ---------- |
-| 67853 4 0 6 Bricks | 150 | 70021 Supernovus | 265 | [2:34:18](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=9258) |
-| 4254 The Grave Diggers | 250 | 64608 M.I.T. Nitro Blue | 280 | [2:48:50](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=10130) |
-| 70235 Deserted | 240 | *(surrogate)* | — | |
-| 52342 Antelope Valley Atoms | 240 | 56334 Motorized Hawks | 295 | [2:52:04](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=10324) |
-| 3079 The Archaeolo-Cows | 260 | 68567 ACA Charleston Chargers | 165 | [2:55:46](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=10546) |
-| 46068 Past Patrol | 210 | 64434 Robo Gators of the Lost Park | 415 | [3:01:01](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=10861) |
-| 74564 Midnight Reign | 260 | 71837 Bug Busters | 250 | [3:04:50](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11090) |
-| 63472 Engin Eagles | 305 | 61372 Sentinels | 310 | [3:08:48](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11328) |
-| 10075 Team Gold | 175 | 20201 Robo Falcons | 335 | [3:13:08](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11588) |
-| 70267 Circuit Breakers | 255 | 69648 TerraBots | 165 | [3:16:50](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11810) |
-| 63955 Royals Robotics | 240 | 74238 Vanguards | 140 | [3:19:59](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11999) |
-| 55784 Groundbreaking Eagles | 195 | 28238 VVAA T-WaveTronics | 450 | [3:25:03](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12303) |
-| 69511 Indiana Bones | 230 | 58108 Iron Eagles | 300 | [3:35:40](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12940) |
-| 67444 Eagle Warriors | 200 | 54580 Gear Girls | 355 | [3:39:35](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=13175) |
-| 61349 Marcus Bartholomew the Third Junior | 360 | 73471 Speed Coders | 220 | [3:43:08](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=13388) |
+| 67853 4 0 6 Bricks | 150 | 61349 Marcus Bartholomew the Third Junior *(surrogate)* | — | [2:48:56](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=10136) |
+| 70021 Supernovus | 265 | 4254 The Grave Diggers | 250 | [2:52:06](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=10326) |
+| 64608 M.I.T. Nitro Blue | 280 | 70235 Deserted | 240 | [2:55:48](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=10548) |
+| 52342 Antelope Valley Atoms | 240 | 56334 Motorized Hawks | 295 | [3:01:06](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=10866) |
+| 3079 The Archaeolo-Cows | 260 | 68567 ACA Charleston Chargers | 165 | [3:04:54](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11094) |
+| 46068 Past Patrol | 210 | 64434 Robo Gators of the Lost Park | 415 | [3:08:49](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11329) |
+| 74564 Midnight Reign | 260 | 71837 Bug Busters | 250 | [3:13:14](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11594) |
+| 63472 Engin Eagles | 305 | 61372 Sentinels | 310 | [3:16:52](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=11812) |
+| 10075 Team Gold | 175 | 20201 Robo Falcons | 335 | [3:20:04](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12004) |
+| 70267 Circuit Breakers | 255 | 69648 TerraBots | 165 | [3:25:06](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12306) |
+| 63955 Royals Robotics | 240 | 74238 Vanguards | 140 | [3:28:15](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12495) |
+| 55784 Groundbreaking Eagles | 195 | 28238 VVAA T-WaveTronics | 450 | [3:31:49](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12709) |
+| 69511 Indiana Bones | 230 | 58108 Iron Eagles | 300 | [3:35:42](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=12942) |
+| 67444 Eagle Warriors | 200 | 54580 Gear Girls | 355 | [3:39:40](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=13180) |
+| 61349 Marcus Bartholomew the Third Junior | 360 | 73471 Speed Coders | 220 | [3:43:13](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=13393) |
 
 ## Robot Game Rankings
 
