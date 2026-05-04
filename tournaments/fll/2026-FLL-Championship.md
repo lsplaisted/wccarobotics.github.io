@@ -120,7 +120,9 @@ On this page you can see the results of the Adventist Robotics Championship Tour
   - [Motivate Award](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17405)
     - Winner: 54580 Gear Girls
   - [Core Values Award](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17474)
-    - Winner: 67444 Eagle Warriors
+    - Runner-up: [71837 Bug Busters](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17517)
+    - Runner-up: [67444 Eagle Warriors](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17535)
+    - Winner: [46068 Past Patrol](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17580)
   - [Innovation Project Award](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17591)
     - Runner-up: [20201 Robo Falcons](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17633)
     - Runner-up: [74564 Midnight Reign](https://www.youtube.com/watch?v=Fr3Q8xQ7GSM&t=17642)
