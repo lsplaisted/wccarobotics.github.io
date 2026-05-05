@@ -17,7 +17,7 @@ layout: home
   <div class="container">
     <div class="highlight-box">
       <h3>🏆 Champions Award at FLL Championship!</h3>
-      <p><strong>Marcus Bartholomew the Third Junior</strong> won the <strong>Champions Award</strong> (1st place overall) at the Adventist Robotics FLL Championship on May 3! They also placed 3rd in Robot Performance and advance to the Florida Robo Rally. <strong>Robo Gators of the Lost Park</strong> won the <strong>Robot Performance Award</strong> with a high score of 460 points — 1st place in robot game! Congratulations to both teams!</p>
+      <p><strong>Marcus Bartholomew the Third Junior</strong> won the <strong>Champions Award</strong> (1st place overall) at the Adventist Robotics FLL Championship on May 3 — the second year in a row! They also placed 3rd in Robot Performance and advance to the Florida Robo Rally. <strong>Robo Gators of the Lost Park</strong> won the <strong>Robot Performance Award</strong> with a high score of 460 points — 1st place in robot game! Congratulations to both teams!</p>
       <a href="/tournaments/fll/2026-FLL-Championship" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
     </div>
     <div class="highlight-box" style="margin-top: 1.5rem;">
