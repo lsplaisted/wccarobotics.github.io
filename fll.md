@@ -8,11 +8,9 @@ title: "FLL Teams"
 WCCA Robotics has two FLL teams competing in the 2025–26 **Unearthed** season (archaeology theme). FIRST LEGO League is a robotics competition for students in 4th through 8th grade where teams build autonomous LEGO robots, develop an innovation project, and demonstrate core values like teamwork and discovery.
 
 <div class="highlight-box">
-  <h3>📣 FLL Championship — May 3!</h3>
-  <p>Both teams are competing at the <strong>Adventist Robotics FLL Championship</strong> at Forest Lake Academy in Apopka, FL!</p>
-  <a href="/tournaments/fll/2026-FLL-Championship-Info" class="btn btn-blue" style="margin-top: 0.75rem;">Parent Info & Schedule →</a>
-  <a href="https://www.youtube.com/watch?v=uMzQvutiZAQ" class="btn btn-blue" style="margin-top: 0.5rem;" target="_blank">Watch the Livestream →</a>
-  <a href="https://fllgameday.com/scoreboard/82259ccf-076c-4392-bf0e-ed2f48181632" class="btn btn-blue" style="margin-top: 0.5rem;" target="_blank">Live Scoreboard →</a>
+  <h3>🏆 FLL Championship Results</h3>
+  <p><strong>Marcus Bartholomew the Third Junior</strong> won the <strong>Champions Award</strong> and <strong>Robo Gators of the Lost Park</strong> won the <strong>Robot Performance Award</strong> at the Adventist Robotics FLL Championship on May 3!</p>
+  <a href="/tournaments/fll/2026-FLL-Championship" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
 </div>
 
 ---

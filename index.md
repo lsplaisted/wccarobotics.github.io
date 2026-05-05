@@ -16,11 +16,9 @@ layout: home
 <div class="section section-alt">
   <div class="container">
     <div class="highlight-box">
-      <h3>📣 FLL Championship — May 3!</h3>
-      <p>Both of our FLL teams are competing at the <strong>Adventist Robotics FLL Championship</strong> on May 3 at Forest Lake Academy in Apopka, FL. Cheer them on!</p>
-      <a href="/tournaments/fll/2026-FLL-Championship-Info" class="btn btn-blue" style="margin-top: 0.75rem;">Parent Info & Schedule →</a>
-      <a href="https://www.youtube.com/watch?v=Fr3Q8xQ7GSM" class="btn btn-blue" style="margin-top: 0.5rem;" target="_blank">Watch the Livestream →</a>
-      <a href="https://fllgameday.com/scoreboard/82259ccf-076c-4392-bf0e-ed2f48181632" class="btn btn-blue" style="margin-top: 0.5rem;" target="_blank">Live Scoreboard →</a>
+      <h3>🏆 Champions Award at FLL Championship!</h3>
+      <p><strong>Marcus Bartholomew the Third Junior</strong> won the <strong>Champions Award</strong> (1st place overall) at the Adventist Robotics FLL Championship on May 3! They also placed 3rd in Robot Performance and advance to the Florida Robo Rally. <strong>Robo Gators of the Lost Park</strong> won the <strong>Robot Performance Award</strong> with a high score of 460 points — 1st place in robot game! Congratulations to both teams!</p>
+      <a href="/tournaments/fll/2026-FLL-Championship" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
     </div>
     <div class="highlight-box" style="margin-top: 1.5rem;">
       <h3>🏆 Control Award & 3rd Place at FTC Championship!</h3>
