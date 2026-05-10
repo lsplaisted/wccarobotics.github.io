@@ -111,7 +111,7 @@ The mantra in FIRST is **"More Than Robots"** — and it's true. Yes, the robot 
 - Programming, CAD, mechanical engineering, the engineering design process
 - Marketing, video production, social media
 
-**A community, not just a competition.** By the end of your first tournament you'll know other teams name. Alumni networks open doors to colleges, internships, and lifelong friendships.
+**A community, not just a competition.** By the end of your first tournament you'll know other teams names. Alumni networks open doors to colleges, internships, and lifelong friendships.
 
 It's a great extracurricular activity, and it looks fantastic on college applications and resumes.
 
@@ -121,26 +121,15 @@ It's a great extracurricular activity, and it looks fantastic on college applica
 
 ## Resources
 
-**Official FIRST resources**
+There are so many resources available to help FTC teams that it can be overwhelming trying to sort through them.  Below are some that we recommend.  Consider having different team members investigate different resources and bring what they learn back to the team.
 
 - [FIRST Tech Challenge home](https://www.firstinspires.org/robotics/ftc) — official program page
-- [Game and Season Materials](https://www.firstinspires.org/resource-library/ftc/game-and-season-info) — Game Manuals and updates
-- [FTC Docs](https://ftc-docs.firstinspires.org/) — technical documentation, programming guides, and tutorials
-- [FIRST Skill Builders course](https://training.firstinspires.org/learn/course/ftc-skill-builders-26-27) — free pre-season skills training
-- [2026-2027 Game Preview](https://community.firstinspires.org/game-preview-field-elements)
-
-**Robot kits**
-
-- [GoBilda starter kit](https://www.gobilda.com/) — what we recommend
-- [REV Robotics](https://www.revrobotics.com/) — also offers full robot kits and the official Control/Driver Hubs
-- [AndyMark](https://www.andymark.com/ftc-2026-27) — game sets, field, and starter kits
-- [Tetrix](https://www.tetrixrobotics.com/) — another approved kit option
-- [Studica](https://www.studica.com/) — another approved kit option
-
-**Adventist Robotics**
-
-- [Adventist Robotics](https://adventistrobotics.net) — main site
-- [Adventist Robotics Academy](https://adventistrobotics.academy/courses/FTC-GettingStarted) — free online course on starting an FTC team
+- [Game Manual 0](https://gm0.org/en/latest/) — A comprehensive guide for FTC teams.
+- [Brogan M. Pratt on YouTube](https://www.youtube.com/@BroganMPratt/videos) — This channnel has excellent guides for FTC teams, from wiring and different types of robot systems to programming and computer vision.  His FTC Fridays series during the FTC season summarizes what various teams are sharing about their progress each week.
+- [FUN Robotics Network on YouTube](https://www.youtube.com/@FUNRoboticsNetwork) — This channel covers several different robotics competitions, including FTC.  Their [Behind the Bot](https://www.youtube.com/playlist?list=PLkZ6_Ld1x9Y8p3x74cXFLBAvVpxlIbDuX) series interviews FTC teams about how their robots work.  These are usually the best of the best teams, so try to be inspired by them rather than discouraged. 😀
+- [Effective FIRST Strategies](https://www.youtube.com/watch?v=cemXDEzBMhM) — Great presentation on how to be a great team.  More focused on FRC (FIRST Robotics Competition) than FTC but still applicable.
+- [Learn Java for FTC](https://github.com/alan412/LearnJavaForFTC) — Guide for Java programming for FTC.  You can also use blocks programming which is probably easier, but we recommend trying to use Java if you can.
+- [Beginner's Guide to Wiring Robots](https://www.youtube.com/watch?v=vTWrPpdZegQ) — Great guide from Brogan M. Pratt.
 
 **Get in touch**
 
