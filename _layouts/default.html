@@ -20,13 +20,13 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
 </head>
-<body>
+<body{% if page.team_highlight %} data-team-highlight{% endif %}>
   {% include header.html %}
   <main>
     {{ content }}
   </main>
   {% include footer.html %}
-  <script src="{{ '/assets/js/team-highlight.js' | relative_url }}"></script>
+  {% if page.team_highlight %}<script src="{{ '/assets/js/team-highlight.js' | relative_url }}"></script>{% endif %}
   <script src="{{ '/assets/js/table-sort.js' | relative_url }}"></script>
 </body>
 </html>

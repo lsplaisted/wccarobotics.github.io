@@ -19,3 +19,11 @@ defaults:
       path: ""
     values:
       layout: "page"
+  - scope:
+      path: "tournaments"
+    values:
+      team_highlight: true
+  - scope:
+      path: "scouting"
+    values:
+      team_highlight: true
