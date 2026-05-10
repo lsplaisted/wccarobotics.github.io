@@ -13,7 +13,7 @@ permalink: /ftc/start-a-team
 
 ## What is FTC?
 
-**FIRST Tech Challenge (FTC)** is a robotics program for students in grades 7-12. Teams design, build, and program a robot to compete in a brand-new game each year. Matches are alliance-based — two alliances of two robots each compete on a 12×12 foot field, and robots must fit inside an 18×18 inch starting volume.
+**FIRST Tech Challenge (FTC)** is a robotics program for students in grades 7-12. Teams design, build, and program a robot to compete in a brand-new game each year. Each match pairs your team with another team in an **alliance** to compete 2-vs-2 against another alliance on a 12×12 foot field. Robots must fit inside an 18×18 inch starting volume.
 
 What makes FTC special is that the robot is only part of it. Through a single season, students take on **real engineering** — designing, building, programming, failing, iterating — alongside public speaking, outreach, project management, and teamwork. The culture is unusually collaborative: alliances are random, opponents become friends, and teams routinely loan parts to their rivals. FIRST calls this **Gracious Professionalism** and **Coopertition**. There's a place on an FTC team for almost every interest — one of our members was hesitant to join because she thought it was all about programming, but ended up really loving driving, robot building, and presentation work.
 
@@ -21,10 +21,38 @@ What makes FTC special is that the robot is only part of it. Through a single se
   <iframe src="https://www.youtube.com/embed/y5NPp_5KHuk" title="FIRST Tech Challenge Overview" allowfullscreen></iframe>
 </div>
 
+## It's More Than Robots
+
+The mantra in FIRST is **"More Than Robots"** — and it's true. Yes, the robot is fun, but the program is built around something deeper.
+
+**FIRST Core Values**: Discovery, Innovation, Impact, Inclusion, Teamwork, Fun.
+
+**Awards aren't just about robot performance.** There are 8 awards at most tournaments, and many of them recognize things like the engineering process, outreach to the community, creative thinking, and team culture. Teams can submit a 15-page Engineering Portfolio to be considered for the judged awards. Judged awards are scored separately from the robot game — so a team can have a tough day on the field and still walk away with a major award.
+
+**What we learn is more important than what we win.** Do your best, but don't worry if you don't get any awards in your first year. Embrace the challenge and your team will grow.
+
+**Skills students develop**:
+
+- Project management, time management, leadership
+- Public speaking and team communication
+- Problem solving, decision making, compromise
+- Programming, CAD, mechanical engineering, the engineering design process
+- Marketing, video production, social media
+
+**A community, not just a competition.** By the end of your first tournament you'll know other teams names. Alumni networks open doors to colleges, internships, and lifelong friendships.
+
+It's a great extracurricular activity, and it looks fantastic on college applications and resumes.
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/R0jEa8Bz-tY" title="FIRST Tech Challenge Core Values" allowfullscreen></iframe>
+</div>
+
+
 ## What you need
 
 - **People**: 2-15 students in grades 7-12, plus 2 registered adult coaches (the second coach doesn't need to be at every meeting).
-- **Money**: Roughly $5,000 the first year. The second year is much cheaper because most parts are reusable. **Help is available** — you can raise money from your local church and community who will be supportive, and you can get sponsorships from local businesses.
+- **Money**: Roughly $5,000 the first year. The second year is much cheaper because most parts are reusable.
+  - **Help is available** — you can raise money from your local church and community who will be supportive, and you can get sponsorships from local businesses.
 - **Time**: Whatever cadence works for your team — we recommend weekly meetings during the build season.
 - **Space**: You'll need room to build and store the robot, and ideally at least a partial practice field.
 
@@ -58,7 +86,7 @@ Here are some suggestions for what to do next:
 - **Research hardware upgrades** - You'll probably want more robot parts beyond what came in the starter kit to improve your robot.  Some of that will depend on the game for the season and your design ideas.  There are some that are generally useful.  You can create a prioritized list of what you want, and then use that to fundraise towards those goals.  Upgrades to consider include:
   - **Odometry**: Odometry helps your robot keep track of its position and direction as it moves around the field.  This can help your auto routines be a lot more reliable, and can also help with driver assistance functions (such as auto-aim) during teleop.  We went with the [GoBilda Odometry Kit](https://www.gobilda.com/4-bar-odometry-pack-2-pods-1-pinpoint-computer/), which is probably the most popular solution for FTC teams.
   - **Camera**: A camera can also help your robot figure out where it is on the field or where specific elements are via AprilTags (which are similar to QR codes).  You can also use it for computer vision, for example to find out where pollen is during auto.  The top of the line camera legal in FTC is the [Limelight 3A](https://limelightvision.io/products/limelight-3a) (also available [from GoBilda](https://www.gobilda.com/limelight-3a-smart-camera/)).  It has a lot of recognition functionality built in.  You can also use much cheaper webcams.
-  - **Mecanum Wheels**: This type of wheel lets your robot drive in any direction, regardless of what direction it is facing.  This makes your robot much more manueverable which is often a big advantage in the game.  This is also a relatively expensive upgrade, as you need the wheels as well as a separate motor to drive each one.  [GoBilda's Mecanum Wheel Kit](https://www.gobilda.com/strafer-chassis-kit-104mm-gripforce-mecanum-wheels/) is $525 with the FTC team discount.  On top of that, you will need a [REV Expansion Hub](https://www.revrobotics.com/rev-31-1153/) if you don't already have one, as the REV Control Hub only supports 4 motors on its own.
+  - **Mecanum Wheels**: This type of wheel lets your robot drive in any direction, regardless of what direction it is facing.  This makes your robot much more maneuverable which is often a big advantage in the game.  This is also a relatively expensive upgrade, as you need the wheels as well as a separate motor to drive each one.  [GoBilda's Mecanum Wheel Kit](https://www.gobilda.com/strafer-chassis-kit-104mm-gripforce-mecanum-wheels/) is $525 with the FTC team discount.  On top of that, you will need a [REV Expansion Hub](https://www.revrobotics.com/rev-31-1153/) if you don't already have one, as the REV Control Hub only supports 4 motors on its own.
   - **3D Printer**: This will let you design and print your own custom parts for your robot.  You'll need someone to learn 3D design / CAD to take advantage of it, but it can give you a lot more options for your robot design.  A good 3D printer for an FTC team is probably the [Centauri Carbon](https://us.elegoo.com/products/centauri-carbon) (this is what the EveryBot team recommended).
 - **Find mentors** - Beyond your two adult coaches, mentors can help your team grow in specific areas.  They can be technical (programming, CAD, engineering, mechanical) or non-technical (project management, marketing, social media, public speaking).  Mentoring doesn't have to be a big commitment — sometimes it's just meeting with the team once to teach them a specific skill.
 - **Participate in a scrimmage**: It is extremely helpful to be able to participate in at least one scrimmage (practice tournament) before a real competition.  It's a great way to practice driving, learn how you can improve your robot, and meet other teams.
@@ -93,32 +121,6 @@ You can also raise money from your local church, community, and businesses.  Fun
   <p>Before you buy a Control Hub or Driver Hub, <strong>check with Mel Wade</strong>. He may be able to provide some of the hardware your team needs to get started.</p>
 </div>
 
-## It's More Than Robots
-
-The mantra in FIRST is **"More Than Robots"** — and it's true. Yes, the robot is fun, but the program is built around something deeper.
-
-**FIRST Core Values**: Discovery, Innovation, Impact, Inclusion, Teamwork, Fun.
-
-**Awards aren't just about robot performance.** There are 8 awards at most tournaments, and many of them recognize things like the engineering process, outreach to the community, creative thinking, and team culture. Teams can submit a 15-page Engineering Portfolio to be considered for the judged awards. Judged awards are scored separately from the robot game — so a team can have a tough day on the field and still walk away with a major award.
-
-**What we learn is more important than what we win.** Do your best, but don't worry if you don't get any awards in your first year. Embrace the challenge and your team will grow.
-
-**Skills students develop**:
-
-- Project management, time management, leadership
-- Public speaking and team communication
-- Problem solving, decision making, compromise
-- Programming, CAD, mechanical engineering, the engineering design process
-- Marketing, video production, social media
-
-**A community, not just a competition.** By the end of your first tournament you'll know other teams names. Alumni networks open doors to colleges, internships, and lifelong friendships.
-
-It's a great extracurricular activity, and it looks fantastic on college applications and resumes.
-
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/R0jEa8Bz-tY" title="FIRST Tech Challenge Core Values" allowfullscreen></iframe>
-</div>
-
 ## Resources
 
 There are so many resources available to help FTC teams that it can be overwhelming trying to sort through them.  Below are some that we recommend.  Consider having different team members investigate different resources and bring what they learn back to the team.
@@ -130,6 +132,7 @@ There are so many resources available to help FTC teams that it can be overwhelm
 - [Effective FIRST Strategies](https://www.youtube.com/watch?v=cemXDEzBMhM) — Great presentation on how to be a great team.  More focused on FRC (FIRST Robotics Competition) than FTC but still applicable.
 - [Learn Java for FTC](https://github.com/alan412/LearnJavaForFTC) — Guide for Java programming for FTC.  You can also use blocks programming which is probably easier, but we recommend trying to use Java if you can.
 - [Beginner's Guide to Wiring Robots](https://www.youtube.com/watch?v=vTWrPpdZegQ) — Great guide from Brogan M. Pratt.
+- [r/FTC subreddit](https://www.reddit.com/r/FTC/) — Discussion, build threads, and Q&A.
 
 **Get in touch**
 
