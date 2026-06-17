@@ -11,6 +11,11 @@ permalink: /ftc/start-a-team
   <p>Pre-season materials for the 2026-2027 game are already available, and FIRST has launched free online courses to help your team build skills before the season even kicks off. There's never been a better time to start.</p>
 </div>
 
+<div class="highlight-box">
+  <h3>This guide is for Adventist Robotics teams</h3>
+  <p>This guide is written for teams competing in <strong>Adventist Robotics</strong>. To join Adventist Robotics, your team must be affiliated with an Adventist organization — such as a church, Pathfinder club, or school. Much of the information here applies to any FTC team, but details like registration, hardware support, and the championship event are specific to Adventist Robotics.</p>
+</div>
+
 ## What is FTC?
 
 **FIRST Tech Challenge (FTC)** is a robotics program for students in grades 7-12. Teams design, build, and program a robot to compete in a brand-new game each year. Each match pairs your team with another team in an **alliance** to compete 2-vs-2 against another alliance on a 12×12 foot field. Robots must fit inside an 18×18 inch starting volume.
@@ -50,6 +55,7 @@ It's a great extracurricular activity, and it looks fantastic on college applica
 
 ## What you need
 
+- **An Adventist affiliation**: To compete in Adventist Robotics, your team must be affiliated with an Adventist organization such as a church, Pathfinder club, or school.
 - **People**: 2-15 students in grades 7-12, plus 2 registered adult coaches (the second coach doesn't need to be at every meeting).
 - **Money**: Roughly $5,000 the first year. The second year is much cheaper because most parts are reusable.
   - **Help is available** — you can raise money from your local church and community who will be supportive, and you can get sponsorships from local businesses.
