@@ -1,0 +1,30 @@
+---
+layout: page
+title: "All Pages"
+permalink: /allpages
+sitemap: false
+noindex: true
+---
+
+<p>A complete index of every page on the site, generated automatically. This page isn't linked from the main navigation.</p>
+
+{% assign sections = "Main Pages|/;FTC|/ftc/;Tournaments|/tournaments/;Tournaments — FTC|/tournaments/ftc/;Tournaments — FLL|/tournaments/fll/;Scouting|/scouting/;Guides|/guides/" | split: ";" %}
+{% for s in sections %}
+{% assign parts = s | split: "|" %}
+{% assign group = site.html_pages | where: "dir", parts[1] | sort: "url" %}
+<h2>{{ parts[0] }}</h2>
+<ul>
+{% for p in group %}{% unless p.content contains "http-equiv" or p.url == "/allpages" %}
+<li><a href="{{ p.url }}">{% if p.url == "/" %}Home{% else %}{{ p.title | default: p.url }}{% endif %}</a> <span style="color:#888;font-size:0.85em">{{ p.url }}</span></li>
+{% endunless %}{% endfor %}
+</ul>
+{% endfor %}
+
+{% assign known = "/,/ftc/,/tournaments/,/tournaments/ftc/,/tournaments/fll/,/scouting/,/guides/" | split: "," %}
+<h2>Other Pages</h2>
+<ul>
+{% assign others = site.html_pages | sort: "url" %}
+{% for p in others %}{% unless known contains p.dir or p.content contains "http-equiv" or p.url == "/allpages" %}
+<li><a href="{{ p.url }}">{{ p.title | default: p.url }}</a> <span style="color:#888;font-size:0.85em">{{ p.url }}</span></li>
+{% endunless %}{% endfor %}
+</ul>
