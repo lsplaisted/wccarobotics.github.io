@@ -25,8 +25,8 @@ This page lists the personalized schedules for our two WCCA FLL teams at the Flo
 
 For the alliance tournament, our two teams are each paired with a partner team:
 
-- **Alliance 3:** 64434 Robo Gators of the Lost Park **with** 57726
-- **Alliance 4:** 61349 Marcus Bartholomew the Third Junior **with** 29286
+- **Alliance 3:** 64434 Robo Gators of the Lost Park **with** 57723 Jammin Jiggly Puffs
+- **Alliance 4:** 61349 Marcus Bartholomew the Third Junior **with** 29286 Robocats Voltron
 
 <details>
 <summary>All 10 alliances</summary>
@@ -35,7 +35,7 @@ For the alliance tournament, our two teams are each paired with a partner team:
 | -------- | ----- |
 | 1 | 66336 with 63560 |
 | 2 | 44893 with 67853 |
-| **3** | **64434 Robo Gators of the Lost Park** with 57726 |
+| **3** | **64434 Robo Gators of the Lost Park** with 57723 |
 | **4** | **61349 Marcus Bartholomew the Third Junior** with 29286 |
 | 5 | 9967 with 63769 |
 | 6 | 50455 with 19006 |
