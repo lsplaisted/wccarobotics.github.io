@@ -4,7 +4,7 @@
   var activeTeam = null;
 
   function setup() {
-    var nodes = document.querySelectorAll('.page-content td, .page-content li');
+    var nodes = document.querySelectorAll('.page-content td, .page-content li, .page-content .bracket-team');
     if (!nodes.length) return;
 
     var foundAny = false;

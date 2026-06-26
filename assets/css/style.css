@@ -579,6 +579,125 @@ td.team-cell-highlight {
   color: var(--gray);
 }
 
+/* === Playoff Bracket === */
+.bracket-tree {
+  position: relative;
+  display: flex;
+  gap: 3.5rem;
+  overflow-x: auto;
+  padding: 1rem 0.5rem 1.5rem;
+  min-height: 360px;
+  align-items: stretch;
+}
+.bracket-col {
+  display: flex;
+  flex-direction: column;
+  min-width: 230px;
+  flex: 0 0 auto;
+}
+.bracket-col.bc-semi { justify-content: space-between; }
+.bracket-col.bc-final { justify-content: flex-start; padding-top: 56px; }
+.bracket-col.bc-champ { justify-content: center; }
+.bracket-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: visible;
+}
+.bracket-line {
+  fill: none;
+  stroke: var(--ocean-blue);
+  stroke-width: 2;
+  opacity: 0.55;
+}
+.bracket-line-dot {
+  fill: var(--ocean-blue);
+  opacity: 0.7;
+}
+.bracket-col > * { position: relative; z-index: 1; }
+.bracket-col-title {
+  font-weight: 700;
+  color: var(--ocean-blue);
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+.matchup-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--gray);
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+.matchup .alliance-teams {
+  display: block;
+}
+.matchup {
+  background: var(--white);
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid var(--ocean-blue);
+  border-radius: 0 8px 8px 0;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(27, 42, 74, 0.08);
+}
+.matchup .bracket-team {
+  padding: 0.6rem 0.85rem;
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+.matchup .bracket-team + .bracket-team {
+  border-top: 1px solid #e2e8f0;
+}
+.matchup .alliance-name {
+  display: block;
+  font-weight: 600;
+  color: var(--navy);
+  font-size: 0.82rem;
+}
+.matchup .alliance-teams {
+  color: var(--gray);
+  font-size: 0.85rem;
+}
+.matchup .bracket-team.tbd {
+  color: var(--gray);
+  font-style: italic;
+}
+.matchup .bracket-team.winner {
+  background: var(--light-blue);
+}
+.matchup .vs {
+  text-align: center;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--gray);
+  background: var(--light-gray);
+  padding: 0.12rem;
+}
+.matchup.final {
+  border-left-color: #d4a017;
+}
+.matchup.final .vs {
+  color: #9a7b12;
+}
+.bracket-games {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--gray);
+  margin-top: 0.5rem;
+}
+.bracket-games span {
+  display: inline-block;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 0.1rem 0.5rem;
+  margin: 0 0.15rem;
+}
+
 /* === Footer === */
 .site-footer {
   background: var(--navy);
