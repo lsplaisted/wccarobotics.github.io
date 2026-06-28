@@ -16,7 +16,7 @@ Our FLL teams compete in Adventist Robotics tournaments. Each tournament page be
 <div class="tournament-card">
   <h3><a href="/tournaments/fll/2026-FLL-Robo-Rally">Florida Robo Rally</a></h3>
   <p><strong>June 25–26, 2026</strong> · 20 teams · Forest Lake Academy</p>
-  <p>⏳ In progress · 🤖 Robot Game leader: Robo Gators of the Lost Park (425 pts) · Alliance playoffs & awards to come</p>
+  <p>🏆 Champions Award: Fossilized Future · Alliance Champions: Fossilized Engineers (9967 & 63769) · Robot Performance: Robo Gators of the Lost Park (425 pts)</p>
   <a href="/tournaments/fll/2026-FLL-Robo-Rally" class="btn btn-blue" style="margin-top: 0.5rem;">View Results →</a>
 </div>
 

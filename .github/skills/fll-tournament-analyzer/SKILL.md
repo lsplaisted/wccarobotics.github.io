@@ -311,23 +311,24 @@ Video links use the format: `https://www.youtube.com/live/VIDEO_ID?t=SECONDS`
 
 ### Step 6: Add to tournaments index
 
-After creating the tournament page, add an entry to `tournaments/fll/index.md`. Follow the existing card format, grouping by season (e.g., "2024–25 SUBMERGED Season"). Example:
+After creating the tournament page, add an entry to `tournaments/fll/index.md`. Follow the existing card format, grouping by season. Each card includes a one-line results summary that **must include the Champions Award winner** (the most important award), plus the Robot Performance (high-score) winner. Example:
 
-```markdown
-### 2024–25 SUBMERGED Season
-
-<div class="tournament-list" markdown="1">
-
-[![Tournament Name](assets/images/tournament-thumbnail.jpg)](tournaments/FILENAME)
-[**Tournament Name**](tournaments/FILENAME)
-City, State — Month Day, Year
-
+```html
+<div class="tournament-card">
+  <h3><a href="/tournaments/fll/FILENAME">Tournament Name</a></h3>
+  <p><strong>Month Day, Year</strong> · N teams · Venue</p>
+  <p>🏆 Champions Award: TEAM_NAME · Robot Performance: TEAM_NAME (HIGH pts)</p>
+  <a href="/tournaments/fll/FILENAME" class="btn btn-blue" style="margin-top: 0.5rem;">View Results →</a>
 </div>
 ```
 
+If the tournament has a special event with its own champion (e.g., an Alliance Games bracket), add it to the summary too, but still include the Champions Award: `🏆 Champions Award: X · Alliance Champions: Y · Robot Performance: Z (pts)`.
+
 ### Step 7: Clean up
 
-Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `tournament_audio.mp4`, `scoreboard_video.png`, and any Python scripts created during the process.
+**⚠️ Do NOT clean up working files until the user explicitly confirms they are happy with the finished results page.** Users frequently spot-check timestamps and request corrections after the first draft (e.g., "this match link is a few seconds early," "find the two missing matches"). Each correction usually requires the downloaded audio/video, the transcript JSON, and the transcribe script. If you delete these prematurely, you have to re-download and re-transcribe from scratch — which is slow and wasteful and happened repeatedly before this rule existed. Keep `tournament_audio.mp4`, any windowed clips, the transcript JSON(s), `tx.py`/transcribe scripts, and verification frames in a working directory until the user signs off.
+
+Once the user confirms the page is final, remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `tournament_audio.mp4`, windowed `*.mp4` clips, verification frames, `scoreboard_video.png`, and any Python scripts created during the process.
 
 ## Key technical details
 
@@ -373,7 +374,9 @@ Remove temporary files: `captions.en.vtt`, `analysis.json`, `transcript.json`, `
 - **Awards in a separate video**: The main livestream may end before the awards ceremony (e.g., during a break for judges' deliberation). If the captions end without any awards content, ask the user if there's a separate awards video. Download and analyze that video's captions the same way.
 - **Coach Mentor Award**: This is given to a coach/mentor, not a team. Note the coach's name and their team.
 - **Rising All-Star Award**: This award may have multiple winners (not just one).
-- **yt-dlp download-sections**: The `--download-sections` flag for extracting video clips often fails with YouTube HLS streams (HTTP 403 errors on segments). Use Playwright screenshots instead for extracting frames.
+- **yt-dlp now requires a JS runtime** for YouTube. Use `--js-runtimes node --remote-components ejs:github`. To download a specific time window (much faster than the whole video for spot-checking a single match), use format 91 (144p HLS *with* audio) which downloads via ffmpeg at ~6-140×: `yt-dlp --js-runtimes node --remote-components ejs:github -N 16 -f 91 --download-sections "*H:MM:SS-H:MM:SS" -o "clip.%(ext)s" "URL"`. Format 91 HLS works reliably for windowed downloads; the DASH audio-only formats (140/251) are throttled and slow. (The older warning that `--download-sections` always fails applied to DASH formats — format 91 HLS works.)
+- **Verifying/correcting a single match timestamp** (after the user spot-checks the draft): re-download just that ~9-minute window with format 91, re-transcribe it with **Whisper medium.en and `vad_filter=False`** (medium.en is far more accurate than base.en for countdowns, and disabling VAD prevents clipping the "3-2-1 lego" or detecting an adjacent buzzer instead). The full-video transcript is usually base.en for speed, but base.en mis-times or misses countdowns — never trust a base.en countdown for a final link without medium.en verification.
+- **Confirm a timestamp with a video frame, anchoring on a running clock.** Extract a frame with `ffmpeg -ss <local_offset> -i clip.mp4 -frames:v 1 -q:v 3 -y out.jpg` (`local_offset = absolute_video_t − clip_start_offset`). The on-screen match timer counts down from **02:30**. A frame reading exactly 02:30 is ambiguous — the clock may be reset and *held* on an empty field before the match. Instead, find a frame where the timer reads **02:29 or less** (proving the clock is actively running), then compute the start time by working backwards: `start_t = frame_t − (150 − timer_remaining_seconds)`. For example, a frame at video t=9248 showing 02:26 means 4 s elapsed, so the match started at ~t=9244. Place the link a bit before that start depending on what the announcer is saying (see link-placement convention below).
 
 ### Verifying award winners with on-screen overlays
 
@@ -392,6 +395,15 @@ Workflow:
    - If a sub-agent says an award doesn't exist, capture more frames in the gap before concluding it's missing — most awards have a 60-120s announcement window with multiple distinct overlays.
    - When a sub-agent's reading contradicts both the captions AND the typical FLL award lineup (e.g., "Motivate Award doesn't exist"), capture additional frames to verify before deleting content.
 8. **Do not trust caption-derived award winners as final.** Always verify against at least one on-screen overlay frame per award.
+
+### Placing and verifying match video links
+
+The user reviews these links and will flag any that land in the wrong place. Apply these conventions:
+
+- **Where to point the link:** aim ~6 seconds *before* the start countdown (countdown − 6) to catch the "thumbs up, three… two… one… lego" lead-in. Landing a little before the countdown is fine **as long as the commentary there is about the upcoming match** (e.g., the announcer naming the two teams, "we are good to go, refs ready"). Do NOT let a link land on the *previous* match's end buzzer, on dead air, or on an empty-field pause.
+- **End-of-round mis-detections are common.** The last match or two of a round are the most error-prone because: (a) there's often a longer break/setup pause before them where the clock is reset to 02:30 on an empty field (Whisper VAD may detect this pause's "here we go" as the start), and (b) the previous match's *end* buzzer ("five, four, three, two, one… at the buzzer, stop") can be mis-detected as the next *start* countdown. Always verify the final matches of each round with medium.en + a frame, not just the base.en transcript.
+- **Queue-call gotcha (reminder):** the announcer names UPCOMING teams to queue them to tables 2-3 minutes *before* they play. Confirm a team→timestamp mapping using the in-match play-by-play (teams named *while robots are running*), never the queue call.
+- **Spot-check spacing:** within a round, countdowns are typically 3-5 min apart. A much larger gap (e.g., 7 min) usually means a genuine break before the final matches — not an error — but it's exactly where mis-detections cluster, so verify those matches explicitly.
 
 ### Verification checklist
 After generating the page, verify:
