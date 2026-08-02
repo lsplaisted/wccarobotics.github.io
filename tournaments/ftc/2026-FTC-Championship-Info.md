@@ -9,29 +9,31 @@ title: "FTC Championship — Parent Info"
 
 **Location:** Forest Lake Academy Gymnasium, 500 Education Loop, Apopka, FL 32703
 
+> **This event has concluded.** [View the tournament results and match videos.](/tournaments/ftc/2026-Adventist-Robotics-League-Championship-FTC)
+
 ---
 
 ## Our Team
 
 **32314 — Marcus Bartholomew the Third Senior** (Rookie year!)
 
-This is the Adventist Robotics FTC Championship — the main Adventist Robotics FTC tournament of the season.
+This was the Adventist Robotics FTC Championship — the main Adventist Robotics FTC tournament of the season.
 
 ---
 
 ## ⚠️ Action Required: Registration & Waivers
 
-Every team member **must** be registered with FIRST and have a parent-signed Consent and Release form **before the tournament**. Your child **will not be able to participate** if this is not completed.
+Every team member was required to be registered with FIRST and have a parent-signed Consent and Release form before the tournament. Students could not participate until this was completed.
 
 - **Marcus Bartholomew the Third Senior** — [Register here](https://my.firstinspires.org/JoinTeam/Welcome/b451db33-e9b5-11f0-b247-00505699b848)
 
 ## 🚗 Travel & Lodging
 
-We're expecting all team members to **travel and stay with their families** for this tournament. Please make your own travel and lodging arrangements.
+Team members traveled and stayed with their families for this tournament, with each family making its own travel and lodging arrangements.
 
 ## 🍽️ Meals
 
-Catered meals are available at **~$15.25 per person**. Meals for team members will be ordered by the coach. If you would like meals ordered for **parents or other family members**, please contact **Daniel Plaisted**.
+Catered meals were available at **~$15.25 per person**. Meals for team members were ordered by the coach, and families could request additional meals.
 
 > 🚫 **No food or drink is allowed in the gymnasium.** Plan accordingly.
 
@@ -47,13 +49,13 @@ There is a major construction project on campus for new classrooms and an admini
 
 ## 📺 Livestream
 
-The tournament will be livestreamed on YouTube:
-[**Watch the livestream**](https://www.youtube.com/live/ggJtTakQWaU)
+The tournament was livestreamed on YouTube:
+[**Watch the recording**](https://www.youtube.com/live/ggJtTakQWaU)
 
 ## 📊 Live Scoring
 
-Follow match scores and rankings in real time:
-[**Live scoring on FTC Events**](https://ftc-events.firstinspires.org/2025/USARLCMP)
+View the archived match scores and rankings:
+[**Results on FTC Events**](https://ftc-events.firstinspires.org/2025/USARLCMP)
 
 ## 📋 Scouting
 
@@ -82,15 +84,15 @@ Want to help the team by scouting matches? No robotics experience needed!
 | Afternoon | **Playoff Matches** | ✅ Open to public |
 | ~5:00–5:30 PM | **Awards Ceremony** | ✅ Open to public |
 
-> ⏰ **Times are approximate** — a detailed schedule with judging time and match assignments will be sent before the tournament. The awards ceremony time depends on the flow of the event.
+> ⏰ **Times were approximate** — a detailed schedule with judging time and match assignments was sent before the tournament. The awards ceremony time depended on the flow of the event.
 
 ---
 
-## What Parents Can Watch
+## What Parents Could Watch
 
-- **Judging** is closed to the public.
-- **All matches (qualification and playoffs)** are open to the public — come watch the robots compete head-to-head!
-- **Opening Ceremony and Awards Ceremony** are open to the public.
+- **Judging** was closed to the public.
+- **All qualification and playoff matches** were open to the public.
+- **Opening Ceremony and Awards Ceremony** were open to the public.
 
 ---
 
@@ -107,33 +109,15 @@ After qualification matches, the top-ranked teams pick alliance partners for **p
 
 ## Good to Know
 
-- The tournament is a **full-day event** — plan to be there from early morning through ~5:30 PM or later.
-- **Robot inspection** happens Saturday night (8–10 PM). Robots must pass inspection before they can compete.
-- Match schedules and judging times will be shared before the tournament.
+- The tournament was a **full-day event**, running from early morning through approximately 5:30 PM or later.
+- **Robot inspection** happened Saturday night from 8–10 PM. Robots had to pass inspection before they could compete.
+- Match schedules and judging times were shared before the tournament.
 
 ---
 
 ## Volunteer at the Tournament {#volunteer}
 
-Our tournament can't happen without parent and community volunteers! No robotics experience is needed — just a willingness to help out and be part of the excitement. Here are some of the roles where we need the most help:
-
-### 🎯 Queuer
-
-Queuers are the people who keep the match schedule running on time. Before each match, queuers head to the pit area to find the teams that are up next, let them know their match is coming up, and guide them to the competition field. It's a great role if you like staying on the move and interacting with teams — and it's one of the best ways to see all the action up close.
-
-### 🔧 Field Resetter
-
-After every match, the competition field needs to be reset — game elements returned to their starting positions, scoring objects cleared, and everything set up for the next match. Field resetters work quickly between matches to get the field ready. It's a hands-on, active role and a fun way to be right in the middle of the competition.
-
-### 🏟️ Practice Field & Pit Manager
-
-Between matches, teams need a place to test and fine-tune their robots. Practice field attendants manage the practice area, making sure teams get fair access to practice time and that the area stays safe and organized. Pit managers oversee the team pit area where robots are worked on between matches, helping with logistics and making sure things run smoothly.
-
-### 📹 AV Support
-
-Our tournament is livestreamed so that families and fans can follow along remotely. AV volunteers help run cameras, manage the audio system for the emcee, operate scoreboards and displays, and ensure the livestream stays up and running. If you're comfortable with technology — or want to learn — this is a great way to contribute behind the scenes.
-
-**Interested in volunteering?** [**Sign up here →**](https://my.firstinspires.org/ExpressVolunteer/landing-page/ffa21d11-dbde-11f0-9eb7-00505699b848) or reach out to us through our [contact page](/contact) — we'd love to have you!
+The tournament was made possible by parent and community volunteers who served as queuers, field resetters, practice field attendants, pit managers, AV support, and in other supporting roles.
 
 ---
 
