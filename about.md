@@ -56,9 +56,9 @@ Marcus has become more than just a mascot — he represents our teams' creativit
   - **Adventist Robotics Championship Tournament:** Champion's Award (1st place overall) 🏆
   - **Florida Sunshine Invitational:** Rising All-Star Award
 - **2025–26 — FLL Unearthed and FTC Decode:** WCCA Robotics expanded with its first FTC team, Marcus Bartholomew the Third Senior, and a second FLL team, Robo Gators of the Lost Park
-  - **FLL Florida Qualifier:** Robo Gators won the Champion's Award and Robot Performance Award; Marcus Junior was Champion's Award runner-up
-  - **FLL Championship:** Marcus Junior won the Champion's Award and placed 3rd in Robot Performance; Robo Gators won the Robot Performance Award
-  - **Florida Robo Rally:** Robo Gators won the Robot Performance Award and Inclusion Core Values trophy; Marcus Junior placed 2nd in Robot Game
+  - **FLL Florida Qualifier:** Robo Gators won the Champion's Award and Robot Performance Award; Marcus Bartholomew the Third Junior was Champion's Award runner-up
+  - **FLL Championship:** Marcus Bartholomew the Third Junior won the Champion's Award and placed 3rd in Robot Performance; Robo Gators won the Robot Performance Award
+  - **Florida Robo Rally:** Robo Gators won the Robot Performance Award and Inclusion Core Values trophy; Marcus Bartholomew the Third Junior placed 2nd in Robot Game
   - **FTC Carolina Scrimmage:** Marcus Senior won the tournament championship with the NC Avengers
   - **FTC Championship:** Marcus Senior won the Control Award and placed 3rd in the playoffs
 
