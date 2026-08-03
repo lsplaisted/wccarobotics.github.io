@@ -17,7 +17,7 @@ Our program teaches students real-world skills in engineering, programming, team
 
 ### FIRST Tech Challenge (FTC)
 
-FTC is for students in 7th–12th grade. Teams design, build, and program robots using real engineering tools and materials. Robots compete in head-to-head alliance matches on a 12×12 foot field, with a new game challenge released each year.
+FTC is for students in 7th–12th grade. Teams design, build, and program robots using real engineering tools and materials. Robots compete in head-to-head alliance matches on a 12×12 foot field. There's a new game challenge every year — this year's game is called **BIOBUZZ**.
 
 [Learn more about our FTC team →](/ftc)
 
