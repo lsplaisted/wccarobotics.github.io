@@ -23,7 +23,7 @@ FTC is for students in 7th–12th grade. Teams design, build, and program robots
 
 ### FIRST LEGO League (FLL)
 
-FLL is for students in 4th through 8th grade. Teams build autonomous LEGO robots, develop an innovation project that solves a real-world problem, and are judged on core values like teamwork, discovery, and inclusion. Each season introduces a new theme and challenge.
+FLL is for students in 4th through 8th grade. Teams build autonomous LEGO robots, develop an innovation project that solves a real-world problem, and are judged on core values like teamwork, discovery, and inclusion. Each season has a different theme — this year's theme is **BIOGLOW** (biodiversity).
 
 [Learn more about our FLL teams →](/fll)
 
