@@ -95,9 +95,11 @@ For alliance selection for the playoffs, the [NC Avengers](https://www.ncavenger
 
 ## Explore Our 2025–26 Work
 
-- 💻 [Our code and engineering docs on GitHub](https://github.com/wccarobotics/ftc-decode)
-- 📺 [YouTube](https://www.youtube.com/@wccarobotics)
-- 📘 [Facebook](https://www.facebook.com/profile.php?id=61583999841656)
+<ul class="social-link-list">
+  <li><a href="https://github.com/wccarobotics/ftc-decode">{% include icons/github.html %}Our code and engineering docs on GitHub</a></li>
+  <li><a href="https://www.youtube.com/@wccarobotics">{% include icons/youtube.html %}YouTube</a></li>
+  <li><a href="https://www.facebook.com/profile.php?id=61583999841656">{% include icons/facebook.html %}Facebook</a></li>
+</ul>
 
 ---
 

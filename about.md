@@ -66,8 +66,10 @@ Marcus has become more than just a mascot — he represents our teams' creativit
 
 ## Connect With Us
 
-- 📺 [YouTube](https://www.youtube.com/@wccarobotics)
-- 📘 [Facebook](https://www.facebook.com/profile.php?id=61583999841656)
-- 💻 [GitHub](https://github.com/wccarobotics)
+<ul class="social-link-list">
+  <li><a href="https://www.youtube.com/@wccarobotics">{% include icons/youtube.html %}YouTube</a></li>
+  <li><a href="https://www.facebook.com/profile.php?id=61583999841656">{% include icons/facebook.html %}Facebook</a></li>
+  <li><a href="https://github.com/wccarobotics">{% include icons/github.html %}GitHub</a></li>
+</ul>
 
 *Want to get involved? [Learn how you can support our teams!](/support)*

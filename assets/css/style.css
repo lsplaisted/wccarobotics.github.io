@@ -719,11 +719,26 @@ td.team-cell-highlight {
 .footer-links a { color: var(--light-blue); }
 .footer-links a:hover { color: var(--white); }
 
-.footer-icon {
+.social-icon {
+  display: inline-block;
   width: 1.1rem;
   height: 1.1rem;
   margin-right: 0.35rem;
   vertical-align: -0.18rem;
+}
+
+.social-link-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.social-link-list li {
+  margin: 0.35rem 0;
+}
+
+.social-link-list a {
+  display: inline-flex;
+  align-items: center;
 }
 
 .footer-copy {

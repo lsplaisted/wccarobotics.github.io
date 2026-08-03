@@ -8,7 +8,7 @@ layout: home
     <p>The robotics program of <a href="https://westcoastchristian.org/" target="_blank">West Coast Christian Academy</a> — competing in FIRST Tech Challenge and FIRST LEGO League.</p>
     <div class="hero-buttons">
       <a href="/support" class="btn btn-primary btn-gold-outline">Support Our Teams</a>
-      <a href="https://www.youtube.com/@wccarobotics" class="btn btn-secondary" target="_blank">Follow Us on YouTube</a>
+      <a href="https://www.youtube.com/@wccarobotics" class="btn btn-secondary" target="_blank">{% include icons/youtube.html %}Follow Us on YouTube</a>
     </div>
   </div>
 </div>

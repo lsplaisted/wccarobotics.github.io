@@ -11,14 +11,13 @@ There are lots of ways you can help support WCCA Robotics — and you don't need
 
 <div class="support-grid">
   <div class="support-card">
-    <div class="icon">📱</div>
     <h3>Follow Us</h3>
     <p>One of the easiest ways to help is to follow us on social media. Liking our videos, commenting, and sharing them helps us reach more people!</p>
     <p>
-      <a href="https://www.youtube.com/@wccarobotics" class="btn btn-blue" target="_blank">YouTube</a>
+      <a href="https://www.youtube.com/@wccarobotics" class="btn btn-blue" target="_blank">{% include icons/youtube.html %}YouTube</a>
     </p>
     <p style="margin-top: 0.5rem;">
-      <a href="https://www.facebook.com/profile.php?id=61583999841656" class="btn btn-blue" target="_blank">Facebook</a>
+      <a href="https://www.facebook.com/profile.php?id=61583999841656" class="btn btn-blue" target="_blank">{% include icons/facebook.html %}Facebook</a>
     </p>
   </div>
 
