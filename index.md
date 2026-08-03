@@ -19,9 +19,9 @@ layout: home
       <h3>🏆 2025–26 Season Highlights</h3>
       <p>All three WCCA Robotics teams earned major awards and top finishes during an outstanding season:</p>
       <ul>
-        <li><strong>Marcus Bartholomew the Third Junior</strong> won the FLL Championship Champion's Award, placed 3rd in Robot Performance, finished as Champion's Award runner-up at the Florida Qualifier, and placed 2nd in Robot Game at the Florida Robo Rally.</li>
+        <li><strong>Marcus Bartholomew the Third Junior</strong> won the Champion's Award at the Adventist Robotics FLL Championship, placed 3rd in Robot Performance, finished as Champion's Award runner-up at the Florida Qualifier, and placed 2nd in Robot Game at the Florida Robo Rally.</li>
         <li><strong>Robo Gators of the Lost Park</strong> won the Florida Qualifier Champion's Award, three Robot Performance Awards, and the Robo Rally Inclusion Core Values trophy.</li>
-        <li><strong>Marcus Bartholomew the Third Senior</strong> won the FTC Carolina Scrimmage championship, then earned the Control Award and placed 3rd in the playoffs at the FTC Championship.</li>
+        <li><strong>Marcus Bartholomew the Third Senior</strong> won the FTC Carolina Scrimmage championship, then earned the Control Award and placed 3rd in the playoffs at the Adventist Robotics FTC Championship.</li>
       </ul>
       <a href="/tournaments/fll/" class="btn btn-blue" style="margin-top: 0.75rem;">View FLL Results →</a>
       <a href="/tournaments/ftc/" class="btn btn-blue" style="margin-top: 0.75rem;">View FTC Results →</a>
