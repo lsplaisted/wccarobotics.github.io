@@ -49,9 +49,18 @@ Marcus has become more than just a mascot — he represents our teams' creativit
 
 ## Our History
 
-- **2023–24** — WCCA's FLL team began competing in the **Masterpiece** season, earning **2nd place in Robot Game** and **3rd place in Innovation Project** at its first Florida qualifier
-- **2024–25** — The team earned its name, "Marcus Bartholomew the Third Junior," during the **Submerged** season. It won the **Champion's Award** at the Florida qualifier and went on to win **1st place at the Adventist Robotics Championship Tournament** 🏆, plus the **Rising All-Star Award** at the Florida Sunshine Invitational
-- **2025–26** — WCCA Robotics expanded with its first **FTC team**, Marcus Bartholomew the Third Senior, and a second **FLL team**, Robo Gators of the Lost Park. Our teams competed in the **DECODE** and **UNEARTHED** seasons, earning championship awards and top tournament finishes
+- **2023–24 — FLL Masterpiece:** WCCA's first FLL team began competing
+  - **Adventist Robotics Florida Qualifier:** 2nd place in Robot Game and 3rd place in Innovation Project
+- **2024–25 — FLL Submerged:** The team became Marcus Bartholomew the Third Junior
+  - **Adventist Robotics Florida Qualifier:** Champion's Award, Robot Game Award (1st place), and Coach/Mentor Award for Daniel Plaisted
+  - **Adventist Robotics Championship Tournament:** Champion's Award (1st place overall) 🏆
+  - **Florida Sunshine Invitational:** Rising All-Star Award
+- **2025–26 — FLL Unearthed and FTC Decode:** WCCA Robotics expanded with its first FTC team, Marcus Bartholomew the Third Senior, and a second FLL team, Robo Gators of the Lost Park
+  - **FLL Florida Qualifier:** Robo Gators won the Champion's Award and Robot Performance Award; Marcus Junior was Champion's Award runner-up
+  - **FLL Championship:** Marcus Junior won the Champion's Award and placed 3rd in Robot Performance; Robo Gators won the Robot Performance Award
+  - **Florida Robo Rally:** Robo Gators won the Robot Performance Award and Inclusion Core Values trophy; Marcus Junior placed 2nd in Robot Game
+  - **FTC Carolina Scrimmage:** Marcus Senior won the tournament championship with the NC Avengers
+  - **FTC Championship:** Marcus Senior won the Control Award and placed 3rd in the playoffs
 
 ---
 

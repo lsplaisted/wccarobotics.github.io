@@ -9,24 +9,22 @@ title: "FLL Florida Qualifier — Parent Info"
 
 **Location:** Forest Lake Academy Gymnasium, 500 Education Loop, Apopka, FL 32703
 
-> **This event has concluded.** [View the tournament results and match videos.](/tournaments/fll/2026-FLL-Florida-Qualifier)
-
 ---
 
 ## Our Teams
 
-Both WCCA FLL teams competed in this tournament:
+Both WCCA FLL teams are competing in this tournament:
 
 - **61349 — Marcus Bartholomew the Third Junior** (WCCA School Team)
 - **64434 — Robo Gators of the Lost Park** ("Home School" Team)
 
-There were **20 teams** competing. **Five teams** advanced to the Adventist Robotics FLL Championship on **May 3, 2026** at Forest Lake Academy.
+There are **20 teams** competing. **Five teams** will advance to the Adventist Robotics FLL Championship on **May 3, 2026** at Forest Lake Academy.
 
 ---
 
 ## ⚠️ Action Required: Registration & Waivers
 
-Every team member was required to be registered with FIRST and have a parent-signed Consent and Release form before the tournament. Students could not participate until this was completed.
+Every team member **must** be registered with FIRST and have a parent-signed Consent and Release form **before the tournament**. Your child **will not be able to participate** if this is not completed.
 
 Click the link for your child's team to register:
 
@@ -35,17 +33,17 @@ Click the link for your child's team to register:
 
 ## 🚗 Travel
 
-Team members who traveled with the team departed Saturday afternoon from West Coast Christian Academy and returned Monday morning.
+Team members who want to travel with the team will **depart Saturday afternoon from West Coast Christian Academy** and **return Monday morning**. Please let us know if your child will be traveling with the team or making their own travel arrangements.
 
 ## 🍽️ Meals
 
-Lunch on Sunday was available at **$15.25 per person**. Meals for team members were ordered by the coaches, and families could request additional meals by March 22.
+Lunch on Sunday is available at **$15.25 per person**. Meals for team members will be ordered by the coaches. If you would like meals ordered for **parents or other family members**, please contact **Daniel Plaisted by March 22nd**.
 
 > 🚫 **No food or drink is allowed in the gymnasium.** Plan accordingly.
 
 ## 🏨 Lodging
 
-Families let the coaches know whether each student was staying with family or needed lodging with the team.
+Please let us know whether your child will be **staying with family** or will **need lodging with the team**.
 
 ## 🅿️ Parking
 
@@ -55,8 +53,8 @@ Park only in the **designated team parking area**. Do NOT park on the grass — 
 
 ## 📺 Livestream
 
-The tournament was livestreamed on YouTube:
-[**Watch the recording**](https://www.youtube.com/live/9R1q378CFRo)
+The tournament will be livestreamed on YouTube:
+[**Watch the livestream**](https://www.youtube.com/live/9R1q378CFRo)
 
 ---
 
@@ -83,7 +81,7 @@ The tournament was livestreamed on YouTube:
 | ~3:30 PM | Robot Game Ends | |
 | 4:00 PM | **Closing/Awards Ceremony** | ✅ Open to public |
 
-> ⏰ **Times were approximate** — the final schedule was provided at the event.
+> ⏰ **Times are approximate** — the final schedule will be provided at the event.
 
 ---
 
@@ -111,19 +109,19 @@ The tournament was livestreamed on YouTube:
 
 ---
 
-## What Parents Could Watch
+## What Parents Can Watch
 
-- **Judging sessions were closed to the public.** Only team members and one coach were allowed.
-- **Robot game matches were free and open to the public.**
-- **Opening and Closing/Awards ceremonies** were also open to the public.
+- **Judging sessions (all morning) are CLOSED to the public.** Only team members and one coach are allowed.
+- **Robot game matches (1:00 PM onward) are FREE and open to the public.** Come watch the teams run their LEGO robots on the competition field!
+- **Opening and Closing/Awards ceremonies** are also open to the public.
 
 ---
 
-## How the Robot Game Worked
+## How the Robot Game Works
 
-Each team competed in **3 official rounds** plus a practice round that did not count. In each round, two teams were at the table at the same time and ran their robots independently. Each match was **2.5 minutes** long.
+Each team competes in **3 official rounds** (plus a practice round that doesn't count). In each round, two teams are at the table at the same time — each team runs their own robot independently (they're not competing against each other). Each match is **2.5 minutes** long.
 
-The team's **Robot Performance score** was its **highest score** from any of the three official rounds.
+The team's **Robot Performance score** is their **highest score** from any of the three official rounds.
 
 ---
 
@@ -137,7 +135,7 @@ The team's **Robot Performance score** was its **highest score** from any of the
 
 ## Awards
 
-The following awards were presented:
+The following awards will be presented:
 
 - 🏆 **Champion's Award** — best overall team
 - 💡 **Innovation Project Award** — best innovation project
@@ -151,7 +149,17 @@ The following awards were presented:
 
 ## Volunteer at the Tournament {#volunteer}
 
-The tournament was made possible by parent and community volunteers who served as queuers, practice table attendants, and in other supporting roles.
+Our FLL tournament is made possible by parent and community volunteers! No robotics experience is needed — just enthusiasm and a willingness to help. Here are some of the roles where we need the most help:
+
+### 🎯 Queuer
+
+Queuers keep the robot game rounds running on schedule. Before each round, queuers visit the team pit areas to let teams know their turn is coming up and walk them to the competition tables at the right time. It's an active, people-oriented role — you'll get to meet all the teams and see every match up close.
+
+### 🤖 Practice Table Attendant
+
+Between their official robot game rounds, teams need time to test and adjust their robots. Practice table attendants manage the practice tables, making sure each team gets fair access to practice time, keeping the area safe and organized, and helping maintain the table setup. It's a great way to see the kids problem-solve and improve their runs in real time.
+
+**Interested in volunteering?** Reach out to us through our [contact page](/contact) — we'd love to have you!
 
 ---
 

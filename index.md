@@ -16,25 +16,15 @@ layout: home
 <div class="section section-alt">
   <div class="container">
     <div class="highlight-box">
-      <h3>🏆 1st and 2nd in Robot Game at the Florida Robo Rally!</h3>
-      <p>Our FLL teams took the top two spots in the robot game at the Florida Robo Rally! <strong>Robo Gators of the Lost Park</strong> finished in <strong>1st place</strong> with a high score of 425 points, and <strong>Marcus Bartholomew the Third Junior</strong> finished in <strong>2nd place</strong> with a high score of 410 points.</p>
-      <a href="/tournaments/fll/2026-FLL-Robo-Rally" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
-    </div>
-    <div class="highlight-box" style="margin-top: 1.5rem;">
-      <h3>🏆 Champions Award at FLL Championship!</h3>
-      <p><strong>Marcus Bartholomew the Third Junior</strong> won the <strong>Champions Award</strong> (1st place overall) at the Adventist Robotics FLL Championship on May 3 — the second year in a row! They also placed 3rd in Robot Performance and advanced to the Florida Robo Rally. <strong>Robo Gators of the Lost Park</strong> won the <strong>Robot Performance Award</strong> with a high score of 460 points — 1st place in robot game! Congratulations to both teams!</p>
-      <a href="/tournaments/fll/2026-FLL-Championship" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
-    </div>
-    <div class="highlight-box" style="margin-top: 1.5rem;">
-      <h3>🏆 Control Award & 3rd Place at FTC Championship!</h3>
-      <p>Our FTC team <strong>Marcus Bartholomew the Third Senior</strong> won the <strong>Control Award</strong> and finished <strong>3rd place in the playoffs</strong> at the Adventist Robotics FTC Championship on April 12! As the 4th-seeded alliance, we upset the #1 seed in the upper bracket before falling in the lower bracket semifinals.</p>
-      <a href="/tournaments/ftc/2026-Adventist-Robotics-League-Championship-FTC" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
-      <a href="/ftc/ftc-decode-portfolio-32314-v1.0.pdf" class="btn btn-blue" style="margin-top: 0.5rem;">View Our Judging Portfolio →</a>
-    </div>
-    <div class="highlight-box" style="margin-top: 1.5rem;">
-      <h3>🏆 1st and 2nd at FLL Florida Qualifier!</h3>
-      <p>Our FLL teams swept the top spots at the Adventist Robotics Florida Qualifying Tournament on March 29! <strong>Robo Gators of the Lost Park</strong> won the <strong>Champions Award</strong> and <strong>Marcus Bartholomew the Third Junior</strong> took 2nd place — both teams advanced to the Championship!</p>
-      <a href="/tournaments/fll/2026-FLL-Florida-Qualifier" class="btn btn-blue" style="margin-top: 0.75rem;">View Tournament Results →</a>
+      <h3>🏆 2025–26 Season Highlights</h3>
+      <p>All three WCCA Robotics teams earned major awards and top finishes during an outstanding season:</p>
+      <ul>
+        <li><strong>Marcus Bartholomew the Third Junior</strong> won the FLL Championship Champion's Award, placed 3rd in Robot Performance, finished as Champion's Award runner-up at the Florida Qualifier, and placed 2nd in Robot Game at the Florida Robo Rally.</li>
+        <li><strong>Robo Gators of the Lost Park</strong> won the Florida Qualifier Champion's Award, three Robot Performance Awards, and the Robo Rally Inclusion Core Values trophy.</li>
+        <li><strong>Marcus Bartholomew the Third Senior</strong> won the FTC Carolina Scrimmage championship, then earned the Control Award and placed 3rd in the playoffs at the FTC Championship.</li>
+      </ul>
+      <a href="/tournaments/fll/" class="btn btn-blue" style="margin-top: 0.75rem;">View FLL Results →</a>
+      <a href="/tournaments/ftc/" class="btn btn-blue" style="margin-top: 0.75rem;">View FTC Results →</a>
     </div>
   </div>
 </div>
